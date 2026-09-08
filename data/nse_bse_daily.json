@@ -1,0 +1,439 @@
+[
+  {
+    "date": "2026-09-08",
+    "market_summary": {
+      "benchmarks": {
+        "NIFTY 50": {
+          "prev_close": 23779.15,
+          "open": 23743.1,
+          "high": 23758.95,
+          "low": 23623.1,
+          "close": 23635.1,
+          "volume": 0,
+          "change": -144.05,
+          "pct_change": -0.61,
+          "pivots": {
+            "Pivot_P": 23672.38,
+            "Resistance_R1": 23721.67,
+            "Support_S1": 23585.82,
+            "Resistance_R2": 23808.23,
+            "Support_S2": 23536.53
+          }
+        },
+        "BSE SENSEX": {
+          "prev_close": 76132.81,
+          "open": 75970.28,
+          "high": 76012.11,
+          "low": 75553.35,
+          "close": 75577.58,
+          "volume": 0,
+          "change": -555.23,
+          "pct_change": -0.73,
+          "pivots": {
+            "Pivot_P": 75714.35,
+            "Resistance_R1": 75875.34,
+            "Support_S1": 75416.58,
+            "Resistance_R2": 76173.1,
+            "Support_S2": 75255.59
+          }
+        }
+      },
+      "fii_dii_summary": {
+        "fii_net_inr_cr": -1450.0,
+        "dii_net_inr_cr": 920.0,
+        "overall_sentiment": "Net Cautionary / Selective Sector Rotation"
+      }
+    },
+    "watchlist": [
+      {
+        "symbol": "RELIANCE",
+        "name": "Reliance Industries Ltd.",
+        "ticker": "RELIANCE.NS",
+        "metrics": {
+          "prev_close": 1309.5,
+          "open": 1304.1,
+          "high": 1306.8,
+          "low": 1288.0,
+          "close": 1294.9,
+          "volume": 9797263,
+          "change": -14.6,
+          "pct_change": -1.11,
+          "pivots": {
+            "Pivot_P": 1296.57,
+            "Resistance_R1": 1305.13,
+            "Support_S1": 1286.33,
+            "Resistance_R2": 1315.37,
+            "Support_S2": 1277.77
+          }
+        },
+        "analysis": {
+          "catalysts": "Consolidation around key support as Retail segment steady margin expansion offset modest weakness in O2C refining margins.",
+          "fii_dii": "Mixed FII/DII activity with strong institutional absorption at lower bounds.",
+          "bias": "Neutral/Consolidating"
+        }
+      },
+      {
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services Ltd.",
+        "ticker": "TCS.NS",
+        "metrics": {
+          "prev_close": 2270.0,
+          "open": 2270.0,
+          "high": 2274.5,
+          "low": 2244.0,
+          "close": 2255.5,
+          "volume": 2142654,
+          "change": -14.5,
+          "pct_change": -0.64,
+          "pivots": {
+            "Pivot_P": 2258.0,
+            "Resistance_R1": 2272.0,
+            "Support_S1": 2241.5,
+            "Resistance_R2": 2288.5,
+            "Support_S2": 2227.5
+          }
+        },
+        "analysis": {
+          "catalysts": "Mild retracement following general IT sector consolidation; steady deal wins in cloud transformation balance macro headwinds in US BFS spend.",
+          "fii_dii": "DII buying absorbed mild FII trimming.",
+          "bias": "Neutral/Consolidating"
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "name": "HDFC Bank Ltd.",
+        "ticker": "HDFCBANK.NS",
+        "metrics": {
+          "prev_close": 710.5,
+          "open": 707.1,
+          "high": 708.9,
+          "low": 703.0,
+          "close": 703.0,
+          "volume": 19865009,
+          "change": -7.5,
+          "pct_change": -1.06,
+          "pivots": {
+            "Pivot_P": 704.97,
+            "Resistance_R1": 706.93,
+            "Support_S1": 701.03,
+            "Resistance_R2": 710.87,
+            "Support_S2": 699.07
+          }
+        },
+        "analysis": {
+          "catalysts": "Narrow range-bound trading as post-merger deposit mobilization efforts continue to be monitored closely by markets.",
+          "fii_dii": "Balanced FII and DII cross-trades.",
+          "bias": "Neutral/Consolidating"
+        }
+      },
+      {
+        "symbol": "INFY",
+        "name": "Infosys Ltd.",
+        "ticker": "INFY.NS",
+        "metrics": {
+          "prev_close": 1087.5,
+          "open": 1095.0,
+          "high": 1095.0,
+          "low": 1078.9,
+          "close": 1082.0,
+          "volume": 6262990,
+          "change": -5.5,
+          "pct_change": -0.51,
+          "pivots": {
+            "Pivot_P": 1085.3,
+            "Resistance_R1": 1091.7,
+            "Support_S1": 1075.6,
+            "Resistance_R2": 1101.4,
+            "Support_S2": 1069.2
+          }
+        },
+        "analysis": {
+          "catalysts": "Consolidating near 1080 level as large deal pipeline implementation provides long-term floor despite discretionary IT spend caution.",
+          "fii_dii": "Steady holdings by domestic mutual funds.",
+          "bias": "Neutral/Consolidating"
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "name": "ICICI Bank Ltd.",
+        "ticker": "ICICIBANK.NS",
+        "metrics": {
+          "prev_close": 1427.5,
+          "open": 1424.0,
+          "high": 1424.9,
+          "low": 1396.3,
+          "close": 1399.4,
+          "volume": 12120589,
+          "change": -28.1,
+          "pct_change": -1.97,
+          "pivots": {
+            "Pivot_P": 1406.87,
+            "Resistance_R1": 1417.43,
+            "Support_S1": 1388.83,
+            "Resistance_R2": 1435.47,
+            "Support_S2": 1378.27
+          }
+        },
+        "analysis": {
+          "catalysts": "Slight compression in Net Interest Margin (NIM) expectations for upcoming quarter and general sector-wide private bank profit taking.",
+          "fii_dii": "Net FII selloff in banking weightage.",
+          "bias": "Bearish"
+        }
+      }
+    ],
+    "top_gainers": [
+      {
+        "symbol": "DIVISLAB",
+        "metrics": {
+          "prev_close": 9315.0,
+          "open": 9375.5,
+          "high": 9588.0,
+          "low": 9253.0,
+          "close": 9575.0,
+          "volume": 838762,
+          "change": 260.0,
+          "pct_change": 2.79,
+          "pivots": {
+            "Pivot_P": 9472.0,
+            "Resistance_R1": 9691.0,
+            "Support_S1": 9356.0,
+            "Resistance_R2": 9807.0,
+            "Support_S2": 9137.0
+          }
+        },
+        "analysis": {
+          "catalysts": "Strong rally driven by robust API demand outlook, export volume acceleration, and bullish institutional re-rating following strong Q1 Custom Synthesis order inflow pipeline.",
+          "fii_dii": "Heavy FII & Mutual Fund accumulation observed during intraday dips.",
+          "bias": "Bullish"
+        }
+      },
+      {
+        "symbol": "APOLLOHOSP",
+        "metrics": {
+          "prev_close": 8650.0,
+          "open": 8761.5,
+          "high": 8850.0,
+          "low": 8745.0,
+          "close": 8837.5,
+          "volume": 324826,
+          "change": 187.5,
+          "pct_change": 2.17,
+          "pivots": {
+            "Pivot_P": 8810.83,
+            "Resistance_R1": 8876.67,
+            "Support_S1": 8771.67,
+            "Resistance_R2": 8915.83,
+            "Support_S2": 8705.83
+          }
+        },
+        "analysis": {
+          "catalysts": "Gain driven by higher ARPOB (Average Revenue Per Occupied Bed) guidance and expanded occupancy rates across regional tertiary centers alongside HealthCo growth momentum.",
+          "fii_dii": "Domestic Mutual Funds continued adding positions.",
+          "bias": "Bullish"
+        }
+      },
+      {
+        "symbol": "BEL",
+        "metrics": {
+          "prev_close": 404.0,
+          "open": 408.0,
+          "high": 416.0,
+          "low": 406.5,
+          "close": 410.55,
+          "volume": 23216508,
+          "change": 6.55,
+          "pct_change": 1.62,
+          "pivots": {
+            "Pivot_P": 411.02,
+            "Resistance_R1": 415.53,
+            "Support_S1": 406.03,
+            "Resistance_R2": 420.52,
+            "Support_S2": 401.52
+          }
+        },
+        "analysis": {
+          "catalysts": "Uptick supported by fresh defense export order updates and strong order book visibility for naval radar and electronic warfare systems.",
+          "fii_dii": "Sustained institutional buying with high delivery volumes.",
+          "bias": "Bullish"
+        }
+      },
+      {
+        "symbol": "EICHERMOT",
+        "metrics": {
+          "prev_close": 7630.5,
+          "open": 7700.0,
+          "high": 7747.5,
+          "low": 7655.0,
+          "close": 7747.5,
+          "volume": 461619,
+          "change": 117.0,
+          "pct_change": 1.53,
+          "pivots": {
+            "Pivot_P": 7716.67,
+            "Resistance_R1": 7778.33,
+            "Support_S1": 7685.83,
+            "Resistance_R2": 7809.17,
+            "Support_S2": 7624.17
+          }
+        },
+        "analysis": {
+          "catalysts": "Royal Enfield premium segment volume growth numbers and positive international export expansion data lifted investor sentiment.",
+          "fii_dii": "Institutional inflows as monthly auto dispatch numbers beat consensus.",
+          "bias": "Bullish"
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "metrics": {
+          "prev_close": 5270.0,
+          "open": 5305.0,
+          "high": 5339.5,
+          "low": 5285.0,
+          "close": 5333.5,
+          "volume": 393021,
+          "change": 63.5,
+          "pct_change": 1.2,
+          "pivots": {
+            "Pivot_P": 5319.33,
+            "Resistance_R1": 5353.67,
+            "Support_S1": 5299.17,
+            "Resistance_R2": 5373.83,
+            "Support_S2": 5264.83
+          }
+        },
+        "analysis": {
+          "catalysts": "Festival season inventory buildup and strong rural two-wheeler demand expectations boosted momentum.",
+          "fii_dii": "Steady domestic institutional buy orders.",
+          "bias": "Bullish"
+        }
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BPCL",
+        "metrics": {
+          "prev_close": 312.9,
+          "open": 311.1,
+          "high": 314.25,
+          "low": 301.4,
+          "close": 303.85,
+          "volume": 4637422,
+          "change": -9.05,
+          "pct_change": -2.89,
+          "pivots": {
+            "Pivot_P": 306.5,
+            "Resistance_R1": 311.6,
+            "Support_S1": 298.75,
+            "Resistance_R2": 319.35,
+            "Support_S2": 293.65
+          }
+        },
+        "analysis": {
+          "catalysts": "Refining margin compression concerns (GRMs) amidst global crude oil price volatility and government retail fuel price checks.",
+          "fii_dii": "Institutional trim in OMCs.",
+          "bias": "Bearish"
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "metrics": {
+          "prev_close": 1273.0,
+          "open": 1262.8,
+          "high": 1264.9,
+          "low": 1239.5,
+          "close": 1244.9,
+          "volume": 3623130,
+          "change": -28.1,
+          "pct_change": -2.21,
+          "pivots": {
+            "Pivot_P": 1249.77,
+            "Resistance_R1": 1260.03,
+            "Support_S1": 1234.63,
+            "Resistance_R2": 1275.17,
+            "Support_S2": 1224.37
+          }
+        },
+        "analysis": {
+          "catalysts": "Concerns over deposit growth lag versus credit expansion leading to potential elevated cost of funds.",
+          "fii_dii": "Foreign fund outflows recorded.",
+          "bias": "Bearish"
+        }
+      },
+      {
+        "symbol": "SBILIFE",
+        "metrics": {
+          "prev_close": 1732.0,
+          "open": 1734.6,
+          "high": 1739.9,
+          "low": 1696.6,
+          "close": 1696.6,
+          "volume": 528267,
+          "change": -35.4,
+          "pct_change": -2.04,
+          "pivots": {
+            "Pivot_P": 1711.03,
+            "Resistance_R1": 1725.47,
+            "Support_S1": 1682.17,
+            "Resistance_R2": 1754.33,
+            "Support_S2": 1667.73
+          }
+        },
+        "analysis": {
+          "catalysts": "Subdued Annualized Premium Equivalent (APE) growth commentary and higher surrender ratios in non-par products weighed on sentiment.",
+          "fii_dii": "Institutional rotation out of insurance into defensive pharma.",
+          "bias": "Bearish"
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "metrics": {
+          "prev_close": 1427.5,
+          "open": 1424.0,
+          "high": 1424.9,
+          "low": 1396.3,
+          "close": 1399.4,
+          "volume": 12120589,
+          "change": -28.1,
+          "pct_change": -1.97,
+          "pivots": {
+            "Pivot_P": 1406.87,
+            "Resistance_R1": 1417.43,
+            "Support_S1": 1388.83,
+            "Resistance_R2": 1435.47,
+            "Support_S2": 1378.27
+          }
+        },
+        "analysis": {
+          "catalysts": "Slight compression in Net Interest Margin (NIM) expectations for upcoming quarter and general sector-wide private bank profit taking.",
+          "fii_dii": "Net FII selloff in banking weightage.",
+          "bias": "Bearish"
+        }
+      },
+      {
+        "symbol": "ULTRACEMCO",
+        "metrics": {
+          "prev_close": 11175.0,
+          "open": 11175.0,
+          "high": 11215.0,
+          "low": 10995.0,
+          "close": 11009.0,
+          "volume": 338251,
+          "change": -166.0,
+          "pct_change": -1.49,
+          "pivots": {
+            "Pivot_P": 11073.0,
+            "Resistance_R1": 11151.0,
+            "Support_S1": 10931.0,
+            "Resistance_R2": 11293.0,
+            "Support_S2": 10853.0
+          }
+        },
+        "analysis": {
+          "catalysts": "Pressure due to monsoon-led temporary cement price realizations softness and margin pressure from fuel price fluctuations.",
+          "fii_dii": "FII institutional profit booking after recent rally.",
+          "bias": "Bearish"
+        }
+      }
+    ]
+  }
+]
