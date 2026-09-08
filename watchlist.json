@@ -1,0 +1,29 @@
+{
+  "watchlist": [
+    {
+      "symbol": "RELIANCE",
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries Ltd."
+    },
+    {
+      "symbol": "TCS",
+      "ticker": "TCS.NS",
+      "name": "Tata Consultancy Services Ltd."
+    },
+    {
+      "symbol": "HDFCBANK",
+      "ticker": "HDFCBANK.NS",
+      "name": "HDFC Bank Ltd."
+    },
+    {
+      "symbol": "INFY",
+      "ticker": "INFY.NS",
+      "name": "Infosys Ltd."
+    },
+    {
+      "symbol": "ICICIBANK",
+      "ticker": "ICICIBANK.NS",
+      "name": "ICICI Bank Ltd."
+    }
+  ]
+}
