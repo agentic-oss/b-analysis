@@ -1,0 +1,2255 @@
+{
+  "date": "2026-03-01",
+  "pipeline_timestamp": "2026-09-12T15:55:40.957099",
+  "data_quality": {
+    "records_processed": 893,
+    "records_valid": 893,
+    "warnings": [
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions",
+      "Zero volume recorded in 1 trading sessions"
+    ],
+    "errors": [
+      "No records returned for LTIM.NS",
+      "No records returned for TATAMOTORS.NS"
+    ]
+  },
+  "market": {
+    "regime": "Strong Bearish",
+    "nifty_close": 25178.65,
+    "nifty_trend": "Downtrend",
+    "nifty_volatility_annualized": 14.73,
+    "breadth_pct_above_20dma": 23.08,
+    "breadth_pct_above_50dma": 23.08,
+    "breadth_pct_above_200dma": 23.08,
+    "advance_decline_ratio": 0.08,
+    "advances": 1,
+    "declines": 12,
+    "new_highs_20d": 0,
+    "new_lows_20d": 0,
+    "total_stocks_analyzed": 13
+  },
+  "sectors": [
+    {
+      "sector": "NIFTY Energy",
+      "daily_return": -0.37,
+      "weekly_return": 1.27,
+      "monthly_return": 5.43,
+      "relative_strength_vs_nifty": 5.99,
+      "volatility_annualized": 18.85,
+      "momentum_score": 56.6,
+      "rank": 1
+    },
+    {
+      "sector": "NIFTY Pharma",
+      "daily_return": -1.5,
+      "weekly_return": 2.23,
+      "monthly_return": 5.7,
+      "relative_strength_vs_nifty": 6.26,
+      "volatility_annualized": 16.77,
+      "momentum_score": 56.04,
+      "rank": 2
+    },
+    {
+      "sector": "NIFTY Metal",
+      "daily_return": -1.67,
+      "weekly_return": 2.09,
+      "monthly_return": 3.49,
+      "relative_strength_vs_nifty": 4.05,
+      "volatility_annualized": 24.99,
+      "momentum_score": 53.3,
+      "rank": 3
+    },
+    {
+      "sector": "NIFTY Auto",
+      "daily_return": -1.86,
+      "weekly_return": 1.12,
+      "monthly_return": 5.27,
+      "relative_strength_vs_nifty": 5.83,
+      "volatility_annualized": 19.24,
+      "momentum_score": 53.22,
+      "rank": 4
+    },
+    {
+      "sector": "NIFTY Next 50",
+      "daily_return": -1.3,
+      "weekly_return": 0.37,
+      "monthly_return": 2.76,
+      "relative_strength_vs_nifty": 3.32,
+      "volatility_annualized": 16.54,
+      "momentum_score": 50.72,
+      "rank": 5
+    },
+    {
+      "sector": "NIFTY Bank",
+      "daily_return": -1.08,
+      "weekly_return": -1.05,
+      "monthly_return": 1.54,
+      "relative_strength_vs_nifty": 2.1,
+      "volatility_annualized": 14.61,
+      "momentum_score": 47.81,
+      "rank": 6
+    },
+    {
+      "sector": "NIFTY FMCG",
+      "daily_return": -1.69,
+      "weekly_return": -1.22,
+      "monthly_return": -0.14,
+      "relative_strength_vs_nifty": 0.42,
+      "volatility_annualized": 16.56,
+      "momentum_score": 44.64,
+      "rank": 7
+    },
+    {
+      "sector": "NIFTY Realty",
+      "daily_return": -2.26,
+      "weekly_return": -4.89,
+      "monthly_return": -0.31,
+      "relative_strength_vs_nifty": 0.25,
+      "volatility_annualized": 28.3,
+      "momentum_score": 37.84,
+      "rank": 8
+    },
+    {
+      "sector": "NIFTY IT",
+      "daily_return": 0.16,
+      "weekly_return": -4.38,
+      "monthly_return": -19.54,
+      "relative_strength_vs_nifty": -18.98,
+      "volatility_annualized": 34.12,
+      "momentum_score": 24.22,
+      "rank": 9
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "ticker": "RELIANCE.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "score": {
+        "composite_score": 41.14,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 15.0,
+          "volume_score": 52.78,
+          "relative_strength_score": 48.17,
+          "volatility_score": 65.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 70.0
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 1335.5,
+        "resistance_level": 1611.8,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 70.0,
+        "valuation_status": "Fairly Valued",
+        "profitability_status": "Unknown",
+        "growth_status": "High Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 22.780796,
+          "pb_ratio": 1.8823583,
+          "roe": null,
+          "debt_to_equity": 36.653,
+          "revenue_growth": 0.297,
+          "profit_growth": -0.224,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:18.274237"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 11,
+        "horizons": {
+          "1d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -0.48,
+            "median_forward_return_pct": 0.0,
+            "positive_return_probability": 36.36,
+            "negative_return_probability": 45.45,
+            "max_observed_gain_pct": 1.34,
+            "max_observed_loss_pct": -3.04,
+            "forward_volatility_pct": 1.28
+          },
+          "3d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -1.23,
+            "median_forward_return_pct": -1.4,
+            "positive_return_probability": 27.27,
+            "negative_return_probability": 72.73,
+            "max_observed_gain_pct": 2.01,
+            "max_observed_loss_pct": -4.44,
+            "forward_volatility_pct": 2.07
+          },
+          "5d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -2.01,
+            "median_forward_return_pct": -3.02,
+            "positive_return_probability": 27.27,
+            "negative_return_probability": 72.73,
+            "max_observed_gain_pct": 1.84,
+            "max_observed_loss_pct": -4.92,
+            "forward_volatility_pct": 2.33
+          },
+          "10d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -3.49,
+            "median_forward_return_pct": -4.63,
+            "positive_return_probability": 27.27,
+            "negative_return_probability": 72.73,
+            "max_observed_gain_pct": 3.1,
+            "max_observed_loss_pct": -7.54,
+            "forward_volatility_pct": 3.71
+          },
+          "20d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -2.97,
+            "median_forward_return_pct": -2.69,
+            "positive_return_probability": 0.0,
+            "negative_return_probability": 100.0,
+            "max_observed_gain_pct": -0.68,
+            "max_observed_loss_pct": -5.6,
+            "forward_volatility_pct": 1.83
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 36.1,
+          "empirical_positive_probability": 36.36,
+          "expected_average_return_pct": -0.48,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 42.6,
+          "empirical_positive_probability": 27.27,
+          "expected_average_return_pct": -1.23,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 42.6,
+          "empirical_positive_probability": 27.27,
+          "expected_average_return_pct": -2.01,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 42.6,
+          "empirical_positive_probability": 27.27,
+          "expected_average_return_pct": -3.49,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bearish",
+          "confidence": 62.3,
+          "empirical_positive_probability": 0.0,
+          "expected_average_return_pct": -2.97,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 992127.7,
+        "cumulative_return_pct": -0.79,
+        "max_drawdown_pct": -1.35,
+        "sharpe_ratio": -1.6,
+        "total_trades": 3,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "TCS",
+      "ticker": "TCS.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "score": {
+        "composite_score": 38.05,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 15.0,
+          "volume_score": 51.09,
+          "relative_strength_score": 49.22,
+          "volatility_score": 35.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 73.75
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 2561.3,
+        "resistance_level": 3350.0,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 73.75,
+        "valuation_status": "Fairly Valued",
+        "profitability_status": "High Profitability",
+        "growth_status": "Moderate Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 16.0,
+          "pb_ratio": 7.2630305,
+          "roe": 0.47743,
+          "debt_to_equity": 10.211,
+          "revenue_growth": 0.139,
+          "profit_growth": 0.046,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:18.806535"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 0,
+        "horizons": {
+          "1d": {
+            "sample_size": 0,
+            "avg_forward_return_pct": 0.0,
+            "median_forward_return_pct": 0.0,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 0.0,
+            "max_observed_loss_pct": 0.0,
+            "forward_volatility_pct": 0.0
+          },
+          "3d": {
+            "sample_size": 0,
+            "avg_forward_return_pct": 0.0,
+            "median_forward_return_pct": 0.0,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 0.0,
+            "max_observed_loss_pct": 0.0,
+            "forward_volatility_pct": 0.0
+          },
+          "5d": {
+            "sample_size": 0,
+            "avg_forward_return_pct": 0.0,
+            "median_forward_return_pct": 0.0,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 0.0,
+            "max_observed_loss_pct": 0.0,
+            "forward_volatility_pct": 0.0
+          },
+          "10d": {
+            "sample_size": 0,
+            "avg_forward_return_pct": 0.0,
+            "median_forward_return_pct": 0.0,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 0.0,
+            "max_observed_loss_pct": 0.0,
+            "forward_volatility_pct": 0.0
+          },
+          "20d": {
+            "sample_size": 0,
+            "avg_forward_return_pct": 0.0,
+            "median_forward_return_pct": 0.0,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 0.0,
+            "max_observed_loss_pct": 0.0,
+            "forward_volatility_pct": 0.0
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 0.0,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 0.0,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 0.0,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 0.0,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 0.0,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 984379.88,
+        "cumulative_return_pct": -1.56,
+        "max_drawdown_pct": -2.08,
+        "sharpe_ratio": -2.71,
+        "total_trades": 3,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "ticker": "HDFCBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "score": {
+        "composite_score": 38.45,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 15.0,
+          "volume_score": 55.39,
+          "relative_strength_score": 47.59,
+          "volatility_score": 35.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 65.0
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": true,
+        "unusual_volume": false,
+        "support_level": 885.0,
+        "resistance_level": 1008.0,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 65.0,
+        "valuation_status": "Fairly Valued",
+        "profitability_status": "Moderate Profitability",
+        "growth_status": "High Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 15.480874,
+          "pb_ratio": 1.7984425,
+          "roe": 0.13838,
+          "debt_to_equity": null,
+          "revenue_growth": 0.166,
+          "profit_growth": 0.181,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:19.401394"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 7,
+        "horizons": {
+          "1d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -0.35,
+            "median_forward_return_pct": -0.25,
+            "positive_return_probability": 28.57,
+            "negative_return_probability": 71.43,
+            "max_observed_gain_pct": 0.59,
+            "max_observed_loss_pct": -1.37,
+            "forward_volatility_pct": 0.58
+          },
+          "3d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -0.75,
+            "median_forward_return_pct": -1.23,
+            "positive_return_probability": 28.57,
+            "negative_return_probability": 71.43,
+            "max_observed_gain_pct": 1.73,
+            "max_observed_loss_pct": -2.41,
+            "forward_volatility_pct": 1.26
+          },
+          "5d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -0.93,
+            "median_forward_return_pct": -0.97,
+            "positive_return_probability": 28.57,
+            "negative_return_probability": 71.43,
+            "max_observed_gain_pct": 1.34,
+            "max_observed_loss_pct": -2.58,
+            "forward_volatility_pct": 1.55
+          },
+          "10d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -1.4,
+            "median_forward_return_pct": -2.44,
+            "positive_return_probability": 28.57,
+            "negative_return_probability": 71.43,
+            "max_observed_gain_pct": 2.24,
+            "max_observed_loss_pct": -3.22,
+            "forward_volatility_pct": 1.97
+          },
+          "20d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -1.86,
+            "median_forward_return_pct": -0.59,
+            "positive_return_probability": 14.29,
+            "negative_return_probability": 85.71,
+            "max_observed_gain_pct": 0.07,
+            "max_observed_loss_pct": -5.95,
+            "forward_volatility_pct": 2.31
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 28.57,
+          "expected_average_return_pct": -0.35,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 28.57,
+          "expected_average_return_pct": -0.75,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 28.57,
+          "expected_average_return_pct": -0.93,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 28.57,
+          "expected_average_return_pct": -1.4,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bearish",
+          "confidence": 45.3,
+          "empirical_positive_probability": 14.29,
+          "expected_average_return_pct": -1.86,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 989513.36,
+        "cumulative_return_pct": -1.05,
+        "max_drawdown_pct": -1.22,
+        "sharpe_ratio": -2.92,
+        "total_trades": 1,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "INFY",
+      "ticker": "INFY.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "score": {
+        "composite_score": 39.54,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 15.0,
+          "volume_score": 58.53,
+          "relative_strength_score": 51.71,
+          "volatility_score": 35.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 71.25
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 1264.1,
+        "resistance_level": 1728.0,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 71.25,
+        "valuation_status": "Undervalued",
+        "profitability_status": "High Profitability",
+        "growth_status": "Low / Negative Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 13.476623,
+          "pb_ratio": 4.593843,
+          "roe": 0.32,
+          "debt_to_equity": 9.541,
+          "revenue_growth": 0.029,
+          "profit_growth": 0.053,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:19.981710"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 2,
+        "horizons": {
+          "1d": {
+            "sample_size": 2,
+            "avg_forward_return_pct": 0.99,
+            "median_forward_return_pct": 0.99,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 1.78,
+            "max_observed_loss_pct": 0.19,
+            "forward_volatility_pct": 0.79
+          },
+          "3d": {
+            "sample_size": 2,
+            "avg_forward_return_pct": 1.09,
+            "median_forward_return_pct": 1.09,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 1.93,
+            "max_observed_loss_pct": 0.24,
+            "forward_volatility_pct": 0.84
+          },
+          "5d": {
+            "sample_size": 2,
+            "avg_forward_return_pct": 3.67,
+            "median_forward_return_pct": 3.67,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 5.34,
+            "max_observed_loss_pct": 1.99,
+            "forward_volatility_pct": 1.68
+          },
+          "10d": {
+            "sample_size": 2,
+            "avg_forward_return_pct": 4.95,
+            "median_forward_return_pct": 4.95,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 5.44,
+            "max_observed_loss_pct": 4.47,
+            "forward_volatility_pct": 0.49
+          },
+          "20d": {
+            "sample_size": 2,
+            "avg_forward_return_pct": 1.42,
+            "median_forward_return_pct": 1.42,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 9.0,
+            "max_observed_loss_pct": -6.15,
+            "forward_volatility_pct": 7.57
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Bullish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 0.99,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Bullish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 1.09,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Bullish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 3.67,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Bullish",
+          "confidence": 35.0,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 4.95,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 1.42,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 985441.06,
+        "cumulative_return_pct": -1.46,
+        "max_drawdown_pct": -2.54,
+        "sharpe_ratio": -2.25,
+        "total_trades": 3,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "ticker": "ICICIBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "score": {
+        "composite_score": 48.93,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 55.0,
+          "volume_score": 53.24,
+          "relative_strength_score": 46.3,
+          "volatility_score": 65.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 60.0
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 1328.6,
+        "resistance_level": 1443.9,
+        "trend_state": "Sideways / Consolidation"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 60.0,
+        "valuation_status": "Fairly Valued",
+        "profitability_status": "Moderate Profitability",
+        "growth_status": "Moderate Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 17.82502,
+          "pb_ratio": 2.600603,
+          "roe": 0.16073999,
+          "debt_to_equity": null,
+          "revenue_growth": 0.114,
+          "profit_growth": 0.138,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:20.506547"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 8,
+        "horizons": {
+          "1d": {
+            "sample_size": 8,
+            "avg_forward_return_pct": -0.04,
+            "median_forward_return_pct": -0.12,
+            "positive_return_probability": 25.0,
+            "negative_return_probability": 75.0,
+            "max_observed_gain_pct": 1.19,
+            "max_observed_loss_pct": -1.0,
+            "forward_volatility_pct": 0.6
+          },
+          "3d": {
+            "sample_size": 8,
+            "avg_forward_return_pct": 0.59,
+            "median_forward_return_pct": 0.26,
+            "positive_return_probability": 62.5,
+            "negative_return_probability": 37.5,
+            "max_observed_gain_pct": 5.33,
+            "max_observed_loss_pct": -1.32,
+            "forward_volatility_pct": 2.01
+          },
+          "5d": {
+            "sample_size": 8,
+            "avg_forward_return_pct": 0.21,
+            "median_forward_return_pct": -0.23,
+            "positive_return_probability": 37.5,
+            "negative_return_probability": 62.5,
+            "max_observed_gain_pct": 3.61,
+            "max_observed_loss_pct": -1.9,
+            "forward_volatility_pct": 1.59
+          },
+          "10d": {
+            "sample_size": 8,
+            "avg_forward_return_pct": 1.13,
+            "median_forward_return_pct": 0.7,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 4.5,
+            "max_observed_loss_pct": -1.69,
+            "forward_volatility_pct": 2.38
+          },
+          "20d": {
+            "sample_size": 8,
+            "avg_forward_return_pct": 2.33,
+            "median_forward_return_pct": 3.35,
+            "positive_return_probability": 75.0,
+            "negative_return_probability": 25.0,
+            "max_observed_gain_pct": 5.24,
+            "max_observed_loss_pct": -1.12,
+            "forward_volatility_pct": 2.12
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 34.5,
+          "empirical_positive_probability": 25.0,
+          "expected_average_return_pct": -0.04,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Slightly Bullish",
+          "confidence": 24.5,
+          "empirical_positive_probability": 62.5,
+          "expected_average_return_pct": 0.59,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 25.5,
+          "empirical_positive_probability": 37.5,
+          "expected_average_return_pct": 0.21,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 1.13,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Slightly Bullish",
+          "confidence": 33.5,
+          "empirical_positive_probability": 75.0,
+          "expected_average_return_pct": 2.33,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 1011310.07,
+        "cumulative_return_pct": 1.13,
+        "max_drawdown_pct": -0.22,
+        "sharpe_ratio": 3.53,
+        "total_trades": 6,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "ticker": "HINDUNILVR.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "score": {
+        "composite_score": 46.59,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 45.0,
+          "volume_score": 71.03,
+          "relative_strength_score": 46.21,
+          "volatility_score": 35.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 58.75
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 2244.7,
+        "resistance_level": 2483.0,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 58.75,
+        "valuation_status": "Overvalued",
+        "profitability_status": "Unknown",
+        "growth_status": "Moderate Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 42.736748,
+          "pb_ratio": 9.289612,
+          "roe": null,
+          "debt_to_equity": 3.016,
+          "revenue_growth": 0.05,
+          "profit_growth": 0.084,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:21.169869"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 6,
+        "horizons": {
+          "1d": {
+            "sample_size": 6,
+            "avg_forward_return_pct": 0.14,
+            "median_forward_return_pct": 0.11,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 1.12,
+            "max_observed_loss_pct": -1.05,
+            "forward_volatility_pct": 0.8
+          },
+          "3d": {
+            "sample_size": 6,
+            "avg_forward_return_pct": 0.66,
+            "median_forward_return_pct": 1.31,
+            "positive_return_probability": 66.67,
+            "negative_return_probability": 33.33,
+            "max_observed_gain_pct": 2.52,
+            "max_observed_loss_pct": -1.58,
+            "forward_volatility_pct": 1.52
+          },
+          "5d": {
+            "sample_size": 6,
+            "avg_forward_return_pct": 1.67,
+            "median_forward_return_pct": 1.84,
+            "positive_return_probability": 66.67,
+            "negative_return_probability": 33.33,
+            "max_observed_gain_pct": 5.87,
+            "max_observed_loss_pct": -3.34,
+            "forward_volatility_pct": 2.97
+          },
+          "10d": {
+            "sample_size": 6,
+            "avg_forward_return_pct": 0.89,
+            "median_forward_return_pct": 1.84,
+            "positive_return_probability": 50.0,
+            "negative_return_probability": 50.0,
+            "max_observed_gain_pct": 4.92,
+            "max_observed_loss_pct": -5.09,
+            "forward_volatility_pct": 3.77
+          },
+          "20d": {
+            "sample_size": 6,
+            "avg_forward_return_pct": 2.37,
+            "median_forward_return_pct": 4.02,
+            "positive_return_probability": 83.33,
+            "negative_return_probability": 16.67,
+            "max_observed_gain_pct": 5.43,
+            "max_observed_loss_pct": -5.9,
+            "forward_volatility_pct": 3.85
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 0.14,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Slightly Bullish",
+          "confidence": 22.4,
+          "empirical_positive_probability": 66.67,
+          "expected_average_return_pct": 0.66,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Slightly Bullish",
+          "confidence": 22.4,
+          "empirical_positive_probability": 66.67,
+          "expected_average_return_pct": 1.67,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Neutral",
+          "confidence": 20.0,
+          "empirical_positive_probability": 50.0,
+          "expected_average_return_pct": 0.89,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bullish",
+          "confidence": 34.4,
+          "empirical_positive_probability": 83.33,
+          "expected_average_return_pct": 2.37,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 1002652.38,
+        "cumulative_return_pct": 0.27,
+        "max_drawdown_pct": -0.36,
+        "sharpe_ratio": 1.04,
+        "total_trades": 5,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "ITC",
+      "ticker": "ITC.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "score": {
+        "composite_score": 53.26,
+        "label": "Neutral",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 85.0,
+          "volume_score": 41.35,
+          "relative_strength_score": 47.05,
+          "volatility_score": 65.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 57.5
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 302.0,
+        "resistance_level": 409.5,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 57.5,
+        "valuation_status": "Fairly Valued",
+        "profitability_status": "Unknown",
+        "growth_status": "Low / Negative Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 16.394321,
+          "pb_ratio": 4.4903145,
+          "roe": null,
+          "debt_to_equity": 3.293,
+          "revenue_growth": -0.111,
+          "profit_growth": -0.16,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:21.701748"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 11,
+        "horizons": {
+          "1d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 0.05,
+            "median_forward_return_pct": 0.15,
+            "positive_return_probability": 54.55,
+            "negative_return_probability": 45.45,
+            "max_observed_gain_pct": 0.55,
+            "max_observed_loss_pct": -0.69,
+            "forward_volatility_pct": 0.43
+          },
+          "3d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 0.13,
+            "median_forward_return_pct": -0.21,
+            "positive_return_probability": 36.36,
+            "negative_return_probability": 63.64,
+            "max_observed_gain_pct": 1.74,
+            "max_observed_loss_pct": -0.83,
+            "forward_volatility_pct": 0.78
+          },
+          "5d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 0.04,
+            "median_forward_return_pct": 0.0,
+            "positive_return_probability": 45.45,
+            "negative_return_probability": 45.45,
+            "max_observed_gain_pct": 1.7,
+            "max_observed_loss_pct": -1.2,
+            "forward_volatility_pct": 0.77
+          },
+          "10d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -2.99,
+            "median_forward_return_pct": -0.35,
+            "positive_return_probability": 45.45,
+            "negative_return_probability": 54.55,
+            "max_observed_gain_pct": 1.57,
+            "max_observed_loss_pct": -12.8,
+            "forward_volatility_pct": 5.31
+          },
+          "20d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -14.07,
+            "median_forward_return_pct": -15.42,
+            "positive_return_probability": 0.0,
+            "negative_return_probability": 100.0,
+            "max_observed_gain_pct": -0.04,
+            "max_observed_loss_pct": -17.78,
+            "forward_volatility_pct": 4.62
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Neutral",
+          "confidence": 26.8,
+          "empirical_positive_probability": 54.55,
+          "expected_average_return_pct": 0.05,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 30.3,
+          "empirical_positive_probability": 36.36,
+          "expected_average_return_pct": 0.13,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Neutral",
+          "confidence": 23.7,
+          "empirical_positive_probability": 45.45,
+          "expected_average_return_pct": 0.04,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Neutral",
+          "confidence": 23.7,
+          "empirical_positive_probability": 45.45,
+          "expected_average_return_pct": -2.99,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bearish",
+          "confidence": 56.4,
+          "empirical_positive_probability": 0.0,
+          "expected_average_return_pct": -14.07,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 977516.64,
+        "cumulative_return_pct": -2.25,
+        "max_drawdown_pct": -2.4,
+        "sharpe_ratio": -3.45,
+        "total_trades": 1,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "SBIN",
+      "ticker": "SBIN.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "score": {
+        "composite_score": 54.48,
+        "label": "Neutral",
+        "components": {
+          "technical_trend_score": 100.0,
+          "momentum_score": 55.0,
+          "volume_score": 41.19,
+          "relative_strength_score": 48.71,
+          "volatility_score": 35.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 65.0
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 944.45,
+        "resistance_level": 1234.7,
+        "trend_state": "Uptrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 65.0,
+        "valuation_status": "Undervalued",
+        "profitability_status": "Moderate Profitability",
+        "growth_status": "Moderate Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 10.649198,
+          "pb_ratio": 1.4777843,
+          "roe": 0.15177,
+          "debt_to_equity": null,
+          "revenue_growth": 0.103,
+          "profit_growth": 0.099,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:22.333403"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 14,
+        "horizons": {
+          "1d": {
+            "sample_size": 14,
+            "avg_forward_return_pct": 0.41,
+            "median_forward_return_pct": 0.46,
+            "positive_return_probability": 64.29,
+            "negative_return_probability": 35.71,
+            "max_observed_gain_pct": 1.92,
+            "max_observed_loss_pct": -1.8,
+            "forward_volatility_pct": 1.04
+          },
+          "3d": {
+            "sample_size": 14,
+            "avg_forward_return_pct": 1.45,
+            "median_forward_return_pct": 1.4,
+            "positive_return_probability": 78.57,
+            "negative_return_probability": 21.43,
+            "max_observed_gain_pct": 3.47,
+            "max_observed_loss_pct": -0.75,
+            "forward_volatility_pct": 1.37
+          },
+          "5d": {
+            "sample_size": 14,
+            "avg_forward_return_pct": 2.29,
+            "median_forward_return_pct": 2.42,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 4.67,
+            "max_observed_loss_pct": 0.16,
+            "forward_volatility_pct": 1.28
+          },
+          "10d": {
+            "sample_size": 14,
+            "avg_forward_return_pct": 3.74,
+            "median_forward_return_pct": 3.69,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 5.65,
+            "max_observed_loss_pct": 1.72,
+            "forward_volatility_pct": 1.06
+          },
+          "20d": {
+            "sample_size": 14,
+            "avg_forward_return_pct": 10.6,
+            "median_forward_return_pct": 9.32,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 17.61,
+            "max_observed_loss_pct": 2.98,
+            "forward_volatility_pct": 4.65
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Slightly Bullish",
+          "confidence": 40.4,
+          "empirical_positive_probability": 64.29,
+          "expected_average_return_pct": 0.41,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Bullish",
+          "confidence": 50.7,
+          "empirical_positive_probability": 78.57,
+          "expected_average_return_pct": 1.45,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Bullish",
+          "confidence": 66.2,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 2.29,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Bullish",
+          "confidence": 66.2,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 3.74,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bullish",
+          "confidence": 66.2,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 10.6,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 1005749.39,
+        "cumulative_return_pct": 0.57,
+        "max_drawdown_pct": -0.16,
+        "sharpe_ratio": 2.62,
+        "total_trades": 4,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "ticker": "BHARTIARTL.NS",
+      "exchange": "NSE",
+      "sector": "Telecom",
+      "score": {
+        "composite_score": 40.62,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 15.0,
+          "volume_score": 72.7,
+          "relative_strength_score": 44.79,
+          "volatility_score": 35.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 58.75
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": true,
+        "unusual_volume": false,
+        "support_level": 1870.1,
+        "resistance_level": 2164.0,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 58.75,
+        "valuation_status": "Overvalued",
+        "profitability_status": "High Profitability",
+        "growth_status": "High Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 38.315544,
+          "pb_ratio": 7.056833,
+          "roe": 0.20151,
+          "debt_to_equity": 100.415,
+          "revenue_growth": 0.184,
+          "profit_growth": 0.351,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:22.790664"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 7,
+        "horizons": {
+          "1d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -0.13,
+            "median_forward_return_pct": -0.3,
+            "positive_return_probability": 14.29,
+            "negative_return_probability": 71.43,
+            "max_observed_gain_pct": 1.47,
+            "max_observed_loss_pct": -0.87,
+            "forward_volatility_pct": 0.71
+          },
+          "3d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -0.53,
+            "median_forward_return_pct": -0.62,
+            "positive_return_probability": 14.29,
+            "negative_return_probability": 85.71,
+            "max_observed_gain_pct": 2.38,
+            "max_observed_loss_pct": -2.22,
+            "forward_volatility_pct": 1.32
+          },
+          "5d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -1.0,
+            "median_forward_return_pct": -1.52,
+            "positive_return_probability": 14.29,
+            "negative_return_probability": 85.71,
+            "max_observed_gain_pct": 1.89,
+            "max_observed_loss_pct": -1.82,
+            "forward_volatility_pct": 1.21
+          },
+          "10d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -1.08,
+            "median_forward_return_pct": -2.53,
+            "positive_return_probability": 28.57,
+            "negative_return_probability": 71.43,
+            "max_observed_gain_pct": 2.54,
+            "max_observed_loss_pct": -3.41,
+            "forward_volatility_pct": 2.21
+          },
+          "20d": {
+            "sample_size": 7,
+            "avg_forward_return_pct": -0.48,
+            "median_forward_return_pct": -0.73,
+            "positive_return_probability": 28.57,
+            "negative_return_probability": 71.43,
+            "max_observed_gain_pct": 0.64,
+            "max_observed_loss_pct": -1.27,
+            "forward_volatility_pct": 0.73
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Bearish",
+          "confidence": 44.2,
+          "empirical_positive_probability": 14.29,
+          "expected_average_return_pct": -0.13,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Bearish",
+          "confidence": 44.2,
+          "empirical_positive_probability": 14.29,
+          "expected_average_return_pct": -0.53,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Bearish",
+          "confidence": 44.2,
+          "empirical_positive_probability": 14.29,
+          "expected_average_return_pct": -1.0,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 33.9,
+          "empirical_positive_probability": 28.57,
+          "expected_average_return_pct": -1.08,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 33.9,
+          "empirical_positive_probability": 28.57,
+          "expected_average_return_pct": -0.48,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 987173.02,
+        "cumulative_return_pct": -1.28,
+        "max_drawdown_pct": -1.3,
+        "sharpe_ratio": -3.12,
+        "total_trades": 1,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "ticker": "SUNPHARMA.NS",
+      "exchange": "NSE",
+      "sector": "Pharma",
+      "score": {
+        "composite_score": 65.58,
+        "label": "Strong",
+        "components": {
+          "technical_trend_score": 100.0,
+          "momentum_score": 85.0,
+          "volume_score": 59.33,
+          "relative_strength_score": 44.55,
+          "volatility_score": 65.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 58.75
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 1583.7,
+        "resistance_level": 1823.2,
+        "trend_state": "Sideways / Consolidation"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 58.75,
+        "valuation_status": "Overvalued",
+        "profitability_status": "Unknown",
+        "growth_status": "Moderate Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 36.493458,
+          "pb_ratio": 5.2827263,
+          "roe": null,
+          "debt_to_equity": 5.517,
+          "revenue_growth": 0.105,
+          "profit_growth": 0.274,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:38.425517"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 9,
+        "horizons": {
+          "1d": {
+            "sample_size": 9,
+            "avg_forward_return_pct": -0.28,
+            "median_forward_return_pct": -0.5,
+            "positive_return_probability": 44.44,
+            "negative_return_probability": 55.56,
+            "max_observed_gain_pct": 1.22,
+            "max_observed_loss_pct": -1.75,
+            "forward_volatility_pct": 0.9
+          },
+          "3d": {
+            "sample_size": 9,
+            "avg_forward_return_pct": -0.69,
+            "median_forward_return_pct": -0.58,
+            "positive_return_probability": 33.33,
+            "negative_return_probability": 66.67,
+            "max_observed_gain_pct": 0.65,
+            "max_observed_loss_pct": -2.85,
+            "forward_volatility_pct": 1.14
+          },
+          "5d": {
+            "sample_size": 9,
+            "avg_forward_return_pct": -1.52,
+            "median_forward_return_pct": -1.31,
+            "positive_return_probability": 22.22,
+            "negative_return_probability": 77.78,
+            "max_observed_gain_pct": 0.41,
+            "max_observed_loss_pct": -3.41,
+            "forward_volatility_pct": 1.32
+          },
+          "10d": {
+            "sample_size": 9,
+            "avg_forward_return_pct": -3.32,
+            "median_forward_return_pct": -3.35,
+            "positive_return_probability": 0.0,
+            "negative_return_probability": 100.0,
+            "max_observed_gain_pct": -0.76,
+            "max_observed_loss_pct": -7.18,
+            "forward_volatility_pct": 1.96
+          },
+          "20d": {
+            "sample_size": 9,
+            "avg_forward_return_pct": -3.53,
+            "median_forward_return_pct": -3.81,
+            "positive_return_probability": 0.0,
+            "negative_return_probability": 100.0,
+            "max_observed_gain_pct": -1.39,
+            "max_observed_loss_pct": -4.74,
+            "forward_volatility_pct": 1.08
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Neutral",
+          "confidence": 21.5,
+          "empirical_positive_probability": 44.44,
+          "expected_average_return_pct": -0.28,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Neutral",
+          "confidence": 22.5,
+          "empirical_positive_probability": 33.33,
+          "expected_average_return_pct": -0.69,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 30.5,
+          "empirical_positive_probability": 22.22,
+          "expected_average_return_pct": -1.52,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Bearish",
+          "confidence": 46.5,
+          "empirical_positive_probability": 0.0,
+          "expected_average_return_pct": -3.32,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bearish",
+          "confidence": 46.5,
+          "empirical_positive_probability": 0.0,
+          "expected_average_return_pct": -3.53,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 998805.75,
+        "cumulative_return_pct": -0.12,
+        "max_drawdown_pct": -1.1,
+        "sharpe_ratio": -0.28,
+        "total_trades": 4,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "ticker": "TATASTEEL.NS",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "score": {
+        "composite_score": 63.78,
+        "label": "Neutral",
+        "components": {
+          "technical_trend_score": 100.0,
+          "momentum_score": 85.0,
+          "volume_score": 44.82,
+          "relative_strength_score": 47.04,
+          "volatility_score": 65.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 58.75
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 160.06,
+        "resistance_level": 216.45,
+        "trend_state": "Uptrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 58.75,
+        "valuation_status": "Fairly Valued",
+        "profitability_status": "Unknown",
+        "growth_status": "Moderate Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 20.701357,
+          "pb_ratio": 2.2360156,
+          "roe": null,
+          "debt_to_equity": 89.017,
+          "revenue_growth": 0.143,
+          "profit_growth": 0.114,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:38.972434"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 11,
+        "horizons": {
+          "1d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 0.22,
+            "median_forward_return_pct": -0.49,
+            "positive_return_probability": 45.45,
+            "negative_return_probability": 54.55,
+            "max_observed_gain_pct": 3.66,
+            "max_observed_loss_pct": -2.5,
+            "forward_volatility_pct": 1.81
+          },
+          "3d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 1.8,
+            "median_forward_return_pct": 2.21,
+            "positive_return_probability": 72.73,
+            "negative_return_probability": 27.27,
+            "max_observed_gain_pct": 6.08,
+            "max_observed_loss_pct": -2.75,
+            "forward_volatility_pct": 2.59
+          },
+          "5d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 2.77,
+            "median_forward_return_pct": 2.13,
+            "positive_return_probability": 72.73,
+            "negative_return_probability": 27.27,
+            "max_observed_gain_pct": 7.79,
+            "max_observed_loss_pct": -2.11,
+            "forward_volatility_pct": 3.51
+          },
+          "10d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 3.8,
+            "median_forward_return_pct": 5.16,
+            "positive_return_probability": 90.91,
+            "negative_return_probability": 9.09,
+            "max_observed_gain_pct": 7.55,
+            "max_observed_loss_pct": -4.38,
+            "forward_volatility_pct": 3.38
+          },
+          "20d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 9.27,
+            "median_forward_return_pct": 10.19,
+            "positive_return_probability": 100.0,
+            "negative_return_probability": 0.0,
+            "max_observed_gain_pct": 13.88,
+            "max_observed_loss_pct": 0.24,
+            "forward_volatility_pct": 3.96
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Neutral",
+          "confidence": 25.3,
+          "empirical_positive_probability": 45.45,
+          "expected_average_return_pct": 0.22,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Bullish",
+          "confidence": 45.0,
+          "empirical_positive_probability": 72.73,
+          "expected_average_return_pct": 1.8,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Bullish",
+          "confidence": 45.0,
+          "empirical_positive_probability": 72.73,
+          "expected_average_return_pct": 2.77,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Bullish",
+          "confidence": 58.1,
+          "empirical_positive_probability": 90.91,
+          "expected_average_return_pct": 3.8,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bullish",
+          "confidence": 64.6,
+          "empirical_positive_probability": 100.0,
+          "expected_average_return_pct": 9.27,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 1005986.75,
+        "cumulative_return_pct": 0.6,
+        "max_drawdown_pct": -0.54,
+        "sharpe_ratio": 1.68,
+        "total_trades": 2,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "DLF",
+      "ticker": "DLF.NS",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "score": {
+        "composite_score": 42.41,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 15.0,
+          "volume_score": 61.66,
+          "relative_strength_score": 47.72,
+          "volatility_score": 65.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 47.5
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": true,
+        "unusual_volume": false,
+        "support_level": 586.65,
+        "resistance_level": 725.25,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 47.5,
+        "valuation_status": "Overvalued",
+        "profitability_status": "Low Profitability",
+        "growth_status": "Low / Negative Growth",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": 35.845387,
+          "pb_ratio": 3.508285,
+          "roe": 0.10102,
+          "debt_to_equity": 0.673,
+          "revenue_growth": -0.529,
+          "profit_growth": 0.042,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:39.569345"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 11,
+        "horizons": {
+          "1d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -0.43,
+            "median_forward_return_pct": -0.21,
+            "positive_return_probability": 27.27,
+            "negative_return_probability": 63.64,
+            "max_observed_gain_pct": 1.79,
+            "max_observed_loss_pct": -4.51,
+            "forward_volatility_pct": 1.55
+          },
+          "3d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -0.97,
+            "median_forward_return_pct": -0.39,
+            "positive_return_probability": 45.45,
+            "negative_return_probability": 54.55,
+            "max_observed_gain_pct": 2.24,
+            "max_observed_loss_pct": -5.86,
+            "forward_volatility_pct": 2.78
+          },
+          "5d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -2.04,
+            "median_forward_return_pct": -0.25,
+            "positive_return_probability": 45.45,
+            "negative_return_probability": 54.55,
+            "max_observed_gain_pct": 3.38,
+            "max_observed_loss_pct": -9.45,
+            "forward_volatility_pct": 4.13
+          },
+          "10d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": 0.29,
+            "median_forward_return_pct": 0.67,
+            "positive_return_probability": 63.64,
+            "negative_return_probability": 36.36,
+            "max_observed_gain_pct": 7.07,
+            "max_observed_loss_pct": -4.12,
+            "forward_volatility_pct": 3.05
+          },
+          "20d": {
+            "sample_size": 11,
+            "avg_forward_return_pct": -0.44,
+            "median_forward_return_pct": 0.12,
+            "positive_return_probability": 54.55,
+            "negative_return_probability": 45.45,
+            "max_observed_gain_pct": 3.01,
+            "max_observed_loss_pct": -4.69,
+            "forward_volatility_pct": 2.62
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 42.0,
+          "empirical_positive_probability": 27.27,
+          "expected_average_return_pct": -0.43,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 28.9,
+          "empirical_positive_probability": 45.45,
+          "expected_average_return_pct": -0.97,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 28.9,
+          "empirical_positive_probability": 45.45,
+          "expected_average_return_pct": -2.04,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Slightly Bullish",
+          "confidence": 28.2,
+          "empirical_positive_probability": 63.64,
+          "expected_average_return_pct": 0.29,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Neutral",
+          "confidence": 22.4,
+          "empirical_positive_probability": 54.55,
+          "expected_average_return_pct": -0.44,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 991771.21,
+        "cumulative_return_pct": -0.82,
+        "max_drawdown_pct": -1.97,
+        "sharpe_ratio": -1.38,
+        "total_trades": 3,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    },
+    {
+      "symbol": "RELIANCE_BSE",
+      "ticker": "500325.BO",
+      "exchange": "BSE",
+      "sector": "Energy",
+      "score": {
+        "composite_score": 38.45,
+        "label": "Weak",
+        "components": {
+          "technical_trend_score": 50.0,
+          "momentum_score": 15.0,
+          "volume_score": 34.56,
+          "relative_strength_score": 48.41,
+          "volatility_score": 65.0,
+          "market_regime_score": 15.0,
+          "sector_score": 50.0,
+          "fundamental_score": 50.0
+        }
+      },
+      "technical_events": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout_20d": false,
+        "breakdown_20d": false,
+        "unusual_volume": false,
+        "support_level": 1336.0,
+        "resistance_level": 1611.2,
+        "trend_state": "Downtrend"
+      },
+      "fundamental_analysis": {
+        "fundamental_score": 50.0,
+        "valuation_status": "Unknown",
+        "profitability_status": "Unknown",
+        "growth_status": "Unknown",
+        "has_data": true,
+        "metrics": {
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "roe": null,
+          "debt_to_equity": null,
+          "revenue_growth": null,
+          "profit_growth": null,
+          "source": "yfinance",
+          "timestamp": "2026-09-12T15:55:40.165045"
+        }
+      },
+      "historical_analogues": {
+        "num_analogues": 10,
+        "horizons": {
+          "1d": {
+            "sample_size": 10,
+            "avg_forward_return_pct": -0.65,
+            "median_forward_return_pct": -0.04,
+            "positive_return_probability": 40.0,
+            "negative_return_probability": 60.0,
+            "max_observed_gain_pct": 1.34,
+            "max_observed_loss_pct": -4.4,
+            "forward_volatility_pct": 1.65
+          },
+          "3d": {
+            "sample_size": 10,
+            "avg_forward_return_pct": -0.98,
+            "median_forward_return_pct": -1.33,
+            "positive_return_probability": 30.0,
+            "negative_return_probability": 70.0,
+            "max_observed_gain_pct": 2.0,
+            "max_observed_loss_pct": -3.83,
+            "forward_volatility_pct": 2.04
+          },
+          "5d": {
+            "sample_size": 10,
+            "avg_forward_return_pct": -2.58,
+            "median_forward_return_pct": -3.38,
+            "positive_return_probability": 30.0,
+            "negative_return_probability": 70.0,
+            "max_observed_gain_pct": 0.95,
+            "max_observed_loss_pct": -5.55,
+            "forward_volatility_pct": 2.61
+          },
+          "10d": {
+            "sample_size": 10,
+            "avg_forward_return_pct": -3.37,
+            "median_forward_return_pct": -5.18,
+            "positive_return_probability": 30.0,
+            "negative_return_probability": 70.0,
+            "max_observed_gain_pct": 3.1,
+            "max_observed_loss_pct": -7.86,
+            "forward_volatility_pct": 4.08
+          },
+          "20d": {
+            "sample_size": 10,
+            "avg_forward_return_pct": -3.83,
+            "median_forward_return_pct": -3.09,
+            "positive_return_probability": 0.0,
+            "negative_return_probability": 100.0,
+            "max_observed_gain_pct": -0.61,
+            "max_observed_loss_pct": -9.79,
+            "forward_volatility_pct": 3.04
+          }
+        },
+        "matched_conditions": [
+          "RSI +/- 7.5",
+          "Dist SMA20 +/- 3%"
+        ]
+      },
+      "signals": {
+        "1d": {
+          "horizon": "1d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 32.7,
+          "empirical_positive_probability": 40.0,
+          "expected_average_return_pct": -0.65,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "3d": {
+          "horizon": "3d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 39.9,
+          "empirical_positive_probability": 30.0,
+          "expected_average_return_pct": -0.98,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "5d": {
+          "horizon": "5d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 39.9,
+          "empirical_positive_probability": 30.0,
+          "expected_average_return_pct": -2.58,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "10d": {
+          "horizon": "10d",
+          "directional_bias": "Slightly Bearish",
+          "confidence": 39.9,
+          "empirical_positive_probability": 30.0,
+          "expected_average_return_pct": -3.37,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        },
+        "20d": {
+          "horizon": "20d",
+          "directional_bias": "Bearish",
+          "confidence": 61.5,
+          "empirical_positive_probability": 0.0,
+          "expected_average_return_pct": -3.83,
+          "inference_type": "Probabilistic Historical Analogue + Technical Scoring"
+        }
+      },
+      "prediction_model": {
+        "model_name": "RandomForestClassifier",
+        "target": "future_return_5d",
+        "status": "Insufficient samples for walk-forward evaluation",
+        "metrics": {}
+      },
+      "backtest_metrics": {
+        "initial_capital": 1000000.0,
+        "final_capital": 995719.54,
+        "cumulative_return_pct": -0.43,
+        "max_drawdown_pct": -1.35,
+        "sharpe_ratio": -0.92,
+        "total_trades": 5,
+        "disclaimer": "Backtested performance is hypothetical and subject to market friction assumptions."
+      }
+    }
+  ]
+}

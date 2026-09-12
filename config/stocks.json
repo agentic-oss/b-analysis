@@ -1,0 +1,177 @@
+{
+  "indices": [
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSMIDCP",
+      "name": "NIFTY Next 50",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY Bank",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY Auto",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY Pharma",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY Metal",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY Realty",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY Energy",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFIN",
+      "name": "NIFTY Financial Services",
+      "exchange": "NSE",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "ticker": "RELIANCE.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TCS",
+      "ticker": "TCS.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "HDFCBANK",
+      "ticker": "HDFCBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "INFY",
+      "ticker": "INFY.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "ICICIBANK",
+      "ticker": "ICICIBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "ticker": "HINDUNILVR.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "ITC",
+      "ticker": "ITC.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "SBIN",
+      "ticker": "SBIN.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "ticker": "BHARTIARTL.NS",
+      "exchange": "NSE",
+      "sector": "Telecom",
+      "enabled": true
+    },
+    {
+      "symbol": "LTIM",
+      "ticker": "LTIM.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "ticker": "TATAMOTORS.NS",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "ticker": "SUNPHARMA.NS",
+      "exchange": "NSE",
+      "sector": "Pharma",
+      "enabled": true
+    },
+    {
+      "symbol": "TATASTEEL",
+      "ticker": "TATASTEEL.NS",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "enabled": true
+    },
+    {
+      "symbol": "DLF",
+      "ticker": "DLF.NS",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "RELIANCE_BSE",
+      "ticker": "500325.BO",
+      "exchange": "BSE",
+      "sector": "Energy",
+      "enabled": true
+    }
+  ]
+}
