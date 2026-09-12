@@ -1,0 +1,55 @@
+name: Daily Indian Stock Market Analysis
+
+on:
+  schedule:
+    # Run at 12:30 UTC (18:00 IST) on Monday through Friday
+    - cron: '30 12 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy yfinance scikit-learn pyarrow pytest
+
+      - name: Check Indian Market Holiday
+        id: check_holiday
+        run: |
+          python -c "
+          import json, sys, pandas as pd
+          today = pd.Timestamp.now().strftime('%Y-%m-%d')
+          with open('config/holidays.json') as f:
+              holidays = json.load(f).get('holidays', [])
+          if today in holidays:
+              print(f'Today {today} is an Indian market holiday. Skipping.')
+              sys.exit(0)
+          "
+
+      - name: Run Market Pipeline
+        run: |
+          python -c "
+          from src.pipeline.daily_pipeline import DailyPipeline
+          pipeline = DailyPipeline()
+          pipeline.run()
+          "
+
+      - name: Run Test Suite
+        run: |
+          python -m pytest tests/
+
+      - name: Commit and Push Daily Analysis Results
+        run: |
+          python scripts/commit_data.py
+          git push || echo "Push skipped or not allowed in current environment."

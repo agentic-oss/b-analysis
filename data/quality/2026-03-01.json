@@ -1,0 +1,25 @@
+{
+  "date": "2026-03-01",
+  "records_processed": 893,
+  "records_valid": 893,
+  "tickers_checked": 15,
+  "warnings": [
+    "[RELIANCE.NS] Zero volume recorded in 1 trading sessions",
+    "[TCS.NS] Zero volume recorded in 1 trading sessions",
+    "[HDFCBANK.NS] Zero volume recorded in 1 trading sessions",
+    "[INFY.NS] Zero volume recorded in 1 trading sessions",
+    "[ICICIBANK.NS] Zero volume recorded in 1 trading sessions",
+    "[HINDUNILVR.NS] Zero volume recorded in 1 trading sessions",
+    "[ITC.NS] Zero volume recorded in 1 trading sessions",
+    "[SBIN.NS] Zero volume recorded in 1 trading sessions",
+    "[BHARTIARTL.NS] Zero volume recorded in 1 trading sessions",
+    "[SUNPHARMA.NS] Zero volume recorded in 1 trading sessions",
+    "[TATASTEEL.NS] Zero volume recorded in 1 trading sessions",
+    "[DLF.NS] Zero volume recorded in 1 trading sessions",
+    "[500325.BO] Zero volume recorded in 1 trading sessions"
+  ],
+  "errors": [
+    "[LTIM.NS] No records returned for LTIM.NS",
+    "[TATAMOTORS.NS] No records returned for TATAMOTORS.NS"
+  ]
+}
