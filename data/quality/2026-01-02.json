@@ -1,0 +1,14 @@
+{
+  "date": "2026-01-02",
+  "records_processed": 14,
+  "records_valid": 13,
+  "warnings": [
+    "Anomalous volume spike (> 10.0 std) on dates: ['2024-08-30', '2024-11-25']",
+    "Anomalous volume spike (> 10.0 std) on dates: ['2025-05-28', '2026-01-01']",
+    "Anomalous volume spike (> 10.0 std) on dates: ['2024-06-04']",
+    "Anomalous volume spike (> 10.0 std) on dates: ['2025-05-16', '2025-08-08']"
+  ],
+  "errors": [
+    "No price data received for TATAMOTORS.NS"
+  ]
+}
