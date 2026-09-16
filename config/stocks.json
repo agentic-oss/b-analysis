@@ -1,0 +1,197 @@
+{
+  "indices": [
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50",
+      "exchange": "NSE",
+      "type": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY Bank",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY Auto",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY Pharma",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Healthcare",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY Metal",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Metals & Mining",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY Realty",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY Energy",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFIN",
+      "name": "NIFTY Financial Services",
+      "exchange": "NSE",
+      "type": "index",
+      "sector": "Financial Services",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE.NS",
+      "raw_symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TCS.NS",
+      "raw_symbol": "TCS",
+      "name": "Tata Consultancy Services Ltd",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "raw_symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "raw_symbol": "ICICIBANK",
+      "name": "ICICI Bank Ltd",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "INFY.NS",
+      "raw_symbol": "INFY",
+      "name": "Infosys Ltd",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "raw_symbol": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd",
+      "exchange": "NSE",
+      "sector": "Telecom",
+      "enabled": true
+    },
+    {
+      "symbol": "ITC.NS",
+      "raw_symbol": "ITC",
+      "name": "ITC Ltd",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "SBIN.NS",
+      "raw_symbol": "SBIN",
+      "name": "State Bank of India",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "LTIM.NS",
+      "raw_symbol": "LTIM",
+      "name": "LTIMindtree Ltd",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "TATAMOTORS.NS",
+      "raw_symbol": "TATAMOTORS",
+      "name": "Tata Motors Ltd",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "raw_symbol": "SUNPHARMA",
+      "name": "Sun Pharmaceutical Industries Ltd",
+      "exchange": "NSE",
+      "sector": "Healthcare",
+      "enabled": true
+    },
+    {
+      "symbol": "TATASTEEL.NS",
+      "raw_symbol": "TATASTEEL",
+      "name": "Tata Steel Ltd",
+      "exchange": "NSE",
+      "sector": "Metals & Mining",
+      "enabled": true
+    },
+    {
+      "symbol": "DLF.NS",
+      "raw_symbol": "DLF",
+      "name": "DLF Ltd",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "NTPC.NS",
+      "raw_symbol": "NTPC",
+      "name": "NTPC Ltd",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    }
+  ]
+}

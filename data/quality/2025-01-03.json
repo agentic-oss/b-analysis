@@ -1,0 +1,43 @@
+{
+  "date": "2025-01-03",
+  "symbols_processed": 22,
+  "records_processed": 7997,
+  "records_valid": 7997,
+  "warnings_count": 8,
+  "errors_count": 0,
+  "warnings": [
+    {
+      "symbol": "^NSEI",
+      "message": "Found 28 missing expected business trading days."
+    },
+    {
+      "symbol": "^NSEBANK",
+      "message": "Found 28 missing expected business trading days."
+    },
+    {
+      "symbol": "^CNXIT",
+      "message": "Found 28 missing expected business trading days."
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "message": "Anomalous volume spike (>10x median) on dates: ['2025-09-29', '2025-09-30', '2025-10-01', '2025-10-03', '2025-10-06', '2025-10-07', '2025-10-08', '2025-10-09', '2025-10-10']"
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "message": "Found 29 missing expected business trading days."
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "message": "Anomalous volume spike (>10x median) on dates: ['2024-11-25']"
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "message": "Anomalous volume spike (>10x median) on dates: ['2025-05-16', '2025-08-08', '2025-11-07']"
+    },
+    {
+      "symbol": "ITC.NS",
+      "message": "Anomalous volume spike (>10x median) on dates: ['2025-05-28', '2026-01-01', '2026-01-02']"
+    }
+  ],
+  "errors": []
+}
