@@ -1,0 +1,36 @@
+{
+  "indices": [
+    {"symbol": "^NSEI", "name": "NIFTY 50", "exchange": "NSE", "sector": "Benchmark"},
+    {"symbol": "^NSEBANK", "name": "NIFTY Bank", "exchange": "NSE", "sector": "Financial Services"},
+    {"symbol": "^CNXIT", "name": "NIFTY IT", "exchange": "NSE", "sector": "Information Technology"},
+    {"symbol": "^CNXAUTO", "name": "NIFTY Auto", "exchange": "NSE", "sector": "Automobile"},
+    {"symbol": "^CNXPHARMA", "name": "NIFTY Pharma", "exchange": "NSE", "sector": "Healthcare"},
+    {"symbol": "^CNXFMCG", "name": "NIFTY FMCG", "exchange": "NSE", "sector": "FMCG"},
+    {"symbol": "^CNXMETAL", "name": "NIFTY Metal", "exchange": "NSE", "sector": "Metals & Mining"},
+    {"symbol": "^CNXREALTY", "name": "NIFTY Realty", "exchange": "NSE", "sector": "Realty"},
+    {"symbol": "^CNXENERGY", "name": "NIFTY Energy", "exchange": "NSE", "sector": "Energy"},
+    {"symbol": "^CNXFIN", "name": "NIFTY Financial Services", "exchange": "NSE", "sector": "Financial Services"}
+  ],
+  "stocks": [
+    {"symbol": "RELIANCE.NS", "raw_symbol": "RELIANCE", "name": "Reliance Industries Ltd", "exchange": "NSE", "sector": "Energy", "enabled": true},
+    {"symbol": "TCS.NS", "raw_symbol": "TCS", "name": "Tata Consultancy Services Ltd", "exchange": "NSE", "sector": "Information Technology", "enabled": true},
+    {"symbol": "INFY.NS", "raw_symbol": "INFY", "name": "Infosys Ltd", "exchange": "NSE", "sector": "Information Technology", "enabled": true},
+    {"symbol": "HDFCBANK.NS", "raw_symbol": "HDFCBANK", "name": "HDFC Bank Ltd", "exchange": "NSE", "sector": "Financial Services", "enabled": true},
+    {"symbol": "ICICIBANK.NS", "raw_symbol": "ICICIBANK", "name": "ICICI Bank Ltd", "exchange": "NSE", "sector": "Financial Services", "enabled": true},
+    {"symbol": "BHARTIARTL.NS", "raw_symbol": "BHARTIARTL", "name": "Bharti Airtel Ltd", "exchange": "NSE", "sector": "Telecommunication", "enabled": true},
+    {"symbol": "SBIN.NS", "raw_symbol": "SBIN", "name": "State Bank of India", "exchange": "NSE", "sector": "Financial Services", "enabled": true},
+    {"symbol": "LT.NS", "raw_symbol": "LT", "name": "Larsen & Toubro Ltd", "exchange": "NSE", "sector": "Construction", "enabled": true},
+    {"symbol": "ITC.NS", "raw_symbol": "ITC", "name": "ITC Ltd", "exchange": "NSE", "sector": "FMCG", "enabled": true},
+    {"symbol": "TATAMOTORS.NS", "raw_symbol": "TATAMOTORS", "name": "Tata Motors Ltd", "exchange": "NSE", "sector": "Automobile", "enabled": true},
+    {"symbol": "KOTAKBANK.NS", "raw_symbol": "KOTAKBANK", "name": "Kotak Mahindra Bank Ltd", "exchange": "NSE", "sector": "Financial Services", "enabled": true},
+    {"symbol": "AXISBANK.NS", "raw_symbol": "AXISBANK", "name": "Axis Bank Ltd", "exchange": "NSE", "sector": "Financial Services", "enabled": true},
+    {"symbol": "MARUTI.NS", "raw_symbol": "MARUTI", "name": "Maruti Suzuki India Ltd", "exchange": "NSE", "sector": "Automobile", "enabled": true},
+    {"symbol": "SUNPHARMA.NS", "raw_symbol": "SUNPHARMA", "name": "Sun Pharmaceutical Industries Ltd", "exchange": "NSE", "sector": "Healthcare", "enabled": true},
+    {"symbol": "TITAN.NS", "raw_symbol": "TITAN", "name": "Titan Company Ltd", "exchange": "NSE", "sector": "Consumer Durables", "enabled": true},
+    {"symbol": "TATASTEEL.NS", "raw_symbol": "TATASTEEL", "name": "Tata Steel Ltd", "exchange": "NSE", "sector": "Metals & Mining", "enabled": true},
+    {"symbol": "NTPC.NS", "raw_symbol": "NTPC", "name": "NTPC Ltd", "exchange": "NSE", "sector": "Energy", "enabled": true},
+    {"symbol": "POWERGRID.NS", "raw_symbol": "POWERGRID", "name": "Power Grid Corporation of India Ltd", "exchange": "NSE", "sector": "Energy", "enabled": true},
+    {"symbol": "BAJFINANCE.NS", "raw_symbol": "BAJFINANCE", "name": "Bajaj Finance Ltd", "exchange": "NSE", "sector": "Financial Services", "enabled": true},
+    {"symbol": "DLF.NS", "raw_symbol": "DLF", "name": "DLF Ltd", "exchange": "NSE", "sector": "Realty", "enabled": true}
+  ]
+}
