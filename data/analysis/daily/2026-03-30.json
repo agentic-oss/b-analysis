@@ -1,0 +1,3643 @@
+{
+  "date": "2026-03-30",
+  "market": {
+    "regime": "Strong Bearish",
+    "explanation": "NIFTY below 20 & 50 DMA with severe market weakness (<30% above 20 DMA) and low A/D ratio (<=0.6).",
+    "breadth": {
+      "total_stocks": 20,
+      "advances": 4,
+      "declines": 16,
+      "unchanged": 0,
+      "ad_ratio": 0.25,
+      "pct_above_20dma": 5.0,
+      "pct_above_50dma": 20.0,
+      "pct_above_200dma": 35.0,
+      "new_highs_20d": 0,
+      "new_lows_20d": 0
+    },
+    "nifty_summary": {
+      "trend": "Downtrend",
+      "above_20dma": false,
+      "above_50dma": false,
+      "above_200dma": false,
+      "volatility_20d": 0.2457
+    }
+  },
+  "sectors": [
+    {
+      "sector": "Financial Services",
+      "daily_return_pct": 2.93,
+      "weekly_return_pct": 4.1,
+      "monthly_return_pct": 10.72,
+      "relative_strength_1d": 5.02,
+      "relative_strength_5d": 4.89,
+      "relative_strength_20d": 21.17,
+      "rsi_14": 80.69,
+      "volatility_20d": 0.2227,
+      "relative_volume": 1.07,
+      "momentum_score": 3.87,
+      "rank": 1
+    },
+    {
+      "sector": "FMCG",
+      "daily_return_pct": 1.75,
+      "weekly_return_pct": 3.22,
+      "monthly_return_pct": 13.93,
+      "relative_strength_1d": 3.84,
+      "relative_strength_5d": 4.01,
+      "relative_strength_20d": 24.38,
+      "rsi_14": 83.6,
+      "volatility_20d": 0.1912,
+      "relative_volume": 1.0,
+      "momentum_score": 2.87,
+      "rank": 2
+    },
+    {
+      "sector": "Information Technology",
+      "daily_return_pct": -0.44,
+      "weekly_return_pct": 3.37,
+      "monthly_return_pct": -3.23,
+      "relative_strength_1d": 1.65,
+      "relative_strength_5d": 4.16,
+      "relative_strength_20d": 7.22,
+      "rsi_14": 43.41,
+      "volatility_20d": 0.2106,
+      "relative_volume": 1.41,
+      "momentum_score": 2.08,
+      "rank": 3
+    },
+    {
+      "sector": "Healthcare",
+      "daily_return_pct": -0.5,
+      "weekly_return_pct": 2.1,
+      "monthly_return_pct": -2.11,
+      "relative_strength_1d": 1.59,
+      "relative_strength_5d": 2.89,
+      "relative_strength_20d": 8.34,
+      "rsi_14": 44.28,
+      "volatility_20d": 0.211,
+      "relative_volume": 1.55,
+      "momentum_score": 1.3,
+      "rank": 4
+    },
+    {
+      "sector": "Automobile",
+      "daily_return_pct": 0.88,
+      "weekly_return_pct": 0.84,
+      "monthly_return_pct": 0.85,
+      "relative_strength_1d": 2.97,
+      "relative_strength_5d": 1.63,
+      "relative_strength_20d": 11.3,
+      "rsi_14": 95.32,
+      "volatility_20d": 0.1934,
+      "relative_volume": 1.36,
+      "momentum_score": 1.09,
+      "rank": 5
+    },
+    {
+      "sector": "Energy",
+      "daily_return_pct": -2.18,
+      "weekly_return_pct": -0.51,
+      "monthly_return_pct": 9.26,
+      "relative_strength_1d": -0.09,
+      "relative_strength_5d": 0.28,
+      "relative_strength_20d": 19.71,
+      "rsi_14": 71.07,
+      "volatility_20d": 0.2239,
+      "relative_volume": 0.27,
+      "momentum_score": -0.94,
+      "rank": 6
+    },
+    {
+      "sector": "Benchmark",
+      "daily_return_pct": -2.09,
+      "weekly_return_pct": -0.79,
+      "monthly_return_pct": -10.45,
+      "relative_strength_1d": 0.0,
+      "relative_strength_5d": 0.0,
+      "relative_strength_20d": 0.0,
+      "rsi_14": 34.21,
+      "volatility_20d": 0.2457,
+      "relative_volume": 1.21,
+      "momentum_score": -1.07,
+      "rank": 7
+    },
+    {
+      "sector": "Realty",
+      "daily_return_pct": -1.39,
+      "weekly_return_pct": -1.35,
+      "monthly_return_pct": -6.9,
+      "relative_strength_1d": 0.7,
+      "relative_strength_5d": -0.56,
+      "relative_strength_20d": 3.55,
+      "rsi_14": 43.39,
+      "volatility_20d": 0.1569,
+      "relative_volume": 0.35,
+      "momentum_score": -1.13,
+      "rank": 8
+    },
+    {
+      "sector": "Metals & Mining",
+      "daily_return_pct": 0.82,
+      "weekly_return_pct": -3.95,
+      "monthly_return_pct": -1.67,
+      "relative_strength_1d": 2.91,
+      "relative_strength_5d": -3.16,
+      "relative_strength_20d": 8.78,
+      "rsi_14": 37.35,
+      "volatility_20d": 0.2212,
+      "relative_volume": 1.23,
+      "momentum_score": -1.81,
+      "rank": 9
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "ticker": "RELIANCE.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "close": 1348.0999755859375,
+      "daily_return_pct": -4.6,
+      "composite_score": 25.87,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 45.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 4.001839131694894,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 45.3,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.15,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.05,
+            "median_forward_return_pct": 0.09,
+            "win_rate_pct": 53.33,
+            "loss_rate_pct": 46.67,
+            "max_gain_pct": 2.83,
+            "max_loss_pct": -3.24,
+            "forward_volatility_pct": 1.37
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.67,
+            "median_forward_return_pct": 0.94,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 4.9,
+            "max_loss_pct": -3.66,
+            "forward_volatility_pct": 2.2
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 1.22,
+            "median_forward_return_pct": 1.13,
+            "win_rate_pct": 70.0,
+            "loss_rate_pct": 30.0,
+            "max_gain_pct": 9.29,
+            "max_loss_pct": -4.92,
+            "forward_volatility_pct": 2.94
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 1.14,
+            "median_forward_return_pct": -0.54,
+            "win_rate_pct": 46.67,
+            "loss_rate_pct": 53.33,
+            "max_gain_pct": 15.48,
+            "max_loss_pct": -4.63,
+            "forward_volatility_pct": 5.06
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 1.13,
+            "median_forward_return_pct": -0.82,
+            "win_rate_pct": 43.33,
+            "loss_rate_pct": 56.67,
+            "max_gain_pct": 21.51,
+            "max_loss_pct": -6.59,
+            "forward_volatility_pct": 7.39
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5198
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.4648
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 63.4,
+            "prob_up": 0.6337
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Slightly Bullish",
+            "confidence": 56.8,
+            "prob_up": 0.5683
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Slightly Bullish",
+            "confidence": 58.6,
+            "prob_up": 0.5856
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4977,
+            "precision": 0.4966,
+            "recall": 0.6916,
+            "f1_score": 0.5781,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.5023,
+            "precision": 0.4887,
+            "recall": 0.6311,
+            "f1_score": 0.5508,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.5118,
+            "precision": 0.5161,
+            "recall": 0.7407,
+            "f1_score": 0.6084,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.568,
+            "precision": 0.5625,
+            "recall": 0.6857,
+            "f1_score": 0.618,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.6888,
+            "precision": 0.6581,
+            "recall": 0.7857,
+            "f1_score": 0.7163,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "RELIANCE.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:29.822529",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "TCS",
+      "ticker": "TCS.NS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "close": 2389.800048828125,
+      "daily_return_pct": 0.52,
+      "composite_score": 44.55,
+      "score_label": "Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 65.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 55.21584377628281,
+        "volatility_score": 80.0,
+        "market_regime_score": 10.0,
+        "sector_score": 60.4,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.36,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.13,
+            "median_forward_return_pct": -0.34,
+            "win_rate_pct": 30.0,
+            "loss_rate_pct": 66.67,
+            "max_gain_pct": 5.62,
+            "max_loss_pct": -1.93,
+            "forward_volatility_pct": 1.4
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.43,
+            "median_forward_return_pct": -0.39,
+            "win_rate_pct": 46.67,
+            "loss_rate_pct": 53.33,
+            "max_gain_pct": 4.82,
+            "max_loss_pct": -3.53,
+            "forward_volatility_pct": 2.3
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.2,
+            "median_forward_return_pct": -0.58,
+            "win_rate_pct": 43.33,
+            "loss_rate_pct": 56.67,
+            "max_gain_pct": 5.06,
+            "max_loss_pct": -5.86,
+            "forward_volatility_pct": 3.0
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": -0.28,
+            "median_forward_return_pct": 1.25,
+            "win_rate_pct": 63.33,
+            "loss_rate_pct": 36.67,
+            "max_gain_pct": 5.03,
+            "max_loss_pct": -10.92,
+            "forward_volatility_pct": 4.21
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": -1.59,
+            "median_forward_return_pct": -0.3,
+            "win_rate_pct": 43.33,
+            "loss_rate_pct": 56.67,
+            "max_gain_pct": 9.98,
+            "max_loss_pct": -11.54,
+            "forward_volatility_pct": 6.14
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5291
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5492
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bullish",
+            "confidence": 65.7,
+            "prob_up": 0.6571
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 86.8,
+            "prob_up": 0.8683
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 86.7,
+            "prob_up": 0.867
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4419,
+            "precision": 0.4306,
+            "recall": 0.989,
+            "f1_score": 0.6,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.3991,
+            "precision": 0.3991,
+            "recall": 1.0,
+            "f1_score": 0.5705,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.3839,
+            "precision": 0.3839,
+            "recall": 1.0,
+            "f1_score": 0.5548,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.4029,
+            "precision": 0.4029,
+            "recall": 1.0,
+            "f1_score": 0.5744,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.4388,
+            "precision": 0.4211,
+            "recall": 1.0,
+            "f1_score": 0.5926,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "TCS.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:32.276001",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "INFY",
+      "ticker": "INFY.NS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "close": 1269.699951171875,
+      "daily_return_pct": -0.73,
+      "composite_score": 44.42,
+      "score_label": "Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 85.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 42.65106356541322,
+        "volatility_score": 80.0,
+        "market_regime_score": 10.0,
+        "sector_score": 60.4,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.08,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.07,
+            "median_forward_return_pct": -0.04,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 3.68,
+            "max_loss_pct": -2.07,
+            "forward_volatility_pct": 1.06
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.42,
+            "median_forward_return_pct": -0.48,
+            "win_rate_pct": 40.0,
+            "loss_rate_pct": 60.0,
+            "max_gain_pct": 6.09,
+            "max_loss_pct": -5.8,
+            "forward_volatility_pct": 2.74
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.77,
+            "median_forward_return_pct": 1.21,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 6.22,
+            "max_loss_pct": -7.53,
+            "forward_volatility_pct": 3.67
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 0.05,
+            "median_forward_return_pct": 0.67,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 7.88,
+            "max_loss_pct": -13.78,
+            "forward_volatility_pct": 5.02
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 0.57,
+            "median_forward_return_pct": 2.31,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 9.12,
+            "max_loss_pct": -13.88,
+            "forward_volatility_pct": 6.75
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.529
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Bullish",
+            "confidence": 67.2,
+            "prob_up": 0.6721
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 63.9,
+            "prob_up": 0.6387
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 65.6,
+            "prob_up": 0.6556
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 92.1,
+            "prob_up": 0.9209
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4884,
+            "precision": 0.4778,
+            "recall": 0.9604,
+            "f1_score": 0.6382,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4695,
+            "precision": 0.4695,
+            "recall": 1.0,
+            "f1_score": 0.639,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4739,
+            "precision": 0.4739,
+            "recall": 1.0,
+            "f1_score": 0.6431,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.5,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1_score": 0.6667,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5153,
+            "precision": 0.5153,
+            "recall": 1.0,
+            "f1_score": 0.6801,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "INFY.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:34.739263",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "ticker": "HDFCBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "close": 756.2000122070312,
+      "daily_return_pct": -3.34,
+      "composite_score": 28.21,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 16.63687077438032,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 69.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.21,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.15,
+            "median_forward_return_pct": -0.12,
+            "win_rate_pct": 40.0,
+            "loss_rate_pct": 60.0,
+            "max_gain_pct": 2.19,
+            "max_loss_pct": -3.34,
+            "forward_volatility_pct": 1.35
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": -0.26,
+            "median_forward_return_pct": -0.17,
+            "win_rate_pct": 43.33,
+            "loss_rate_pct": 56.67,
+            "max_gain_pct": 2.85,
+            "max_loss_pct": -7.16,
+            "forward_volatility_pct": 2.12
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": -0.28,
+            "median_forward_return_pct": -0.09,
+            "win_rate_pct": 46.67,
+            "loss_rate_pct": 53.33,
+            "max_gain_pct": 4.35,
+            "max_loss_pct": -6.67,
+            "forward_volatility_pct": 2.56
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": -0.61,
+            "median_forward_return_pct": -0.45,
+            "win_rate_pct": 40.0,
+            "loss_rate_pct": 60.0,
+            "max_gain_pct": 6.85,
+            "max_loss_pct": -5.94,
+            "forward_volatility_pct": 2.67
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 0.15,
+            "median_forward_return_pct": 0.12,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 5.95,
+            "max_loss_pct": -7.65,
+            "forward_volatility_pct": 3.04
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bearish",
+            "confidence": 55.9,
+            "prob_up": 0.4408
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Bullish",
+            "confidence": 65.5,
+            "prob_up": 0.6551
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bullish",
+            "confidence": 83.0,
+            "prob_up": 0.8299
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 92.4,
+            "prob_up": 0.9244
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 94.3,
+            "prob_up": 0.9428
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.493,
+            "precision": 0.4286,
+            "recall": 0.4421,
+            "f1_score": 0.4352,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4789,
+            "precision": 0.3056,
+            "recall": 0.1134,
+            "f1_score": 0.1654,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4739,
+            "precision": 0.3636,
+            "recall": 0.2083,
+            "f1_score": 0.2649,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.466,
+            "precision": 0.24,
+            "recall": 0.1429,
+            "f1_score": 0.1791,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5306,
+            "precision": 0.459,
+            "recall": 0.3218,
+            "f1_score": 0.3784,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "HDFCBANK.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:37.149574",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "ticker": "ICICIBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "close": 1233.800048828125,
+      "daily_return_pct": -2.06,
+      "composite_score": 30.13,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 29.43962582545485,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 69.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.27,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.56,
+            "median_forward_return_pct": 0.32,
+            "win_rate_pct": 66.67,
+            "loss_rate_pct": 33.33,
+            "max_gain_pct": 3.47,
+            "max_loss_pct": -1.72,
+            "forward_volatility_pct": 1.3
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 1.5,
+            "median_forward_return_pct": 1.23,
+            "win_rate_pct": 73.33,
+            "loss_rate_pct": 26.67,
+            "max_gain_pct": 4.69,
+            "max_loss_pct": -1.26,
+            "forward_volatility_pct": 1.81
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 2.12,
+            "median_forward_return_pct": 2.15,
+            "win_rate_pct": 80.0,
+            "loss_rate_pct": 20.0,
+            "max_gain_pct": 4.96,
+            "max_loss_pct": -1.74,
+            "forward_volatility_pct": 1.92
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 3.96,
+            "median_forward_return_pct": 4.39,
+            "win_rate_pct": 100.0,
+            "loss_rate_pct": 0.0,
+            "max_gain_pct": 6.87,
+            "max_loss_pct": 0.6,
+            "forward_volatility_pct": 1.79
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 3.96,
+            "median_forward_return_pct": 3.6,
+            "win_rate_pct": 100.0,
+            "loss_rate_pct": 0.0,
+            "max_gain_pct": 12.15,
+            "max_loss_pct": 0.85,
+            "forward_volatility_pct": 2.27
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Bullish",
+            "confidence": 72.1,
+            "prob_up": 0.7212
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Bullish",
+            "confidence": 65.8,
+            "prob_up": 0.6579
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bullish",
+            "confidence": 86.1,
+            "prob_up": 0.8609
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 93.4,
+            "prob_up": 0.9343
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 97.6,
+            "prob_up": 0.976
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4326,
+            "precision": 0.425,
+            "recall": 0.9239,
+            "f1_score": 0.5822,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4507,
+            "precision": 0.4456,
+            "recall": 0.8958,
+            "f1_score": 0.5952,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4739,
+            "precision": 0.4365,
+            "recall": 0.8977,
+            "f1_score": 0.5874,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.4854,
+            "precision": 0.4301,
+            "recall": 1.0,
+            "f1_score": 0.6015,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.4439,
+            "precision": 0.4076,
+            "recall": 1.0,
+            "f1_score": 0.5792,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "ICICIBANK.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:39.607629",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "ticker": "BHARTIARTL.NS",
+      "exchange": "NSE",
+      "sector": "Telecommunication",
+      "close": 1843.9000244140625,
+      "daily_return_pct": 0.49,
+      "composite_score": 46.24,
+      "score_label": "Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 85.0,
+        "volume_score": 90.0,
+        "relative_strength_score": 54.904899384299725,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 2.18,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.27,
+            "median_forward_return_pct": 0.45,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 2.07,
+            "max_loss_pct": -2.32,
+            "forward_volatility_pct": 0.94
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.79,
+            "median_forward_return_pct": 0.68,
+            "win_rate_pct": 70.0,
+            "loss_rate_pct": 30.0,
+            "max_gain_pct": 4.6,
+            "max_loss_pct": -3.79,
+            "forward_volatility_pct": 1.85
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 1.19,
+            "median_forward_return_pct": 0.78,
+            "win_rate_pct": 63.33,
+            "loss_rate_pct": 36.67,
+            "max_gain_pct": 6.35,
+            "max_loss_pct": -4.22,
+            "forward_volatility_pct": 2.68
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 3.34,
+            "median_forward_return_pct": 2.98,
+            "win_rate_pct": 80.0,
+            "loss_rate_pct": 20.0,
+            "max_gain_pct": 11.15,
+            "max_loss_pct": -5.35,
+            "forward_volatility_pct": 3.72
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 4.81,
+            "median_forward_return_pct": 5.47,
+            "win_rate_pct": 90.0,
+            "loss_rate_pct": 10.0,
+            "max_gain_pct": 13.08,
+            "max_loss_pct": -10.0,
+            "forward_volatility_pct": 5.01
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Bullish",
+            "confidence": 69.1,
+            "prob_up": 0.6905
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bullish",
+            "confidence": 63.8,
+            "prob_up": 0.6375
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bullish",
+            "confidence": 76.1,
+            "prob_up": 0.7608
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 84.0,
+            "prob_up": 0.8402
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 93.7,
+            "prob_up": 0.9367
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4698,
+            "precision": 0.4759,
+            "recall": 0.7453,
+            "f1_score": 0.5809,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.5211,
+            "precision": 0.5236,
+            "recall": 0.9009,
+            "f1_score": 0.6623,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4976,
+            "precision": 0.4901,
+            "recall": 0.9706,
+            "f1_score": 0.6513,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.4951,
+            "precision": 0.4877,
+            "recall": 1.0,
+            "f1_score": 0.6556,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1_score": 0.6667,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "BHARTIARTL.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:42.045091",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "SBIN",
+      "ticker": "SBIN.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "close": 1019.5,
+      "daily_return_pct": -3.88,
+      "composite_score": 36.15,
+      "score_label": "Weak",
+      "components": {
+        "technical_trend_score": 35.0,
+        "momentum_score": 30.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 11.248372117648351,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 69.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.21,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.49,
+            "median_forward_return_pct": 0.71,
+            "win_rate_pct": 66.67,
+            "loss_rate_pct": 33.33,
+            "max_gain_pct": 4.52,
+            "max_loss_pct": -2.33,
+            "forward_volatility_pct": 1.46
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.94,
+            "median_forward_return_pct": 0.84,
+            "win_rate_pct": 70.0,
+            "loss_rate_pct": 30.0,
+            "max_gain_pct": 7.51,
+            "max_loss_pct": -2.58,
+            "forward_volatility_pct": 1.99
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.78,
+            "median_forward_return_pct": 0.28,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 7.44,
+            "max_loss_pct": -2.92,
+            "forward_volatility_pct": 2.14
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 0.82,
+            "median_forward_return_pct": 0.56,
+            "win_rate_pct": 73.33,
+            "loss_rate_pct": 26.67,
+            "max_gain_pct": 11.59,
+            "max_loss_pct": -7.46,
+            "forward_volatility_pct": 3.58
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 0.97,
+            "median_forward_return_pct": -0.03,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 27.5,
+            "max_loss_pct": -5.35,
+            "forward_volatility_pct": 6.42
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Bullish",
+            "confidence": 65.2,
+            "prob_up": 0.6522
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Bullish",
+            "confidence": 70.5,
+            "prob_up": 0.7047
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bullish",
+            "confidence": 83.7,
+            "prob_up": 0.8375
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 91.7,
+            "prob_up": 0.9173
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Slightly Bullish",
+            "confidence": 61.1,
+            "prob_up": 0.6114
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.493,
+            "precision": 0.5268,
+            "recall": 0.513,
+            "f1_score": 0.5198,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4742,
+            "precision": 0.6197,
+            "recall": 0.3411,
+            "f1_score": 0.44,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.5261,
+            "precision": 0.7273,
+            "recall": 0.4571,
+            "f1_score": 0.5614,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.534,
+            "precision": 0.7157,
+            "recall": 0.5214,
+            "f1_score": 0.6033,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5153,
+            "precision": 0.7547,
+            "recall": 0.5369,
+            "f1_score": 0.6275,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "SBIN.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:44.575262",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "LT",
+      "ticker": "LT.NS",
+      "exchange": "NSE",
+      "sector": "Construction",
+      "close": 3564.10009765625,
+      "daily_return_pct": -2.33,
+      "composite_score": 29.0,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 10.0,
+        "momentum_score": 30.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 26.653070443129323,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 0.81,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.47,
+            "median_forward_return_pct": 0.24,
+            "win_rate_pct": 56.67,
+            "loss_rate_pct": 43.33,
+            "max_gain_pct": 4.55,
+            "max_loss_pct": -3.38,
+            "forward_volatility_pct": 1.54
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 1.55,
+            "median_forward_return_pct": 1.47,
+            "win_rate_pct": 83.33,
+            "loss_rate_pct": 16.67,
+            "max_gain_pct": 5.68,
+            "max_loss_pct": -2.06,
+            "forward_volatility_pct": 1.79
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 1.99,
+            "median_forward_return_pct": 1.38,
+            "win_rate_pct": 80.0,
+            "loss_rate_pct": 20.0,
+            "max_gain_pct": 7.41,
+            "max_loss_pct": -0.99,
+            "forward_volatility_pct": 2.28
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 2.23,
+            "median_forward_return_pct": 1.79,
+            "win_rate_pct": 76.67,
+            "loss_rate_pct": 23.33,
+            "max_gain_pct": 9.63,
+            "max_loss_pct": -2.44,
+            "forward_volatility_pct": 2.84
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 6.31,
+            "median_forward_return_pct": 6.29,
+            "win_rate_pct": 90.0,
+            "loss_rate_pct": 10.0,
+            "max_gain_pct": 16.79,
+            "max_loss_pct": -3.11,
+            "forward_volatility_pct": 4.91
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Bearish",
+            "confidence": 67.2,
+            "prob_up": 0.3277
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Bearish",
+            "confidence": 72.9,
+            "prob_up": 0.2714
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bearish",
+            "confidence": 77.0,
+            "prob_up": 0.2305
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bearish",
+            "confidence": 83.1,
+            "prob_up": 0.1691
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bearish",
+            "confidence": 77.7,
+            "prob_up": 0.223
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4791,
+            "precision": 0.4899,
+            "recall": 0.6697,
+            "f1_score": 0.5659,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4977,
+            "precision": 0.5328,
+            "recall": 0.6293,
+            "f1_score": 0.5771,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4882,
+            "precision": 0.517,
+            "recall": 0.6726,
+            "f1_score": 0.5846,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.5437,
+            "precision": 0.5697,
+            "recall": 0.8034,
+            "f1_score": 0.6667,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.602,
+            "precision": 0.6306,
+            "recall": 0.8319,
+            "f1_score": 0.7174,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "LT.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:47.093381",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "ITC",
+      "ticker": "ITC.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "close": 294.70001220703125,
+      "daily_return_pct": -0.34,
+      "composite_score": 30.21,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 46.618194255264875,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 64.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 0.93,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.11,
+            "median_forward_return_pct": -0.07,
+            "win_rate_pct": 46.67,
+            "loss_rate_pct": 53.33,
+            "max_gain_pct": 3.64,
+            "max_loss_pct": -2.61,
+            "forward_volatility_pct": 1.21
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": -0.03,
+            "median_forward_return_pct": -0.31,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 6.74,
+            "max_loss_pct": -5.36,
+            "forward_volatility_pct": 2.5
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": -0.71,
+            "median_forward_return_pct": -0.47,
+            "win_rate_pct": 36.67,
+            "loss_rate_pct": 63.33,
+            "max_gain_pct": 5.03,
+            "max_loss_pct": -7.12,
+            "forward_volatility_pct": 2.82
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": -2.4,
+            "median_forward_return_pct": -1.77,
+            "win_rate_pct": 13.33,
+            "loss_rate_pct": 86.67,
+            "max_gain_pct": 3.84,
+            "max_loss_pct": -9.55,
+            "forward_volatility_pct": 3.32
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": -3.46,
+            "median_forward_return_pct": -2.76,
+            "win_rate_pct": 13.33,
+            "loss_rate_pct": 86.67,
+            "max_gain_pct": 3.16,
+            "max_loss_pct": -9.71,
+            "forward_volatility_pct": 3.35
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.519
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bullish",
+            "confidence": 64.5,
+            "prob_up": 0.6446
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bullish",
+            "confidence": 78.3,
+            "prob_up": 0.7829
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 72.0,
+            "prob_up": 0.72
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 82.7,
+            "prob_up": 0.8274
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4419,
+            "precision": 0.4185,
+            "recall": 0.8556,
+            "f1_score": 0.562,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4178,
+            "precision": 0.381,
+            "recall": 0.9114,
+            "f1_score": 0.5373,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4076,
+            "precision": 0.3961,
+            "recall": 1.0,
+            "f1_score": 0.5675,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.3155,
+            "precision": 0.3069,
+            "recall": 0.9841,
+            "f1_score": 0.4679,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.3112,
+            "precision": 0.2757,
+            "recall": 0.9808,
+            "f1_score": 0.4304,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "ITC.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:49.571029",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "ticker": "TATAMOTORS.NS",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "close": 162.37,
+      "daily_return_pct": 1.09,
+      "composite_score": 54.66,
+      "score_label": "Neutral",
+      "components": {
+        "technical_trend_score": 75.0,
+        "momentum_score": 30.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 60.89528078695046,
+        "volatility_score": 80.0,
+        "market_regime_score": 10.0,
+        "sector_score": 55.45,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 0.96,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.07,
+            "median_forward_return_pct": -0.23,
+            "win_rate_pct": 40.0,
+            "loss_rate_pct": 60.0,
+            "max_gain_pct": 2.02,
+            "max_loss_pct": -2.08,
+            "forward_volatility_pct": 1.16
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": -0.09,
+            "median_forward_return_pct": -0.65,
+            "win_rate_pct": 46.67,
+            "loss_rate_pct": 53.33,
+            "max_gain_pct": 5.14,
+            "max_loss_pct": -4.56,
+            "forward_volatility_pct": 2.32
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": -0.32,
+            "median_forward_return_pct": -1.11,
+            "win_rate_pct": 46.67,
+            "loss_rate_pct": 53.33,
+            "max_gain_pct": 7.76,
+            "max_loss_pct": -7.38,
+            "forward_volatility_pct": 3.47
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": -0.04,
+            "median_forward_return_pct": 0.13,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 10.12,
+            "max_loss_pct": -8.15,
+            "forward_volatility_pct": 4.85
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 0.32,
+            "median_forward_return_pct": 1.43,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 10.51,
+            "max_loss_pct": -11.0,
+            "forward_volatility_pct": 6.52
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bullish",
+            "confidence": 56.9,
+            "prob_up": 0.569
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bullish",
+            "confidence": 58.9,
+            "prob_up": 0.5891
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 61.0,
+            "prob_up": 0.6104
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Slightly Bullish",
+            "confidence": 64.6,
+            "prob_up": 0.6456
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 83.1,
+            "prob_up": 0.8311
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.5307,
+            "precision": 0.5423,
+            "recall": 0.6471,
+            "f1_score": 0.59,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.5487,
+            "precision": 0.5492,
+            "recall": 0.5877,
+            "f1_score": 0.5678,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.5223,
+            "precision": 0.4882,
+            "recall": 0.5962,
+            "f1_score": 0.5368,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.5114,
+            "precision": 0.4566,
+            "recall": 0.8587,
+            "f1_score": 0.5962,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.4306,
+            "precision": 0.4306,
+            "recall": 1.0,
+            "f1_score": 0.602,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "TATAMOTORS.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:52.110026",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "ticker": "KOTAKBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "close": 366.1499938964844,
+      "daily_return_pct": -1.33,
+      "composite_score": 31.22,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 36.66124460895188,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 69.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.35,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.17,
+            "median_forward_return_pct": 0.2,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 1.66,
+            "max_loss_pct": -1.98,
+            "forward_volatility_pct": 0.93
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.06,
+            "median_forward_return_pct": 0.0,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 2.73,
+            "max_loss_pct": -2.51,
+            "forward_volatility_pct": 1.32
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.01,
+            "median_forward_return_pct": -0.13,
+            "win_rate_pct": 46.67,
+            "loss_rate_pct": 53.33,
+            "max_gain_pct": 3.53,
+            "max_loss_pct": -2.2,
+            "forward_volatility_pct": 1.56
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": -0.22,
+            "median_forward_return_pct": -0.34,
+            "win_rate_pct": 33.33,
+            "loss_rate_pct": 66.67,
+            "max_gain_pct": 2.39,
+            "max_loss_pct": -3.35,
+            "forward_volatility_pct": 1.4
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 1.15,
+            "median_forward_return_pct": 1.04,
+            "win_rate_pct": 63.33,
+            "loss_rate_pct": 36.67,
+            "max_gain_pct": 7.3,
+            "max_loss_pct": -3.43,
+            "forward_volatility_pct": 2.45
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5203
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bullish",
+            "confidence": 55.5,
+            "prob_up": 0.5553
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 59.9,
+            "prob_up": 0.599
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 74.8,
+            "prob_up": 0.7482
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 91.3,
+            "prob_up": 0.9127
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.493,
+            "precision": 0.4386,
+            "recall": 0.5263,
+            "f1_score": 0.4785,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.5399,
+            "precision": 0.4672,
+            "recall": 0.6333,
+            "f1_score": 0.5377,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.564,
+            "precision": 0.5,
+            "recall": 0.587,
+            "f1_score": 0.54,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.6505,
+            "precision": 0.6535,
+            "recall": 0.6408,
+            "f1_score": 0.6471,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.7245,
+            "precision": 0.7018,
+            "recall": 0.8,
+            "f1_score": 0.7477,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "KOTAKBANK.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:54.702450",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "AXISBANK",
+      "ticker": "AXISBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "close": 1205.199951171875,
+      "daily_return_pct": -1.38,
+      "composite_score": 33.64,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 10.0,
+        "momentum_score": 30.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 36.17132415377085,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 69.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.23,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.21,
+            "median_forward_return_pct": 0.13,
+            "win_rate_pct": 53.33,
+            "loss_rate_pct": 46.67,
+            "max_gain_pct": 2.85,
+            "max_loss_pct": -2.77,
+            "forward_volatility_pct": 1.28
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.56,
+            "median_forward_return_pct": 0.36,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 4.32,
+            "max_loss_pct": -3.2,
+            "forward_volatility_pct": 2.02
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.82,
+            "median_forward_return_pct": 1.14,
+            "win_rate_pct": 76.67,
+            "loss_rate_pct": 23.33,
+            "max_gain_pct": 3.51,
+            "max_loss_pct": -4.42,
+            "forward_volatility_pct": 1.96
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 1.15,
+            "median_forward_return_pct": 1.16,
+            "win_rate_pct": 66.67,
+            "loss_rate_pct": 33.33,
+            "max_gain_pct": 6.27,
+            "max_loss_pct": -3.73,
+            "forward_volatility_pct": 2.13
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 1.74,
+            "median_forward_return_pct": 1.75,
+            "win_rate_pct": 73.33,
+            "loss_rate_pct": 26.67,
+            "max_gain_pct": 7.29,
+            "max_loss_pct": -3.11,
+            "forward_volatility_pct": 2.45
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bearish",
+            "confidence": 63.3,
+            "prob_up": 0.3673
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.4911
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 61.9,
+            "prob_up": 0.6194
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 66.4,
+            "prob_up": 0.6638
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 67.9,
+            "prob_up": 0.6795
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4977,
+            "precision": 0.4885,
+            "recall": 0.6095,
+            "f1_score": 0.5424,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4883,
+            "precision": 0.4923,
+            "recall": 0.5981,
+            "f1_score": 0.5401,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.545,
+            "precision": 0.5504,
+            "recall": 0.6514,
+            "f1_score": 0.5966,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.568,
+            "precision": 0.592,
+            "recall": 0.6607,
+            "f1_score": 0.6245,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.551,
+            "precision": 0.5924,
+            "recall": 0.7949,
+            "f1_score": 0.6788,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "AXISBANK.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:57.182032",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "MARUTI",
+      "ticker": "MARUTI.NS",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "close": 12389.0,
+      "daily_return_pct": -2.53,
+      "composite_score": 28.72,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 24.667610730863053,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 55.45,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.23,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.28,
+            "median_forward_return_pct": -0.24,
+            "win_rate_pct": 43.33,
+            "loss_rate_pct": 56.67,
+            "max_gain_pct": 1.98,
+            "max_loss_pct": -3.81,
+            "forward_volatility_pct": 1.33
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": -0.67,
+            "median_forward_return_pct": -0.31,
+            "win_rate_pct": 40.0,
+            "loss_rate_pct": 60.0,
+            "max_gain_pct": 3.23,
+            "max_loss_pct": -6.1,
+            "forward_volatility_pct": 2.06
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": -0.97,
+            "median_forward_return_pct": 0.04,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 3.14,
+            "max_loss_pct": -7.36,
+            "forward_volatility_pct": 2.91
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": -1.78,
+            "median_forward_return_pct": -0.79,
+            "win_rate_pct": 36.67,
+            "loss_rate_pct": 63.33,
+            "max_gain_pct": 4.37,
+            "max_loss_pct": -9.23,
+            "forward_volatility_pct": 3.51
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": -2.43,
+            "median_forward_return_pct": -0.76,
+            "win_rate_pct": 40.0,
+            "loss_rate_pct": 60.0,
+            "max_gain_pct": 3.28,
+            "max_loss_pct": -10.77,
+            "forward_volatility_pct": 4.24
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bearish",
+            "confidence": 59.1,
+            "prob_up": 0.4092
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bearish",
+            "confidence": 61.6,
+            "prob_up": 0.3837
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 58.7,
+            "prob_up": 0.5868
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bearish",
+            "confidence": 69.5,
+            "prob_up": 0.3047
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4651,
+            "precision": 0.4483,
+            "recall": 0.3679,
+            "f1_score": 0.4041,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4977,
+            "precision": 0.5,
+            "recall": 0.486,
+            "f1_score": 0.4929,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4028,
+            "precision": 0.4348,
+            "recall": 0.3509,
+            "f1_score": 0.3883,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.5194,
+            "precision": 0.5816,
+            "recall": 0.4957,
+            "f1_score": 0.5352,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.6122,
+            "precision": 0.7073,
+            "recall": 0.5273,
+            "f1_score": 0.6042,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "MARUTI.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:01:59.579971",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "ticker": "SUNPHARMA.NS",
+      "exchange": "NSE",
+      "sector": "Healthcare",
+      "close": 1793.5999755859375,
+      "daily_return_pct": -0.1,
+      "composite_score": 62.17,
+      "score_label": "Neutral",
+      "components": {
+        "technical_trend_score": 100.0,
+        "momentum_score": 45.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 48.997410714243195,
+        "volatility_score": 80.0,
+        "market_regime_score": 10.0,
+        "sector_score": 56.5,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.01,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.07,
+            "median_forward_return_pct": 0.26,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 2.79,
+            "max_loss_pct": -3.4,
+            "forward_volatility_pct": 1.21
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": -0.14,
+            "median_forward_return_pct": 0.27,
+            "win_rate_pct": 56.67,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 3.36,
+            "max_loss_pct": -6.99,
+            "forward_volatility_pct": 2.49
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": -0.09,
+            "median_forward_return_pct": 0.58,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 6.19,
+            "max_loss_pct": -5.52,
+            "forward_volatility_pct": 3.34
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 0.17,
+            "median_forward_return_pct": 0.35,
+            "win_rate_pct": 56.67,
+            "loss_rate_pct": 43.33,
+            "max_gain_pct": 6.57,
+            "max_loss_pct": -7.21,
+            "forward_volatility_pct": 3.72
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 3.08,
+            "median_forward_return_pct": 4.31,
+            "win_rate_pct": 66.67,
+            "loss_rate_pct": 33.33,
+            "max_gain_pct": 13.31,
+            "max_loss_pct": -8.56,
+            "forward_volatility_pct": 5.9
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bullish",
+            "confidence": 55.0,
+            "prob_up": 0.5505
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5449
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 56.9,
+            "prob_up": 0.5693
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5247
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.4688
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.5721,
+            "precision": 0.5594,
+            "recall": 0.9741,
+            "f1_score": 0.7107,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.5634,
+            "precision": 0.5604,
+            "recall": 0.9831,
+            "f1_score": 0.7138,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.5877,
+            "precision": 0.5961,
+            "recall": 0.9603,
+            "f1_score": 0.7356,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.5146,
+            "precision": 0.5469,
+            "recall": 0.8898,
+            "f1_score": 0.6774,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5459,
+            "precision": 0.5519,
+            "recall": 0.9352,
+            "f1_score": 0.6942,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "SUNPHARMA.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:02:02.057753",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "TITAN",
+      "ticker": "TITAN.NS",
+      "exchange": "NSE",
+      "sector": "Consumer Durables",
+      "close": 3981.5,
+      "daily_return_pct": -1.43,
+      "composite_score": 35.6,
+      "score_label": "Weak",
+      "components": {
+        "technical_trend_score": 35.0,
+        "momentum_score": 25.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 35.69057803841687,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.15,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.05,
+            "median_forward_return_pct": -0.13,
+            "win_rate_pct": 43.33,
+            "loss_rate_pct": 56.67,
+            "max_gain_pct": 2.02,
+            "max_loss_pct": -1.7,
+            "forward_volatility_pct": 0.87
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.32,
+            "median_forward_return_pct": -0.15,
+            "win_rate_pct": 43.33,
+            "loss_rate_pct": 56.67,
+            "max_gain_pct": 3.73,
+            "max_loss_pct": -2.32,
+            "forward_volatility_pct": 1.59
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.85,
+            "median_forward_return_pct": 0.9,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 6.24,
+            "max_loss_pct": -2.68,
+            "forward_volatility_pct": 2.17
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 0.85,
+            "median_forward_return_pct": 0.28,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 10.05,
+            "max_loss_pct": -5.71,
+            "forward_volatility_pct": 4.3
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 2.1,
+            "median_forward_return_pct": 2.54,
+            "win_rate_pct": 70.0,
+            "loss_rate_pct": 30.0,
+            "max_gain_pct": 12.24,
+            "max_loss_pct": -8.01,
+            "forward_volatility_pct": 4.88
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bearish",
+            "confidence": 64.4,
+            "prob_up": 0.3557
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Bearish",
+            "confidence": 83.0,
+            "prob_up": 0.1701
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bearish",
+            "confidence": 78.9,
+            "prob_up": 0.2112
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bearish",
+            "confidence": 92.0,
+            "prob_up": 0.0799
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bearish",
+            "confidence": 97.6,
+            "prob_up": 0.0242
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4372,
+            "precision": 0.4375,
+            "recall": 0.5333,
+            "f1_score": 0.4807,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.554,
+            "precision": 0.5616,
+            "recall": 0.7257,
+            "f1_score": 0.6332,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.5735,
+            "precision": 0.6069,
+            "recall": 0.7273,
+            "f1_score": 0.6617,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.5631,
+            "precision": 0.6031,
+            "recall": 0.6752,
+            "f1_score": 0.6371,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5663,
+            "precision": 0.6508,
+            "recall": 0.6667,
+            "f1_score": 0.6586,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "TITAN.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:02:04.466216",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "ticker": "TATASTEEL.NS",
+      "exchange": "NSE",
+      "sector": "Metals & Mining",
+      "close": 193.22000122070312,
+      "daily_return_pct": -1.74,
+      "composite_score": 39.68,
+      "score_label": "Weak",
+      "components": {
+        "technical_trend_score": 35.0,
+        "momentum_score": 50.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 32.557880588662556,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 40.95,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.01,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.79,
+            "median_forward_return_pct": 0.33,
+            "win_rate_pct": 63.33,
+            "loss_rate_pct": 36.67,
+            "max_gain_pct": 6.45,
+            "max_loss_pct": -2.08,
+            "forward_volatility_pct": 1.98
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 2.29,
+            "median_forward_return_pct": 1.52,
+            "win_rate_pct": 83.33,
+            "loss_rate_pct": 16.67,
+            "max_gain_pct": 12.55,
+            "max_loss_pct": -4.1,
+            "forward_volatility_pct": 3.25
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 3.03,
+            "median_forward_return_pct": 2.27,
+            "win_rate_pct": 76.67,
+            "loss_rate_pct": 23.33,
+            "max_gain_pct": 14.08,
+            "max_loss_pct": -4.14,
+            "forward_volatility_pct": 4.05
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 5.52,
+            "median_forward_return_pct": 7.4,
+            "win_rate_pct": 73.33,
+            "loss_rate_pct": 26.67,
+            "max_gain_pct": 16.2,
+            "max_loss_pct": -4.28,
+            "forward_volatility_pct": 6.19
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 6.5,
+            "median_forward_return_pct": 10.38,
+            "win_rate_pct": 73.33,
+            "loss_rate_pct": 26.67,
+            "max_gain_pct": 17.04,
+            "max_loss_pct": -10.9,
+            "forward_volatility_pct": 9.2
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bullish",
+            "confidence": 62.0,
+            "prob_up": 0.6197
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bullish",
+            "confidence": 61.4,
+            "prob_up": 0.6143
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 58.0,
+            "prob_up": 0.5805
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Slightly Bullish",
+            "confidence": 55.9,
+            "prob_up": 0.5595
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5447
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4977,
+            "precision": 0.5,
+            "recall": 0.5093,
+            "f1_score": 0.5046,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.507,
+            "precision": 0.5229,
+            "recall": 0.5182,
+            "f1_score": 0.5205,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.5308,
+            "precision": 0.5593,
+            "recall": 0.5841,
+            "f1_score": 0.5714,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.4757,
+            "precision": 0.5577,
+            "recall": 0.4833,
+            "f1_score": 0.5179,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.6684,
+            "precision": 0.7266,
+            "recall": 0.7891,
+            "f1_score": 0.7566,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "TATASTEEL.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:02:06.836046",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "NTPC",
+      "ticker": "NTPC.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "close": 375.6499938964844,
+      "daily_return_pct": -0.73,
+      "composite_score": 52.67,
+      "score_label": "Neutral",
+      "components": {
+        "technical_trend_score": 75.0,
+        "momentum_score": 45.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 42.73255802231253,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 45.3,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.43,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": -0.15,
+            "median_forward_return_pct": 0.02,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 3.29,
+            "max_loss_pct": -3.23,
+            "forward_volatility_pct": 1.44
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.29,
+            "median_forward_return_pct": 0.02,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 4.84,
+            "max_loss_pct": -4.0,
+            "forward_volatility_pct": 2.08
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.21,
+            "median_forward_return_pct": 0.2,
+            "win_rate_pct": 53.33,
+            "loss_rate_pct": 46.67,
+            "max_gain_pct": 5.81,
+            "max_loss_pct": -6.74,
+            "forward_volatility_pct": 2.84
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": -0.56,
+            "median_forward_return_pct": -0.72,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 8.84,
+            "max_loss_pct": -10.85,
+            "forward_volatility_pct": 5.82
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 0.05,
+            "median_forward_return_pct": -0.14,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 13.07,
+            "max_loss_pct": -12.16,
+            "forward_volatility_pct": 7.51
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Bullish",
+            "confidence": 65.2,
+            "prob_up": 0.6522
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Bullish",
+            "confidence": 69.6,
+            "prob_up": 0.6962
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Bullish",
+            "confidence": 69.7,
+            "prob_up": 0.6965
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Slightly Bullish",
+            "confidence": 63.5,
+            "prob_up": 0.6346
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 68.6,
+            "prob_up": 0.6864
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.5535,
+            "precision": 0.541,
+            "recall": 0.6226,
+            "f1_score": 0.5789,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.554,
+            "precision": 0.5462,
+            "recall": 0.6132,
+            "f1_score": 0.5778,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.5213,
+            "precision": 0.5254,
+            "recall": 0.5794,
+            "f1_score": 0.5511,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.5534,
+            "precision": 0.5723,
+            "recall": 0.819,
+            "f1_score": 0.6738,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5867,
+            "precision": 0.5769,
+            "recall": 0.9633,
+            "f1_score": 0.7216,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "NTPC.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:02:09.260147",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "POWERGRID",
+      "ticker": "POWERGRID.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "close": 295.5,
+      "daily_return_pct": 0.17,
+      "composite_score": 58.02,
+      "score_label": "Neutral",
+      "components": {
+        "technical_trend_score": 75.0,
+        "momentum_score": 45.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 51.69491525423737,
+        "volatility_score": 80.0,
+        "market_regime_score": 10.0,
+        "sector_score": 45.3,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.45,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.5,
+            "median_forward_return_pct": 0.23,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 5.42,
+            "max_loss_pct": -2.05,
+            "forward_volatility_pct": 1.36
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 1.18,
+            "median_forward_return_pct": 0.6,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 12.83,
+            "max_loss_pct": -6.23,
+            "forward_volatility_pct": 3.19
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 1.94,
+            "median_forward_return_pct": 1.55,
+            "win_rate_pct": 70.0,
+            "loss_rate_pct": 30.0,
+            "max_gain_pct": 14.13,
+            "max_loss_pct": -6.92,
+            "forward_volatility_pct": 4.0
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 3.08,
+            "median_forward_return_pct": 1.67,
+            "win_rate_pct": 80.0,
+            "loss_rate_pct": 20.0,
+            "max_gain_pct": 21.18,
+            "max_loss_pct": -5.07,
+            "forward_volatility_pct": 5.57
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 5.17,
+            "median_forward_return_pct": 3.39,
+            "win_rate_pct": 86.67,
+            "loss_rate_pct": 13.33,
+            "max_gain_pct": 22.3,
+            "max_loss_pct": -6.42,
+            "forward_volatility_pct": 6.86
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bullish",
+            "confidence": 56.3,
+            "prob_up": 0.5629
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5391
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5346
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Slightly Bearish",
+            "confidence": 56.2,
+            "prob_up": 0.4376
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Slightly Bearish",
+            "confidence": 55.9,
+            "prob_up": 0.4411
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4837,
+            "precision": 0.4837,
+            "recall": 0.6981,
+            "f1_score": 0.5714,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4554,
+            "precision": 0.4333,
+            "recall": 0.6771,
+            "f1_score": 0.5285,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4313,
+            "precision": 0.4415,
+            "recall": 0.8469,
+            "f1_score": 0.5804,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.4854,
+            "precision": 0.4577,
+            "recall": 0.6915,
+            "f1_score": 0.5508,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.4235,
+            "precision": 0.4086,
+            "recall": 0.962,
+            "f1_score": 0.5736,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "POWERGRID.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:02:11.866662",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "ticker": "BAJFINANCE.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "close": 843.7999877929688,
+      "daily_return_pct": -4.41,
+      "composite_score": 24.35,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.0,
+        "volume_score": 60.0,
+        "relative_strength_score": 5.87650840324978,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 69.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.07,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.22,
+            "median_forward_return_pct": 0.37,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 4.37,
+            "max_loss_pct": -3.51,
+            "forward_volatility_pct": 1.53
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 0.38,
+            "median_forward_return_pct": 0.33,
+            "win_rate_pct": 53.33,
+            "loss_rate_pct": 46.67,
+            "max_gain_pct": 5.2,
+            "max_loss_pct": -3.71,
+            "forward_volatility_pct": 1.98
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 0.35,
+            "median_forward_return_pct": 0.66,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 6.09,
+            "max_loss_pct": -4.03,
+            "forward_volatility_pct": 2.45
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 0.56,
+            "median_forward_return_pct": 0.53,
+            "win_rate_pct": 53.33,
+            "loss_rate_pct": 46.67,
+            "max_gain_pct": 6.97,
+            "max_loss_pct": -3.52,
+            "forward_volatility_pct": 2.53
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 1.53,
+            "median_forward_return_pct": -0.01,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_gain_pct": 9.21,
+            "max_loss_pct": -5.11,
+            "forward_volatility_pct": 4.38
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Slightly Bullish",
+            "confidence": 57.9,
+            "prob_up": 0.579
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bullish",
+            "confidence": 60.2,
+            "prob_up": 0.6024
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Slightly Bullish",
+            "confidence": 55.8,
+            "prob_up": 0.558
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Slightly Bullish",
+            "confidence": 57.3,
+            "prob_up": 0.5735
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5224
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4837,
+            "precision": 0.4896,
+            "recall": 0.4312,
+            "f1_score": 0.4585,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.5023,
+            "precision": 0.5116,
+            "recall": 0.6055,
+            "f1_score": 0.5546,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.4313,
+            "precision": 0.4138,
+            "recall": 0.6316,
+            "f1_score": 0.5,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.4466,
+            "precision": 0.431,
+            "recall": 0.8333,
+            "f1_score": 0.5682,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.5204,
+            "precision": 0.4877,
+            "recall": 0.8778,
+            "f1_score": 0.627,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "BAJFINANCE.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:02:14.478960",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    },
+    {
+      "symbol": "DLF",
+      "ticker": "DLF.NS",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "close": 523.0,
+      "daily_return_pct": -2.12,
+      "composite_score": 28.78,
+      "score_label": "Very Weak",
+      "components": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.0,
+        "volume_score": 75.0,
+        "relative_strength_score": 28.759284917171012,
+        "volatility_score": 40.0,
+        "market_regime_score": 10.0,
+        "sector_score": 44.35,
+        "fundamental_score": 50.0
+      },
+      "breakout_20d": false,
+      "breakdown_20d": false,
+      "relative_volume": 1.43,
+      "historical_analogues": {
+        "observations_count": 30,
+        "match_criteria": "RSI 14, 20D Volatility, and 20 DMA Distance Euclidean Similarity",
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "avg_forward_return_pct": 0.9,
+            "median_forward_return_pct": 0.41,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_gain_pct": 7.73,
+            "max_loss_pct": -3.27,
+            "forward_volatility_pct": 2.64
+          },
+          "3d": {
+            "horizon_days": 3,
+            "avg_forward_return_pct": 1.66,
+            "median_forward_return_pct": 2.06,
+            "win_rate_pct": 63.33,
+            "loss_rate_pct": 36.67,
+            "max_gain_pct": 9.02,
+            "max_loss_pct": -5.78,
+            "forward_volatility_pct": 4.0
+          },
+          "5d": {
+            "horizon_days": 5,
+            "avg_forward_return_pct": 2.75,
+            "median_forward_return_pct": 2.21,
+            "win_rate_pct": 70.0,
+            "loss_rate_pct": 30.0,
+            "max_gain_pct": 13.33,
+            "max_loss_pct": -7.18,
+            "forward_volatility_pct": 4.88
+          },
+          "10d": {
+            "horizon_days": 10,
+            "avg_forward_return_pct": 4.03,
+            "median_forward_return_pct": 4.76,
+            "win_rate_pct": 70.0,
+            "loss_rate_pct": 30.0,
+            "max_gain_pct": 22.92,
+            "max_loss_pct": -6.63,
+            "forward_volatility_pct": 6.89
+          },
+          "20d": {
+            "horizon_days": 20,
+            "avg_forward_return_pct": 4.27,
+            "median_forward_return_pct": 4.04,
+            "win_rate_pct": 63.33,
+            "loss_rate_pct": 36.67,
+            "max_gain_pct": 39.36,
+            "max_loss_pct": -12.64,
+            "forward_volatility_pct": 10.03
+          }
+        }
+      },
+      "forward_probabilities": {
+        "model_type": "logistic",
+        "signals": {
+          "1d": {
+            "horizon_days": 1,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5007
+          },
+          "3d": {
+            "horizon_days": 3,
+            "bias": "Slightly Bullish",
+            "confidence": 55.8,
+            "prob_up": 0.5578
+          },
+          "5d": {
+            "horizon_days": 5,
+            "bias": "Neutral",
+            "confidence": 50.0,
+            "prob_up": 0.5267
+          },
+          "10d": {
+            "horizon_days": 10,
+            "bias": "Bullish",
+            "confidence": 84.9,
+            "prob_up": 0.8491
+          },
+          "20d": {
+            "horizon_days": 20,
+            "bias": "Bullish",
+            "confidence": 67.8,
+            "prob_up": 0.6783
+          }
+        },
+        "metrics": {
+          "1d": {
+            "accuracy": 0.4605,
+            "precision": 0.4224,
+            "recall": 0.5,
+            "f1_score": 0.4579,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "3d": {
+            "accuracy": 0.4601,
+            "precision": 0.4276,
+            "recall": 0.6989,
+            "f1_score": 0.5306,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "5d": {
+            "accuracy": 0.455,
+            "precision": 0.4052,
+            "recall": 0.7209,
+            "f1_score": 0.5188,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "10d": {
+            "accuracy": 0.3252,
+            "precision": 0.3179,
+            "recall": 0.9118,
+            "f1_score": 0.4715,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          },
+          "20d": {
+            "accuracy": 0.2755,
+            "precision": 0.2384,
+            "recall": 0.7885,
+            "f1_score": 0.3661,
+            "validation_method": "Walk-Forward Out-Of-Sample Time Split"
+          }
+        },
+        "disclaimer": "Probabilistic signal derived from historical statistical features; not a guaranteed financial prediction."
+      },
+      "fundamentals": {
+        "symbol": "DLF.NS",
+        "data_available": false,
+        "timestamp": "2026-09-20T16:02:16.975309",
+        "score": 50.0,
+        "metrics": {
+          "market_cap": null,
+          "pe_ratio": null,
+          "pb_ratio": null,
+          "eps": null,
+          "roe": null,
+          "roce": null,
+          "debt_to_equity": null,
+          "revenue_growth_yoy": null,
+          "profit_growth_yoy": null,
+          "net_margin": null,
+          "dividend_yield": null,
+          "promoter_holding": null,
+          "institutional_ownership": null
+        },
+        "assessment": "No reliable fundamental data available; defaulted to neutral score."
+      }
+    }
+  ],
+  "data_quality": {
+    "date": "2026-03-30",
+    "records_processed": 1,
+    "records_valid": 1,
+    "warnings": [],
+    "errors": []
+  }
+}
