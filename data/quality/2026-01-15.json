@@ -1,0 +1,133 @@
+{
+  "date": "2026-01-15",
+  "records_processed": 6661,
+  "records_valid": 6661,
+  "warnings": [
+    "[^NSEBANK] Detected 1 extreme volume spikes (>10x 20DMA) for ^NSEBANK",
+    "[^CNXIT] Detected 1 extreme volume spikes (>10x 20DMA) for ^CNXIT",
+    "[^CNXPHARMA] Detected 1 extreme volume spikes (>10x 20DMA) for ^CNXPHARMA"
+  ],
+  "errors": [
+    "[^CNXAUTO] Empty dataset provided for ticker ^CNXAUTO",
+    "[^CNXFMCG] Empty dataset provided for ticker ^CNXFMCG",
+    "[^CNXMETAL] Empty dataset provided for ticker ^CNXMETAL",
+    "[^CNXREALTY] Empty dataset provided for ticker ^CNXREALTY",
+    "[^CNXENERGY] Empty dataset provided for ticker ^CNXENERGY"
+  ],
+  "summary_by_ticker": [
+    {
+      "ticker": "^NSEI",
+      "records_processed": 740,
+      "records_valid": 740,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "^NSEBANK",
+      "records_processed": 739,
+      "records_valid": 739,
+      "warnings": [
+        "Detected 1 extreme volume spikes (>10x 20DMA) for ^NSEBANK"
+      ],
+      "errors": []
+    },
+    {
+      "ticker": "^CNXIT",
+      "records_processed": 739,
+      "records_valid": 739,
+      "warnings": [
+        "Detected 1 extreme volume spikes (>10x 20DMA) for ^CNXIT"
+      ],
+      "errors": []
+    },
+    {
+      "ticker": "^CNXAUTO",
+      "records_processed": 0,
+      "records_valid": 0,
+      "warnings": [],
+      "errors": [
+        "Empty dataset provided for ticker ^CNXAUTO"
+      ]
+    },
+    {
+      "ticker": "^CNXPHARMA",
+      "records_processed": 738,
+      "records_valid": 738,
+      "warnings": [
+        "Detected 1 extreme volume spikes (>10x 20DMA) for ^CNXPHARMA"
+      ],
+      "errors": []
+    },
+    {
+      "ticker": "^CNXFMCG",
+      "records_processed": 0,
+      "records_valid": 0,
+      "warnings": [],
+      "errors": [
+        "Empty dataset provided for ticker ^CNXFMCG"
+      ]
+    },
+    {
+      "ticker": "^CNXMETAL",
+      "records_processed": 0,
+      "records_valid": 0,
+      "warnings": [],
+      "errors": [
+        "Empty dataset provided for ticker ^CNXMETAL"
+      ]
+    },
+    {
+      "ticker": "^CNXREALTY",
+      "records_processed": 0,
+      "records_valid": 0,
+      "warnings": [],
+      "errors": [
+        "Empty dataset provided for ticker ^CNXREALTY"
+      ]
+    },
+    {
+      "ticker": "^CNXENERGY",
+      "records_processed": 0,
+      "records_valid": 0,
+      "warnings": [],
+      "errors": [
+        "Empty dataset provided for ticker ^CNXENERGY"
+      ]
+    },
+    {
+      "ticker": "RELIANCE",
+      "records_processed": 741,
+      "records_valid": 741,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "TCS",
+      "records_processed": 741,
+      "records_valid": 741,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "HDFCBANK",
+      "records_processed": 741,
+      "records_valid": 741,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "INFY",
+      "records_processed": 741,
+      "records_valid": 741,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "ICICIBANK",
+      "records_processed": 741,
+      "records_valid": 741,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

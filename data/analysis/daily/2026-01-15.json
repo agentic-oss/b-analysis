@@ -1,0 +1,854 @@
+{
+  "date": "2026-01-15",
+  "market": {
+    "date": "2026-01-14",
+    "regime": "Neutral",
+    "regime_score": 40.0,
+    "nifty_close": 25665.599609375,
+    "nifty_above_200d": true,
+    "nifty_above_50d": false,
+    "bank_nifty_above_50d": true,
+    "breadth": {
+      "advance_decline_ratio": 0.0,
+      "pct_above_20dma": 20.0,
+      "pct_above_50dma": 60.0,
+      "pct_above_200dma": 60.0,
+      "new_highs": 0,
+      "new_lows": 0
+    },
+    "rules": [
+      "NIFTY Close (25665.60) vs 200DMA (25084.46): Above",
+      "NIFTY Close vs 50DMA (25959.64): Below",
+      "Market Breadth (% stocks above 50DMA): 60.0%",
+      "Advance/Decline Ratio: 0.00"
+    ]
+  },
+  "sectors": [
+    {
+      "sector": "NIFTY Bank",
+      "daily_return": 0.0,
+      "weekly_return": -0.18,
+      "monthly_return": 1.11,
+      "relative_strength": 1.04,
+      "momentum_score": 1.08,
+      "volatility": 5.91,
+      "rsi_14": 53.6,
+      "rank": 1
+    },
+    {
+      "sector": "NIFTY IT",
+      "daily_return": -1.08,
+      "weekly_return": -0.26,
+      "monthly_return": -0.92,
+      "relative_strength": -0.21,
+      "momentum_score": -1.01,
+      "volatility": 16.74,
+      "rsi_14": 47.3,
+      "rank": 2
+    },
+    {
+      "sector": "NIFTY Pharma",
+      "daily_return": -0.25,
+      "weekly_return": -1.99,
+      "monthly_return": -0.38,
+      "relative_strength": -0.3,
+      "momentum_score": -2.33,
+      "volatility": 11.27,
+      "rsi_14": 43.1,
+      "rank": 3
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "composite_score": 34.5,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 40.0,
+        "momentum": 10.0,
+        "volume": 35.0,
+        "relative_strength": 40.1,
+        "volatility": 50.0,
+        "market_regime": 40.0,
+        "sector": 50.0,
+        "fundamentals": 45.0
+      },
+      "technical_summary": {
+        "date": "2026-01-15",
+        "close": 1458.800048828125,
+        "return_1d": 0.0,
+        "sma_20": 1529.304998779297,
+        "sma_50": 1531.8800048828125,
+        "sma_200": 1435.2132525634765,
+        "ema_20": 1511.2016906166702,
+        "rsi_14": 33.59906018896123,
+        "stoch_rsi": 5.803147040207062,
+        "macd": -20.763730433630826,
+        "macd_signal": -8.70506805307648,
+        "macd_hist": -12.058662380554345,
+        "atr_14": 25.85649418862169,
+        "volatility_20d": 22.74360579997699,
+        "relative_volume": 0.0,
+        "dist_52w_high_pct": -9.492492577552666,
+        "dist_52w_low_pct": 30.851691328370517,
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false
+      },
+      "fundamentals": {
+        "symbol": "RELIANCE",
+        "provider": "yfinance",
+        "retrieved_at": "2026-09-25T15:48:37.312395",
+        "market_cap": null,
+        "pe_ratio": 22.19808,
+        "pb_ratio": 1.8352058,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 36.653,
+        "revenue_growth_pct": 29.7,
+        "profit_growth_pct": -22.400000000000002,
+        "ebitda_margin_pct": 15.991000999999999,
+        "net_margin_pct": 6.614999500000001,
+        "dividend_yield_pct": 49.0,
+        "inst_ownership_pct": 28.066000000000003
+      },
+      "historical_analogues": {
+        "num_matches": 30,
+        "current_rsi": 33.6,
+        "current_volatility": 22.7,
+        "horizons": {
+          "1d": {
+            "sample_count": 30,
+            "avg_forward_return": 0.24,
+            "median_forward_return": 0.23,
+            "win_rate_pct": 60.0,
+            "loss_rate_pct": 40.0,
+            "max_observed_gain": 2.78,
+            "max_observed_loss": -1.55,
+            "forward_volatility": 1.07
+          },
+          "3d": {
+            "sample_count": 30,
+            "avg_forward_return": 0.37,
+            "median_forward_return": 0.29,
+            "win_rate_pct": 66.7,
+            "loss_rate_pct": 33.3,
+            "max_observed_gain": 3.12,
+            "max_observed_loss": -2.6,
+            "forward_volatility": 1.38
+          },
+          "5d": {
+            "sample_count": 30,
+            "avg_forward_return": 0.63,
+            "median_forward_return": 0.81,
+            "win_rate_pct": 63.3,
+            "loss_rate_pct": 36.7,
+            "max_observed_gain": 3.05,
+            "max_observed_loss": -2.87,
+            "forward_volatility": 1.58
+          },
+          "10d": {
+            "sample_count": 30,
+            "avg_forward_return": 0.69,
+            "median_forward_return": 0.15,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_observed_gain": 4.85,
+            "max_observed_loss": -2.59,
+            "forward_volatility": 2.27
+          },
+          "20d": {
+            "sample_count": 30,
+            "avg_forward_return": 0.31,
+            "median_forward_return": 0.26,
+            "win_rate_pct": 63.3,
+            "loss_rate_pct": 36.7,
+            "max_observed_gain": 4.27,
+            "max_observed_loss": -3.75,
+            "forward_volatility": 1.82
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 60,
+          "empirical_win_rate_pct": 60.0,
+          "avg_expected_return_pct": 0.24,
+          "sample_count": 30
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 66,
+          "empirical_win_rate_pct": 66.7,
+          "avg_expected_return_pct": 0.37,
+          "sample_count": 30
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 63,
+          "empirical_win_rate_pct": 63.3,
+          "avg_expected_return_pct": 0.63,
+          "sample_count": 30
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence": 50,
+          "empirical_win_rate_pct": 50.0,
+          "avg_expected_return_pct": 0.69,
+          "sample_count": 30
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 63,
+          "empirical_win_rate_pct": 63.3,
+          "avg_expected_return_pct": 0.31,
+          "sample_count": 30
+        }
+      }
+    },
+    {
+      "symbol": "TCS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "composite_score": 34.9,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 30.0,
+        "momentum": 10.0,
+        "volume": 35.0,
+        "relative_strength": 45.8,
+        "volatility": 50.0,
+        "market_regime": 40.0,
+        "sector": 50.0,
+        "fundamentals": 85.0
+      },
+      "technical_summary": {
+        "date": "2026-01-15",
+        "close": 3192.5,
+        "return_1d": 0.0,
+        "sma_20": 3252.5550048828127,
+        "sma_50": 3188.30599609375,
+        "sma_200": 3228.8277416992187,
+        "ema_20": 3229.820138177258,
+        "rsi_14": 46.05782988628745,
+        "stoch_rsi": 5.047081889618902e-14,
+        "macd": 4.873610697055028,
+        "macd_signal": 15.639858835078863,
+        "macd_hist": -10.766248138023835,
+        "atr_14": 54.85424702008313,
+        "volatility_20d": 19.85051822134522,
+        "relative_volume": 0.0,
+        "dist_52w_high_pct": -26.149970372970756,
+        "dist_52w_low_pct": 11.368865249471238,
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false
+      },
+      "fundamentals": {
+        "symbol": "TCS",
+        "provider": "yfinance",
+        "retrieved_at": "2026-09-25T15:48:37.594856",
+        "market_cap": null,
+        "pe_ratio": 15.115435,
+        "pb_ratio": 6.8709693,
+        "roe": 47.743,
+        "roce": 24.479,
+        "debt_to_equity": 10.211,
+        "revenue_growth_pct": 13.900000000000002,
+        "profit_growth_pct": 4.6,
+        "ebitda_margin_pct": 26.125,
+        "net_margin_pct": 18.052,
+        "dividend_yield_pct": 311.0,
+        "inst_ownership_pct": 17.549999
+      },
+      "historical_analogues": {
+        "num_matches": 12,
+        "current_rsi": 46.1,
+        "current_volatility": 19.9,
+        "horizons": {
+          "1d": {
+            "sample_count": 12,
+            "avg_forward_return": -0.41,
+            "median_forward_return": -0.64,
+            "win_rate_pct": 25.0,
+            "loss_rate_pct": 75.0,
+            "max_observed_gain": 1.08,
+            "max_observed_loss": -1.17,
+            "forward_volatility": 0.64
+          },
+          "3d": {
+            "sample_count": 12,
+            "avg_forward_return": -1.2,
+            "median_forward_return": -1.26,
+            "win_rate_pct": 16.7,
+            "loss_rate_pct": 83.3,
+            "max_observed_gain": 0.62,
+            "max_observed_loss": -2.66,
+            "forward_volatility": 0.9
+          },
+          "5d": {
+            "sample_count": 12,
+            "avg_forward_return": -0.94,
+            "median_forward_return": -0.68,
+            "win_rate_pct": 25.0,
+            "loss_rate_pct": 75.0,
+            "max_observed_gain": 1.97,
+            "max_observed_loss": -3.63,
+            "forward_volatility": 1.56
+          },
+          "10d": {
+            "sample_count": 12,
+            "avg_forward_return": -0.62,
+            "median_forward_return": -0.92,
+            "win_rate_pct": 25.0,
+            "loss_rate_pct": 75.0,
+            "max_observed_gain": 2.8,
+            "max_observed_loss": -3.05,
+            "forward_volatility": 1.55
+          },
+          "20d": {
+            "sample_count": 12,
+            "avg_forward_return": 0.38,
+            "median_forward_return": 0.64,
+            "win_rate_pct": 58.3,
+            "loss_rate_pct": 41.7,
+            "max_observed_gain": 6.29,
+            "max_observed_loss": -6.32,
+            "forward_volatility": 3.29
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Slightly Bearish",
+          "confidence": 75,
+          "empirical_win_rate_pct": 25.0,
+          "avg_expected_return_pct": -0.41,
+          "sample_count": 12
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Bearish",
+          "confidence": 83,
+          "empirical_win_rate_pct": 16.7,
+          "avg_expected_return_pct": -1.2,
+          "sample_count": 12
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bearish",
+          "confidence": 75,
+          "empirical_win_rate_pct": 25.0,
+          "avg_expected_return_pct": -0.94,
+          "sample_count": 12
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bearish",
+          "confidence": 75,
+          "empirical_win_rate_pct": 25.0,
+          "avg_expected_return_pct": -0.62,
+          "sample_count": 12
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 58,
+          "empirical_win_rate_pct": 58.3,
+          "avg_expected_return_pct": 0.38,
+          "sample_count": 12
+        }
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "exchange": "NSE",
+      "sector": "Financials",
+      "composite_score": 24.4,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 0.0,
+        "volume": 35.0,
+        "relative_strength": 40.1,
+        "volatility": 50.0,
+        "market_regime": 40.0,
+        "sector": 50.0,
+        "fundamentals": 83.0
+      },
+      "technical_summary": {
+        "date": "2026-01-15",
+        "close": 925.4500122070312,
+        "return_1d": 0.0,
+        "sma_20": 970.2500030517579,
+        "sma_50": 985.4689978027344,
+        "sma_200": 976.0373736572266,
+        "ema_20": 962.1894651954192,
+        "rsi_14": 22.59313083042788,
+        "stoch_rsi": 0.0,
+        "macd": -16.953280728054892,
+        "macd_signal": -11.0815966445471,
+        "macd_hist": -5.871684083507793,
+        "atr_14": 13.218495076110946,
+        "volatility_20d": 13.437154744176183,
+        "relative_volume": 0.0,
+        "dist_52w_high_pct": -9.314060538262494,
+        "dist_52w_low_pct": 13.950622962144301,
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false
+      },
+      "fundamentals": {
+        "symbol": "HDFCBANK",
+        "provider": "yfinance",
+        "retrieved_at": "2026-09-25T15:48:37.843420",
+        "market_cap": 11340435423232.0,
+        "pe_ratio": 16.071663,
+        "pb_ratio": 1.8678916,
+        "roe": 13.838000000000001,
+        "roce": 1.7500000000000002,
+        "debt_to_equity": null,
+        "revenue_growth_pct": 16.6,
+        "profit_growth_pct": 18.099999999999998,
+        "ebitda_margin_pct": null,
+        "net_margin_pct": 26.787,
+        "dividend_yield_pct": 178.0,
+        "inst_ownership_pct": 61.149
+      },
+      "historical_analogues": {
+        "num_matches": 3,
+        "current_rsi": 22.6,
+        "current_volatility": 13.4,
+        "horizons": {
+          "1d": {
+            "sample_count": 3,
+            "avg_forward_return": 0.8,
+            "median_forward_return": 0.97,
+            "win_rate_pct": 100.0,
+            "loss_rate_pct": 0.0,
+            "max_observed_gain": 1.04,
+            "max_observed_loss": 0.39,
+            "forward_volatility": 0.29
+          },
+          "3d": {
+            "sample_count": 3,
+            "avg_forward_return": 1.1,
+            "median_forward_return": 1.1,
+            "win_rate_pct": 100.0,
+            "loss_rate_pct": 0.0,
+            "max_observed_gain": 1.3,
+            "max_observed_loss": 0.9,
+            "forward_volatility": 0.17
+          },
+          "5d": {
+            "sample_count": 3,
+            "avg_forward_return": 1.0,
+            "median_forward_return": 0.91,
+            "win_rate_pct": 100.0,
+            "loss_rate_pct": 0.0,
+            "max_observed_gain": 1.25,
+            "max_observed_loss": 0.85,
+            "forward_volatility": 0.18
+          },
+          "10d": {
+            "sample_count": 3,
+            "avg_forward_return": 1.81,
+            "median_forward_return": 1.52,
+            "win_rate_pct": 66.7,
+            "loss_rate_pct": 33.3,
+            "max_observed_gain": 3.96,
+            "max_observed_loss": -0.06,
+            "forward_volatility": 1.66
+          },
+          "20d": {
+            "sample_count": 3,
+            "avg_forward_return": 3.0,
+            "median_forward_return": 4.69,
+            "win_rate_pct": 66.7,
+            "loss_rate_pct": 33.3,
+            "max_observed_gain": 6.25,
+            "max_observed_loss": -1.95,
+            "forward_volatility": 3.56
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Bullish",
+          "confidence": 100,
+          "empirical_win_rate_pct": 100.0,
+          "avg_expected_return_pct": 0.8,
+          "sample_count": 3
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Bullish",
+          "confidence": 100,
+          "empirical_win_rate_pct": 100.0,
+          "avg_expected_return_pct": 1.1,
+          "sample_count": 3
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bullish",
+          "confidence": 100,
+          "empirical_win_rate_pct": 100.0,
+          "avg_expected_return_pct": 1.0,
+          "sample_count": 3
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bullish",
+          "confidence": 66,
+          "empirical_win_rate_pct": 66.7,
+          "avg_expected_return_pct": 1.81,
+          "sample_count": 3
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence": 66,
+          "empirical_win_rate_pct": 66.7,
+          "avg_expected_return_pct": 3.0,
+          "sample_count": 3
+        }
+      }
+    },
+    {
+      "symbol": "INFY",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "composite_score": 45.4,
+      "label": "Weak",
+      "components": {
+        "technical_trend": 70.0,
+        "momentum": 10.0,
+        "volume": 35.0,
+        "relative_strength": 47.9,
+        "volatility": 50.0,
+        "market_regime": 40.0,
+        "sector": 50.0,
+        "fundamentals": 90.0
+      },
+      "technical_summary": {
+        "date": "2026-01-15",
+        "close": 1599.800048828125,
+        "return_1d": 0.0,
+        "sma_20": 1628.7150085449218,
+        "sma_50": 1584.9500048828124,
+        "sma_200": 1537.6410034179687,
+        "ema_20": 1612.4935809167641,
+        "rsi_14": 47.413529241258665,
+        "stoch_rsi": 7.066022679292186,
+        "macd": 2.496058043857829,
+        "macd_signal": 9.815626761076759,
+        "macd_hist": -7.31956871721893,
+        "atr_14": 25.278940220765406,
+        "volatility_20d": 19.622077313042542,
+        "relative_volume": 0.0,
+        "dist_52w_high_pct": -19.316118144457416,
+        "dist_52w_low_pct": 22.40245209090474,
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false
+      },
+      "fundamentals": {
+        "symbol": "INFY",
+        "provider": "yfinance",
+        "retrieved_at": "2026-09-25T15:48:38.092137",
+        "market_cap": 4051153715200.0,
+        "pe_ratio": 12.904141,
+        "pb_ratio": 4.389509,
+        "roe": 32.0,
+        "roce": 15.296999999999999,
+        "debt_to_equity": 9.541,
+        "revenue_growth_pct": 2.9000000000000004,
+        "profit_growth_pct": 5.3,
+        "ebitda_margin_pct": 22.08,
+        "net_margin_pct": 16.370001000000002,
+        "dividend_yield_pct": 493.0,
+        "inst_ownership_pct": 52.007999999999996
+      },
+      "historical_analogues": {
+        "num_matches": 36,
+        "current_rsi": 47.4,
+        "current_volatility": 19.6,
+        "horizons": {
+          "1d": {
+            "sample_count": 36,
+            "avg_forward_return": 0.1,
+            "median_forward_return": 0.03,
+            "win_rate_pct": 50.0,
+            "loss_rate_pct": 50.0,
+            "max_observed_gain": 4.0,
+            "max_observed_loss": -2.34,
+            "forward_volatility": 1.32
+          },
+          "3d": {
+            "sample_count": 36,
+            "avg_forward_return": 0.35,
+            "median_forward_return": 0.21,
+            "win_rate_pct": 52.8,
+            "loss_rate_pct": 47.2,
+            "max_observed_gain": 7.96,
+            "max_observed_loss": -4.03,
+            "forward_volatility": 2.06
+          },
+          "5d": {
+            "sample_count": 36,
+            "avg_forward_return": 0.42,
+            "median_forward_return": 0.53,
+            "win_rate_pct": 63.9,
+            "loss_rate_pct": 36.1,
+            "max_observed_gain": 6.03,
+            "max_observed_loss": -3.43,
+            "forward_volatility": 2.23
+          },
+          "10d": {
+            "sample_count": 36,
+            "avg_forward_return": -0.35,
+            "median_forward_return": 0.43,
+            "win_rate_pct": 55.6,
+            "loss_rate_pct": 44.4,
+            "max_observed_gain": 7.84,
+            "max_observed_loss": -6.74,
+            "forward_volatility": 3.43
+          },
+          "20d": {
+            "sample_count": 36,
+            "avg_forward_return": -4.4,
+            "median_forward_return": -3.92,
+            "win_rate_pct": 5.6,
+            "loss_rate_pct": 94.4,
+            "max_observed_gain": 4.01,
+            "max_observed_loss": -11.41,
+            "forward_volatility": 3.79
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence": 50,
+          "empirical_win_rate_pct": 50.0,
+          "avg_expected_return_pct": 0.1,
+          "sample_count": 36
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence": 50,
+          "empirical_win_rate_pct": 52.8,
+          "avg_expected_return_pct": 0.35,
+          "sample_count": 36
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 63,
+          "empirical_win_rate_pct": 63.9,
+          "avg_expected_return_pct": 0.42,
+          "sample_count": 36
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence": 50,
+          "empirical_win_rate_pct": 55.6,
+          "avg_expected_return_pct": -0.35,
+          "sample_count": 36
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bearish",
+          "confidence": 94,
+          "empirical_win_rate_pct": 5.6,
+          "avg_expected_return_pct": -4.4,
+          "sample_count": 36
+        }
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "exchange": "NSE",
+      "sector": "Financials",
+      "composite_score": 71.9,
+      "label": "Strong",
+      "components": {
+        "technical_trend": 100.0,
+        "momentum": 100.0,
+        "volume": 35.0,
+        "relative_strength": 60.3,
+        "volatility": 50.0,
+        "market_regime": 40.0,
+        "sector": 50.0,
+        "fundamentals": 73.0
+      },
+      "technical_summary": {
+        "date": "2026-01-15",
+        "close": 1418.4000244140625,
+        "return_1d": 0.0,
+        "sma_20": 1380.565008544922,
+        "sma_50": 1374.8160034179687,
+        "sma_200": 1403.3422528076171,
+        "ema_20": 1392.8971472054668,
+        "rsi_14": 59.7317818609059,
+        "stoch_rsi": 64.44339445640975,
+        "macd": 15.228748235120747,
+        "macd_signal": 9.109120362753629,
+        "macd_hist": 6.1196278723671185,
+        "atr_14": 21.718761590161492,
+        "volatility_20d": 17.70658282655905,
+        "relative_volume": 0.0,
+        "dist_52w_high_pct": -5.439998372395833,
+        "dist_52w_low_pct": 19.595280304727023,
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false
+      },
+      "fundamentals": {
+        "symbol": "ICICIBANK",
+        "provider": "yfinance",
+        "retrieved_at": "2026-09-25T15:48:38.399297",
+        "market_cap": 9524314374144.0,
+        "pe_ratio": 17.231169,
+        "pb_ratio": 2.5016167,
+        "roe": 16.073999,
+        "roce": 2.1070002,
+        "debt_to_equity": null,
+        "revenue_growth_pct": 11.4,
+        "profit_growth_pct": 13.8,
+        "ebitda_margin_pct": null,
+        "net_margin_pct": 27.531,
+        "dividend_yield_pct": 90.0,
+        "inst_ownership_pct": 59.169000000000004
+      },
+      "historical_analogues": {
+        "num_matches": 138,
+        "current_rsi": 59.7,
+        "current_volatility": 17.7,
+        "horizons": {
+          "1d": {
+            "sample_count": 138,
+            "avg_forward_return": 0.02,
+            "median_forward_return": -0.02,
+            "win_rate_pct": 48.6,
+            "loss_rate_pct": 50.7,
+            "max_observed_gain": 4.72,
+            "max_observed_loss": -7.63,
+            "forward_volatility": 1.38
+          },
+          "3d": {
+            "sample_count": 138,
+            "avg_forward_return": 0.17,
+            "median_forward_return": 0.12,
+            "win_rate_pct": 53.6,
+            "loss_rate_pct": 46.4,
+            "max_observed_gain": 5.97,
+            "max_observed_loss": -5.01,
+            "forward_volatility": 2.1
+          },
+          "5d": {
+            "sample_count": 138,
+            "avg_forward_return": 0.63,
+            "median_forward_return": 0.34,
+            "win_rate_pct": 55.1,
+            "loss_rate_pct": 44.2,
+            "max_observed_gain": 7.44,
+            "max_observed_loss": -5.56,
+            "forward_volatility": 2.61
+          },
+          "10d": {
+            "sample_count": 138,
+            "avg_forward_return": 0.88,
+            "median_forward_return": 0.74,
+            "win_rate_pct": 59.4,
+            "loss_rate_pct": 40.6,
+            "max_observed_gain": 9.58,
+            "max_observed_loss": -5.73,
+            "forward_volatility": 3.14
+          },
+          "20d": {
+            "sample_count": 138,
+            "avg_forward_return": 1.45,
+            "median_forward_return": 1.5,
+            "win_rate_pct": 59.4,
+            "loss_rate_pct": 40.6,
+            "max_observed_gain": 11.21,
+            "max_observed_loss": -8.56,
+            "forward_volatility": 4.41
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence": 50,
+          "empirical_win_rate_pct": 48.6,
+          "avg_expected_return_pct": 0.02,
+          "sample_count": 138
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence": 50,
+          "empirical_win_rate_pct": 53.6,
+          "avg_expected_return_pct": 0.17,
+          "sample_count": 138
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 55,
+          "empirical_win_rate_pct": 55.1,
+          "avg_expected_return_pct": 0.63,
+          "sample_count": 138
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 59,
+          "empirical_win_rate_pct": 59.4,
+          "avg_expected_return_pct": 0.88,
+          "sample_count": 138
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence": 59,
+          "empirical_win_rate_pct": 59.4,
+          "avg_expected_return_pct": 1.45,
+          "sample_count": 138
+        }
+      }
+    }
+  ],
+  "quality": {
+    "records_processed": 6661,
+    "records_valid": 6661,
+    "warnings_count": 3,
+    "errors_count": 5
+  }
+}
