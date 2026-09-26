@@ -1,0 +1,279 @@
+{
+  "indices": [
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50",
+      "type": "index",
+      "category": "benchmark",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY Bank",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY Auto",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY Pharma",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY Metal",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY Realty",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY Energy",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFIN",
+      "name": "NIFTY Financial Services",
+      "type": "index",
+      "category": "sector",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "yahoo_ticker": "RELIANCE.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TCS",
+      "yahoo_ticker": "TCS.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "INFY",
+      "yahoo_ticker": "INFY.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "HDFCBANK",
+      "yahoo_ticker": "HDFCBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "ICICIBANK",
+      "yahoo_ticker": "ICICIBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "yahoo_ticker": "BHARTIARTL.NS",
+      "exchange": "NSE",
+      "sector": "Telecom",
+      "enabled": true
+    },
+    {
+      "symbol": "SBIN",
+      "yahoo_ticker": "SBIN.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "ITC",
+      "yahoo_ticker": "ITC.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "yahoo_ticker": "HINDUNILVR.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "LT",
+      "yahoo_ticker": "LT.NS",
+      "exchange": "NSE",
+      "sector": "Capital Goods",
+      "enabled": true
+    },
+    {
+      "symbol": "AXISBANK",
+      "yahoo_ticker": "AXISBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "yahoo_ticker": "KOTAKBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "yahoo_ticker": "TATAMOTORS.NS",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "MARUTI",
+      "yahoo_ticker": "MARUTI.NS",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "yahoo_ticker": "SUNPHARMA.NS",
+      "exchange": "NSE",
+      "sector": "Pharma",
+      "enabled": true
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "yahoo_ticker": "BAJFINANCE.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "HCLTECH",
+      "yahoo_ticker": "HCLTECH.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "NTPC",
+      "yahoo_ticker": "NTPC.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "POWERGRID",
+      "yahoo_ticker": "POWERGRID.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TATASTEEL",
+      "yahoo_ticker": "TATASTEEL.NS",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "enabled": true
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "yahoo_ticker": "ULTRACEMCO.NS",
+      "exchange": "NSE",
+      "sector": "Construction Materials",
+      "enabled": true
+    },
+    {
+      "symbol": "TITAN",
+      "yahoo_ticker": "TITAN.NS",
+      "exchange": "NSE",
+      "sector": "Consumer Durables",
+      "enabled": true
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "yahoo_ticker": "ASIANPAINT.NS",
+      "exchange": "NSE",
+      "sector": "Consumer Durables",
+      "enabled": true
+    },
+    {
+      "symbol": "COALINDIA",
+      "yahoo_ticker": "COALINDIA.NS",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "enabled": true
+    },
+    {
+      "symbol": "ONGC",
+      "yahoo_ticker": "ONGC.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "M&M",
+      "yahoo_ticker": "M_M.NS",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "yahoo_ticker": "JSWSTEEL.NS",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "enabled": true
+    },
+    {
+      "symbol": "ADANIENT",
+      "yahoo_ticker": "ADANIENT.NS",
+      "exchange": "NSE",
+      "sector": "Metals & Mining",
+      "enabled": true
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "yahoo_ticker": "ADANIPORTS.NS",
+      "exchange": "NSE",
+      "sector": "Services",
+      "enabled": true
+    }
+  ]
+}

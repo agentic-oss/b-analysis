@@ -1,0 +1,95 @@
+name: Daily Indian Stock Market Data & Deep Analysis Pipeline
+
+on:
+  schedule:
+    # 11:30 UTC = 17:00 IST (5:00 PM IST), Monday to Friday
+    - cron: '30 11 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target Date (YYYY-MM-DD). Defaults to today if blank.'
+        required: false
+        default: ''
+      use_mock:
+        description: 'Use Mock Data Provider (true/false)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  run-daily-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy scikit-learn pyarrow pytest pyyaml requests
+
+      - name: Determine Execution Date & Check Holiday Calendar
+        id: check_date
+        run: |
+          python -c "
+          import json, sys
+          from datetime import datetime
+
+          custom_date = '${{ github.event.inputs.target_date }}'
+          today_str = custom_date if custom_date else datetime.now().strftime('%Y-%m-%d')
+
+          with open('config/holidays.json') as f:
+              holidays = json.load(f).get('holidays', [])
+
+          if today_str in holidays:
+              print(f'Today ({today_str}) is an Indian Stock Market Holiday. Skipping run.')
+              print('is_holiday=true')
+              with open(sys.environ['GITHUB_OUTPUT'], 'a') as out:
+                  out.write(f'is_holiday=true\nrun_date={today_str}\n')
+          else:
+              print(f'Trading Day: {today_str}')
+              with open(sys.environ['GITHUB_OUTPUT'], 'a') as out:
+                  out.write(f'is_holiday=false\nrun_date={today_str}\n')
+          "
+
+      - name: Execute Daily Market Analysis Pipeline
+        if: steps.check_date.outputs.is_holiday == 'false'
+        run: |
+          RUN_DATE="${{ steps.check_date.outputs.run_date }}"
+          USE_MOCK="${{ github.event.inputs.use_mock }}"
+          MOCK_FLAG=""
+          if [ "$USE_MOCK" = "true" ]; then
+            MOCK_FLAG="--mock"
+          fi
+          echo "Running pipeline for date: $RUN_DATE"
+          PYTHONPATH=. python src/pipeline/daily_pipeline.py --date "$RUN_DATE" $MOCK_FLAG
+
+      - name: Run Test Suite
+        if: steps.check_date.outputs.is_holiday == 'false'
+        run: |
+          PYTHONPATH=. pytest tests/
+
+      - name: Commit and Push Generated Market Analysis Artifacts
+        if: steps.check_date.outputs.is_holiday == 'false'
+        run: |
+          RUN_DATE="${{ steps.check_date.outputs.run_date }}"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/
+          if git diff --staged --quiet; then
+            echo "No changes in generated analysis to commit."
+          else
+            git commit -m "data: daily Indian market analysis $RUN_DATE"
+            git push
+          fi
