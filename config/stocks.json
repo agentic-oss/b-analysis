@@ -1,0 +1,258 @@
+{
+  "indices": [
+    {
+      "symbol": "NIFTY 50",
+      "yahoo_symbol": "^NSEI",
+      "exchange": "NSE",
+      "sector": "Broad Market",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY NEXT 50",
+      "yahoo_symbol": "^NSMIDCP",
+      "exchange": "NSE",
+      "sector": "Broad Market",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY BANK",
+      "yahoo_symbol": "^NSEBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY IT",
+      "yahoo_symbol": "^CNXIT",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY AUTO",
+      "yahoo_symbol": "^CNXAUTO",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY PHARMA",
+      "yahoo_symbol": "^CNXPHARMA",
+      "exchange": "NSE",
+      "sector": "Pharma",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY FMCG",
+      "yahoo_symbol": "^CNXFMCG",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY METAL",
+      "yahoo_symbol": "^CNXMETAL",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY REALTY",
+      "yahoo_symbol": "^CNXREALTY",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY ENERGY",
+      "yahoo_symbol": "^CNXENERGY",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY FINANCIAL SERVICES",
+      "yahoo_symbol": "NIFTY_FIN_SERVICE.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "yahoo_symbol": "RELIANCE.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TCS",
+      "yahoo_symbol": "TCS.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "HDFCBANK",
+      "yahoo_symbol": "HDFCBANK.NS",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "ICICIBANK",
+      "yahoo_symbol": "ICICIBANK.NS",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "INFY",
+      "yahoo_symbol": "INFY.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "yahoo_symbol": "BHARTIARTL.NS",
+      "exchange": "NSE",
+      "sector": "Telecom",
+      "enabled": true
+    },
+    {
+      "symbol": "ITC",
+      "yahoo_symbol": "ITC.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "SBIN",
+      "yahoo_symbol": "SBIN.NS",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "LTIM",
+      "yahoo_symbol": "LTIM.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "LT",
+      "yahoo_symbol": "LT.NS",
+      "exchange": "NSE",
+      "sector": "Construction",
+      "enabled": true
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "yahoo_symbol": "HINDUNILVR.NS",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "AXISBANK",
+      "yahoo_symbol": "AXISBANK.NS",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "yahoo_symbol": "KOTAKBANK.NS",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "M&M",
+      "yahoo_symbol": "M&M.NS",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "MARUTI",
+      "yahoo_symbol": "MARUTI.NS",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "yahoo_symbol": "TATAMOTORS.NS",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "TATASTEEL",
+      "yahoo_symbol": "TATASTEEL.NS",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "enabled": true
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "yahoo_symbol": "SUNPHARMA.NS",
+      "exchange": "NSE",
+      "sector": "Pharma",
+      "enabled": true
+    },
+    {
+      "symbol": "CIPLA",
+      "yahoo_symbol": "CIPLA.NS",
+      "exchange": "NSE",
+      "sector": "Pharma",
+      "enabled": true
+    },
+    {
+      "symbol": "DLF",
+      "yahoo_symbol": "DLF.NS",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "NTPC",
+      "yahoo_symbol": "NTPC.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "POWERGRID",
+      "yahoo_symbol": "POWERGRID.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "yahoo_symbol": "BAJFINANCE.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "HCLTECH",
+      "yahoo_symbol": "HCLTECH.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "WIPRO",
+      "yahoo_symbol": "WIPRO.NS",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    }
+  ]
+}
