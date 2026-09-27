@@ -1,0 +1,67 @@
+name: Daily Indian Market Analysis Pipeline
+
+on:
+  schedule:
+    # Run every trading day (Monday-Friday) at 16:30 IST (11:00 UTC)
+    - cron: '0 11 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      trade_date:
+        description: 'Trading date YYYY-MM-DD (defaults to today)'
+        required: false
+        default: ''
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas yfinance scikit-learn pyarrow pytest tabulate requests pyyaml
+
+      - name: Determine Date & Check Indian Holiday
+        id: check_date
+        run: |
+          python -c "
+          import json, datetime, sys
+          date_input = '${{ github.event.inputs.trade_date }}'
+          today = date_input if date_input else datetime.date.today().strftime('%Y-%m-%d')
+          print(f'Target Date: {today}')
+          with open('config/holidays.json') as f:
+              holidays = json.load(f).get('holidays', [])
+          if today in holidays:
+              print(f'Date {today} is an Indian market holiday. Skipping run.')
+              sys.exit(0)
+          with open(sys.argv[1], 'w') as out:
+              out.write(f'date={today}\n')
+          " "$GITHUB_OUTPUT"
+
+      - name: Run Market Analysis Pipeline
+        run: |
+          TRADE_DATE="${{ steps.check_date.outputs.date }}"
+          if [ -z "$TRADE_DATE" ]; then
+            TRADE_DATE=$(date +%Y-%m-%d)
+          fi
+          PYTHONPATH=. python src/pipeline/daily_pipeline.py --date "$TRADE_DATE"
+
+      - name: Run Tests
+        run: |
+          PYTHONPATH=. pytest tests/
+
+      - name: Commit Generated Data & Reports
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          python scripts/commit_results.py "${{ steps.check_date.outputs.date }}"
+          git push || echo "Push skipped or not permitted."
