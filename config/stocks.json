@@ -1,0 +1,216 @@
+{
+  "indices": [
+    {
+      "symbol": "NIFTY 50",
+      "yahoo_ticker": "^NSEI",
+      "sector": "Market Benchmark",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY BANK",
+      "yahoo_ticker": "^NSEBANK",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY IT",
+      "yahoo_ticker": "^CNXIT",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY AUTO",
+      "yahoo_ticker": "^CNXAUTO",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY PHARMA",
+      "yahoo_ticker": "^CNXPHARMA",
+      "sector": "Pharmaceuticals",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY FMCG",
+      "yahoo_ticker": "^CNXFMCG",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY METAL",
+      "yahoo_ticker": "^CNXMETAL",
+      "sector": "Metals",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY REALTY",
+      "yahoo_ticker": "^CNXREALTY",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY ENERGY",
+      "yahoo_ticker": "^CNXENERGY",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY FINANCIAL SERVICES",
+      "yahoo_ticker": "NIFTY_FIN_SERVICE.NS",
+      "sector": "Financial Services",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TCS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "INFY",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "HDFCBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "ICICIBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "LT",
+      "exchange": "NSE",
+      "sector": "Capital Goods",
+      "enabled": true
+    },
+    {
+      "symbol": "ITC",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "SBIN",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "exchange": "NSE",
+      "sector": "Telecommunication",
+      "enabled": true
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "AXISBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "enabled": true
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "MARUTI",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "TATASTEEL",
+      "exchange": "NSE",
+      "sector": "Metals",
+      "enabled": true
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "exchange": "NSE",
+      "sector": "Pharmaceuticals",
+      "enabled": true
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "exchange": "NSE",
+      "sector": "Consumer Durables",
+      "enabled": true
+    },
+    {
+      "symbol": "HCLTECH",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "WIPRO",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "NTPC",
+      "exchange": "NSE",
+      "sector": "Power",
+      "enabled": true
+    },
+    {
+      "symbol": "POWERGRID",
+      "exchange": "NSE",
+      "sector": "Power",
+      "enabled": true
+    },
+    {
+      "symbol": "TITAN",
+      "exchange": "NSE",
+      "sector": "Consumer Durables",
+      "enabled": true
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "exchange": "NSE",
+      "sector": "Construction Materials",
+      "enabled": true
+    },
+    {
+      "symbol": "NESTLEIND",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    }
+  ]
+}

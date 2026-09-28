@@ -1,0 +1,1794 @@
+{
+  "date": "2026-03-27",
+  "market": {
+    "regime": "Neutral",
+    "confidence": 50.0,
+    "nifty_trend": "Unknown",
+    "banknifty_trend": "Unknown",
+    "breadth": {},
+    "explanation": "Insufficient benchmark history"
+  },
+  "sectors": [
+    {
+      "sector": "NIFTY PHARMA",
+      "daily_return": -0.89,
+      "weekly_return": -0.96,
+      "monthly_return": -0.85,
+      "relative_strength_vs_nifty": 0.66,
+      "volatility": 0.1323,
+      "relative_volume": 0.0,
+      "rsi_14": 51.68,
+      "momentum_score": 47.55,
+      "rank": 1
+    },
+    {
+      "sector": "NIFTY BANK",
+      "daily_return": -1.99,
+      "weekly_return": -3.54,
+      "monthly_return": -5.26,
+      "relative_strength_vs_nifty": -0.44,
+      "volatility": 0.1374,
+      "relative_volume": 0.0,
+      "rsi_14": 28.25,
+      "momentum_score": 9.05,
+      "rank": 2
+    },
+    {
+      "sector": "NIFTY IT",
+      "daily_return": -0.26,
+      "weekly_return": -2.58,
+      "monthly_return": -10.21,
+      "relative_strength_vs_nifty": 1.29,
+      "volatility": 0.1795,
+      "relative_volume": 0.0,
+      "rsi_14": 21.71,
+      "momentum_score": 8.12,
+      "rank": 3
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "sector": "Energy",
+      "close": 1197.5999755859375,
+      "technical_score": 31.53,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 0.0,
+        "volume": 75.0,
+        "relative_strength": 35.21,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 80.0
+      },
+      "fundamental_score": 80.0,
+      "fundamental_metrics": {
+        "pe_ratio": 21.70745,
+        "pb_ratio": 1.7926936,
+        "roe": null,
+        "profit_margins": 0.066149995,
+        "revenue_growth": 0.297,
+        "debt_to_equity": 36.653
+      },
+      "signals": [
+        "20-Day Low Breakdown",
+        "Oversold (RSI <= 30)"
+      ],
+      "support_levels": [
+        1189.8333333333335,
+        1182.0666910807292
+      ],
+      "resistance_levels": [
+        1212.5332845052085,
+        1227.4665934244792
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "TCS",
+      "sector": "Information Technology",
+      "close": 2070.699951171875,
+      "technical_score": 28.28,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 0.0,
+        "volume": 50.0,
+        "relative_strength": 35.22,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 90.0
+      },
+      "fundamental_score": 90.0,
+      "fundamental_metrics": {
+        "pe_ratio": 15.046505,
+        "pb_ratio": 6.8336773,
+        "roe": 0.47743,
+        "profit_margins": 0.18052,
+        "revenue_growth": 0.139,
+        "debt_to_equity": 10.211
+      },
+      "signals": [
+        "Oversold (RSI <= 30)"
+      ],
+      "support_levels": [
+        2047.799967447917,
+        2024.8999837239585
+      ],
+      "resistance_levels": [
+        2096.799967447917,
+        2122.8999837239585
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "INFY",
+      "sector": "Information Technology",
+      "close": 1003.2000122070312,
+      "technical_score": 28.86,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 0.0,
+        "volume": 50.0,
+        "relative_strength": 37.38,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 95.0
+      },
+      "fundamental_score": 95.0,
+      "fundamental_metrics": {
+        "pe_ratio": 12.941177,
+        "pb_ratio": 4.402675,
+        "roe": 0.32,
+        "profit_margins": 0.16370001,
+        "revenue_growth": 0.029,
+        "debt_to_equity": 9.541
+      },
+      "signals": [
+        "Oversold (RSI <= 30)"
+      ],
+      "support_levels": [
+        990.0333251953125,
+        976.8666381835938
+      ],
+      "resistance_levels": [
+        1012.933349609375,
+        1022.6666870117188
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "sector": "Banking",
+      "close": 719.0499877929688,
+      "technical_score": 71.12,
+      "label": "Strong",
+      "components": {
+        "technical_trend": 100.0,
+        "momentum": 100.0,
+        "volume": 30.0,
+        "relative_strength": 41.46,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 88.0
+      },
+      "fundamental_score": 88.0,
+      "fundamental_metrics": {
+        "pe_ratio": 15.71694,
+        "pb_ratio": 1.8258666,
+        "roe": 0.13838,
+        "profit_margins": 0.26787,
+        "revenue_growth": 0.166,
+        "debt_to_equity": null
+      },
+      "signals": [],
+      "support_levels": [
+        713.7666422526042,
+        708.4832967122396
+      ],
+      "resistance_levels": [
+        728.6666666666667,
+        738.2833455403646
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "sector": "Banking",
+      "close": 1302.0,
+      "technical_score": 26.77,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 0.0,
+        "volume": 30.0,
+        "relative_strength": 35.81,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 78.0
+      },
+      "fundamental_score": 78.0,
+      "fundamental_metrics": {
+        "pe_ratio": 16.832579,
+        "pb_ratio": 2.4548576,
+        "roe": 0.16073999,
+        "profit_margins": 0.27531,
+        "revenue_growth": 0.114,
+        "debt_to_equity": null
+      },
+      "signals": [
+        "20-Day Low Breakdown",
+        "Oversold (RSI <= 30)"
+      ],
+      "support_levels": [
+        1293.3999837239585,
+        1284.7999674479167
+      ],
+      "resistance_levels": [
+        1317.2000325520835,
+        1332.4000651041667
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "sector": "Banking",
+      "close": 401.54998779296875,
+      "technical_score": 36.61,
+      "label": "Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 75.0,
+        "relative_strength": 42.37,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 80.0
+      },
+      "fundamental_score": 80.0,
+      "fundamental_metrics": {
+        "pe_ratio": 19.683823,
+        "pb_ratio": 2.2038846,
+        "roe": null,
+        "profit_margins": 0.28467,
+        "revenue_growth": 0.21,
+        "debt_to_equity": null
+      },
+      "signals": [
+        "Bollinger Band Lower Breakdown"
+      ],
+      "support_levels": [
+        396.9666544596354,
+        392.38332112630206
+      ],
+      "resistance_levels": [
+        404.91666666666663,
+        408.28334554036456
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "LT",
+      "sector": "Capital Goods",
+      "close": 3766.39990234375,
+      "technical_score": 30.57,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 50.0,
+        "relative_strength": 37.1,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 50.0
+      },
+      "fundamental_score": 50.0,
+      "fundamental_metrics": {
+        "pe_ratio": 31.243465,
+        "pb_ratio": 4.740771,
+        "roe": null,
+        "profit_margins": 0.05588,
+        "revenue_growth": 0.081,
+        "debt_to_equity": 97.64
+      },
+      "signals": [
+        "20-Day Low Breakdown",
+        "Bollinger Band Lower Breakdown"
+      ],
+      "support_levels": [
+        3735.799886067708,
+        3705.1998697916665
+      ],
+      "resistance_levels": [
+        3827.599934895833,
+        3888.7999674479165
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "ITC",
+      "sector": "FMCG",
+      "close": 265.20001220703125,
+      "technical_score": 70.5,
+      "label": "Strong",
+      "components": {
+        "technical_trend": 100.0,
+        "momentum": 100.0,
+        "volume": 30.0,
+        "relative_strength": 45.02,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 65.0
+      },
+      "fundamental_score": 65.0,
+      "fundamental_metrics": {
+        "pe_ratio": 16.742424,
+        "pb_ratio": 4.5827646,
+        "roe": null,
+        "profit_margins": 0.25937998,
+        "revenue_growth": -0.111,
+        "debt_to_equity": 3.293
+      },
+      "signals": [],
+      "support_levels": [
+        263.70001220703125,
+        262.20001220703125
+      ],
+      "resistance_levels": [
+        268.0,
+        270.79998779296875
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "SBIN",
+      "sector": "Banking",
+      "close": 962.0,
+      "technical_score": 33.87,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 75.0,
+        "relative_strength": 36.48,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 83.0
+      },
+      "fundamental_score": 83.0,
+      "fundamental_metrics": {
+        "pe_ratio": 10.290971,
+        "pb_ratio": 1.4277679,
+        "roe": 0.15177,
+        "profit_margins": 0.22376,
+        "revenue_growth": 0.103,
+        "debt_to_equity": null
+      },
+      "signals": [
+        "20-Day Low Breakdown"
+      ],
+      "support_levels": [
+        951.2333170572917,
+        940.4666341145834
+      ],
+      "resistance_levels": [
+        977.6333414713542,
+        993.2666829427084
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "sector": "Telecommunication",
+      "close": 1771.4000244140625,
+      "technical_score": 30.53,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 50.0,
+        "relative_strength": 41.88,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 75.0
+      },
+      "fundamental_score": 75.0,
+      "fundamental_metrics": {
+        "pe_ratio": 37.019855,
+        "pb_ratio": 6.8267565,
+        "roe": 0.20151,
+        "profit_margins": 0.1314,
+        "revenue_growth": 0.184,
+        "debt_to_equity": 100.415
+      },
+      "signals": [
+        "20-Day Low Breakdown",
+        "Bollinger Band Lower Breakdown"
+      ],
+      "support_levels": [
+        1761.9666341145835,
+        1752.5332438151042
+      ],
+      "resistance_levels": [
+        1782.5667317708335,
+        1793.7334391276042
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "sector": "FMCG",
+      "close": 1896.0,
+      "technical_score": 35.62,
+      "label": "Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 75.0,
+        "relative_strength": 39.13,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 70.0
+      },
+      "fundamental_score": 70.0,
+      "fundamental_metrics": {
+        "pe_ratio": 42.05856,
+        "pb_ratio": 9.140168,
+        "roe": null,
+        "profit_margins": 0.22644,
+        "revenue_growth": 0.05,
+        "debt_to_equity": 3.016
+      },
+      "signals": [
+        "20-Day Low Breakdown",
+        "Bollinger Band Lower Breakdown"
+      ],
+      "support_levels": [
+        1881.7333170572915,
+        1867.4666341145833
+      ],
+      "resistance_levels": [
+        1921.7333170572915,
+        1947.4666341145833
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "AXISBANK",
+      "sector": "Banking",
+      "close": 1209.9000244140625,
+      "technical_score": 30.8,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 50.0,
+        "relative_strength": 41.02,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 83.0
+      },
+      "fundamental_score": 83.0,
+      "fundamental_metrics": {
+        "pe_ratio": 13.614268,
+        "pb_ratio": 1.6861614,
+        "roe": 0.13352999,
+        "profit_margins": 0.36031,
+        "revenue_growth": 0.14,
+        "debt_to_equity": null
+      },
+      "signals": [],
+      "support_levels": [
+        1204.0,
+        1198.0999755859375
+      ],
+      "resistance_levels": [
+        1216.800048828125,
+        1223.7000732421875
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "sector": "Financial Services",
+      "close": 985.0,
+      "technical_score": 33.05,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 75.0,
+        "relative_strength": 38.69,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 60.0
+      },
+      "fundamental_score": 60.0,
+      "fundamental_metrics": {
+        "pe_ratio": 30.214725,
+        "pb_ratio": 5.3725023,
+        "roe": null,
+        "profit_margins": 0.43495,
+        "revenue_growth": 0.261,
+        "debt_to_equity": 314.833
+      },
+      "signals": [],
+      "support_levels": [
+        975.2333374023438,
+        965.4666748046875
+      ],
+      "resistance_levels": [
+        993.5333251953125,
+        1002.066650390625
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "MARUTI",
+      "sector": "Automobile",
+      "close": 12008.0,
+      "technical_score": 24.9,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 0.0,
+        "volume": 30.0,
+        "relative_strength": 37.69,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 75.0
+      },
+      "fundamental_score": 75.0,
+      "fundamental_metrics": {
+        "pe_ratio": 26.329868,
+        "pb_ratio": 3.5231981,
+        "roe": null,
+        "profit_margins": 0.07269,
+        "revenue_growth": 0.359,
+        "debt_to_equity": 0.096
+      },
+      "signals": [
+        "Oversold (RSI <= 30)"
+      ],
+      "support_levels": [
+        11929.333333333332,
+        11850.666666666666
+      ],
+      "resistance_levels": [
+        12101.333333333332,
+        12194.666666666666
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "sector": "Metals",
+      "close": 186.3000030517578,
+      "technical_score": 70.3,
+      "label": "Strong",
+      "components": {
+        "technical_trend": 100.0,
+        "momentum": 100.0,
+        "volume": 30.0,
+        "relative_strength": 45.36,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 60.0
+      },
+      "fundamental_score": 60.0,
+      "fundamental_metrics": {
+        "pe_ratio": 21.098528,
+        "pb_ratio": 2.2763374,
+        "roe": null,
+        "profit_margins": 0.04602,
+        "revenue_growth": 0.143,
+        "debt_to_equity": 89.017
+      },
+      "signals": [],
+      "support_levels": [
+        184.84000142415363,
+        183.37999979654947
+      ],
+      "resistance_levels": [
+        188.17000325520831,
+        190.04000345865884
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "sector": "Pharmaceuticals",
+      "close": 1838.0,
+      "technical_score": 29.16,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 30.0,
+        "relative_strength": 41.07,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 70.0
+      },
+      "fundamental_score": 70.0,
+      "fundamental_metrics": {
+        "pe_ratio": 36.48273,
+        "pb_ratio": 5.276984,
+        "roe": null,
+        "profit_margins": 0.20188999,
+        "revenue_growth": 0.105,
+        "debt_to_equity": 5.517
+      },
+      "signals": [],
+      "support_levels": [
+        1831.800008138021,
+        1825.6000162760417
+      ],
+      "resistance_levels": [
+        1850.3999837239585,
+        1862.7999674479167
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "sector": "Consumer Durables",
+      "close": 2420.0,
+      "technical_score": 35.63,
+      "label": "Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 90.0,
+        "relative_strength": 39.23,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 65.0
+      },
+      "fundamental_score": 65.0,
+      "fundamental_metrics": {
+        "pe_ratio": 48.780487,
+        "pb_ratio": 10.861418,
+        "roe": null,
+        "profit_margins": 0.12813,
+        "revenue_growth": 0.179,
+        "debt_to_equity": 17.847
+      },
+      "signals": [
+        "Unusual Volume (2.1x 20-day average)"
+      ],
+      "support_levels": [
+        2408.066569010417,
+        2396.1331380208335
+      ],
+      "resistance_levels": [
+        2436.766764322917,
+        2453.5335286458335
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "HCLTECH",
+      "sector": "Information Technology",
+      "close": 1252.5999755859375,
+      "technical_score": 42.61,
+      "label": "Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 70.0,
+        "volume": 50.0,
+        "relative_strength": 40.71,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 80.0
+      },
+      "fundamental_score": 80.0,
+      "fundamental_metrics": {
+        "pe_ratio": 19.486622,
+        "pb_ratio": 4.5919933,
+        "roe": 0.24067,
+        "profit_margins": 0.12966,
+        "revenue_growth": 0.03,
+        "debt_to_equity": 7.058
+      },
+      "signals": [],
+      "support_levels": [
+        1240.5,
+        1228.4000244140625
+      ],
+      "resistance_levels": [
+        1266.0,
+        1279.4000244140625
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "WIPRO",
+      "sector": "Information Technology",
+      "close": 161.55999755859375,
+      "technical_score": 29.84,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 0.0,
+        "volume": 50.0,
+        "relative_strength": 34.57,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 83.0
+      },
+      "fundamental_score": 83.0,
+      "fundamental_metrics": {
+        "pe_ratio": 12.822222,
+        "pb_ratio": 2.0628192,
+        "roe": 0.16128999,
+        "profit_margins": 0.13919,
+        "revenue_growth": 0.106,
+        "debt_to_equity": 27.398
+      },
+      "signals": [
+        "20-Day Low Breakdown",
+        "Oversold (RSI <= 30)"
+      ],
+      "support_levels": [
+        160.20333353678387,
+        158.84666951497397
+      ],
+      "resistance_levels": [
+        163.68332926432294,
+        165.8066609700521
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "NTPC",
+      "sector": "Power",
+      "close": 321.1000061035156,
+      "technical_score": 32.02,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 50.0,
+        "relative_strength": 41.77,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 65.0
+      },
+      "fundamental_score": 65.0,
+      "fundamental_metrics": {
+        "pe_ratio": 9.801588,
+        "pb_ratio": 1.5331067,
+        "roe": null,
+        "profit_margins": 0.14531,
+        "revenue_growth": 0.078,
+        "debt_to_equity": 128.345
+      },
+      "signals": [
+        "Bollinger Band Lower Breakdown"
+      ],
+      "support_levels": [
+        318.66667683919275,
+        316.2333475748698
+      ],
+      "resistance_levels": [
+        325.0666707356771,
+        329.03333536783856
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "POWERGRID",
+      "sector": "Power",
+      "close": 261.8500061035156,
+      "technical_score": 35.98,
+      "label": "Weak",
+      "components": {
+        "technical_trend": 25.0,
+        "momentum": 10.0,
+        "volume": 50.0,
+        "relative_strength": 39.87,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 65.0
+      },
+      "fundamental_score": 65.0,
+      "fundamental_metrics": {
+        "pe_ratio": 12.816936,
+        "pb_ratio": 2.4233928,
+        "roe": null,
+        "profit_margins": 0.33797002,
+        "revenue_growth": 0.027,
+        "debt_to_equity": 150.813
+      },
+      "signals": [],
+      "support_levels": [
+        259.16667683919275,
+        256.4833475748698
+      ],
+      "resistance_levels": [
+        267.2166646321615,
+        272.5833231608073
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "TITAN",
+      "sector": "Consumer Durables",
+      "close": 4819.5,
+      "technical_score": 30.34,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 50.0,
+        "relative_strength": 40.58,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 35.0
+      },
+      "fundamental_score": 35.0,
+      "fundamental_metrics": {
+        "pe_ratio": 74.19181,
+        "pb_ratio": 27.247593,
+        "roe": null,
+        "profit_margins": 0.062319998,
+        "revenue_growth": 0.293,
+        "debt_to_equity": 195.001
+      },
+      "signals": [],
+      "support_levels": [
+        4792.666666666666,
+        4765.833333333333
+      ],
+      "resistance_levels": [
+        4863.666666666666,
+        4907.833333333333
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "sector": "Construction Materials",
+      "close": 11025.0,
+      "technical_score": 60.23,
+      "label": "Neutral",
+      "components": {
+        "technical_trend": 25.0,
+        "momentum": 100.0,
+        "volume": 75.0,
+        "relative_strength": 41.53,
+        "volatility": 80.0,
+        "market_regime": 50.0,
+        "fundamental": 70.0
+      },
+      "fundamental_score": 70.0,
+      "fundamental_metrics": {
+        "pe_ratio": 38.01331,
+        "pb_ratio": 4.23208,
+        "roe": null,
+        "profit_margins": 0.092930004,
+        "revenue_growth": 0.159,
+        "debt_to_equity": 29.432
+      },
+      "signals": [],
+      "support_levels": [
+        10950.333333333332,
+        10875.666666666666
+      ],
+      "resistance_levels": [
+        11127.333333333332,
+        11229.666666666666
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    },
+    {
+      "symbol": "NESTLEIND",
+      "sector": "FMCG",
+      "close": 1346.0,
+      "technical_score": 26.21,
+      "label": "Very Weak",
+      "components": {
+        "technical_trend": 0.0,
+        "momentum": 10.0,
+        "volume": 30.0,
+        "relative_strength": 36.42,
+        "volatility": 60.0,
+        "market_regime": 50.0,
+        "fundamental": 65.0
+      },
+      "fundamental_score": 65.0,
+      "fundamental_metrics": {
+        "pe_ratio": 68.11741,
+        "pb_ratio": 50.33093,
+        "roe": null,
+        "profit_margins": 0.15623,
+        "revenue_growth": 0.252,
+        "debt_to_equity": 8.621
+      },
+      "signals": [],
+      "support_levels": [
+        1341.0,
+        1336.0
+      ],
+      "resistance_levels": [
+        1353.9000244140625,
+        1361.800048828125
+      ],
+      "historical_analogues": {
+        "historical_matches_count": 0,
+        "horizons": {},
+        "explanation": "Insufficient historical data for analogue matching"
+      },
+      "forward_signals": {
+        "1d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "3d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "5d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "10d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        },
+        "20d": {
+          "directional_bias": "Neutral",
+          "confidence": 50.0,
+          "model_used": "Baseline Fallback",
+          "probability_up": 0.5
+        }
+      }
+    }
+  ],
+  "quality": {
+    "date": "2026-03-27",
+    "records_processed": 24,
+    "records_valid": 24,
+    "warnings": [],
+    "errors": []
+  }
+}
