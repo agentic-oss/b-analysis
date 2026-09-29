@@ -1,0 +1,62 @@
+name: Daily Indian Stock Market Analysis Pipeline
+
+on:
+  schedule:
+    # Run Monday through Friday at 12:00 UTC (17:30 IST, post market close)
+    - cron: '0 12 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      analysis_date:
+        description: 'Target Analysis Date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  daily-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache Dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy yfinance scikit-learn pyarrow pytest requests pyyaml
+
+      - name: Execute Daily Market Pipeline
+        run: |
+          export PYTHONPATH=.
+          if [ -n "${{ github.event.inputs.analysis_date }}" ]; then
+            python src/pipeline/daily_pipeline.py --date "${{ github.event.inputs.analysis_date }}"
+          else
+            python src/pipeline/daily_pipeline.py
+          fi
+
+      - name: Run Test Suite
+        run: |
+          export PYTHONPATH=.
+          pytest tests/ -v
+
+      - name: Auto-commit and Push Artifacts
+        env:
+          PUSH_ENABLED: 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          bash scripts/auto_commit.sh

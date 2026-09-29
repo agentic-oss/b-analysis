@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-29",
+  "tickers_checked": 20,
+  "records_processed": 4536,
+  "records_valid": 4536,
+  "warnings_count": 2,
+  "errors_count": 2,
+  "warnings": [
+    "[LTIM] Failed to fetch historical data for LTIM",
+    "[TATAMOTORS] Failed to fetch historical data for TATAMOTORS"
+  ],
+  "errors": [
+    "[LTIM] Empty dataframe returned for LTIM",
+    "[TATAMOTORS] Empty dataframe returned for TATAMOTORS"
+  ],
+  "details": [
+    {
+      "ticker": "RELIANCE",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "TCS",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "INFY",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "HDFCBANK",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "ICICIBANK",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "SBIN",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "LTIM",
+      "records_processed": 0,
+      "records_valid": 0,
+      "warnings": [
+        "Failed to fetch historical data for LTIM"
+      ],
+      "errors": [
+        "Empty dataframe returned for LTIM"
+      ]
+    },
+    {
+      "ticker": "TATAMOTORS",
+      "records_processed": 0,
+      "records_valid": 0,
+      "warnings": [
+        "Failed to fetch historical data for TATAMOTORS"
+      ],
+      "errors": [
+        "Empty dataframe returned for TATAMOTORS"
+      ]
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "ITC",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "TATASTEEL",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "DLF",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "NTPC",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "AXISBANK",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "LT",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "MARUTI",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "ticker": "M&M",
+      "records_processed": 252,
+      "records_valid": 252,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}
