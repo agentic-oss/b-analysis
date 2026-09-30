@@ -1,0 +1,193 @@
+{
+  "indices": [
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSMIDCP",
+      "name": "NIFTY Next 50",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY Bank",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY Auto",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY Pharma",
+      "exchange": "NSE",
+      "sector": "Healthcare",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "exchange": "NSE",
+      "sector": "Consumer Goods",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY Metal",
+      "exchange": "NSE",
+      "sector": "Metals & Mining",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY Realty",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY Energy",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFIN",
+      "name": "NIFTY Financial Services",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "ticker": "RELIANCE.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TCS",
+      "ticker": "TCS.NS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "HDFCBANK",
+      "ticker": "HDFCBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "INFY",
+      "ticker": "INFY.NS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "ICICIBANK",
+      "ticker": "ICICIBANK.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "ticker": "HINDUNILVR.NS",
+      "exchange": "NSE",
+      "sector": "Consumer Goods",
+      "enabled": true
+    },
+    {
+      "symbol": "ITC",
+      "ticker": "ITC.NS",
+      "exchange": "NSE",
+      "sector": "Consumer Goods",
+      "enabled": true
+    },
+    {
+      "symbol": "SBIN",
+      "ticker": "SBIN.NS",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "ticker": "BHARTIARTL.NS",
+      "exchange": "NSE",
+      "sector": "Telecommunication",
+      "enabled": true
+    },
+    {
+      "symbol": "LTIM",
+      "ticker": "LTIM.NS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "enabled": true
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "ticker": "TATAMOTORS.NS",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "MARUTI",
+      "ticker": "MARUTI.NS",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "enabled": true
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "ticker": "SUNPHARMA.NS",
+      "exchange": "NSE",
+      "sector": "Healthcare",
+      "enabled": true
+    },
+    {
+      "symbol": "TATASTEEL",
+      "ticker": "TATASTEEL.NS",
+      "exchange": "NSE",
+      "sector": "Metals & Mining",
+      "enabled": true
+    },
+    {
+      "symbol": "DLF",
+      "ticker": "DLF.NS",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "NTPC",
+      "ticker": "NTPC.NS",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    }
+  ]
+}
