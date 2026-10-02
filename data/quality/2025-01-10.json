@@ -1,0 +1,18 @@
+{
+  "date": "2025-01-10",
+  "tickers_processed": 28,
+  "records_processed": 6860,
+  "records_valid": 6860,
+  "total_warnings": 7,
+  "total_errors": 0,
+  "warnings": [
+    "[^NSEBANK] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+    "[^CNXIT] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+    "[HDFCBANK] Detected 2 anomalous volume spikes (> 5.0x 20-day mean).",
+    "[BHARTIARTL] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+    "[KOTAKBANK] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+    "[ASIANPAINT] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+    "[TITAN] Detected 1 anomalous volume spikes (> 5.0x 20-day mean)."
+  ],
+  "errors": []
+}

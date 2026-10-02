@@ -1,0 +1,3648 @@
+{
+  "date": "2025-01-10",
+  "market": {
+    "date": "2025-01-10",
+    "regime": "Strong Bearish",
+    "regime_score": 0,
+    "nifty_close": 23431.5,
+    "nifty_return_1d": -0.004037999702463213,
+    "nifty_trend": "Downtrend",
+    "nifty_volatility": 0.1371978582540753,
+    "banknifty_trend": "Downtrend",
+    "breadth": {
+      "total_stocks": 23,
+      "advances": 6,
+      "declines": 17,
+      "unchanged": 0,
+      "advance_decline_ratio": 0.35,
+      "above_20_dma_pct": 43.5,
+      "above_50_dma_pct": 34.8,
+      "above_200_dma_pct": 34.8,
+      "new_highs_count": 0,
+      "new_lows_count": 0
+    },
+    "classification_rules": "Score calculated from NIFTY trend (0-3), Bank NIFTY trend (0-2), breadth > 50 DMA (0-3), and Advance/Decline ratio (0-2). Labels: Strong Bullish (>=8.5), Bullish (>=6.0), Neutral (>=4.0), Bearish (>=2.0), Strong Bearish (<2.0)."
+  },
+  "sectors": [
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "sector_id": "IT",
+      "close": 44609.5,
+      "daily_return": 3.44,
+      "weekly_return": 2.14,
+      "monthly_return": -3.01,
+      "relative_strength_1d": 3.84,
+      "relative_strength_5d": 2.92,
+      "momentum_score": 58.2,
+      "volatility_20d": 20.91,
+      "rank": 1
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY Bank",
+      "sector_id": "BANK",
+      "close": 48734.15,
+      "daily_return": -1.55,
+      "weekly_return": -2.38,
+      "monthly_return": -9.05,
+      "relative_strength_1d": -1.15,
+      "relative_strength_5d": -1.6,
+      "momentum_score": 31.0,
+      "volatility_20d": 14.95,
+      "rank": 2
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY Pharma",
+      "sector_id": "PHARMA",
+      "close": 22380.85,
+      "daily_return": -2.13,
+      "weekly_return": -3.0,
+      "monthly_return": 1.01,
+      "relative_strength_1d": -1.73,
+      "relative_strength_5d": -2.22,
+      "momentum_score": 47.2,
+      "volatility_20d": 15.59,
+      "rank": 3
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 1241.9000244140625,
+      "daily_return": -1.02,
+      "technical_score": 57.8,
+      "label": "Neutral",
+      "score_components": {
+        "technical_trend_score": 65.0,
+        "momentum_score": 100.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 43.8,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 60.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 1201.5,
+        "resistance_level": 1350.0,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "RELIANCE",
+        "market_cap": null,
+        "pe_ratio": 21.142494,
+        "forward_pe": 16.352873,
+        "pb_ratio": 1.7479361,
+        "eps": 55.23,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 46.278,
+        "revenue_growth": 0.297,
+        "profit_growth": -0.224,
+        "ebitda_margins": 0.15998,
+        "net_margins": 0.066149995,
+        "dividend_yield": 0.51,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.28074,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:37.246798+00:00",
+        "fundamental_score": 60.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 54,
+        "similarity_criteria": {
+          "target_rsi": 60.0,
+          "target_ma_dist_pct": 0.48,
+          "target_volatility": 0.22
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 54,
+            "avg_return": -0.14,
+            "median_return": -0.15,
+            "pos_return_prob": 46.3,
+            "neg_return_prob": 53.7,
+            "max_gain": 5.59,
+            "max_loss": -3.95,
+            "fwd_volatility": 1.46
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 54,
+            "avg_return": -1.08,
+            "median_return": -1.11,
+            "pos_return_prob": 33.3,
+            "neg_return_prob": 66.7,
+            "max_gain": 4.83,
+            "max_loss": -6.42,
+            "fwd_volatility": 2.31
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 54,
+            "avg_return": -1.75,
+            "median_return": -1.49,
+            "pos_return_prob": 29.6,
+            "neg_return_prob": 70.4,
+            "max_gain": 3.25,
+            "max_loss": -7.44,
+            "fwd_volatility": 2.54
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 54,
+            "avg_return": -2.46,
+            "median_return": -2.42,
+            "pos_return_prob": 22.2,
+            "neg_return_prob": 77.8,
+            "max_gain": 3.3,
+            "max_loss": -8.98,
+            "fwd_volatility": 2.93
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 54,
+            "avg_return": -2.62,
+            "median_return": -2.65,
+            "pos_return_prob": 14.8,
+            "neg_return_prob": 85.2,
+            "max_gain": 9.86,
+            "max_loss": -11.36,
+            "fwd_volatility": 4.06
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 46.3,
+          "expected_return_pct": -0.14
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Bearish",
+          "confidence_score": 67,
+          "empirical_positive_prob": 33.3,
+          "expected_return_pct": -1.08
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bearish",
+          "confidence_score": 70,
+          "empirical_positive_prob": 29.6,
+          "expected_return_pct": -1.75
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bearish",
+          "confidence_score": 78,
+          "empirical_positive_prob": 22.2,
+          "expected_return_pct": -2.46
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bearish",
+          "confidence_score": 85,
+          "empirical_positive_prob": 14.8,
+          "expected_return_pct": -2.62
+        }
+      }
+    },
+    {
+      "symbol": "TCS",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 4265.64990234375,
+      "daily_return": 5.62,
+      "technical_score": 75.3,
+      "label": "Strong",
+      "score_components": {
+        "technical_trend_score": 90.0,
+        "momentum_score": 70.0,
+        "volume_score": 85.0,
+        "relative_strength_score": 100.0,
+        "market_regime_score": 10.0,
+        "sector_score": 58.2,
+        "fundamental_score": 85.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": true,
+        "support_level": 3913.25,
+        "resistance_level": 4494.89990234375,
+        "trend_state": "Uptrend",
+        "signals_list": [
+          "Unusual Volume Spike (3.5x 20-day average)"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "TCS",
+        "market_cap": null,
+        "pe_ratio": 15.08323,
+        "forward_pe": 12.800144,
+        "pb_ratio": 6.8478684,
+        "eps": 137.57,
+        "roe": 0.47743,
+        "roce": 0.24479,
+        "debt_to_equity": 10.211,
+        "revenue_growth": 0.139,
+        "profit_growth": 0.046,
+        "ebitda_margins": 0.26125,
+        "net_margins": 0.18052,
+        "dividend_yield": 3.13,
+        "free_cashflow": 397165002752,
+        "promoter_holding": null,
+        "institutional_holding": 0.1758,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:37.608574+00:00",
+        "fundamental_score": 85.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 49,
+        "similarity_criteria": {
+          "target_rsi": 56.6,
+          "target_ma_dist_pct": 1.74,
+          "target_volatility": 0.29
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 49,
+            "avg_return": 0.08,
+            "median_return": 0.27,
+            "pos_return_prob": 55.1,
+            "neg_return_prob": 44.9,
+            "max_gain": 4.22,
+            "max_loss": -4.22,
+            "fwd_volatility": 1.49
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 49,
+            "avg_return": 0.15,
+            "median_return": 0.24,
+            "pos_return_prob": 57.1,
+            "neg_return_prob": 42.9,
+            "max_gain": 6.87,
+            "max_loss": -5.89,
+            "fwd_volatility": 2.73
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 49,
+            "avg_return": 0.13,
+            "median_return": 0.22,
+            "pos_return_prob": 53.1,
+            "neg_return_prob": 46.9,
+            "max_gain": 7.25,
+            "max_loss": -7.31,
+            "fwd_volatility": 3.14
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 49,
+            "avg_return": 0.7,
+            "median_return": 1.09,
+            "pos_return_prob": 57.1,
+            "neg_return_prob": 42.9,
+            "max_gain": 9.61,
+            "max_loss": -8.38,
+            "fwd_volatility": 4.3
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 49,
+            "avg_return": -0.13,
+            "median_return": -1.54,
+            "pos_return_prob": 38.8,
+            "neg_return_prob": 61.2,
+            "max_gain": 8.8,
+            "max_loss": -8.47,
+            "fwd_volatility": 4.99
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 55.1,
+          "expected_return_pct": 0.08
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 57,
+          "empirical_positive_prob": 57.1,
+          "expected_return_pct": 0.15
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 53.1,
+          "expected_return_pct": 0.13
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 57,
+          "empirical_positive_prob": 57.1,
+          "expected_return_pct": 0.7
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bearish",
+          "confidence_score": 61,
+          "empirical_positive_prob": 38.8,
+          "expected_return_pct": -0.13
+        }
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 828.375,
+      "daily_return": -0.66,
+      "technical_score": 38.0,
+      "label": "Weak",
+      "score_components": {
+        "technical_trend_score": 60.0,
+        "momentum_score": 0.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 47.4,
+        "market_regime_score": 10.0,
+        "sector_score": 31.0,
+        "fundamental_score": 85.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": true,
+        "unusual_volume": false,
+        "support_level": 827.0,
+        "resistance_level": 940.0,
+        "trend_state": "Downtrend",
+        "signals_list": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "HDFCBANK",
+        "market_cap": 11119805595648,
+        "pe_ratio": 15.774278,
+        "forward_pe": 11.520767,
+        "pb_ratio": 1.8313261,
+        "eps": 45.72,
+        "roe": 0.13838,
+        "roce": 0.0175,
+        "debt_to_equity": null,
+        "revenue_growth": 0.166,
+        "profit_growth": 0.181,
+        "ebitda_margins": 0.0,
+        "net_margins": 0.26787,
+        "dividend_yield": 1.8,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.61044,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:37.945147+00:00",
+        "fundamental_score": 85.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 14,
+        "similarity_criteria": {
+          "target_rsi": 25.7,
+          "target_ma_dist_pct": -6.54,
+          "target_volatility": 0.17
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 14,
+            "avg_return": 0.67,
+            "median_return": 0.46,
+            "pos_return_prob": 71.4,
+            "neg_return_prob": 28.6,
+            "max_gain": 2.29,
+            "max_loss": -0.89,
+            "fwd_volatility": 1.02
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 14,
+            "avg_return": 1.43,
+            "median_return": 0.88,
+            "pos_return_prob": 71.4,
+            "neg_return_prob": 28.6,
+            "max_gain": 4.69,
+            "max_loss": -0.91,
+            "fwd_volatility": 1.74
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 14,
+            "avg_return": 1.8,
+            "median_return": 1.6,
+            "pos_return_prob": 78.6,
+            "neg_return_prob": 21.4,
+            "max_gain": 4.91,
+            "max_loss": -0.97,
+            "fwd_volatility": 1.89
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 14,
+            "avg_return": 3.25,
+            "median_return": 3.48,
+            "pos_return_prob": 78.6,
+            "neg_return_prob": 21.4,
+            "max_gain": 6.82,
+            "max_loss": -1.06,
+            "fwd_volatility": 2.64
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 14,
+            "avg_return": 5.32,
+            "median_return": 3.89,
+            "pos_return_prob": 85.7,
+            "neg_return_prob": 14.3,
+            "max_gain": 14.4,
+            "max_loss": -1.17,
+            "fwd_volatility": 5.35
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Bullish",
+          "confidence_score": 71,
+          "empirical_positive_prob": 71.4,
+          "expected_return_pct": 0.67
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Bullish",
+          "confidence_score": 71,
+          "empirical_positive_prob": 71.4,
+          "expected_return_pct": 1.43
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bullish",
+          "confidence_score": 79,
+          "empirical_positive_prob": 78.6,
+          "expected_return_pct": 1.8
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bullish",
+          "confidence_score": 79,
+          "empirical_positive_prob": 78.6,
+          "expected_return_pct": 3.25
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 86,
+          "empirical_positive_prob": 85.7,
+          "expected_return_pct": 5.32
+        }
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 1249.8499755859375,
+      "daily_return": -0.99,
+      "technical_score": 40.7,
+      "label": "Weak",
+      "score_components": {
+        "technical_trend_score": 60.0,
+        "momentum_score": 20.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 44.1,
+        "market_regime_score": 10.0,
+        "sector_score": 31.0,
+        "fundamental_score": 70.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 1232.550048828125,
+        "resistance_level": 1350.449951171875,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "ICICIBANK",
+        "market_cap": 9408024150016,
+        "pe_ratio": 16.943762,
+        "forward_pe": 13.942553,
+        "pb_ratio": 2.4710724,
+        "eps": 77.35,
+        "roe": 0.16073999,
+        "roce": 0.021070002,
+        "debt_to_equity": null,
+        "revenue_growth": 0.114,
+        "profit_growth": 0.138,
+        "ebitda_margins": 0.0,
+        "net_margins": 0.27531,
+        "dividend_yield": 0.92,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.59252,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:38.198101+00:00",
+        "fundamental_score": 70.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 35,
+        "similarity_criteria": {
+          "target_rsi": 34.6,
+          "target_ma_dist_pct": -3.29,
+          "target_volatility": 0.16
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 35,
+            "avg_return": 0.11,
+            "median_return": -0.05,
+            "pos_return_prob": 48.6,
+            "neg_return_prob": 51.4,
+            "max_gain": 2.2,
+            "max_loss": -2.0,
+            "fwd_volatility": 1.07
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 35,
+            "avg_return": 0.88,
+            "median_return": 0.98,
+            "pos_return_prob": 68.6,
+            "neg_return_prob": 31.4,
+            "max_gain": 5.26,
+            "max_loss": -3.57,
+            "fwd_volatility": 2.01
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 35,
+            "avg_return": 0.94,
+            "median_return": 0.68,
+            "pos_return_prob": 65.7,
+            "neg_return_prob": 34.3,
+            "max_gain": 5.52,
+            "max_loss": -3.76,
+            "fwd_volatility": 2.4
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 35,
+            "avg_return": 2.25,
+            "median_return": 2.5,
+            "pos_return_prob": 71.4,
+            "neg_return_prob": 28.6,
+            "max_gain": 8.21,
+            "max_loss": -4.42,
+            "fwd_volatility": 3.61
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 35,
+            "avg_return": 4.37,
+            "median_return": 4.86,
+            "pos_return_prob": 97.1,
+            "neg_return_prob": 2.9,
+            "max_gain": 10.7,
+            "max_loss": -0.87,
+            "fwd_volatility": 2.85
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 48.6,
+          "expected_return_pct": 0.11
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Bullish",
+          "confidence_score": 69,
+          "empirical_positive_prob": 68.6,
+          "expected_return_pct": 0.88
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bullish",
+          "confidence_score": 66,
+          "empirical_positive_prob": 65.7,
+          "expected_return_pct": 0.94
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bullish",
+          "confidence_score": 71,
+          "empirical_positive_prob": 71.4,
+          "expected_return_pct": 2.25
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 95,
+          "empirical_positive_prob": 97.1,
+          "expected_return_pct": 4.37
+        }
+      }
+    },
+    {
+      "symbol": "INFY",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 1966.949951171875,
+      "daily_return": 2.59,
+      "technical_score": 80.8,
+      "label": "Very Strong",
+      "score_components": {
+        "technical_trend_score": 100.0,
+        "momentum_score": 100.0,
+        "volume_score": 85.0,
+        "relative_strength_score": 79.9,
+        "market_regime_score": 10.0,
+        "sector_score": 58.2,
+        "fundamental_score": 85.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 1718.0,
+        "resistance_level": 2006.449951171875,
+        "trend_state": "Strong Uptrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "INFY",
+        "market_cap": 4192105660416,
+        "pe_ratio": 13.298214,
+        "forward_pe": 12.941654,
+        "pb_ratio": 4.5422335,
+        "eps": 77.83,
+        "roe": 0.32,
+        "roce": 0.15297,
+        "debt_to_equity": 9.541,
+        "revenue_growth": 0.029,
+        "profit_growth": 0.053,
+        "ebitda_margins": 0.2208,
+        "net_margins": 0.16370001,
+        "dividend_yield": 4.83,
+        "free_cashflow": 3165625088,
+        "promoter_holding": null,
+        "institutional_holding": 0.5113,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:38.478132+00:00",
+        "fundamental_score": 85.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 80,
+        "similarity_criteria": {
+          "target_rsi": 59.4,
+          "target_ma_dist_pct": 1.62,
+          "target_volatility": 0.21
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 80,
+            "avg_return": 0.12,
+            "median_return": 0.04,
+            "pos_return_prob": 51.2,
+            "neg_return_prob": 48.8,
+            "max_gain": 4.17,
+            "max_loss": -4.5,
+            "fwd_volatility": 1.53
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 80,
+            "avg_return": 0.23,
+            "median_return": 0.28,
+            "pos_return_prob": 60.0,
+            "neg_return_prob": 40.0,
+            "max_gain": 4.91,
+            "max_loss": -5.92,
+            "fwd_volatility": 2.19
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 80,
+            "avg_return": 0.53,
+            "median_return": 1.2,
+            "pos_return_prob": 62.5,
+            "neg_return_prob": 37.5,
+            "max_gain": 5.15,
+            "max_loss": -5.5,
+            "fwd_volatility": 2.67
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 80,
+            "avg_return": 1.07,
+            "median_return": 0.67,
+            "pos_return_prob": 58.8,
+            "neg_return_prob": 41.2,
+            "max_gain": 9.25,
+            "max_loss": -10.71,
+            "fwd_volatility": 3.95
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 80,
+            "avg_return": 2.4,
+            "median_return": 1.03,
+            "pos_return_prob": 66.2,
+            "neg_return_prob": 33.8,
+            "max_gain": 19.43,
+            "max_loss": -11.41,
+            "fwd_volatility": 6.62
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 51.2,
+          "expected_return_pct": 0.12
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 60,
+          "empirical_positive_prob": 60.0,
+          "expected_return_pct": 0.23
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 62,
+          "empirical_positive_prob": 62.5,
+          "expected_return_pct": 0.53
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 59,
+          "empirical_positive_prob": 58.8,
+          "expected_return_pct": 1.07
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 66,
+          "empirical_positive_prob": 66.2,
+          "expected_return_pct": 2.4
+        }
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 1615.9000244140625,
+      "daily_return": 0.55,
+      "technical_score": 71.4,
+      "label": "Strong",
+      "score_components": {
+        "technical_trend_score": 100.0,
+        "momentum_score": 100.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 59.5,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 80.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 1511.0,
+        "resistance_level": 1687.0,
+        "trend_state": "Strong Uptrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "BHARTIARTL",
+        "market_cap": 10862127480832,
+        "pe_ratio": 36.363827,
+        "forward_pe": 21.193623,
+        "pb_ratio": 6.709984,
+        "eps": 47.88,
+        "roe": 0.20151,
+        "roce": 0.08163,
+        "debt_to_equity": 100.415,
+        "revenue_growth": 0.184,
+        "profit_growth": 0.351,
+        "ebitda_margins": 0.52137,
+        "net_margins": 0.1314,
+        "dividend_yield": 1.38,
+        "free_cashflow": 630565896192,
+        "promoter_holding": null,
+        "institutional_holding": 0.3554,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:38.851078+00:00",
+        "fundamental_score": 80.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 72,
+        "similarity_criteria": {
+          "target_rsi": 66.8,
+          "target_ma_dist_pct": 0.71,
+          "target_volatility": 0.22
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 72,
+            "avg_return": 0.29,
+            "median_return": 0.29,
+            "pos_return_prob": 59.7,
+            "neg_return_prob": 40.3,
+            "max_gain": 4.5,
+            "max_loss": -3.24,
+            "fwd_volatility": 1.62
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 72,
+            "avg_return": 0.86,
+            "median_return": 0.34,
+            "pos_return_prob": 52.8,
+            "neg_return_prob": 47.2,
+            "max_gain": 9.47,
+            "max_loss": -4.88,
+            "fwd_volatility": 2.96
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 72,
+            "avg_return": 1.11,
+            "median_return": 1.03,
+            "pos_return_prob": 58.3,
+            "neg_return_prob": 41.7,
+            "max_gain": 7.03,
+            "max_loss": -5.2,
+            "fwd_volatility": 3.2
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 72,
+            "avg_return": 1.83,
+            "median_return": 1.02,
+            "pos_return_prob": 61.1,
+            "neg_return_prob": 38.9,
+            "max_gain": 13.47,
+            "max_loss": -6.12,
+            "fwd_volatility": 3.9
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 72,
+            "avg_return": 3.67,
+            "median_return": 4.13,
+            "pos_return_prob": 79.2,
+            "neg_return_prob": 20.8,
+            "max_gain": 15.65,
+            "max_loss": -5.94,
+            "fwd_volatility": 4.23
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 60,
+          "empirical_positive_prob": 59.7,
+          "expected_return_pct": 0.29
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 52.8,
+          "expected_return_pct": 0.86
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 58,
+          "empirical_positive_prob": 58.3,
+          "expected_return_pct": 1.11
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 61,
+          "empirical_positive_prob": 61.1,
+          "expected_return_pct": 1.83
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 79,
+          "empirical_positive_prob": 79.2,
+          "expected_return_pct": 3.67
+        }
+      }
+    },
+    {
+      "symbol": "ITC",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 444.8999938964844,
+      "daily_return": -1.16,
+      "technical_score": 29.1,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 20.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 42.5,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 60.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 434.9006652832031,
+        "resistance_level": 475.1505126953125,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "ITC",
+        "market_cap": 3206559301632,
+        "pe_ratio": 16.155302,
+        "forward_pe": 15.266291,
+        "pb_ratio": 4.4220567,
+        "eps": 15.84,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 3.293,
+        "revenue_growth": -0.111,
+        "profit_growth": -0.16,
+        "ebitda_margins": 0.33312,
+        "net_margins": 0.25937998,
+        "dividend_yield": 6.25,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.52265,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:39.254322+00:00",
+        "fundamental_score": 60.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 105,
+        "similarity_criteria": {
+          "target_rsi": 48.3,
+          "target_ma_dist_pct": -2.2,
+          "target_volatility": 0.24
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 105,
+            "avg_return": 0.07,
+            "median_return": 0.0,
+            "pos_return_prob": 48.6,
+            "neg_return_prob": 49.5,
+            "max_gain": 4.45,
+            "max_loss": -3.52,
+            "fwd_volatility": 1.05
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 105,
+            "avg_return": -0.04,
+            "median_return": -0.14,
+            "pos_return_prob": 44.8,
+            "neg_return_prob": 54.3,
+            "max_gain": 4.65,
+            "max_loss": -5.51,
+            "fwd_volatility": 1.65
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 105,
+            "avg_return": -0.02,
+            "median_return": 0.07,
+            "pos_return_prob": 50.5,
+            "neg_return_prob": 49.5,
+            "max_gain": 5.41,
+            "max_loss": -4.75,
+            "fwd_volatility": 2.15
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 105,
+            "avg_return": -0.08,
+            "median_return": 0.0,
+            "pos_return_prob": 49.5,
+            "neg_return_prob": 49.5,
+            "max_gain": 9.79,
+            "max_loss": -10.58,
+            "fwd_volatility": 3.08
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 105,
+            "avg_return": 0.72,
+            "median_return": 0.3,
+            "pos_return_prob": 53.3,
+            "neg_return_prob": 45.7,
+            "max_gain": 16.71,
+            "max_loss": -13.29,
+            "fwd_volatility": 5.42
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 48.6,
+          "expected_return_pct": 0.07
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 44.8,
+          "expected_return_pct": -0.04
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 50.5,
+          "expected_return_pct": -0.02
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 49.5,
+          "expected_return_pct": -0.08
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 53.3,
+          "expected_return_pct": 0.72
+        }
+      }
+    },
+    {
+      "symbol": "SBIN",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 743.25,
+      "daily_return": -2.26,
+      "technical_score": 23.6,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 0.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 31.4,
+        "market_regime_score": 10.0,
+        "sector_score": 31.0,
+        "fundamental_score": 70.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 726.25,
+        "resistance_level": 875.4500122070312,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "SBIN",
+        "market_cap": 8806932152320,
+        "pe_ratio": 10.204278,
+        "forward_pe": 9.072846,
+        "pb_ratio": 1.4160429,
+        "eps": 93.5,
+        "roe": 0.15177,
+        "roce": 0.01132,
+        "debt_to_equity": null,
+        "revenue_growth": 0.103,
+        "profit_growth": 0.099,
+        "ebitda_margins": 0.0,
+        "net_margins": 0.22376,
+        "dividend_yield": 1.82,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.29315,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:39.676987+00:00",
+        "fundamental_score": 70.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 8,
+        "similarity_criteria": {
+          "target_rsi": 21.8,
+          "target_ma_dist_pct": -7.68,
+          "target_volatility": 0.18
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 8,
+            "avg_return": 0.53,
+            "median_return": 0.65,
+            "pos_return_prob": 50.0,
+            "neg_return_prob": 50.0,
+            "max_gain": 2.49,
+            "max_loss": -1.8,
+            "fwd_volatility": 1.61
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 8,
+            "avg_return": 1.09,
+            "median_return": 0.77,
+            "pos_return_prob": 75.0,
+            "neg_return_prob": 25.0,
+            "max_gain": 3.33,
+            "max_loss": -1.3,
+            "fwd_volatility": 1.52
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 8,
+            "avg_return": 1.14,
+            "median_return": 0.14,
+            "pos_return_prob": 75.0,
+            "neg_return_prob": 25.0,
+            "max_gain": 5.85,
+            "max_loss": -0.7,
+            "fwd_volatility": 2.08
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 8,
+            "avg_return": 3.08,
+            "median_return": 2.12,
+            "pos_return_prob": 100.0,
+            "neg_return_prob": 0.0,
+            "max_gain": 11.59,
+            "max_loss": 0.9,
+            "fwd_volatility": 3.29
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 8,
+            "avg_return": 4.35,
+            "median_return": 1.75,
+            "pos_return_prob": 75.0,
+            "neg_return_prob": 25.0,
+            "max_gain": 27.5,
+            "max_loss": -3.16,
+            "fwd_volatility": 8.96
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 50.0,
+          "expected_return_pct": 0.53
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Bullish",
+          "confidence_score": 75,
+          "empirical_positive_prob": 75.0,
+          "expected_return_pct": 1.09
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bullish",
+          "confidence_score": 75,
+          "empirical_positive_prob": 75.0,
+          "expected_return_pct": 1.14
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bullish",
+          "confidence_score": 95,
+          "empirical_positive_prob": 100.0,
+          "expected_return_pct": 3.08
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 75,
+          "empirical_positive_prob": 75.0,
+          "expected_return_pct": 4.35
+        }
+      }
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 2442.050048828125,
+      "daily_return": 0.27,
+      "technical_score": 66.0,
+      "label": "Strong",
+      "score_components": {
+        "technical_trend_score": 80.0,
+        "momentum_score": 90.0,
+        "volume_score": 70.0,
+        "relative_strength_score": 56.8,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 60.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 2315.25,
+        "resistance_level": 2563.5,
+        "trend_state": "Uptrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "HINDUNILVR",
+        "market_cap": 4313849528320,
+        "pe_ratio": 40.818142,
+        "forward_pe": 34.564598,
+        "pb_ratio": 8.850923,
+        "eps": 44.98,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 3.016,
+        "revenue_growth": 0.05,
+        "profit_growth": 0.084,
+        "ebitda_margins": 0.22479,
+        "net_margins": 0.22644,
+        "dividend_yield": 2.4,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.20727,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:39.934281+00:00",
+        "fundamental_score": 60.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 43,
+        "similarity_criteria": {
+          "target_rsi": 74.2,
+          "target_ma_dist_pct": 3.18,
+          "target_volatility": 0.15
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 43,
+            "avg_return": -0.2,
+            "median_return": 0.02,
+            "pos_return_prob": 53.5,
+            "neg_return_prob": 46.5,
+            "max_gain": 2.92,
+            "max_loss": -7.4,
+            "fwd_volatility": 1.65
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 43,
+            "avg_return": -0.1,
+            "median_return": 0.15,
+            "pos_return_prob": 53.5,
+            "neg_return_prob": 46.5,
+            "max_gain": 4.43,
+            "max_loss": -7.31,
+            "fwd_volatility": 2.27
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 43,
+            "avg_return": 0.22,
+            "median_return": -0.27,
+            "pos_return_prob": 48.8,
+            "neg_return_prob": 51.2,
+            "max_gain": 5.63,
+            "max_loss": -5.25,
+            "fwd_volatility": 2.55
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 43,
+            "avg_return": 0.79,
+            "median_return": 1.37,
+            "pos_return_prob": 76.7,
+            "neg_return_prob": 23.3,
+            "max_gain": 7.58,
+            "max_loss": -6.93,
+            "fwd_volatility": 3.42
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 43,
+            "avg_return": 1.02,
+            "median_return": 2.71,
+            "pos_return_prob": 62.8,
+            "neg_return_prob": 37.2,
+            "max_gain": 10.84,
+            "max_loss": -11.45,
+            "fwd_volatility": 5.64
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 53.5,
+          "expected_return_pct": -0.2
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 53.5,
+          "expected_return_pct": -0.1
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 48.8,
+          "expected_return_pct": 0.22
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bullish",
+          "confidence_score": 77,
+          "empirical_positive_prob": 76.7,
+          "expected_return_pct": 0.79
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 63,
+          "empirical_positive_prob": 62.8,
+          "expected_return_pct": 1.02
+        }
+      }
+    },
+    {
+      "symbol": "LT",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 3536.14990234375,
+      "daily_return": 0.23,
+      "technical_score": 32.2,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 20.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 56.4,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 50.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 3353.0,
+        "resistance_level": 3963.5,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "LT",
+        "market_cap": 5081623691264,
+        "pe_ratio": 30.676079,
+        "forward_pe": 20.532993,
+        "pb_ratio": 4.6488853,
+        "eps": 120.4,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 97.64,
+        "revenue_growth": 0.081,
+        "profit_growth": 0.14,
+        "ebitda_margins": 0.117060006,
+        "net_margins": 0.05588,
+        "dividend_yield": 1.03,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.52667,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:40.256153+00:00",
+        "fundamental_score": 50.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 49,
+        "similarity_criteria": {
+          "target_rsi": 40.3,
+          "target_ma_dist_pct": -3.55,
+          "target_volatility": 0.19
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 49,
+            "avg_return": 0.21,
+            "median_return": 0.22,
+            "pos_return_prob": 59.2,
+            "neg_return_prob": 40.8,
+            "max_gain": 6.28,
+            "max_loss": -6.06,
+            "fwd_volatility": 1.84
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 49,
+            "avg_return": 0.56,
+            "median_return": 0.63,
+            "pos_return_prob": 59.2,
+            "neg_return_prob": 40.8,
+            "max_gain": 8.43,
+            "max_loss": -5.54,
+            "fwd_volatility": 3.29
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 49,
+            "avg_return": 0.81,
+            "median_return": 0.99,
+            "pos_return_prob": 59.2,
+            "neg_return_prob": 40.8,
+            "max_gain": 9.02,
+            "max_loss": -9.0,
+            "fwd_volatility": 4.09
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 49,
+            "avg_return": 0.67,
+            "median_return": 1.16,
+            "pos_return_prob": 63.3,
+            "neg_return_prob": 36.7,
+            "max_gain": 10.04,
+            "max_loss": -10.43,
+            "fwd_volatility": 4.56
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 49,
+            "avg_return": 1.6,
+            "median_return": 1.2,
+            "pos_return_prob": 55.1,
+            "neg_return_prob": 44.9,
+            "max_gain": 11.31,
+            "max_loss": -7.17,
+            "fwd_volatility": 4.13
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 59,
+          "empirical_positive_prob": 59.2,
+          "expected_return_pct": 0.21
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 59,
+          "empirical_positive_prob": 59.2,
+          "expected_return_pct": 0.56
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 59,
+          "empirical_positive_prob": 59.2,
+          "expected_return_pct": 0.81
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 63,
+          "empirical_positive_prob": 63.3,
+          "expected_return_pct": 0.67
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 55,
+          "empirical_positive_prob": 55.1,
+          "expected_return_pct": 1.6
+        }
+      }
+    },
+    {
+      "symbol": "AXISBANK",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 1040.699951171875,
+      "daily_return": -1.98,
+      "technical_score": 28.7,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 20.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 34.2,
+        "market_regime_score": 10.0,
+        "sector_score": 31.0,
+        "fundamental_score": 85.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": true,
+        "unusual_volume": false,
+        "support_level": 1037.0,
+        "resistance_level": 1193.8499755859375,
+        "trend_state": "Strong Downtrend",
+        "signals_list": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "AXISBANK",
+        "market_cap": 3789671890944,
+        "pe_ratio": 13.793064,
+        "forward_pe": 10.082773,
+        "pb_ratio": 1.6961955,
+        "eps": 88.24,
+        "roe": 0.13352999,
+        "roce": 0.01535,
+        "debt_to_equity": null,
+        "revenue_growth": 0.14,
+        "profit_growth": 0.218,
+        "ebitda_margins": 0.0,
+        "net_margins": 0.36031,
+        "dividend_yield": 0.08,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.70507,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:40.605185+00:00",
+        "fundamental_score": 85.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 42,
+        "similarity_criteria": {
+          "target_rsi": 36.4,
+          "target_ma_dist_pct": -4.25,
+          "target_volatility": 0.18
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 42,
+            "avg_return": 0.0,
+            "median_return": 0.08,
+            "pos_return_prob": 52.4,
+            "neg_return_prob": 47.6,
+            "max_gain": 3.49,
+            "max_loss": -5.11,
+            "fwd_volatility": 1.53
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 42,
+            "avg_return": 0.36,
+            "median_return": 0.64,
+            "pos_return_prob": 59.5,
+            "neg_return_prob": 40.5,
+            "max_gain": 5.42,
+            "max_loss": -5.58,
+            "fwd_volatility": 2.14
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 42,
+            "avg_return": 1.14,
+            "median_return": 1.36,
+            "pos_return_prob": 71.4,
+            "neg_return_prob": 28.6,
+            "max_gain": 10.06,
+            "max_loss": -5.9,
+            "fwd_volatility": 2.79
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 42,
+            "avg_return": 1.54,
+            "median_return": 1.31,
+            "pos_return_prob": 76.2,
+            "neg_return_prob": 23.8,
+            "max_gain": 11.47,
+            "max_loss": -8.27,
+            "fwd_volatility": 3.28
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 42,
+            "avg_return": 1.78,
+            "median_return": 0.73,
+            "pos_return_prob": 57.1,
+            "neg_return_prob": 42.9,
+            "max_gain": 11.46,
+            "max_loss": -6.64,
+            "fwd_volatility": 5.31
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 52.4,
+          "expected_return_pct": 0.0
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 60,
+          "empirical_positive_prob": 59.5,
+          "expected_return_pct": 0.36
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bullish",
+          "confidence_score": 71,
+          "empirical_positive_prob": 71.4,
+          "expected_return_pct": 1.14
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bullish",
+          "confidence_score": 76,
+          "empirical_positive_prob": 76.2,
+          "expected_return_pct": 1.54
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 57,
+          "empirical_positive_prob": 57.1,
+          "expected_return_pct": 1.78
+        }
+      }
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 351.239990234375,
+      "daily_return": -1.9,
+      "technical_score": 38.4,
+      "label": "Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 70.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 35.0,
+        "market_regime_score": 10.0,
+        "sector_score": 31.0,
+        "fundamental_score": 75.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 335.80999755859375,
+        "resistance_level": 370.6000061035156,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "KOTAKBANK",
+        "market_cap": 4161696169984,
+        "pe_ratio": 20.487268,
+        "forward_pe": 17.80935,
+        "pb_ratio": 2.2960906,
+        "eps": 20.42,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": null,
+        "revenue_growth": 0.21,
+        "profit_growth": 0.225,
+        "ebitda_margins": 0.0,
+        "net_margins": 0.28467,
+        "dividend_yield": 0.16,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.4732,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:41.026085+00:00",
+        "fundamental_score": 75.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 98,
+        "similarity_criteria": {
+          "target_rsi": 52.4,
+          "target_ma_dist_pct": -1.18,
+          "target_volatility": 0.23
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 98,
+            "avg_return": 0.04,
+            "median_return": -0.02,
+            "pos_return_prob": 49.0,
+            "neg_return_prob": 51.0,
+            "max_gain": 4.89,
+            "max_loss": -4.37,
+            "fwd_volatility": 1.28
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 98,
+            "avg_return": 0.0,
+            "median_return": -0.02,
+            "pos_return_prob": 49.0,
+            "neg_return_prob": 51.0,
+            "max_gain": 7.07,
+            "max_loss": -11.28,
+            "fwd_volatility": 2.7
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 98,
+            "avg_return": -0.25,
+            "median_return": -0.15,
+            "pos_return_prob": 46.9,
+            "neg_return_prob": 53.1,
+            "max_gain": 6.73,
+            "max_loss": -10.43,
+            "fwd_volatility": 3.36
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 98,
+            "avg_return": -0.76,
+            "median_return": 0.34,
+            "pos_return_prob": 52.0,
+            "neg_return_prob": 48.0,
+            "max_gain": 6.69,
+            "max_loss": -13.44,
+            "fwd_volatility": 4.25
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 98,
+            "avg_return": -1.02,
+            "median_return": -0.29,
+            "pos_return_prob": 45.9,
+            "neg_return_prob": 54.1,
+            "max_gain": 10.55,
+            "max_loss": -11.99,
+            "fwd_volatility": 5.03
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 49.0,
+          "expected_return_pct": 0.04
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 49.0,
+          "expected_return_pct": 0.0
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 46.9,
+          "expected_return_pct": -0.25
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 52.0,
+          "expected_return_pct": -0.76
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 45.9,
+          "expected_return_pct": -1.02
+        }
+      }
+    },
+    {
+      "symbol": "M&M",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 3092.85009765625,
+      "daily_return": -1.08,
+      "technical_score": 68.7,
+      "label": "Strong",
+      "score_components": {
+        "technical_trend_score": 100.0,
+        "momentum_score": 100.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 43.3,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 75.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 2669.050048828125,
+        "resistance_level": 3237.050048828125,
+        "trend_state": "Strong Uptrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "M&M",
+        "market_cap": 3434179985408,
+        "pe_ratio": 17.391304,
+        "forward_pe": 18.154314,
+        "pb_ratio": 3.4332702,
+        "eps": 164.45,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 125.278,
+        "revenue_growth": 0.275,
+        "profit_growth": 0.334,
+        "ebitda_margins": 0.18629,
+        "net_margins": 0.08609,
+        "dividend_yield": 1.15,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.53301996,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:41.428720+00:00",
+        "fundamental_score": 75.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 64,
+        "similarity_criteria": {
+          "target_rsi": 65.5,
+          "target_ma_dist_pct": 1.31,
+          "target_volatility": 0.29
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 64,
+            "avg_return": 0.3,
+            "median_return": 0.23,
+            "pos_return_prob": 57.8,
+            "neg_return_prob": 42.2,
+            "max_gain": 6.53,
+            "max_loss": -3.65,
+            "fwd_volatility": 2.06
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 64,
+            "avg_return": 0.92,
+            "median_return": 0.23,
+            "pos_return_prob": 56.2,
+            "neg_return_prob": 43.8,
+            "max_gain": 11.56,
+            "max_loss": -7.87,
+            "fwd_volatility": 4.11
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 64,
+            "avg_return": 1.32,
+            "median_return": 1.0,
+            "pos_return_prob": 56.2,
+            "neg_return_prob": 43.8,
+            "max_gain": 15.49,
+            "max_loss": -8.66,
+            "fwd_volatility": 5.48
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 64,
+            "avg_return": 3.17,
+            "median_return": 2.57,
+            "pos_return_prob": 64.1,
+            "neg_return_prob": 35.9,
+            "max_gain": 19.56,
+            "max_loss": -13.19,
+            "fwd_volatility": 8.08
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 64,
+            "avg_return": 9.01,
+            "median_return": 10.33,
+            "pos_return_prob": 76.6,
+            "neg_return_prob": 23.4,
+            "max_gain": 29.82,
+            "max_loss": -9.48,
+            "fwd_volatility": 10.36
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 58,
+          "empirical_positive_prob": 57.8,
+          "expected_return_pct": 0.3
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 56,
+          "empirical_positive_prob": 56.2,
+          "expected_return_pct": 0.92
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 56,
+          "empirical_positive_prob": 56.2,
+          "expected_return_pct": 1.32
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 64,
+          "empirical_positive_prob": 64.1,
+          "expected_return_pct": 3.17
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 77,
+          "empirical_positive_prob": 76.6,
+          "expected_return_pct": 9.01
+        }
+      }
+    },
+    {
+      "symbol": "MARUTI",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 11631.099609375,
+      "daily_return": -0.93,
+      "technical_score": 61.7,
+      "label": "Neutral",
+      "score_components": {
+        "technical_trend_score": 80.0,
+        "momentum_score": 100.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 44.7,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 60.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 10725.0,
+        "resistance_level": 12049.7998046875,
+        "trend_state": "Uptrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "MARUTI",
+        "market_cap": 3579787608064,
+        "pe_ratio": 25.0,
+        "forward_pe": 18.793056,
+        "pb_ratio": 3.3407006,
+        "eps": 455.44,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 0.096,
+        "revenue_growth": 0.359,
+        "profit_growth": -0.091,
+        "ebitda_margins": 0.10764,
+        "net_margins": 0.07269,
+        "dividend_yield": 1.23,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.25917998,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:41.886764+00:00",
+        "fundamental_score": 60.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 67,
+        "similarity_criteria": {
+          "target_rsi": 67.0,
+          "target_ma_dist_pct": 3.28,
+          "target_volatility": 0.27
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 67,
+            "avg_return": 0.02,
+            "median_return": -0.17,
+            "pos_return_prob": 43.3,
+            "neg_return_prob": 56.7,
+            "max_gain": 4.43,
+            "max_loss": -4.74,
+            "fwd_volatility": 1.65
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 67,
+            "avg_return": 0.0,
+            "median_return": -0.36,
+            "pos_return_prob": 43.3,
+            "neg_return_prob": 56.7,
+            "max_gain": 5.43,
+            "max_loss": -9.19,
+            "fwd_volatility": 2.74
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 67,
+            "avg_return": -0.12,
+            "median_return": -0.73,
+            "pos_return_prob": 44.8,
+            "neg_return_prob": 55.2,
+            "max_gain": 7.35,
+            "max_loss": -8.54,
+            "fwd_volatility": 3.4
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 67,
+            "avg_return": 0.43,
+            "median_return": 0.13,
+            "pos_return_prob": 52.2,
+            "neg_return_prob": 47.8,
+            "max_gain": 10.11,
+            "max_loss": -9.12,
+            "fwd_volatility": 4.34
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 67,
+            "avg_return": 1.73,
+            "median_return": 1.93,
+            "pos_return_prob": 58.2,
+            "neg_return_prob": 41.8,
+            "max_gain": 13.22,
+            "max_loss": -16.56,
+            "fwd_volatility": 6.62
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 43.3,
+          "expected_return_pct": 0.02
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 43.3,
+          "expected_return_pct": 0.0
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bearish",
+          "confidence_score": 55,
+          "empirical_positive_prob": 44.8,
+          "expected_return_pct": -0.12
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 52.2,
+          "expected_return_pct": 0.43
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 58,
+          "empirical_positive_prob": 58.2,
+          "expected_return_pct": 1.73
+        }
+      }
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 1784.800048828125,
+      "daily_return": -2.28,
+      "technical_score": 41.7,
+      "label": "Weak",
+      "score_components": {
+        "technical_trend_score": 70.0,
+        "momentum_score": 20.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 31.3,
+        "market_regime_score": 10.0,
+        "sector_score": 47.2,
+        "fundamental_score": 75.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 1723.4000244140625,
+        "resistance_level": 1910.0,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "SUNPHARMA",
+        "market_cap": 4321202143232,
+        "pe_ratio": 35.712868,
+        "forward_pe": 27.906345,
+        "pb_ratio": 5.1707554,
+        "eps": 50.43,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 5.517,
+        "revenue_growth": 0.105,
+        "profit_growth": 0.274,
+        "ebitda_margins": 0.2768,
+        "net_margins": 0.20188999,
+        "dividend_yield": 0.89,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.29471,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:42.238758+00:00",
+        "fundamental_score": 75.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 58,
+        "similarity_criteria": {
+          "target_rsi": 43.9,
+          "target_ma_dist_pct": -2.79,
+          "target_volatility": 0.15
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 58,
+            "avg_return": -0.13,
+            "median_return": -0.17,
+            "pos_return_prob": 46.6,
+            "neg_return_prob": 53.4,
+            "max_gain": 2.79,
+            "max_loss": -2.66,
+            "fwd_volatility": 1.19
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 58,
+            "avg_return": -0.1,
+            "median_return": -0.2,
+            "pos_return_prob": 43.1,
+            "neg_return_prob": 55.2,
+            "max_gain": 3.9,
+            "max_loss": -3.72,
+            "fwd_volatility": 1.93
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 58,
+            "avg_return": 0.09,
+            "median_return": 0.3,
+            "pos_return_prob": 53.4,
+            "neg_return_prob": 44.8,
+            "max_gain": 4.6,
+            "max_loss": -4.94,
+            "fwd_volatility": 2.28
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 58,
+            "avg_return": 0.03,
+            "median_return": 0.06,
+            "pos_return_prob": 51.7,
+            "neg_return_prob": 48.3,
+            "max_gain": 6.89,
+            "max_loss": -5.95,
+            "fwd_volatility": 3.06
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 58,
+            "avg_return": 0.38,
+            "median_return": 0.48,
+            "pos_return_prob": 56.9,
+            "neg_return_prob": 43.1,
+            "max_gain": 11.94,
+            "max_loss": -8.51,
+            "fwd_volatility": 4.47
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 46.6,
+          "expected_return_pct": -0.13
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 43.1,
+          "expected_return_pct": -0.1
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 53.4,
+          "expected_return_pct": 0.09
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 51.7,
+          "expected_return_pct": 0.03
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 57,
+          "empirical_positive_prob": 56.9,
+          "expected_return_pct": 0.38
+        }
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 127.43000030517578,
+      "daily_return": -1.92,
+      "technical_score": 25.5,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 0.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 34.8,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 60.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": true,
+        "unusual_volume": false,
+        "support_level": 126.69999694824219,
+        "resistance_level": 156.9199981689453,
+        "trend_state": "Strong Downtrend",
+        "signals_list": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "TATASTEEL",
+        "market_cap": 2220428099584,
+        "pe_ratio": 20.112993,
+        "forward_pe": 9.944135,
+        "pb_ratio": 2.1749222,
+        "eps": 8.85,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 89.017,
+        "revenue_growth": 0.143,
+        "profit_growth": 0.114,
+        "ebitda_margins": 0.14178,
+        "net_margins": 0.04602,
+        "dividend_yield": 2.25,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.34500998,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:42.799275+00:00",
+        "fundamental_score": 60.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 20,
+        "similarity_criteria": {
+          "target_rsi": 21.6,
+          "target_ma_dist_pct": -8.19,
+          "target_volatility": 0.21
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 20,
+            "avg_return": -0.16,
+            "median_return": 0.16,
+            "pos_return_prob": 55.0,
+            "neg_return_prob": 45.0,
+            "max_gain": 3.28,
+            "max_loss": -5.16,
+            "fwd_volatility": 1.87
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 20,
+            "avg_return": -0.39,
+            "median_return": -0.64,
+            "pos_return_prob": 45.0,
+            "neg_return_prob": 55.0,
+            "max_gain": 4.24,
+            "max_loss": -5.39,
+            "fwd_volatility": 2.41
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 20,
+            "avg_return": -0.56,
+            "median_return": -0.25,
+            "pos_return_prob": 45.0,
+            "neg_return_prob": 55.0,
+            "max_gain": 3.6,
+            "max_loss": -6.6,
+            "fwd_volatility": 3.14
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 20,
+            "avg_return": -3.1,
+            "median_return": -3.61,
+            "pos_return_prob": 25.0,
+            "neg_return_prob": 75.0,
+            "max_gain": 3.25,
+            "max_loss": -7.12,
+            "fwd_volatility": 3.1
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 20,
+            "avg_return": -5.77,
+            "median_return": -4.12,
+            "pos_return_prob": 0.0,
+            "neg_return_prob": 100.0,
+            "max_gain": -0.95,
+            "max_loss": -10.72,
+            "fwd_volatility": 3.42
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 55.0,
+          "expected_return_pct": -0.16
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bearish",
+          "confidence_score": 55,
+          "empirical_positive_prob": 45.0,
+          "expected_return_pct": -0.39
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bearish",
+          "confidence_score": 55,
+          "empirical_positive_prob": 45.0,
+          "expected_return_pct": -0.56
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Bearish",
+          "confidence_score": 75,
+          "empirical_positive_prob": 25.0,
+          "expected_return_pct": -3.1
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bearish",
+          "confidence_score": 95,
+          "empirical_positive_prob": 0.0,
+          "expected_return_pct": -5.77
+        }
+      }
+    },
+    {
+      "symbol": "NTPC",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 308.25,
+      "daily_return": -3.78,
+      "technical_score": 22.7,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 0.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 16.3,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 60.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": true,
+        "unusual_volume": false,
+        "support_level": 307.6000061035156,
+        "resistance_level": 415.45001220703125,
+        "trend_state": "Strong Downtrend",
+        "signals_list": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "NTPC",
+        "market_cap": 3055419654144,
+        "pe_ratio": 9.618438,
+        "forward_pe": 11.183265,
+        "pb_ratio": 1.5044595,
+        "eps": 32.76,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 128.345,
+        "revenue_growth": 0.078,
+        "profit_growth": 0.118,
+        "ebitda_margins": 0.30857,
+        "net_margins": 0.14531,
+        "dividend_yield": 3.92,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.35077998,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:43.203719+00:00",
+        "fundamental_score": 60.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 16,
+        "similarity_criteria": {
+          "target_rsi": 24.4,
+          "target_ma_dist_pct": -7.94,
+          "target_volatility": 0.22
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 16,
+            "avg_return": -0.19,
+            "median_return": 0.14,
+            "pos_return_prob": 50.0,
+            "neg_return_prob": 43.8,
+            "max_gain": 2.61,
+            "max_loss": -2.88,
+            "fwd_volatility": 1.71
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 16,
+            "avg_return": -0.67,
+            "median_return": 0.06,
+            "pos_return_prob": 50.0,
+            "neg_return_prob": 50.0,
+            "max_gain": 3.06,
+            "max_loss": -4.39,
+            "fwd_volatility": 2.4
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 16,
+            "avg_return": -0.9,
+            "median_return": -0.22,
+            "pos_return_prob": 50.0,
+            "neg_return_prob": 50.0,
+            "max_gain": 3.25,
+            "max_loss": -7.78,
+            "fwd_volatility": 3.01
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 16,
+            "avg_return": -1.73,
+            "median_return": -1.25,
+            "pos_return_prob": 43.8,
+            "neg_return_prob": 56.2,
+            "max_gain": 3.65,
+            "max_loss": -9.05,
+            "fwd_volatility": 3.51
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 16,
+            "avg_return": -7.37,
+            "median_return": -7.1,
+            "pos_return_prob": 0.0,
+            "neg_return_prob": 100.0,
+            "max_gain": -4.81,
+            "max_loss": -10.49,
+            "fwd_volatility": 1.59
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 50.0,
+          "expected_return_pct": -0.19
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 50.0,
+          "expected_return_pct": -0.67
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 50.0,
+          "expected_return_pct": -0.9
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bearish",
+          "confidence_score": 56,
+          "empirical_positive_prob": 43.8,
+          "expected_return_pct": -1.73
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bearish",
+          "confidence_score": 95,
+          "empirical_positive_prob": 0.0,
+          "expected_return_pct": -7.37
+        }
+      }
+    },
+    {
+      "symbol": "POWERGRID",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 299.70001220703125,
+      "daily_return": -1.82,
+      "technical_score": 24.6,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 0.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 35.9,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 40.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": true,
+        "unusual_volume": false,
+        "support_level": 298.5,
+        "resistance_level": 345.3999938964844,
+        "trend_state": "Strong Downtrend",
+        "signals_list": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "POWERGRID",
+        "market_cap": 2367468863488,
+        "pe_ratio": 12.4718275,
+        "forward_pe": 13.149229,
+        "pb_ratio": 2.3558319,
+        "eps": 20.41,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 150.813,
+        "revenue_growth": 0.027,
+        "profit_growth": -0.008,
+        "ebitda_margins": 0.84461,
+        "net_margins": 0.33797002,
+        "dividend_yield": 4.03,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.36216,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:43.604650+00:00",
+        "fundamental_score": 40.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 21,
+        "similarity_criteria": {
+          "target_rsi": 28.1,
+          "target_ma_dist_pct": -4.6,
+          "target_volatility": 0.2
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 21,
+            "avg_return": 0.2,
+            "median_return": 0.36,
+            "pos_return_prob": 57.1,
+            "neg_return_prob": 42.9,
+            "max_gain": 4.28,
+            "max_loss": -2.54,
+            "fwd_volatility": 1.42
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 21,
+            "avg_return": 0.49,
+            "median_return": 0.44,
+            "pos_return_prob": 66.7,
+            "neg_return_prob": 33.3,
+            "max_gain": 5.46,
+            "max_loss": -4.56,
+            "fwd_volatility": 2.44
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 21,
+            "avg_return": 0.74,
+            "median_return": 0.02,
+            "pos_return_prob": 52.4,
+            "neg_return_prob": 47.6,
+            "max_gain": 8.78,
+            "max_loss": -4.89,
+            "fwd_volatility": 3.35
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 21,
+            "avg_return": 2.63,
+            "median_return": 0.5,
+            "pos_return_prob": 57.1,
+            "neg_return_prob": 42.9,
+            "max_gain": 21.18,
+            "max_loss": -4.74,
+            "fwd_volatility": 6.35
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 21,
+            "avg_return": 4.1,
+            "median_return": 3.44,
+            "pos_return_prob": 71.4,
+            "neg_return_prob": 28.6,
+            "max_gain": 22.3,
+            "max_loss": -6.02,
+            "fwd_volatility": 6.86
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 57,
+          "empirical_positive_prob": 57.1,
+          "expected_return_pct": 0.2
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 67,
+          "empirical_positive_prob": 66.7,
+          "expected_return_pct": 0.49
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 52.4,
+          "expected_return_pct": 0.74
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 57,
+          "empirical_positive_prob": 57.1,
+          "expected_return_pct": 2.63
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 71,
+          "empirical_positive_prob": 71.4,
+          "expected_return_pct": 4.1
+        }
+      }
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 728.8049926757812,
+      "daily_return": 0.15,
+      "technical_score": 65.1,
+      "label": "Strong",
+      "score_components": {
+        "technical_trend_score": 90.0,
+        "momentum_score": 90.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 55.5,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 55.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 645.0999755859375,
+        "resistance_level": 759.989990234375,
+        "trend_state": "Uptrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "BAJFINANCE",
+        "market_cap": 5899291721728,
+        "pe_ratio": 29.088959,
+        "forward_pe": 18.76588,
+        "pb_ratio": 5.172329,
+        "eps": 32.6,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 314.833,
+        "revenue_growth": 0.261,
+        "profit_growth": 0.272,
+        "ebitda_margins": 0.0,
+        "net_margins": 0.43495,
+        "dividend_yield": 0.57,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.27522,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:44.109282+00:00",
+        "fundamental_score": 55.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 30,
+        "similarity_criteria": {
+          "target_rsi": 72.0,
+          "target_ma_dist_pct": 2.76,
+          "target_volatility": 0.27
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 30,
+            "avg_return": 0.21,
+            "median_return": 0.18,
+            "pos_return_prob": 53.3,
+            "neg_return_prob": 43.3,
+            "max_gain": 3.61,
+            "max_loss": -3.49,
+            "fwd_volatility": 1.71
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 30,
+            "avg_return": 0.49,
+            "median_return": 0.52,
+            "pos_return_prob": 63.3,
+            "neg_return_prob": 36.7,
+            "max_gain": 4.93,
+            "max_loss": -6.38,
+            "fwd_volatility": 2.86
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 30,
+            "avg_return": 0.72,
+            "median_return": 1.9,
+            "pos_return_prob": 60.0,
+            "neg_return_prob": 40.0,
+            "max_gain": 5.78,
+            "max_loss": -7.17,
+            "fwd_volatility": 3.47
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 30,
+            "avg_return": -0.29,
+            "median_return": -0.03,
+            "pos_return_prob": 46.7,
+            "neg_return_prob": 53.3,
+            "max_gain": 5.53,
+            "max_loss": -9.69,
+            "fwd_volatility": 4.5
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 30,
+            "avg_return": -2.41,
+            "median_return": -3.2,
+            "pos_return_prob": 26.7,
+            "neg_return_prob": 73.3,
+            "max_gain": 9.98,
+            "max_loss": -11.05,
+            "fwd_volatility": 6.15
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 53.3,
+          "expected_return_pct": 0.21
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 63,
+          "empirical_positive_prob": 63.3,
+          "expected_return_pct": 0.49
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 60,
+          "empirical_positive_prob": 60.0,
+          "expected_return_pct": 0.72
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 46.7,
+          "expected_return_pct": -0.29
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bearish",
+          "confidence_score": 73,
+          "empirical_positive_prob": 26.7,
+          "expected_return_pct": -2.41
+        }
+      }
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 2320.75,
+      "daily_return": -1.25,
+      "technical_score": 59.7,
+      "label": "Neutral",
+      "score_components": {
+        "technical_trend_score": 65.0,
+        "momentum_score": 100.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 41.5,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 75.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 2256.5,
+        "resistance_level": 3006.0,
+        "trend_state": "Downtrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "ASIANPAINT",
+        "market_cap": 2307456761856,
+        "pe_ratio": 48.5478,
+        "forward_pe": 39.693356,
+        "pb_ratio": 10.803071,
+        "eps": 49.58,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 17.847,
+        "revenue_growth": 0.179,
+        "profit_growth": 0.399,
+        "ebitda_margins": 0.18521999,
+        "net_margins": 0.12813,
+        "dividend_yield": 1.14,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.27126,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:44.518890+00:00",
+        "fundamental_score": 75.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 96,
+        "similarity_criteria": {
+          "target_rsi": 56.1,
+          "target_ma_dist_pct": 0.25,
+          "target_volatility": 0.2
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 96,
+            "avg_return": 0.08,
+            "median_return": 0.11,
+            "pos_return_prob": 55.2,
+            "neg_return_prob": 44.8,
+            "max_gain": 3.9,
+            "max_loss": -4.68,
+            "fwd_volatility": 1.28
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 96,
+            "avg_return": 0.03,
+            "median_return": 0.21,
+            "pos_return_prob": 55.2,
+            "neg_return_prob": 44.8,
+            "max_gain": 4.9,
+            "max_loss": -7.71,
+            "fwd_volatility": 2.29
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 96,
+            "avg_return": 0.08,
+            "median_return": 0.6,
+            "pos_return_prob": 55.2,
+            "neg_return_prob": 44.8,
+            "max_gain": 5.89,
+            "max_loss": -7.51,
+            "fwd_volatility": 2.83
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 96,
+            "avg_return": 0.14,
+            "median_return": 0.43,
+            "pos_return_prob": 58.3,
+            "neg_return_prob": 41.7,
+            "max_gain": 8.58,
+            "max_loss": -8.2,
+            "fwd_volatility": 3.74
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 96,
+            "avg_return": 1.29,
+            "median_return": 1.52,
+            "pos_return_prob": 72.9,
+            "neg_return_prob": 27.1,
+            "max_gain": 11.81,
+            "max_loss": -10.1,
+            "fwd_volatility": 4.64
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 55.2,
+          "expected_return_pct": 0.08
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 55.2,
+          "expected_return_pct": 0.03
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 55.2,
+          "expected_return_pct": 0.08
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 58,
+          "empirical_positive_prob": 58.3,
+          "expected_return_pct": 0.14
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 73,
+          "empirical_positive_prob": 72.9,
+          "expected_return_pct": 1.29
+        }
+      }
+    },
+    {
+      "symbol": "TITAN",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 3440.25,
+      "daily_return": -1.34,
+      "technical_score": 60.3,
+      "label": "Neutral",
+      "score_components": {
+        "technical_trend_score": 80.0,
+        "momentum_score": 100.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 40.6,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 45.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": false,
+        "unusual_volume": false,
+        "support_level": 3106.0,
+        "resistance_level": 3576.699951171875,
+        "trend_state": "Uptrend",
+        "signals_list": []
+      },
+      "fundamentals": {
+        "symbol": "TITAN",
+        "market_cap": 4006836436992,
+        "pe_ratio": 69.44026,
+        "forward_pe": 50.774582,
+        "pb_ratio": 25.530027,
+        "eps": 65.03,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 195.001,
+        "revenue_growth": 0.293,
+        "profit_growth": 0.628,
+        "ebitda_margins": 0.0962,
+        "net_margins": 0.062319998,
+        "dividend_yield": 0.33,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.22004999,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:45.018071+00:00",
+        "fundamental_score": 45.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 91,
+        "similarity_criteria": {
+          "target_rsi": 58.3,
+          "target_ma_dist_pct": 1.42,
+          "target_volatility": 0.23
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 91,
+            "avg_return": -0.05,
+            "median_return": -0.12,
+            "pos_return_prob": 48.4,
+            "neg_return_prob": 51.6,
+            "max_gain": 3.9,
+            "max_loss": -3.53,
+            "fwd_volatility": 1.5
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 91,
+            "avg_return": -0.24,
+            "median_return": -0.1,
+            "pos_return_prob": 46.2,
+            "neg_return_prob": 53.8,
+            "max_gain": 4.12,
+            "max_loss": -6.19,
+            "fwd_volatility": 2.54
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 91,
+            "avg_return": -0.4,
+            "median_return": -0.37,
+            "pos_return_prob": 44.0,
+            "neg_return_prob": 56.0,
+            "max_gain": 7.12,
+            "max_loss": -8.65,
+            "fwd_volatility": 3.59
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 91,
+            "avg_return": -0.64,
+            "median_return": -0.77,
+            "pos_return_prob": 45.1,
+            "neg_return_prob": 54.9,
+            "max_gain": 10.05,
+            "max_loss": -8.36,
+            "fwd_volatility": 4.66
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 91,
+            "avg_return": -1.56,
+            "median_return": -1.04,
+            "pos_return_prob": 46.2,
+            "neg_return_prob": 53.8,
+            "max_gain": 12.1,
+            "max_loss": -14.14,
+            "fwd_volatility": 6.28
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 48.4,
+          "expected_return_pct": -0.05
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 46.2,
+          "expected_return_pct": -0.24
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bearish",
+          "confidence_score": 56,
+          "empirical_positive_prob": 44.0,
+          "expected_return_pct": -0.4
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 45.1,
+          "expected_return_pct": -0.64
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Neutral",
+          "confidence_score": 50,
+          "empirical_positive_prob": 46.2,
+          "expected_return_pct": -1.56
+        }
+      }
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 10865.2001953125,
+      "daily_return": -3.5,
+      "technical_score": 39.1,
+      "label": "Weak",
+      "score_components": {
+        "technical_trend_score": 60.0,
+        "momentum_score": 20.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 19.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 75.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": true,
+        "unusual_volume": false,
+        "support_level": 10542.5,
+        "resistance_level": 12145.349609375,
+        "trend_state": "Downtrend",
+        "signals_list": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "ULTRACEMCO",
+        "market_cap": 3150556692480,
+        "pe_ratio": 37.320972,
+        "forward_pe": 24.78438,
+        "pb_ratio": 4.111163,
+        "eps": 286.97,
+        "roe": null,
+        "roce": null,
+        "debt_to_equity": 29.432,
+        "revenue_growth": 0.159,
+        "profit_growth": 0.168,
+        "ebitda_margins": 0.19309999,
+        "net_margins": 0.092930004,
+        "dividend_yield": 2.24,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.22694,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:45.482158+00:00",
+        "fundamental_score": 75.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 55,
+        "similarity_criteria": {
+          "target_rsi": 36.4,
+          "target_ma_dist_pct": -5.84,
+          "target_volatility": 0.25
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 55,
+            "avg_return": 0.23,
+            "median_return": 0.24,
+            "pos_return_prob": 56.4,
+            "neg_return_prob": 43.6,
+            "max_gain": 2.66,
+            "max_loss": -2.69,
+            "fwd_volatility": 1.14
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 55,
+            "avg_return": 0.67,
+            "median_return": 0.28,
+            "pos_return_prob": 56.4,
+            "neg_return_prob": 43.6,
+            "max_gain": 7.0,
+            "max_loss": -4.0,
+            "fwd_volatility": 2.07
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 55,
+            "avg_return": 0.85,
+            "median_return": 0.3,
+            "pos_return_prob": 58.2,
+            "neg_return_prob": 41.8,
+            "max_gain": 6.79,
+            "max_loss": -5.18,
+            "fwd_volatility": 2.59
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 55,
+            "avg_return": 0.93,
+            "median_return": 0.3,
+            "pos_return_prob": 60.0,
+            "neg_return_prob": 40.0,
+            "max_gain": 11.49,
+            "max_loss": -5.26,
+            "fwd_volatility": 3.36
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 55,
+            "avg_return": 1.79,
+            "median_return": 1.24,
+            "pos_return_prob": 69.1,
+            "neg_return_prob": 30.9,
+            "max_gain": 12.07,
+            "max_loss": -4.77,
+            "fwd_volatility": 3.8
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 56,
+          "empirical_positive_prob": 56.4,
+          "expected_return_pct": 0.23
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 56,
+          "empirical_positive_prob": 56.4,
+          "expected_return_pct": 0.67
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 58,
+          "empirical_positive_prob": 58.2,
+          "expected_return_pct": 0.85
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 60,
+          "empirical_positive_prob": 60.0,
+          "expected_return_pct": 0.93
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 69,
+          "empirical_positive_prob": 69.1,
+          "expected_return_pct": 1.79
+        }
+      }
+    },
+    {
+      "symbol": "DLF",
+      "exchange": "NSE",
+      "date": "2025-01-10",
+      "close": 752.1500244140625,
+      "daily_return": -3.65,
+      "technical_score": 19.1,
+      "label": "Very Weak",
+      "score_components": {
+        "technical_trend_score": 15.0,
+        "momentum_score": 0.0,
+        "volume_score": 25.0,
+        "relative_strength_score": 17.5,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 60.0
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "breakout": false,
+        "breakdown": true,
+        "unusual_volume": false,
+        "support_level": 743.9500122070312,
+        "resistance_level": 896.5999755859375,
+        "trend_state": "Downtrend",
+        "signals_list": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "fundamentals": {
+        "symbol": "DLF",
+        "market_cap": 1629745184768,
+        "pe_ratio": 36.638844,
+        "forward_pe": 25.900347,
+        "pb_ratio": 3.5839486,
+        "eps": 17.97,
+        "roe": 0.10102,
+        "roce": null,
+        "debt_to_equity": 0.673,
+        "revenue_growth": -0.529,
+        "profit_growth": 0.042,
+        "ebitda_margins": 0.18075001,
+        "net_margins": 0.65791,
+        "dividend_yield": 1.22,
+        "free_cashflow": null,
+        "promoter_holding": null,
+        "institutional_holding": 0.14949,
+        "source": "yfinance",
+        "timestamp": "2026-10-02T16:04:45.814600+00:00",
+        "fundamental_score": 60.0
+      },
+      "historical_analogues": {
+        "target_date": "2025-01-10",
+        "analogue_count": 5,
+        "similarity_criteria": {
+          "target_rsi": 23.1,
+          "target_ma_dist_pct": -9.64,
+          "target_volatility": 0.28
+        },
+        "forward_outcomes": {
+          "1d": {
+            "horizon_days": 1,
+            "observations": 5,
+            "avg_return": 1.29,
+            "median_return": 1.52,
+            "pos_return_prob": 80.0,
+            "neg_return_prob": 20.0,
+            "max_gain": 3.84,
+            "max_loss": -1.2,
+            "fwd_volatility": 1.68
+          },
+          "3d": {
+            "horizon_days": 3,
+            "observations": 5,
+            "avg_return": 1.95,
+            "median_return": 3.19,
+            "pos_return_prob": 80.0,
+            "neg_return_prob": 20.0,
+            "max_gain": 5.74,
+            "max_loss": -4.68,
+            "fwd_volatility": 3.83
+          },
+          "5d": {
+            "horizon_days": 5,
+            "observations": 5,
+            "avg_return": 5.08,
+            "median_return": 5.12,
+            "pos_return_prob": 100.0,
+            "neg_return_prob": 0.0,
+            "max_gain": 8.6,
+            "max_loss": 2.12,
+            "fwd_volatility": 2.49
+          },
+          "10d": {
+            "horizon_days": 10,
+            "observations": 5,
+            "avg_return": 5.25,
+            "median_return": 7.92,
+            "pos_return_prob": 60.0,
+            "neg_return_prob": 40.0,
+            "max_gain": 13.49,
+            "max_loss": -2.86,
+            "fwd_volatility": 6.52
+          },
+          "20d": {
+            "horizon_days": 20,
+            "observations": 5,
+            "avg_return": 3.41,
+            "median_return": 5.12,
+            "pos_return_prob": 80.0,
+            "neg_return_prob": 20.0,
+            "max_gain": 7.18,
+            "max_loss": -5.05,
+            "fwd_volatility": 4.36
+          }
+        }
+      },
+      "forward_probabilities": {
+        "1d": {
+          "horizon_days": 1,
+          "directional_bias": "Bullish",
+          "confidence_score": 80,
+          "empirical_positive_prob": 80.0,
+          "expected_return_pct": 1.29
+        },
+        "3d": {
+          "horizon_days": 3,
+          "directional_bias": "Bullish",
+          "confidence_score": 80,
+          "empirical_positive_prob": 80.0,
+          "expected_return_pct": 1.95
+        },
+        "5d": {
+          "horizon_days": 5,
+          "directional_bias": "Bullish",
+          "confidence_score": 95,
+          "empirical_positive_prob": 100.0,
+          "expected_return_pct": 5.08
+        },
+        "10d": {
+          "horizon_days": 10,
+          "directional_bias": "Slightly Bullish",
+          "confidence_score": 60,
+          "empirical_positive_prob": 60.0,
+          "expected_return_pct": 5.25
+        },
+        "20d": {
+          "horizon_days": 20,
+          "directional_bias": "Bullish",
+          "confidence_score": 80,
+          "empirical_positive_prob": 80.0,
+          "expected_return_pct": 3.41
+        }
+      }
+    }
+  ],
+  "data_quality": {
+    "date": "2025-01-10",
+    "tickers_processed": 28,
+    "records_processed": 6860,
+    "records_valid": 6860,
+    "total_warnings": 7,
+    "total_errors": 0,
+    "warnings": [
+      "[^NSEBANK] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+      "[^CNXIT] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+      "[HDFCBANK] Detected 2 anomalous volume spikes (> 5.0x 20-day mean).",
+      "[BHARTIARTL] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+      "[KOTAKBANK] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+      "[ASIANPAINT] Detected 1 anomalous volume spikes (> 5.0x 20-day mean).",
+      "[TITAN] Detected 1 anomalous volume spikes (> 5.0x 20-day mean)."
+    ],
+    "errors": []
+  }
+}

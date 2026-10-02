@@ -1,0 +1,106 @@
+{
+  "indices": [
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50",
+      "category": "benchmark",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSMIDCP",
+      "name": "NIFTY Next 50",
+      "category": "benchmark",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY Bank",
+      "category": "sector",
+      "sector_id": "BANK",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "category": "sector",
+      "sector_id": "IT",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY Auto",
+      "category": "sector",
+      "sector_id": "AUTO",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY Pharma",
+      "category": "sector",
+      "sector_id": "PHARMA",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "category": "sector",
+      "sector_id": "FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY Metal",
+      "category": "sector",
+      "sector_id": "METAL",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY Realty",
+      "category": "sector",
+      "sector_id": "REALTY",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY Energy",
+      "category": "sector",
+      "sector_id": "ENERGY",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFIN",
+      "name": "NIFTY Financial Services",
+      "category": "sector",
+      "sector_id": "FINANCE",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    { "symbol": "RELIANCE", "exchange": "NSE", "ticker_yf": "RELIANCE.NS", "sector": "ENERGY", "enabled": true },
+    { "symbol": "TCS", "exchange": "NSE", "ticker_yf": "TCS.NS", "sector": "IT", "enabled": true },
+    { "symbol": "HDFCBANK", "exchange": "NSE", "ticker_yf": "HDFCBANK.NS", "sector": "BANK", "enabled": true },
+    { "symbol": "ICICIBANK", "exchange": "NSE", "ticker_yf": "ICICIBANK.NS", "sector": "BANK", "enabled": true },
+    { "symbol": "INFY", "exchange": "NSE", "ticker_yf": "INFY.NS", "sector": "IT", "enabled": true },
+    { "symbol": "BHARTIARTL", "exchange": "NSE", "ticker_yf": "BHARTIARTL.NS", "sector": "TELECOM", "enabled": true },
+    { "symbol": "ITC", "exchange": "NSE", "ticker_yf": "ITC.NS", "sector": "FMCG", "enabled": true },
+    { "symbol": "SBIN", "exchange": "NSE", "ticker_yf": "SBIN.NS", "sector": "BANK", "enabled": true },
+    { "symbol": "LTI", "exchange": "NSE", "ticker_yf": "LTIM.NS", "sector": "IT", "enabled": true },
+    { "symbol": "HINDUNILVR", "exchange": "NSE", "ticker_yf": "HINDUNILVR.NS", "sector": "FMCG", "enabled": true },
+    { "symbol": "LT", "exchange": "NSE", "ticker_yf": "LT.NS", "sector": "CAPITAL_GOODS", "enabled": true },
+    { "symbol": "AXISBANK", "exchange": "NSE", "ticker_yf": "AXISBANK.NS", "sector": "BANK", "enabled": true },
+    { "symbol": "KOTAKBANK", "exchange": "NSE", "ticker_yf": "KOTAKBANK.NS", "sector": "BANK", "enabled": true },
+    { "symbol": "M&M", "exchange": "NSE", "ticker_yf": "M&M.NS", "sector": "AUTO", "enabled": true },
+    { "symbol": "TATAMOTORS", "exchange": "NSE", "ticker_yf": "TATAMOTORS.NS", "sector": "AUTO", "enabled": true },
+    { "symbol": "MARUTI", "exchange": "NSE", "ticker_yf": "MARUTI.NS", "sector": "AUTO", "enabled": true },
+    { "symbol": "SUNPHARMA", "exchange": "NSE", "ticker_yf": "SUNPHARMA.NS", "sector": "PHARMA", "enabled": true },
+    { "symbol": "TATASTEEL", "exchange": "NSE", "ticker_yf": "TATASTEEL.NS", "sector": "METAL", "enabled": true },
+    { "symbol": "NTPC", "exchange": "NSE", "ticker_yf": "NTPC.NS", "sector": "ENERGY", "enabled": true },
+    { "symbol": "POWERGRID", "exchange": "NSE", "ticker_yf": "POWERGRID.NS", "sector": "ENERGY", "enabled": true },
+    { "symbol": "BAJFINANCE", "exchange": "NSE", "ticker_yf": "BAJFINANCE.NS", "sector": "FINANCE", "enabled": true },
+    { "symbol": "ASIANPAINT", "exchange": "NSE", "ticker_yf": "ASIANPAINT.NS", "sector": "CONSUMER", "enabled": true },
+    { "symbol": "TITAN", "exchange": "NSE", "ticker_yf": "TITAN.NS", "sector": "CONSUMER", "enabled": true },
+    { "symbol": "ULTRACEMCO", "exchange": "NSE", "ticker_yf": "ULTRACEMCO.NS", "sector": "CEMENT", "enabled": true },
+    { "symbol": "DLF", "exchange": "NSE", "ticker_yf": "DLF.NS", "sector": "REALTY", "enabled": true }
+  ]
+}
