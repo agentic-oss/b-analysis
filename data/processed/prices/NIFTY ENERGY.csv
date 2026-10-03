@@ -1,0 +1,2 @@
+date,open,high,low,close,adj_close,volume,dividends,splits,ticker,data_provider,ingestion_timestamp
+2026-10-01,36496.3984375,36706.25,35982.5,36388.1484375,36388.1484375,0,0.0,0.0,NIFTY ENERGY,yfinance,2026-10-03T15:44:56.935376

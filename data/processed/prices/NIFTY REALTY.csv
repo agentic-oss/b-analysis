@@ -1,0 +1,2 @@
+date,open,high,low,close,adj_close,volume,dividends,splits,ticker,data_provider,ingestion_timestamp
+2026-10-01,841.5999755859375,846.8499755859375,824.0499877929688,835.0,835.0,0,0.0,0.0,NIFTY REALTY,yfinance,2026-10-03T15:44:56.853494

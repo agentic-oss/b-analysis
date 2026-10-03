@@ -1,0 +1,2 @@
+date,open,high,low,close,adj_close,volume,dividends,splits,ticker,data_provider,ingestion_timestamp
+2026-10-01,44386.0,44441.6484375,43442.30078125,43789.8515625,43789.8515625,0,0.0,0.0,NIFTY FMCG,yfinance,2026-10-03T15:44:56.688143
