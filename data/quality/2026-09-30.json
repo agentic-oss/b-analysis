@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-30",
+  "records_processed": 10430,
+  "records_valid": 10430,
+  "warnings": [],
+  "errors": [
+    "Empty data received for TATAMOTORS"
+  ]
+}

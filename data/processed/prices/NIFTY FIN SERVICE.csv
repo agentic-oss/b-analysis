@@ -1,0 +1,2 @@
+date,open,high,low,close,adj_close,volume,dividends,splits,ticker,data_provider,ingestion_timestamp
+2026-10-01,24611.900390625,24812.900390625,24358.5,24556.099609375,24556.099609375,0,0.0,0.0,NIFTY FIN SERVICE,yfinance,2026-10-03T15:44:57.017244
