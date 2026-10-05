@@ -1,0 +1,1302 @@
+{
+  "date": "2025-01-10",
+  "market": {
+    "regime": "Strong Bearish",
+    "score": -70,
+    "confidence": 100,
+    "rules_triggered": [
+      "NIFTY below 200 DMA (-30)",
+      "NIFTY below 50 DMA (-20)",
+      "Market Breadth (<40% above 50 DMA: 9.1%) (-25)",
+      "Strong Advance/Decline Ratio (2.67) (+15)",
+      "Bank NIFTY in Bearish Trend (-10)"
+    ],
+    "nifty_trend": "Below 200 DMA",
+    "nifty_volatility_annualized": 10.84,
+    "bank_nifty_trend": "Bearish",
+    "breadth": {
+      "total_tracked": 11,
+      "advances": 8,
+      "declines": 3,
+      "advance_decline_ratio": 2.67,
+      "pct_above_20_dma": 18.2,
+      "pct_above_50_dma": 9.1,
+      "pct_above_200_dma": 9.1,
+      "new_highs_20d": 0,
+      "new_lows_20d": 1
+    }
+  },
+  "sectors": [
+    {
+      "sector": "NIFTY BANK",
+      "daily_return_pct": 0.48,
+      "weekly_return_pct": -1.56,
+      "monthly_return_pct": -4.65,
+      "relative_strength_1d": -0.11,
+      "relative_strength_5d": 0.97,
+      "volatility_annualized": 13.26,
+      "relative_volume": 0.0,
+      "momentum_score": -1.36,
+      "rank": 1
+    },
+    {
+      "sector": "NIFTY IT",
+      "daily_return_pct": -0.01,
+      "weekly_return_pct": 0.5,
+      "monthly_return_pct": -8.23,
+      "relative_strength_1d": -0.61,
+      "relative_strength_5d": 3.03,
+      "volatility_annualized": 19.92,
+      "relative_volume": 0.0,
+      "momentum_score": -1.45,
+      "rank": 2
+    },
+    {
+      "sector": "NIFTY PHARMA",
+      "daily_return_pct": -0.74,
+      "weekly_return_pct": -3.28,
+      "monthly_return_pct": -2.03,
+      "relative_strength_1d": -1.34,
+      "relative_strength_5d": -0.75,
+      "volatility_annualized": 14.01,
+      "relative_volume": 0.0,
+      "momentum_score": -2.01,
+      "rank": 3
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 39.4,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 60.0,
+          "relative_strength": 29.5,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 1183.53,
+        "r1": 1195.87,
+        "s1": 1174.07
+      },
+      "historical_analogues": {
+        "observations_count": 66,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 66,
+            "avg_forward_return_pct": 0.0,
+            "median_forward_return_pct": 0.1,
+            "positive_probability_pct": 53.0,
+            "negative_probability_pct": 43.9,
+            "max_observed_gain_pct": 3.3,
+            "max_observed_loss_pct": -3.04,
+            "forward_volatility_pct": 1.31
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 66,
+            "avg_forward_return_pct": -0.31,
+            "median_forward_return_pct": -0.62,
+            "positive_probability_pct": 37.9,
+            "negative_probability_pct": 62.1,
+            "max_observed_gain_pct": 5.87,
+            "max_observed_loss_pct": -4.44,
+            "forward_volatility_pct": 2.43
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 66,
+            "avg_forward_return_pct": -0.09,
+            "median_forward_return_pct": -0.13,
+            "positive_probability_pct": 48.5,
+            "negative_probability_pct": 51.5,
+            "max_observed_gain_pct": 9.29,
+            "max_observed_loss_pct": -5.53,
+            "forward_volatility_pct": 3.05
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 66,
+            "avg_forward_return_pct": 0.27,
+            "median_forward_return_pct": 0.52,
+            "positive_probability_pct": 54.5,
+            "negative_probability_pct": 45.5,
+            "max_observed_gain_pct": 15.48,
+            "max_observed_loss_pct": -6.92,
+            "forward_volatility_pct": 3.98
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 66,
+            "avg_forward_return_pct": 0.03,
+            "median_forward_return_pct": -0.52,
+            "positive_probability_pct": 42.4,
+            "negative_probability_pct": 57.6,
+            "max_observed_gain_pct": 21.51,
+            "max_observed_loss_pct": -6.95,
+            "forward_volatility_pct": 4.52
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bullish",
+        "bias_3d": "Slightly Bearish",
+        "bias_5d": "Bearish",
+        "bias_10d": "Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 63.8,
+        "model_metrics": {
+          "accuracy": 0.5,
+          "precision": 0.368,
+          "recall": 0.636,
+          "f1": 0.467
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 992533.1,
+        "total_return_pct": -0.75,
+        "max_drawdown_pct": -2.53,
+        "sharpe_ratio": -0.29,
+        "total_trades": 12,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "TCS",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 42.3,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 75.0,
+          "relative_strength": 33.5,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 2106.3,
+        "r1": 2149.0,
+        "s1": 2071.7
+      },
+      "historical_analogues": {
+        "observations_count": 49,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 49,
+            "avg_forward_return_pct": -0.05,
+            "median_forward_return_pct": -0.14,
+            "positive_probability_pct": 42.9,
+            "negative_probability_pct": 55.1,
+            "max_observed_gain_pct": 4.31,
+            "max_observed_loss_pct": -3.05,
+            "forward_volatility_pct": 1.38
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 49,
+            "avg_forward_return_pct": -0.35,
+            "median_forward_return_pct": -0.5,
+            "positive_probability_pct": 42.9,
+            "negative_probability_pct": 57.1,
+            "max_observed_gain_pct": 5.6,
+            "max_observed_loss_pct": -5.62,
+            "forward_volatility_pct": 2.55
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 49,
+            "avg_forward_return_pct": -0.76,
+            "median_forward_return_pct": -0.78,
+            "positive_probability_pct": 40.8,
+            "negative_probability_pct": 59.2,
+            "max_observed_gain_pct": 8.29,
+            "max_observed_loss_pct": -6.99,
+            "forward_volatility_pct": 3.39
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 49,
+            "avg_forward_return_pct": -1.84,
+            "median_forward_return_pct": -1.7,
+            "positive_probability_pct": 38.8,
+            "negative_probability_pct": 61.2,
+            "max_observed_gain_pct": 10.42,
+            "max_observed_loss_pct": -14.61,
+            "forward_volatility_pct": 5.06
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 49,
+            "avg_forward_return_pct": -5.1,
+            "median_forward_return_pct": -3.25,
+            "positive_probability_pct": 36.7,
+            "negative_probability_pct": 63.3,
+            "max_observed_gain_pct": 23.4,
+            "max_observed_loss_pct": -18.5,
+            "forward_volatility_pct": 9.22
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bullish",
+        "bias_3d": "Neutral",
+        "bias_5d": "Slightly Bullish",
+        "bias_10d": "Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 58.6,
+        "model_metrics": {
+          "accuracy": 0.625,
+          "precision": 0.167,
+          "recall": 0.031,
+          "f1": 0.053
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 980684.64,
+        "total_return_pct": -1.93,
+        "max_drawdown_pct": -1.95,
+        "sharpe_ratio": -1.02,
+        "total_trades": 10,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 44.4,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 75.0,
+          "relative_strength": 47.9,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [
+        "Unusual Volume (2.1x 20-day avg)"
+      ],
+      "support_resistance": {
+        "pivot": 713.42,
+        "r1": 725.58,
+        "s1": 692.63
+      },
+      "historical_analogues": {
+        "observations_count": 29,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 29,
+            "avg_forward_return_pct": 0.22,
+            "median_forward_return_pct": 0.21,
+            "positive_probability_pct": 55.2,
+            "negative_probability_pct": 44.8,
+            "max_observed_gain_pct": 3.57,
+            "max_observed_loss_pct": -2.2,
+            "forward_volatility_pct": 1.34
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 29,
+            "avg_forward_return_pct": 0.5,
+            "median_forward_return_pct": 0.48,
+            "positive_probability_pct": 58.6,
+            "negative_probability_pct": 41.4,
+            "max_observed_gain_pct": 6.4,
+            "max_observed_loss_pct": -4.0,
+            "forward_volatility_pct": 2.22
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 29,
+            "avg_forward_return_pct": 0.66,
+            "median_forward_return_pct": 0.4,
+            "positive_probability_pct": 55.2,
+            "negative_probability_pct": 44.8,
+            "max_observed_gain_pct": 9.18,
+            "max_observed_loss_pct": -4.89,
+            "forward_volatility_pct": 2.62
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 29,
+            "avg_forward_return_pct": 1.67,
+            "median_forward_return_pct": 1.4,
+            "positive_probability_pct": 69.0,
+            "negative_probability_pct": 31.0,
+            "max_observed_gain_pct": 8.79,
+            "max_observed_loss_pct": -3.38,
+            "forward_volatility_pct": 3.13
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 29,
+            "avg_forward_return_pct": 3.77,
+            "median_forward_return_pct": 4.71,
+            "positive_probability_pct": 89.7,
+            "negative_probability_pct": 10.3,
+            "max_observed_gain_pct": 8.93,
+            "max_observed_loss_pct": -6.25,
+            "forward_volatility_pct": 3.79
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bearish",
+        "bias_3d": "Slightly Bearish",
+        "bias_5d": "Bearish",
+        "bias_10d": "Slightly Bearish",
+        "bias_20d": "Slightly Bearish",
+        "confidence": 51.1,
+        "model_metrics": {
+          "accuracy": 0.531,
+          "precision": 0.409,
+          "recall": 0.486,
+          "f1": 0.444
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 1000045.82,
+        "total_return_pct": 0.0,
+        "max_drawdown_pct": -1.64,
+        "sharpe_ratio": 0.01,
+        "total_trades": 6,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 40.6,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 60.0,
+          "relative_strength": 37.2,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 1323.47,
+        "r1": 1343.23,
+        "s1": 1312.23
+      },
+      "historical_analogues": {
+        "observations_count": 59,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 59,
+            "avg_forward_return_pct": -0.02,
+            "median_forward_return_pct": 0.05,
+            "positive_probability_pct": 54.2,
+            "negative_probability_pct": 45.8,
+            "max_observed_gain_pct": 1.99,
+            "max_observed_loss_pct": -2.98,
+            "forward_volatility_pct": 1.01
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 59,
+            "avg_forward_return_pct": -0.08,
+            "median_forward_return_pct": -0.2,
+            "positive_probability_pct": 45.8,
+            "negative_probability_pct": 54.2,
+            "max_observed_gain_pct": 4.4,
+            "max_observed_loss_pct": -6.37,
+            "forward_volatility_pct": 1.96
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 59,
+            "avg_forward_return_pct": 0.2,
+            "median_forward_return_pct": 0.36,
+            "positive_probability_pct": 57.6,
+            "negative_probability_pct": 42.4,
+            "max_observed_gain_pct": 4.96,
+            "max_observed_loss_pct": -7.29,
+            "forward_volatility_pct": 2.47
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 59,
+            "avg_forward_return_pct": 0.19,
+            "median_forward_return_pct": 0.41,
+            "positive_probability_pct": 55.9,
+            "negative_probability_pct": 44.1,
+            "max_observed_gain_pct": 10.27,
+            "max_observed_loss_pct": -7.69,
+            "forward_volatility_pct": 3.77
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 59,
+            "avg_forward_return_pct": 0.13,
+            "median_forward_return_pct": 0.41,
+            "positive_probability_pct": 57.6,
+            "negative_probability_pct": 42.4,
+            "max_observed_gain_pct": 9.84,
+            "max_observed_loss_pct": -12.05,
+            "forward_volatility_pct": 5.31
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bullish",
+        "bias_3d": "Slightly Bearish",
+        "bias_5d": "Slightly Bearish",
+        "bias_10d": "Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 60.6,
+        "model_metrics": {
+          "accuracy": 0.365,
+          "precision": 0.241,
+          "recall": 0.152,
+          "f1": 0.187
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 995301.24,
+        "total_return_pct": -0.47,
+        "max_drawdown_pct": -1.94,
+        "sharpe_ratio": -0.2,
+        "total_trades": 12,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "INFY",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 45.6,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 50.0,
+          "volume": 60.0,
+          "relative_strength": 30.6,
+          "volatility": 55.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 1027.6,
+        "r1": 1045.2,
+        "s1": 1002.9
+      },
+      "historical_analogues": {
+        "observations_count": 48,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 48,
+            "avg_forward_return_pct": -0.16,
+            "median_forward_return_pct": -0.07,
+            "positive_probability_pct": 47.9,
+            "negative_probability_pct": 50.0,
+            "max_observed_gain_pct": 4.98,
+            "max_observed_loss_pct": -6.93,
+            "forward_volatility_pct": 2.16
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 48,
+            "avg_forward_return_pct": 1.03,
+            "median_forward_return_pct": 1.29,
+            "positive_probability_pct": 66.7,
+            "negative_probability_pct": 31.2,
+            "max_observed_gain_pct": 11.02,
+            "max_observed_loss_pct": -8.71,
+            "forward_volatility_pct": 3.92
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 48,
+            "avg_forward_return_pct": 0.57,
+            "median_forward_return_pct": 1.16,
+            "positive_probability_pct": 66.7,
+            "negative_probability_pct": 33.3,
+            "max_observed_gain_pct": 10.28,
+            "max_observed_loss_pct": -9.99,
+            "forward_volatility_pct": 4.59
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 48,
+            "avg_forward_return_pct": -0.12,
+            "median_forward_return_pct": 1.75,
+            "positive_probability_pct": 56.2,
+            "negative_probability_pct": 43.8,
+            "max_observed_gain_pct": 12.89,
+            "max_observed_loss_pct": -14.89,
+            "forward_volatility_pct": 6.66
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 48,
+            "avg_forward_return_pct": -2.15,
+            "median_forward_return_pct": -2.89,
+            "positive_probability_pct": 37.5,
+            "negative_probability_pct": 62.5,
+            "max_observed_gain_pct": 9.12,
+            "max_observed_loss_pct": -14.98,
+            "forward_volatility_pct": 6.47
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bearish",
+        "bias_3d": "Slightly Bullish",
+        "bias_5d": "Slightly Bullish",
+        "bias_10d": "Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 53.3,
+        "model_metrics": {
+          "accuracy": 0.521,
+          "precision": 0.469,
+          "recall": 0.341,
+          "f1": 0.395
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 986344.65,
+        "total_return_pct": -1.37,
+        "max_drawdown_pct": -2.4,
+        "sharpe_ratio": -0.53,
+        "total_trades": 8,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 41.5,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 60.0,
+          "relative_strength": 43.5,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 1767.37,
+        "r1": 1792.43,
+        "s1": 1754.83
+      },
+      "historical_analogues": {
+        "observations_count": 61,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 61,
+            "avg_forward_return_pct": 0.15,
+            "median_forward_return_pct": 0.34,
+            "positive_probability_pct": 62.3,
+            "negative_probability_pct": 37.7,
+            "max_observed_gain_pct": 5.27,
+            "max_observed_loss_pct": -4.07,
+            "forward_volatility_pct": 1.6
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 61,
+            "avg_forward_return_pct": 0.34,
+            "median_forward_return_pct": 0.42,
+            "positive_probability_pct": 57.4,
+            "negative_probability_pct": 42.6,
+            "max_observed_gain_pct": 8.46,
+            "max_observed_loss_pct": -4.74,
+            "forward_volatility_pct": 2.68
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 61,
+            "avg_forward_return_pct": 0.32,
+            "median_forward_return_pct": -0.5,
+            "positive_probability_pct": 42.6,
+            "negative_probability_pct": 57.4,
+            "max_observed_gain_pct": 10.13,
+            "max_observed_loss_pct": -6.36,
+            "forward_volatility_pct": 3.1
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 61,
+            "avg_forward_return_pct": 0.58,
+            "median_forward_return_pct": 1.06,
+            "positive_probability_pct": 65.6,
+            "negative_probability_pct": 34.4,
+            "max_observed_gain_pct": 6.53,
+            "max_observed_loss_pct": -6.9,
+            "forward_volatility_pct": 3.14
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 61,
+            "avg_forward_return_pct": 0.13,
+            "median_forward_return_pct": 0.68,
+            "positive_probability_pct": 55.7,
+            "negative_probability_pct": 44.3,
+            "max_observed_gain_pct": 8.57,
+            "max_observed_loss_pct": -6.67,
+            "forward_volatility_pct": 3.57
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bullish",
+        "bias_3d": "Slightly Bearish",
+        "bias_5d": "Slightly Bearish",
+        "bias_10d": "Slightly Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 57.1,
+        "model_metrics": {
+          "accuracy": 0.427,
+          "precision": 0.35,
+          "recall": 0.568,
+          "f1": 0.433
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 1017142.26,
+        "total_return_pct": 1.71,
+        "max_drawdown_pct": -1.02,
+        "sharpe_ratio": 0.55,
+        "total_trades": 12,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "ITC",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 69.0,
+        "label": "Strong",
+        "components": {
+          "technical_trend": 65.0,
+          "momentum": 100.0,
+          "volume": 75.0,
+          "relative_strength": 53.6,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [
+        "Unusual Volume (3.9x 20-day avg)"
+      ],
+      "support_resistance": {
+        "pivot": 265.9,
+        "r1": 272.8,
+        "s1": 262.0
+      },
+      "historical_analogues": {
+        "observations_count": 23,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 23,
+            "avg_forward_return_pct": -0.21,
+            "median_forward_return_pct": -0.24,
+            "positive_probability_pct": 43.5,
+            "negative_probability_pct": 52.2,
+            "max_observed_gain_pct": 3.36,
+            "max_observed_loss_pct": -3.16,
+            "forward_volatility_pct": 1.35
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 23,
+            "avg_forward_return_pct": -1.46,
+            "median_forward_return_pct": -1.19,
+            "positive_probability_pct": 17.4,
+            "negative_probability_pct": 82.6,
+            "max_observed_gain_pct": 1.71,
+            "max_observed_loss_pct": -5.45,
+            "forward_volatility_pct": 1.67
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 23,
+            "avg_forward_return_pct": -2.51,
+            "median_forward_return_pct": -2.36,
+            "positive_probability_pct": 8.7,
+            "negative_probability_pct": 91.3,
+            "max_observed_gain_pct": 1.14,
+            "max_observed_loss_pct": -8.54,
+            "forward_volatility_pct": 2.18
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 23,
+            "avg_forward_return_pct": -3.78,
+            "median_forward_return_pct": -4.15,
+            "positive_probability_pct": 8.7,
+            "negative_probability_pct": 91.3,
+            "max_observed_gain_pct": 4.7,
+            "max_observed_loss_pct": -10.07,
+            "forward_volatility_pct": 3.75
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 23,
+            "avg_forward_return_pct": -7.56,
+            "median_forward_return_pct": -7.99,
+            "positive_probability_pct": 8.7,
+            "negative_probability_pct": 91.3,
+            "max_observed_gain_pct": 1.69,
+            "max_observed_loss_pct": -13.1,
+            "forward_volatility_pct": 3.64
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Bullish",
+        "bias_3d": "Slightly Bullish",
+        "bias_5d": "Slightly Bullish",
+        "bias_10d": "Slightly Bullish",
+        "bias_20d": "Slightly Bullish",
+        "confidence": 56.8,
+        "model_metrics": {
+          "accuracy": 0.49,
+          "precision": 0.383,
+          "recall": 0.657,
+          "f1": 0.484
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 983421.69,
+        "total_return_pct": -1.66,
+        "max_drawdown_pct": -1.95,
+        "sharpe_ratio": -1.24,
+        "total_trades": 6,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "SBIN",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 40.8,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 60.0,
+          "relative_strength": 38.6,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 961.15,
+        "r1": 966.3,
+        "s1": 952.85
+      },
+      "historical_analogues": {
+        "observations_count": 32,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 32,
+            "avg_forward_return_pct": 0.21,
+            "median_forward_return_pct": 0.26,
+            "positive_probability_pct": 62.5,
+            "negative_probability_pct": 37.5,
+            "max_observed_gain_pct": 2.0,
+            "max_observed_loss_pct": -1.21,
+            "forward_volatility_pct": 0.93
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 32,
+            "avg_forward_return_pct": 0.05,
+            "median_forward_return_pct": 0.06,
+            "positive_probability_pct": 53.1,
+            "negative_probability_pct": 46.9,
+            "max_observed_gain_pct": 3.39,
+            "max_observed_loss_pct": -2.92,
+            "forward_volatility_pct": 1.74
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 32,
+            "avg_forward_return_pct": -0.57,
+            "median_forward_return_pct": -0.38,
+            "positive_probability_pct": 43.8,
+            "negative_probability_pct": 56.2,
+            "max_observed_gain_pct": 3.86,
+            "max_observed_loss_pct": -5.61,
+            "forward_volatility_pct": 2.17
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 32,
+            "avg_forward_return_pct": -0.48,
+            "median_forward_return_pct": 0.1,
+            "positive_probability_pct": 50.0,
+            "negative_probability_pct": 50.0,
+            "max_observed_gain_pct": 8.1,
+            "max_observed_loss_pct": -5.34,
+            "forward_volatility_pct": 3.32
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 32,
+            "avg_forward_return_pct": 0.23,
+            "median_forward_return_pct": -0.24,
+            "positive_probability_pct": 50.0,
+            "negative_probability_pct": 50.0,
+            "max_observed_gain_pct": 8.82,
+            "max_observed_loss_pct": -7.56,
+            "forward_volatility_pct": 4.99
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bearish",
+        "bias_3d": "Slightly Bearish",
+        "bias_5d": "Bearish",
+        "bias_10d": "Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 61.1,
+        "model_metrics": {
+          "accuracy": 0.594,
+          "precision": 0.543,
+          "recall": 0.844,
+          "f1": 0.661
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 1034886.72,
+        "total_return_pct": 3.49,
+        "max_drawdown_pct": -2.4,
+        "sharpe_ratio": 0.96,
+        "total_trades": 4,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 39.1,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 50.0,
+          "relative_strength": 37.4,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [
+        "20-Day Low Breakdown"
+      ],
+      "support_resistance": {
+        "pivot": 1786.43,
+        "r1": 1796.17,
+        "s1": 1769.97
+      },
+      "historical_analogues": {
+        "observations_count": 72,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 72,
+            "avg_forward_return_pct": -0.29,
+            "median_forward_return_pct": -0.14,
+            "positive_probability_pct": 41.7,
+            "negative_probability_pct": 56.9,
+            "max_observed_gain_pct": 3.38,
+            "max_observed_loss_pct": -4.55,
+            "forward_volatility_pct": 1.3
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 72,
+            "avg_forward_return_pct": -0.59,
+            "median_forward_return_pct": -0.21,
+            "positive_probability_pct": 44.4,
+            "negative_probability_pct": 55.6,
+            "max_observed_gain_pct": 4.49,
+            "max_observed_loss_pct": -5.11,
+            "forward_volatility_pct": 1.85
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 72,
+            "avg_forward_return_pct": -0.33,
+            "median_forward_return_pct": -0.34,
+            "positive_probability_pct": 47.2,
+            "negative_probability_pct": 52.8,
+            "max_observed_gain_pct": 3.92,
+            "max_observed_loss_pct": -6.65,
+            "forward_volatility_pct": 2.16
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 72,
+            "avg_forward_return_pct": -0.55,
+            "median_forward_return_pct": -0.82,
+            "positive_probability_pct": 43.1,
+            "negative_probability_pct": 56.9,
+            "max_observed_gain_pct": 4.45,
+            "max_observed_loss_pct": -6.83,
+            "forward_volatility_pct": 2.77
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 72,
+            "avg_forward_return_pct": 0.46,
+            "median_forward_return_pct": 0.4,
+            "positive_probability_pct": 55.6,
+            "negative_probability_pct": 44.4,
+            "max_observed_gain_pct": 7.69,
+            "max_observed_loss_pct": -8.81,
+            "forward_volatility_pct": 3.92
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bearish",
+        "bias_3d": "Bearish",
+        "bias_5d": "Bearish",
+        "bias_10d": "Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 58.5,
+        "model_metrics": {
+          "accuracy": 0.604,
+          "precision": 0.596,
+          "recall": 0.646,
+          "f1": 0.62
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 994150.96,
+        "total_return_pct": -0.58,
+        "max_drawdown_pct": -1.68,
+        "sharpe_ratio": -0.21,
+        "total_trades": 12,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 39.3,
+        "label": "Weak",
+        "components": {
+          "technical_trend": 50.0,
+          "momentum": 20.0,
+          "volume": 50.0,
+          "relative_strength": 38.7,
+          "volatility": 70.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 178.81,
+        "r1": 180.61,
+        "s1": 176.35
+      },
+      "historical_analogues": {
+        "observations_count": 64,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 64,
+            "avg_forward_return_pct": 0.04,
+            "median_forward_return_pct": 0.17,
+            "positive_probability_pct": 54.7,
+            "negative_probability_pct": 45.3,
+            "max_observed_gain_pct": 3.31,
+            "max_observed_loss_pct": -3.47,
+            "forward_volatility_pct": 1.38
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 64,
+            "avg_forward_return_pct": 0.21,
+            "median_forward_return_pct": 0.02,
+            "positive_probability_pct": 50.0,
+            "negative_probability_pct": 48.4,
+            "max_observed_gain_pct": 8.65,
+            "max_observed_loss_pct": -5.69,
+            "forward_volatility_pct": 2.61
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 64,
+            "avg_forward_return_pct": 0.07,
+            "median_forward_return_pct": 0.35,
+            "positive_probability_pct": 56.2,
+            "negative_probability_pct": 43.8,
+            "max_observed_gain_pct": 8.58,
+            "max_observed_loss_pct": -8.59,
+            "forward_volatility_pct": 3.61
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 64,
+            "avg_forward_return_pct": 0.7,
+            "median_forward_return_pct": 0.77,
+            "positive_probability_pct": 56.2,
+            "negative_probability_pct": 43.8,
+            "max_observed_gain_pct": 10.27,
+            "max_observed_loss_pct": -7.93,
+            "forward_volatility_pct": 4.38
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 64,
+            "avg_forward_return_pct": 1.47,
+            "median_forward_return_pct": 2.15,
+            "positive_probability_pct": 57.8,
+            "negative_probability_pct": 42.2,
+            "max_observed_gain_pct": 15.52,
+            "max_observed_loss_pct": -12.61,
+            "forward_volatility_pct": 6.53
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Slightly Bearish",
+        "bias_3d": "Bearish",
+        "bias_5d": "Bearish",
+        "bias_10d": "Bearish",
+        "bias_20d": "Bearish",
+        "confidence": 55.8,
+        "model_metrics": {
+          "accuracy": 0.354,
+          "precision": 0.293,
+          "recall": 0.447,
+          "f1": 0.354
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 996130.98,
+        "total_return_pct": -0.39,
+        "max_drawdown_pct": -2.27,
+        "sharpe_ratio": -0.08,
+        "total_trades": 10,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    },
+    {
+      "symbol": "DLF",
+      "market_regime": "Strong Bearish",
+      "score": {
+        "composite_score": 71.6,
+        "label": "Strong",
+        "components": {
+          "technical_trend": 100.0,
+          "momentum": 100.0,
+          "volume": 50.0,
+          "relative_strength": 47.4,
+          "volatility": 55.0,
+          "market_regime": 15.0,
+          "fundamental": 50.0
+        }
+      },
+      "signals": [],
+      "support_resistance": {
+        "pivot": 671.17,
+        "r1": 678.33,
+        "s1": 665.83
+      },
+      "historical_analogues": {
+        "observations_count": 62,
+        "horizons": {
+          "1d": {
+            "horizon_days": 1,
+            "sample_size": 62,
+            "avg_forward_return_pct": -0.24,
+            "median_forward_return_pct": 0.0,
+            "positive_probability_pct": 48.4,
+            "negative_probability_pct": 48.4,
+            "max_observed_gain_pct": 3.96,
+            "max_observed_loss_pct": -3.9,
+            "forward_volatility_pct": 1.83
+          },
+          "3d": {
+            "horizon_days": 3,
+            "sample_size": 62,
+            "avg_forward_return_pct": -0.74,
+            "median_forward_return_pct": -0.48,
+            "positive_probability_pct": 43.5,
+            "negative_probability_pct": 56.5,
+            "max_observed_gain_pct": 7.07,
+            "max_observed_loss_pct": -10.99,
+            "forward_volatility_pct": 3.49
+          },
+          "5d": {
+            "horizon_days": 5,
+            "sample_size": 62,
+            "avg_forward_return_pct": -1.66,
+            "median_forward_return_pct": -1.65,
+            "positive_probability_pct": 33.9,
+            "negative_probability_pct": 66.1,
+            "max_observed_gain_pct": 9.52,
+            "max_observed_loss_pct": -11.11,
+            "forward_volatility_pct": 4.37
+          },
+          "10d": {
+            "horizon_days": 10,
+            "sample_size": 62,
+            "avg_forward_return_pct": -1.51,
+            "median_forward_return_pct": -1.37,
+            "positive_probability_pct": 37.1,
+            "negative_probability_pct": 62.9,
+            "max_observed_gain_pct": 11.0,
+            "max_observed_loss_pct": -11.82,
+            "forward_volatility_pct": 5.23
+          },
+          "20d": {
+            "horizon_days": 20,
+            "sample_size": 62,
+            "avg_forward_return_pct": -2.77,
+            "median_forward_return_pct": -1.03,
+            "positive_probability_pct": 37.1,
+            "negative_probability_pct": 62.9,
+            "max_observed_gain_pct": 11.05,
+            "max_observed_loss_pct": -16.73,
+            "forward_volatility_pct": 6.91
+          }
+        }
+      },
+      "forward_probabilities": {
+        "bias_1d": "Bullish",
+        "bias_3d": "Neutral",
+        "bias_5d": "Neutral",
+        "bias_10d": "Neutral",
+        "bias_20d": "Neutral",
+        "confidence": 56.5,
+        "model_metrics": {
+          "accuracy": 0.479,
+          "precision": 0.4,
+          "recall": 0.083,
+          "f1": 0.138
+        },
+        "disclaimer": "Probabilistic directional inferences derived from historical conditional statistics. Not guaranteed forecasts."
+      },
+      "backtest_summary": {
+        "initial_capital": 1000000.0,
+        "final_equity": 1011454.89,
+        "total_return_pct": 1.15,
+        "max_drawdown_pct": -2.63,
+        "sharpe_ratio": 0.35,
+        "total_trades": 8,
+        "assumptions": {
+          "transaction_cost_pct": 0.001,
+          "slippage_pct": 0.0005,
+          "position_size_pct": 0.1
+        }
+      }
+    }
+  ],
+  "data_quality": {
+    "records_processed": 24,
+    "records_valid": 21,
+    "warnings_count": 0,
+    "errors_count": 0
+  }
+}

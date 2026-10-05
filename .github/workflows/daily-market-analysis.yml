@@ -1,0 +1,61 @@
+name: Daily Indian Stock Market Analysis Pipeline
+
+on:
+  schedule:
+    # Runs at 11:30 UTC (17:00 IST - after Indian market close) Monday to Friday
+    - cron: '30 11 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target Analysis Date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  daily-market-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy scikit-learn pyarrow pytest tabulate
+
+      - name: Run Pipeline Analysis
+        run: |
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then
+            PYTHONPATH=. python3 src/pipeline/daily_pipeline.py --date ${{ github.event.inputs.target_date }}
+          else
+            PYTHONPATH=. python3 src/pipeline/daily_pipeline.py
+          fi
+
+      - name: Run Test Suite
+        run: |
+          PYTHONPATH=. pytest tests/ -v
+
+      - name: Commit and Push Daily Artifacts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            TODAY=$(date +'%Y-%m-%d')
+            TARGET_DATE="${{ github.event.inputs.target_date }}"
+            COMMIT_DATE="${TARGET_DATE:-$TODAY}"
+            git commit -m "data: daily Indian market analysis ${COMMIT_DATE}"
+            git push origin HEAD:${{ github.ref }}
+          fi
