@@ -1,0 +1,60 @@
+{
+  "pipeline": {
+    "historical_lookback_days": 730,
+    "data_provider": "yfinance",
+    "log_level": "INFO",
+    "export_parquet": true,
+    "export_csv": true,
+    "export_json": true
+  },
+  "ingestion": {
+    "max_retries": 3,
+    "backoff_factor": 1.5,
+    "timeout_seconds": 15,
+    "rate_limit_delay_seconds": 0.5
+  },
+  "indicators": {
+    "sma_periods": [5, 10, 20, 50, 100, 200],
+    "ema_periods": [9, 20, 50, 200],
+    "rsi_period": 14,
+    "stoch_rsi_period": 14,
+    "stoch_rsi_k": 3,
+    "stoch_rsi_d": 3,
+    "macd": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 9
+    },
+    "roc_period": 12,
+    "atr_period": 14,
+    "bollinger": {
+      "period": 20,
+      "std_dev": 2
+    },
+    "volume_sma_period": 20
+  },
+  "scoring": {
+    "weights": {
+      "technical_trend": 0.25,
+      "momentum": 0.25,
+      "volume": 0.15,
+      "relative_strength": 0.15,
+      "volatility": 0.10,
+      "market_regime": 0.10
+    }
+  },
+  "pattern_matching": {
+    "similarity_threshold": 0.85,
+    "horizons": [1, 3, 5, 10, 20]
+  },
+  "prediction": {
+    "horizons": [1, 3, 5, 10, 20],
+    "min_train_samples": 100
+  },
+  "backtest": {
+    "initial_capital": 1000000,
+    "transaction_cost_pct": 0.001,
+    "slippage_pct": 0.0005,
+    "position_size_pct": 0.1
+  }
+}

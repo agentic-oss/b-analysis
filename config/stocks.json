@@ -1,0 +1,178 @@
+{
+  "indices": [
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50",
+      "type": "benchmark",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY BANK",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY AUTO",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY PHARMA",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY METAL",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY REALTY",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY ENERGY",
+      "type": "sector",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFIN",
+      "name": "NIFTY FINANCIAL SERVICES",
+      "type": "sector",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "ticker": "RELIANCE.NS",
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "enabled": true
+    },
+    {
+      "ticker": "TCS.NS",
+      "symbol": "TCS",
+      "name": "Tata Consultancy Services Ltd",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "symbol": "ICICIBANK",
+      "name": "ICICI Bank Ltd",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "ticker": "INFY.NS",
+      "symbol": "INFY",
+      "name": "Infosys Ltd",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd",
+      "exchange": "NSE",
+      "sector": "Telecom",
+      "enabled": true
+    },
+    {
+      "ticker": "ITC.NS",
+      "symbol": "ITC",
+      "name": "ITC Ltd",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "enabled": true
+    },
+    {
+      "ticker": "SBIN.NS",
+      "symbol": "SBIN",
+      "name": "State Bank of India",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "enabled": true
+    },
+    {
+      "ticker": "LTIM.NS",
+      "symbol": "LTIM",
+      "name": "LTIMindtree Ltd",
+      "exchange": "NSE",
+      "sector": "IT",
+      "enabled": true
+    },
+    {
+      "ticker": "TATAMOTORS.NS",
+      "symbol": "TATAMOTORS",
+      "name": "Tata Motors Ltd",
+      "exchange": "NSE",
+      "sector": "Auto",
+      "enabled": true
+    },
+    {
+      "ticker": "SUNPHARMA.NS",
+      "symbol": "SUNPHARMA",
+      "name": "Sun Pharmaceutical Industries Ltd",
+      "exchange": "NSE",
+      "sector": "Pharma",
+      "enabled": true
+    },
+    {
+      "ticker": "TATASTEEL.NS",
+      "symbol": "TATASTEEL",
+      "name": "Tata Steel Ltd",
+      "exchange": "NSE",
+      "sector": "Metal",
+      "enabled": true
+    },
+    {
+      "ticker": "DLF.NS",
+      "symbol": "DLF",
+      "name": "DLF Ltd",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "enabled": true
+    },
+    {
+      "ticker": "500325.BO",
+      "symbol": "RELIANCE_BSE",
+      "name": "Reliance Industries Ltd (BSE)",
+      "exchange": "BSE",
+      "sector": "Energy",
+      "enabled": true
+    }
+  ]
+}
