@@ -1,0 +1,38 @@
+{
+  "indices": [
+    { "symbol": "^NSEI", "name": "NIFTY 50", "category": "broad", "enabled": true },
+    { "symbol": "^NSEMDCP50", "name": "NIFTY NEXT 50", "category": "broad", "enabled": true },
+    { "symbol": "^CRSLDX", "name": "NIFTY 500", "category": "broad", "enabled": true },
+    { "symbol": "^NSEBANK", "name": "NIFTY BANK", "category": "sector", "enabled": true },
+    { "symbol": "^CNXIT", "name": "NIFTY IT", "category": "sector", "enabled": true },
+    { "symbol": "^CNXAUTO", "name": "NIFTY AUTO", "category": "sector", "enabled": true },
+    { "symbol": "^CNXPHARMA", "name": "NIFTY PHARMA", "category": "sector", "enabled": true },
+    { "symbol": "^CNXFMCG", "name": "NIFTY FMCG", "category": "sector", "enabled": true },
+    { "symbol": "^CNXMETAL", "name": "NIFTY METAL", "category": "sector", "enabled": true },
+    { "symbol": "^CNXREALTY", "name": "NIFTY REALTY", "category": "sector", "enabled": true },
+    { "symbol": "^CNXENERGY", "name": "NIFTY ENERGY", "category": "sector", "enabled": true },
+    { "symbol": "NIFTY_FIN_SERVICE.NS", "name": "NIFTY FINANCIAL SERVICES", "category": "sector", "enabled": true }
+  ],
+  "stocks": [
+    { "symbol": "RELIANCE", "yahoo_ticker": "RELIANCE.NS", "exchange": "NSE", "sector": "NIFTY ENERGY", "enabled": true },
+    { "symbol": "TCS", "yahoo_ticker": "TCS.NS", "exchange": "NSE", "sector": "NIFTY IT", "enabled": true },
+    { "symbol": "HDFCBANK", "yahoo_ticker": "HDFCBANK.NS", "exchange": "NSE", "sector": "NIFTY FINANCIAL SERVICES", "enabled": true },
+    { "symbol": "ICICIBANK", "yahoo_ticker": "ICICIBANK.NS", "exchange": "NSE", "sector": "NIFTY FINANCIAL SERVICES", "enabled": true },
+    { "symbol": "INFY", "yahoo_ticker": "INFY.NS", "exchange": "NSE", "sector": "NIFTY IT", "enabled": true },
+    { "symbol": "BHARTIARTL", "yahoo_ticker": "BHARTIARTL.NS", "exchange": "NSE", "sector": "NIFTY TELECOM", "enabled": true },
+    { "symbol": "ITC", "yahoo_ticker": "ITC.NS", "exchange": "NSE", "sector": "NIFTY FMCG", "enabled": true },
+    { "symbol": "SBIN", "yahoo_ticker": "SBIN.NS", "exchange": "NSE", "sector": "NIFTY BANK", "enabled": true },
+    { "symbol": "LTIM", "yahoo_ticker": "LTIM.NS", "exchange": "NSE", "sector": "NIFTY IT", "enabled": true },
+    { "symbol": "LT", "yahoo_ticker": "LT.NS", "exchange": "NSE", "sector": "NIFTY INFRA", "enabled": true },
+    { "symbol": "KOTAKBANK", "yahoo_ticker": "KOTAKBANK.NS", "exchange": "NSE", "sector": "NIFTY BANK", "enabled": true },
+    { "symbol": "AXISBANK", "yahoo_ticker": "AXISBANK.NS", "exchange": "NSE", "sector": "NIFTY BANK", "enabled": true },
+    { "symbol": "HINDUNILVR", "yahoo_ticker": "HINDUNILVR.NS", "exchange": "NSE", "sector": "NIFTY FMCG", "enabled": true },
+    { "symbol": "TATAMOTORS", "yahoo_ticker": "TATAMOTORS.NS", "exchange": "NSE", "sector": "NIFTY AUTO", "enabled": true },
+    { "symbol": "MARUTI", "yahoo_ticker": "MARUTI.NS", "exchange": "NSE", "sector": "NIFTY AUTO", "enabled": true },
+    { "symbol": "SUNPHARMA", "yahoo_ticker": "SUNPHARMA.NS", "exchange": "NSE", "sector": "NIFTY PHARMA", "enabled": true },
+    { "symbol": "TATASTEEL", "yahoo_ticker": "TATASTEEL.NS", "exchange": "NSE", "sector": "NIFTY METAL", "enabled": true },
+    { "symbol": "DLF", "yahoo_ticker": "DLF.NS", "exchange": "NSE", "sector": "NIFTY REALTY", "enabled": true },
+    { "symbol": "NTPC", "yahoo_ticker": "NTPC.NS", "exchange": "NSE", "sector": "NIFTY ENERGY", "enabled": true },
+    { "symbol": "POWERGRID", "yahoo_ticker": "POWERGRID.NS", "exchange": "NSE", "sector": "NIFTY ENERGY", "enabled": true }
+  ]
+}
