@@ -1,0 +1,1 @@
+"""Data storage architecture module."""

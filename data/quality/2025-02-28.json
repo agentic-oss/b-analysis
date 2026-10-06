@@ -1,0 +1,36 @@
+{
+  "date": "2025-02-28",
+  "records_processed": 20,
+  "records_valid": 18,
+  "warnings": [
+    {
+      "ticker": "HDFCBANK",
+      "type": "ANOMALOUS_VOLUME",
+      "message": "Volume spike > 10.0x 20-day median on 2 dates",
+      "dates": [
+        "2024-08-30",
+        "2024-11-25"
+      ]
+    },
+    {
+      "ticker": "KOTAKBANK",
+      "type": "ANOMALOUS_VOLUME",
+      "message": "Volume spike > 10.0x 20-day median on 1 dates",
+      "dates": [
+        "2024-04-25"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "ticker": "LTIM",
+      "type": "DOWNLOAD_FAILED",
+      "message": "Could not fetch data for LTIM.NS"
+    },
+    {
+      "ticker": "TATAMOTORS",
+      "type": "DOWNLOAD_FAILED",
+      "message": "Could not fetch data for TATAMOTORS.NS"
+    }
+  ]
+}
