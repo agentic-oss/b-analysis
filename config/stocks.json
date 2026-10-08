@@ -1,0 +1,210 @@
+{
+  "indices": [
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEBANK",
+      "name": "NIFTY Bank",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXIT",
+      "name": "NIFTY IT",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY Auto",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "name": "NIFTY Pharma",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY Metal",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY Realty",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY Energy",
+      "exchange": "NSE",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY_FIN_SERVICE.NS",
+      "name": "NIFTY Financial Services",
+      "exchange": "NSE",
+      "enabled": true
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE.NS",
+      "ticker": "RELIANCE",
+      "name": "Reliance Industries Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "TCS.NS",
+      "ticker": "TCS",
+      "name": "Tata Consultancy Services Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY IT",
+      "enabled": true
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "ticker": "HDFCBANK",
+      "name": "HDFC Bank Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Bank",
+      "enabled": true
+    },
+    {
+      "symbol": "INFY.NS",
+      "ticker": "INFY",
+      "name": "Infosys Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY IT",
+      "enabled": true
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "ticker": "ICICIBANK",
+      "name": "ICICI Bank Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Bank",
+      "enabled": true
+    },
+    {
+      "symbol": "HINDUNILVR.NS",
+      "ticker": "HINDUNILVR",
+      "name": "Hindustan Unilever Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "ITC.NS",
+      "ticker": "ITC",
+      "name": "ITC Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY FMCG",
+      "enabled": true
+    },
+    {
+      "symbol": "SBIN.NS",
+      "ticker": "SBIN",
+      "name": "State Bank of India",
+      "exchange": "NSE",
+      "sector": "NIFTY Bank",
+      "enabled": true
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "ticker": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY IT",
+      "enabled": true
+    },
+    {
+      "symbol": "LTIM.NS",
+      "ticker": "LTIM",
+      "name": "LTIMindtree Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY IT",
+      "enabled": true
+    },
+    {
+      "symbol": "TATAMOTORS.NS",
+      "ticker": "TATAMOTORS",
+      "name": "Tata Motors Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "M&M.NS",
+      "ticker": "M&M",
+      "name": "Mahindra & Mahindra Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Auto",
+      "enabled": true
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "ticker": "SUNPHARMA",
+      "name": "Sun Pharmaceutical Industries Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Pharma",
+      "enabled": true
+    },
+    {
+      "symbol": "TATASTEEL.NS",
+      "ticker": "TATASTEEL",
+      "name": "Tata Steel Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Metal",
+      "enabled": true
+    },
+    {
+      "symbol": "DLF.NS",
+      "ticker": "DLF",
+      "name": "DLF Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Realty",
+      "enabled": true
+    },
+    {
+      "symbol": "NTPC.NS",
+      "ticker": "NTPC",
+      "name": "NTPC Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Energy",
+      "enabled": true
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "ticker": "BAJFINANCE",
+      "name": "Bajaj Finance Ltd.",
+      "exchange": "NSE",
+      "sector": "NIFTY Financial Services",
+      "enabled": true
+    },
+    {
+      "symbol": "500325.BO",
+      "ticker": "RELIANCE_BSE",
+      "name": "Reliance Industries Ltd (BSE)",
+      "exchange": "BSE",
+      "sector": "NIFTY Energy",
+      "enabled": true
+    }
+  ]
+}
