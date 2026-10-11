@@ -1,0 +1,30 @@
+{
+  "indices": [
+    { "symbol": "NIFTY 50", "ticker": "^NSEI", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY BANK", "ticker": "^NSEBANK", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY IT", "ticker": "^CNXIT", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY AUTO", "ticker": "NIFTY_AUTO.NS", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY PHARMA", "ticker": "^CNXPHARMA", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY FMCG", "ticker": "NIFTY_FMCG.NS", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY METAL", "ticker": "NIFTY_METAL.NS", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY REALTY", "ticker": "NIFTY_REALTY.NS", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY ENERGY", "ticker": "NIFTY_ENERGY.NS", "exchange": "NSE", "enabled": true },
+    { "symbol": "NIFTY FINANCIAL SERVICES", "ticker": "NIFTY_FIN_SERVICE.NS", "exchange": "NSE", "enabled": true }
+  ],
+  "stocks": [
+    { "symbol": "RELIANCE", "ticker": "RELIANCE.NS", "exchange": "NSE", "sector": "NIFTY ENERGY", "enabled": true },
+    { "symbol": "TCS", "ticker": "TCS.NS", "exchange": "NSE", "sector": "NIFTY IT", "enabled": true },
+    { "symbol": "INFY", "ticker": "INFY.NS", "exchange": "NSE", "sector": "NIFTY IT", "enabled": true },
+    { "symbol": "HDFCBANK", "ticker": "HDFCBANK.NS", "exchange": "NSE", "sector": "NIFTY BANK", "enabled": true },
+    { "symbol": "ICICIBANK", "ticker": "ICICIBANK.NS", "exchange": "NSE", "sector": "NIFTY BANK", "enabled": true },
+    { "symbol": "SBIN", "ticker": "SBIN.NS", "exchange": "NSE", "sector": "NIFTY BANK", "enabled": true },
+    { "symbol": "BHARTIARTL", "ticker": "BHARTIARTL.NS", "exchange": "NSE", "sector": "NIFTY TELECOM", "enabled": true },
+    { "symbol": "ITC", "ticker": "ITC.NS", "exchange": "NSE", "sector": "NIFTY FMCG", "enabled": true },
+    { "symbol": "LTIM", "ticker": "LTIMIND.NS", "exchange": "NSE", "sector": "NIFTY IT", "enabled": true },
+    { "symbol": "HINDUNILVR", "ticker": "HINDUNILVR.NS", "exchange": "NSE", "sector": "NIFTY FMCG", "enabled": true },
+    { "symbol": "TATAMOTORS", "ticker": "TATAMOTORS.NS", "exchange": "NSE", "sector": "NIFTY AUTO", "enabled": true },
+    { "symbol": "SUNPHARMA", "ticker": "SUNPHARMA.NS", "exchange": "NSE", "sector": "NIFTY PHARMA", "enabled": true },
+    { "symbol": "TATASTEEL", "ticker": "TATASTEEL.NS", "exchange": "NSE", "sector": "NIFTY METAL", "enabled": true },
+    { "symbol": "DLF", "ticker": "DLF.NS", "exchange": "NSE", "sector": "NIFTY REALTY", "enabled": true }
+  ]
+}

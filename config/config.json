@@ -1,0 +1,45 @@
+{
+  "provider": "yfinance",
+  "historical_lookback_years": 5,
+  "data_paths": {
+    "raw": "data/raw",
+    "processed": "data/processed",
+    "features": "data/features",
+    "analysis": "data/analysis",
+    "predictions": "data/predictions",
+    "reports": "reports",
+    "quality": "data/quality"
+  },
+  "indicators": {
+    "sma_periods": [5, 10, 20, 50, 100, 200],
+    "ema_periods": [9, 20, 50, 200],
+    "rsi_period": 14,
+    "stoch_rsi": { "rsi_period": 14, "stoch_period": 14, "k_period": 3, "d_period": 3 },
+    "macd": { "fast": 12, "slow": 26, "signal": 9 },
+    "bollinger": { "period": 20, "std_dev": 2 },
+    "atr_period": 14,
+    "volatility_period": 20
+  },
+  "scoring_weights": {
+    "technical_trend": 0.25,
+    "momentum": 0.20,
+    "volume": 0.15,
+    "relative_strength": 0.15,
+    "volatility": 0.10,
+    "market_regime": 0.10,
+    "fundamental": 0.05
+  },
+  "prediction": {
+    "horizons": [1, 3, 5, 10, 20],
+    "min_pattern_matches": 5
+  },
+  "backtesting": {
+    "initial_capital": 1000000,
+    "transaction_cost_pct": 0.001,
+    "slippage_pct": 0.0005,
+    "max_position_pct": 0.10
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}
