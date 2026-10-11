@@ -1,0 +1,1359 @@
+{
+  "date": "2026-03-06",
+  "market": {
+    "date": "2026-03-06",
+    "regime": "Strong Bearish",
+    "confidence_score": 85.0,
+    "nifty_close": 24450.44921875,
+    "nifty_return_1d": -0.012737318930444053,
+    "nifty_trend": "Bearish",
+    "nifty_volatility": 0.13986671473758136,
+    "banknifty_trend": "Bearish",
+    "breadth": {
+      "total_stocks": 12,
+      "advances": 3,
+      "declines": 9,
+      "advance_decline_ratio": 0.33,
+      "pct_above_20dma": 8.33,
+      "pct_above_50dma": 25.0,
+      "pct_above_200dma": 25.0,
+      "new_52w_highs": 0,
+      "new_52w_lows": 1
+    },
+    "rules_documentation": "\n    Market Regime Classification Rules:\n    1. Strong Bullish: NIFTY > 50 DMA & 200 DMA, 20 DMA > 50 DMA, Breadth (% above 50 DMA) >= 70%.\n    2. Bullish: NIFTY > 50 DMA, Breadth (% above 50 DMA) >= 50%.\n    3. Neutral: Mixed signals, NIFTY near 50 DMA or Breadth between 40% and 50%.\n    4. Bearish: NIFTY < 50 DMA, Breadth (% above 50 DMA) < 40%.\n    5. Strong Bearish: NIFTY < 50 DMA & 200 DMA, 20 DMA < 50 DMA, Breadth (% above 50 DMA) < 30%.\n    Note: Classifications are rule-based observational summaries and do not guarantee future movement.\n    "
+  },
+  "sectors": [
+    {
+      "sector": "NIFTY IT",
+      "return_1d": 0.04,
+      "return_5d": -1.36,
+      "return_20d": -16.61,
+      "relative_strength_1d": 1.31,
+      "rsi_14": 20.7,
+      "volatility_20d": 0.2764,
+      "momentum_score": -537.71,
+      "leaders": [
+        "INFY",
+        "TCS"
+      ],
+      "laggards": [],
+      "rank": 1
+    },
+    {
+      "sector": "NIFTY PHARMA",
+      "return_1d": -0.15,
+      "return_5d": -1.42,
+      "return_20d": 3.84,
+      "relative_strength_1d": 1.12,
+      "rsi_14": 58.33,
+      "volatility_20d": 0.1465,
+      "momentum_score": 66.51,
+      "leaders": [
+        "SUNPHARMA"
+      ],
+      "laggards": [],
+      "rank": 2
+    },
+    {
+      "sector": "NIFTY 50",
+      "return_1d": -1.27,
+      "return_5d": -4.1,
+      "return_20d": -4.65,
+      "relative_strength_1d": 0.0,
+      "rsi_14": 32.86,
+      "volatility_20d": 0.1399,
+      "momentum_score": -313.53,
+      "leaders": [],
+      "laggards": [],
+      "rank": 3
+    },
+    {
+      "sector": "NIFTY BANK",
+      "return_1d": -2.15,
+      "return_5d": -5.56,
+      "return_20d": -3.8,
+      "relative_strength_1d": -0.88,
+      "rsi_14": 31.81,
+      "volatility_20d": 0.1473,
+      "momentum_score": -367.01,
+      "leaders": [
+        "SBIN",
+        "HDFCBANK"
+      ],
+      "laggards": [
+        "ICICIBANK"
+      ],
+      "rank": 4
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "technical_score": 38.73,
+      "composite_label": "Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 30.79,
+        "volume_score": 80.0,
+        "relative_strength_score": 73.82,
+        "volatility_score": 50.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 70.0
+      },
+      "fundamental_score": 70.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 1404.800048828125,
+        "return_1d": 0.011083938493924306,
+        "rsi_14": 47.19150723082979,
+        "macd": -17.968372078097218,
+        "macd_signal": -15.879005657890943,
+        "macd_hist": -2.089366420206275,
+        "atr_14": 32.59419796410184,
+        "volatility_20d": 0.2366438544580306,
+        "volatility_regime": "Normal",
+        "relative_volume": 1.5043526271417464,
+        "dist_sma_20": -0.010411503433282268,
+        "dist_sma_50": -0.030799407931505596,
+        "dist_sma_200": -0.031141313330004708,
+        "dist_52w_high": -0.12842784075512428,
+        "dist_52w_low": 0.26007990275982823,
+        "events": [
+          "Death Cross (50 DMA crossed below 200 DMA)"
+        ]
+      },
+      "historical_analogues": {
+        "matches_count": 317,
+        "forward_statistics": {
+          "1d": {
+            "observations": 317,
+            "positive_probability": 50.47,
+            "negative_probability": 49.53,
+            "average_return_pct": -0.01,
+            "median_return_pct": 0.03,
+            "max_observed_gain_pct": 6.01,
+            "max_observed_loss_pct": -7.2,
+            "forward_volatility": 1.5
+          },
+          "3d": {
+            "observations": 317,
+            "positive_probability": 51.1,
+            "negative_probability": 48.9,
+            "average_return_pct": -0.01,
+            "median_return_pct": 0.08,
+            "max_observed_gain_pct": 9.76,
+            "max_observed_loss_pct": -6.83,
+            "forward_volatility": 2.79
+          },
+          "5d": {
+            "observations": 317,
+            "positive_probability": 48.58,
+            "negative_probability": 51.1,
+            "average_return_pct": 0.05,
+            "median_return_pct": -0.03,
+            "max_observed_gain_pct": 11.82,
+            "max_observed_loss_pct": -9.14,
+            "forward_volatility": 3.28
+          },
+          "10d": {
+            "observations": 317,
+            "positive_probability": 46.69,
+            "negative_probability": 53.31,
+            "average_return_pct": 0.17,
+            "median_return_pct": -0.42,
+            "max_observed_gain_pct": 14.83,
+            "max_observed_loss_pct": -9.89,
+            "forward_volatility": 4.51
+          },
+          "20d": {
+            "observations": 317,
+            "positive_probability": 46.37,
+            "negative_probability": 53.31,
+            "average_return_pct": 0.56,
+            "median_return_pct": -0.31,
+            "max_observed_gain_pct": 17.52,
+            "max_observed_loss_pct": -10.68,
+            "forward_volatility": 6.08
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Neutral",
+        "confidence": 4.98,
+        "probability_up": 47.51,
+        "metrics": {
+          "accuracy": 0.4754,
+          "precision": 0.5,
+          "recall": 0.4375,
+          "f1_score": 0.4667,
+          "roc_auc": 0.484
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "TCS",
+      "technical_score": 29.32,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 28.21,
+        "volume_score": 50.0,
+        "relative_strength_score": 54.52,
+        "volatility_score": 30.0,
+        "market_regime_score": 10.0,
+        "sector_score": 56.55,
+        "fundamental_score": 80.0
+      },
+      "fundamental_score": 80.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 2557.60009765625,
+        "return_1d": -0.008220858837624467,
+        "rsi_14": 25.476453409392676,
+        "macd": -125.63088145633901,
+        "macd_signal": -126.56316618725711,
+        "macd_hist": 0.9322847309180986,
+        "atr_14": 72.24679594446737,
+        "volatility_20d": 0.281631950701488,
+        "volatility_regime": "High",
+        "relative_volume": 0.8903812636101298,
+        "dist_sma_20": -0.05643807116963374,
+        "dist_sma_50": -0.14738137502753734,
+        "dist_sma_200": -0.18442079821345359,
+        "dist_52w_high": -0.31061991976920483,
+        "dist_52w_low": 0.004398443191185779,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 55,
+        "forward_statistics": {
+          "1d": {
+            "observations": 55,
+            "positive_probability": 47.27,
+            "negative_probability": 50.91,
+            "average_return_pct": -0.07,
+            "median_return_pct": -0.02,
+            "max_observed_gain_pct": 2.31,
+            "max_observed_loss_pct": -3.05,
+            "forward_volatility": 1.04
+          },
+          "3d": {
+            "observations": 55,
+            "positive_probability": 47.27,
+            "negative_probability": 52.73,
+            "average_return_pct": 0.05,
+            "median_return_pct": -0.27,
+            "max_observed_gain_pct": 6.55,
+            "max_observed_loss_pct": -5.23,
+            "forward_volatility": 2.33
+          },
+          "5d": {
+            "observations": 55,
+            "positive_probability": 52.73,
+            "negative_probability": 47.27,
+            "average_return_pct": 0.32,
+            "median_return_pct": 0.18,
+            "max_observed_gain_pct": 6.61,
+            "max_observed_loss_pct": -7.84,
+            "forward_volatility": 3.35
+          },
+          "10d": {
+            "observations": 55,
+            "positive_probability": 54.55,
+            "negative_probability": 45.45,
+            "average_return_pct": 0.61,
+            "median_return_pct": 1.32,
+            "max_observed_gain_pct": 7.47,
+            "max_observed_loss_pct": -5.86,
+            "forward_volatility": 3.84
+          },
+          "20d": {
+            "observations": 55,
+            "positive_probability": 56.36,
+            "negative_probability": 43.64,
+            "average_return_pct": 0.38,
+            "median_return_pct": 0.9,
+            "max_observed_gain_pct": 10.21,
+            "max_observed_loss_pct": -7.36,
+            "forward_volatility": 4.97
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Slightly Bearish",
+        "confidence": 10.33,
+        "probability_up": 44.84,
+        "metrics": {
+          "accuracy": 0.4754,
+          "precision": 0.4341,
+          "recall": 0.7596,
+          "f1_score": 0.5524,
+          "roc_auc": 0.5464
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "INFY",
+      "technical_score": 32.39,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 33.4,
+        "volume_score": 40.0,
+        "relative_strength_score": 64.73,
+        "volatility_score": 50.0,
+        "market_regime_score": 10.0,
+        "sector_score": 56.55,
+        "fundamental_score": 80.0
+      },
+      "fundamental_score": 80.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 1308.4000244140625,
+        "return_1d": 0.0019910977858139667,
+        "rsi_14": 28.932854875941445,
+        "macd": -70.26086418981936,
+        "macd_signal": -73.18928451692233,
+        "macd_hist": 2.9284203271029696,
+        "atr_14": 41.57799496991325,
+        "volatility_20d": 0.2865830018149367,
+        "volatility_regime": "Normal",
+        "relative_volume": 0.5223905551273451,
+        "dist_sma_20": -0.04062528628305897,
+        "dist_sma_50": -0.14188309360383164,
+        "dist_sma_200": -0.1469891844568894,
+        "dist_52w_high": -0.2545153879469145,
+        "dist_52w_low": 0.03504473513464865,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 87,
+        "forward_statistics": {
+          "1d": {
+            "observations": 87,
+            "positive_probability": 50.57,
+            "negative_probability": 49.43,
+            "average_return_pct": 0.03,
+            "median_return_pct": 0.01,
+            "max_observed_gain_pct": 3.96,
+            "max_observed_loss_pct": -4.34,
+            "forward_volatility": 1.64
+          },
+          "3d": {
+            "observations": 87,
+            "positive_probability": 62.07,
+            "negative_probability": 37.93,
+            "average_return_pct": 0.17,
+            "median_return_pct": 0.42,
+            "max_observed_gain_pct": 8.25,
+            "max_observed_loss_pct": -9.9,
+            "forward_volatility": 2.78
+          },
+          "5d": {
+            "observations": 87,
+            "positive_probability": 50.57,
+            "negative_probability": 49.43,
+            "average_return_pct": -0.14,
+            "median_return_pct": 0.14,
+            "max_observed_gain_pct": 6.71,
+            "max_observed_loss_pct": -11.07,
+            "forward_volatility": 3.68
+          },
+          "10d": {
+            "observations": 87,
+            "positive_probability": 50.57,
+            "negative_probability": 48.28,
+            "average_return_pct": -0.63,
+            "median_return_pct": 0.02,
+            "max_observed_gain_pct": 7.12,
+            "max_observed_loss_pct": -12.29,
+            "forward_volatility": 4.96
+          },
+          "20d": {
+            "observations": 87,
+            "positive_probability": 47.13,
+            "negative_probability": 52.87,
+            "average_return_pct": -1.42,
+            "median_return_pct": -0.53,
+            "max_observed_gain_pct": 13.11,
+            "max_observed_loss_pct": -15.26,
+            "forward_volatility": 7.15
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Slightly Bearish",
+        "confidence": 20.67,
+        "probability_up": 39.66,
+        "metrics": {
+          "accuracy": 0.5492,
+          "precision": 0.5241,
+          "recall": 0.7373,
+          "f1_score": 0.6127,
+          "roc_auc": 0.5778
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "technical_score": 22.94,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 0.31,
+        "volume_score": 50.0,
+        "relative_strength_score": 39.15,
+        "volatility_score": 50.0,
+        "market_regime_score": 10.0,
+        "sector_score": 45.6,
+        "fundamental_score": 70.0
+      },
+      "fundamental_score": 70.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 857.0499877929688,
+        "return_1d": -0.02358303868644973,
+        "rsi_14": 26.876128702803086,
+        "macd": -18.14713820145289,
+        "macd_signal": -13.397239692257628,
+        "macd_hist": -4.749898509195262,
+        "atr_14": 17.171518277616137,
+        "volatility_20d": 0.17272989195215085,
+        "volatility_regime": "Normal",
+        "relative_volume": 1.181880853280737,
+        "dist_sma_20": -0.05698992413721799,
+        "dist_sma_50": -0.08201804078576008,
+        "dist_sma_200": -0.11832096875997304,
+        "dist_52w_high": -0.1601665969691634,
+        "dist_52w_low": 0.02637641116727152,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 45,
+        "forward_statistics": {
+          "1d": {
+            "observations": 45,
+            "positive_probability": 48.89,
+            "negative_probability": 48.89,
+            "average_return_pct": 0.05,
+            "median_return_pct": 0.0,
+            "max_observed_gain_pct": 2.82,
+            "max_observed_loss_pct": -3.34,
+            "forward_volatility": 1.19
+          },
+          "3d": {
+            "observations": 45,
+            "positive_probability": 55.56,
+            "negative_probability": 44.44,
+            "average_return_pct": 0.11,
+            "median_return_pct": 0.36,
+            "max_observed_gain_pct": 5.11,
+            "max_observed_loss_pct": -7.16,
+            "forward_volatility": 2.05
+          },
+          "5d": {
+            "observations": 45,
+            "positive_probability": 62.22,
+            "negative_probability": 37.78,
+            "average_return_pct": 0.46,
+            "median_return_pct": 0.85,
+            "max_observed_gain_pct": 5.76,
+            "max_observed_loss_pct": -6.67,
+            "forward_volatility": 2.21
+          },
+          "10d": {
+            "observations": 45,
+            "positive_probability": 71.11,
+            "negative_probability": 28.89,
+            "average_return_pct": 1.2,
+            "median_return_pct": 1.52,
+            "max_observed_gain_pct": 8.03,
+            "max_observed_loss_pct": -5.94,
+            "forward_volatility": 2.39
+          },
+          "20d": {
+            "observations": 45,
+            "positive_probability": 53.33,
+            "negative_probability": 46.67,
+            "average_return_pct": 1.35,
+            "median_return_pct": 0.69,
+            "max_observed_gain_pct": 8.27,
+            "max_observed_loss_pct": -7.65,
+            "forward_volatility": 3.34
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Neutral",
+        "confidence": 9.51,
+        "probability_up": 54.76,
+        "metrics": {
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.7213,
+          "f1_score": 0.5906,
+          "roc_auc": 0.4958
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "technical_score": 18.61,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 5.41,
+        "volume_score": 20.0,
+        "relative_strength_score": 30.18,
+        "volatility_score": 50.0,
+        "market_regime_score": 10.0,
+        "sector_score": 45.6,
+        "fundamental_score": 80.0
+      },
+      "fundamental_score": 80.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 1313.4000244140625,
+        "return_1d": -0.03255741895015751,
+        "rsi_14": 30.27309148321406,
+        "macd": -9.594058245320866,
+        "macd_signal": -0.9202896321314573,
+        "macd_hist": -8.67376861318941,
+        "atr_14": 25.93062138788326,
+        "volatility_20d": 0.1774116217585851,
+        "volatility_regime": "Normal",
+        "relative_volume": 1.5883028139244797,
+        "dist_sma_20": -0.05677381329488864,
+        "dist_sma_50": -0.05153512194602585,
+        "dist_sma_200": -0.063305657945241,
+        "dist_52w_high": -0.12439998372395833,
+        "dist_52w_low": 0.09440884187403413,
+        "events": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "historical_analogues": {
+        "matches_count": 41,
+        "forward_statistics": {
+          "1d": {
+            "observations": 41,
+            "positive_probability": 73.17,
+            "negative_probability": 26.83,
+            "average_return_pct": 0.69,
+            "median_return_pct": 0.62,
+            "max_observed_gain_pct": 4.09,
+            "max_observed_loss_pct": -2.65,
+            "forward_volatility": 1.43
+          },
+          "3d": {
+            "observations": 41,
+            "positive_probability": 75.61,
+            "negative_probability": 24.39,
+            "average_return_pct": 1.34,
+            "median_return_pct": 0.96,
+            "max_observed_gain_pct": 6.41,
+            "max_observed_loss_pct": -4.77,
+            "forward_volatility": 2.23
+          },
+          "5d": {
+            "observations": 41,
+            "positive_probability": 70.73,
+            "negative_probability": 29.27,
+            "average_return_pct": 1.65,
+            "median_return_pct": 1.36,
+            "max_observed_gain_pct": 6.43,
+            "max_observed_loss_pct": -3.73,
+            "forward_volatility": 2.56
+          },
+          "10d": {
+            "observations": 41,
+            "positive_probability": 85.37,
+            "negative_probability": 14.63,
+            "average_return_pct": 2.98,
+            "median_return_pct": 3.16,
+            "max_observed_gain_pct": 15.37,
+            "max_observed_loss_pct": -5.77,
+            "forward_volatility": 3.66
+          },
+          "20d": {
+            "observations": 41,
+            "positive_probability": 78.05,
+            "negative_probability": 21.95,
+            "average_return_pct": 3.75,
+            "median_return_pct": 3.0,
+            "max_observed_gain_pct": 12.05,
+            "max_observed_loss_pct": -5.05,
+            "forward_volatility": 4.53
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Bullish",
+        "confidence": 54.3,
+        "probability_up": 77.15,
+        "metrics": {
+          "accuracy": 0.5082,
+          "precision": 0.4867,
+          "recall": 0.6293,
+          "f1_score": 0.5489,
+          "roc_auc": 0.5332
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "SBIN",
+      "technical_score": 45.64,
+      "composite_label": "Weak",
+      "component_scores": {
+        "technical_trend_score": 70.0,
+        "momentum_score": 30.63,
+        "volume_score": 50.0,
+        "relative_strength_score": 40.08,
+        "volatility_score": 30.0,
+        "market_regime_score": 10.0,
+        "sector_score": 45.6,
+        "fundamental_score": 90.0
+      },
+      "fundamental_score": 90.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 1143.0,
+        "return_1d": -0.022659256092347202,
+        "rsi_14": 47.089435708661505,
+        "macd": 25.35735302988087,
+        "macd_signal": 37.82047322714467,
+        "macd_hist": -12.463120197263798,
+        "atr_14": 25.20071867084896,
+        "volatility_20d": 0.3240026621392086,
+        "volatility_regime": "High",
+        "relative_volume": 1.143385734237305,
+        "dist_sma_20": -0.036739579364361896,
+        "dist_sma_50": 0.05016248647712482,
+        "dist_sma_200": 0.24389141175217152,
+        "dist_52w_high": -0.07426901660183999,
+        "dist_52w_low": 0.6808823529411765,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 185,
+        "forward_statistics": {
+          "1d": {
+            "observations": 185,
+            "positive_probability": 53.51,
+            "negative_probability": 45.41,
+            "average_return_pct": 0.05,
+            "median_return_pct": 0.06,
+            "max_observed_gain_pct": 4.67,
+            "max_observed_loss_pct": -5.22,
+            "forward_volatility": 1.53
+          },
+          "3d": {
+            "observations": 185,
+            "positive_probability": 54.05,
+            "negative_probability": 45.95,
+            "average_return_pct": 0.3,
+            "median_return_pct": 0.49,
+            "max_observed_gain_pct": 7.7,
+            "max_observed_loss_pct": -9.45,
+            "forward_volatility": 2.63
+          },
+          "5d": {
+            "observations": 185,
+            "positive_probability": 61.08,
+            "negative_probability": 38.92,
+            "average_return_pct": 0.54,
+            "median_return_pct": 0.87,
+            "max_observed_gain_pct": 10.04,
+            "max_observed_loss_pct": -11.27,
+            "forward_volatility": 3.44
+          },
+          "10d": {
+            "observations": 185,
+            "positive_probability": 64.32,
+            "negative_probability": 35.68,
+            "average_return_pct": 1.12,
+            "median_return_pct": 1.97,
+            "max_observed_gain_pct": 18.36,
+            "max_observed_loss_pct": -14.55,
+            "forward_volatility": 5.26
+          },
+          "20d": {
+            "observations": 185,
+            "positive_probability": 63.24,
+            "negative_probability": 36.76,
+            "average_return_pct": 3.01,
+            "median_return_pct": 2.34,
+            "max_observed_gain_pct": 23.88,
+            "max_observed_loss_pct": -13.12,
+            "forward_volatility": 7.42
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Slightly Bullish",
+        "confidence": 25.93,
+        "probability_up": 62.97,
+        "metrics": {
+          "accuracy": 0.5082,
+          "precision": 0.6358,
+          "recall": 0.5963,
+          "f1_score": 0.6154,
+          "roc_auc": 0.4493
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "technical_score": 20.9,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 9.19,
+        "volume_score": 20.0,
+        "relative_strength_score": 43.75,
+        "volatility_score": 50.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 70.0
+      },
+      "fundamental_score": 70.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 1870.800048828125,
+        "return_1d": -0.018982669728303647,
+        "rsi_14": 32.795596279002226,
+        "macd": -35.79375004075155,
+        "macd_signal": -26.64261357814979,
+        "macd_hist": -9.151136462601759,
+        "atr_14": 43.8010400127288,
+        "volatility_20d": 0.217621606175378,
+        "volatility_regime": "Normal",
+        "relative_volume": 1.2714520566499021,
+        "dist_sma_20": -0.049733053853450074,
+        "dist_sma_50": -0.06892760281580086,
+        "dist_sma_200": -0.054313269910998524,
+        "dist_52w_high": -0.1396642681866521,
+        "dist_52w_low": 0.19961529261181468,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 56,
+        "forward_statistics": {
+          "1d": {
+            "observations": 56,
+            "positive_probability": 53.57,
+            "negative_probability": 44.64,
+            "average_return_pct": 0.44,
+            "median_return_pct": 0.02,
+            "max_observed_gain_pct": 3.32,
+            "max_observed_loss_pct": -2.25,
+            "forward_volatility": 1.39
+          },
+          "3d": {
+            "observations": 56,
+            "positive_probability": 48.21,
+            "negative_probability": 51.79,
+            "average_return_pct": 0.53,
+            "median_return_pct": -0.14,
+            "max_observed_gain_pct": 6.39,
+            "max_observed_loss_pct": -2.73,
+            "forward_volatility": 2.07
+          },
+          "5d": {
+            "observations": 56,
+            "positive_probability": 57.14,
+            "negative_probability": 42.86,
+            "average_return_pct": 1.03,
+            "median_return_pct": 1.21,
+            "max_observed_gain_pct": 6.99,
+            "max_observed_loss_pct": -3.02,
+            "forward_volatility": 2.65
+          },
+          "10d": {
+            "observations": 56,
+            "positive_probability": 71.43,
+            "negative_probability": 28.57,
+            "average_return_pct": 1.41,
+            "median_return_pct": 1.58,
+            "max_observed_gain_pct": 8.34,
+            "max_observed_loss_pct": -4.92,
+            "forward_volatility": 3.01
+          },
+          "20d": {
+            "observations": 56,
+            "positive_probability": 67.86,
+            "negative_probability": 32.14,
+            "average_return_pct": 2.26,
+            "median_return_pct": 0.96,
+            "max_observed_gain_pct": 17.45,
+            "max_observed_loss_pct": -4.69,
+            "forward_volatility": 4.41
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Bullish",
+        "confidence": 33.76,
+        "probability_up": 66.88,
+        "metrics": {
+          "accuracy": 0.5082,
+          "precision": 0.5106,
+          "recall": 0.7742,
+          "f1_score": 0.6154,
+          "roc_auc": 0.5273
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "ITC",
+      "technical_score": 25.14,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 11.76,
+        "volume_score": 50.0,
+        "relative_strength_score": 56.96,
+        "volatility_score": 30.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 55.0
+      },
+      "fundamental_score": 55.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 309.70001220703125,
+        "return_1d": -0.005778451983848298,
+        "rsi_14": 34.50374045813871,
+        "macd": -5.617829956403739,
+        "macd_signal": -5.552852098711599,
+        "macd_hist": -0.06497785769214026,
+        "atr_14": 6.2343786420279885,
+        "volatility_20d": 0.2548460988312718,
+        "volatility_regime": "High",
+        "relative_volume": 1.020876061817216,
+        "dist_sma_20": -0.03171845417296834,
+        "dist_sma_50": -0.07161204102327133,
+        "dist_sma_200": -0.209649541991121,
+        "dist_52w_high": -0.3027915270234452,
+        "dist_52w_low": 0.025496729162355132,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 103,
+        "forward_statistics": {
+          "1d": {
+            "observations": 103,
+            "positive_probability": 52.43,
+            "negative_probability": 47.57,
+            "average_return_pct": 0.12,
+            "median_return_pct": 0.07,
+            "max_observed_gain_pct": 4.45,
+            "max_observed_loss_pct": -3.99,
+            "forward_volatility": 1.2
+          },
+          "3d": {
+            "observations": 103,
+            "positive_probability": 59.22,
+            "negative_probability": 40.78,
+            "average_return_pct": 0.41,
+            "median_return_pct": 0.36,
+            "max_observed_gain_pct": 8.03,
+            "max_observed_loss_pct": -5.78,
+            "forward_volatility": 2.09
+          },
+          "5d": {
+            "observations": 103,
+            "positive_probability": 59.22,
+            "negative_probability": 40.78,
+            "average_return_pct": 0.39,
+            "median_return_pct": 0.68,
+            "max_observed_gain_pct": 7.66,
+            "max_observed_loss_pct": -7.12,
+            "forward_volatility": 2.45
+          },
+          "10d": {
+            "observations": 103,
+            "positive_probability": 66.02,
+            "negative_probability": 33.01,
+            "average_return_pct": 0.71,
+            "median_return_pct": 0.89,
+            "max_observed_gain_pct": 9.18,
+            "max_observed_loss_pct": -8.81,
+            "forward_volatility": 3.13
+          },
+          "20d": {
+            "observations": 103,
+            "positive_probability": 62.14,
+            "negative_probability": 37.86,
+            "average_return_pct": 0.86,
+            "median_return_pct": 0.96,
+            "max_observed_gain_pct": 18.62,
+            "max_observed_loss_pct": -8.26,
+            "forward_volatility": 4.23
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Bullish",
+        "confidence": 31.09,
+        "probability_up": 65.54,
+        "metrics": {
+          "accuracy": 0.4754,
+          "precision": 0.4581,
+          "recall": 0.9541,
+          "f1_score": 0.619,
+          "roc_auc": 0.499
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "technical_score": 23.65,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 10.92,
+        "volume_score": 50.0,
+        "relative_strength_score": 49.74,
+        "volatility_score": 30.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 50.0
+      },
+      "fundamental_score": 50.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 2225.699951171875,
+        "return_1d": -0.012993369768569796,
+        "rsi_14": 33.94794256605671,
+        "macd": -26.66239934906889,
+        "macd_signal": -14.276677212337798,
+        "macd_hist": -12.385722136731093,
+        "atr_14": 49.54962612163049,
+        "volatility_20d": 0.2686184417409553,
+        "volatility_regime": "High",
+        "relative_volume": 0.9461549292260564,
+        "dist_sma_20": -0.05091671949116164,
+        "dist_sma_50": -0.055209377956536076,
+        "dist_sma_200": -0.08507806152974225,
+        "dist_52w_high": -0.19065456321022728,
+        "dist_52w_low": 0.04199435916286283,
+        "events": [
+          "20-Day Low Breakdown"
+        ]
+      },
+      "historical_analogues": {
+        "matches_count": 154,
+        "forward_statistics": {
+          "1d": {
+            "observations": 154,
+            "positive_probability": 41.56,
+            "negative_probability": 57.79,
+            "average_return_pct": -0.01,
+            "median_return_pct": -0.12,
+            "max_observed_gain_pct": 4.05,
+            "max_observed_loss_pct": -2.7,
+            "forward_volatility": 0.99
+          },
+          "3d": {
+            "observations": 154,
+            "positive_probability": 48.05,
+            "negative_probability": 51.95,
+            "average_return_pct": -0.16,
+            "median_return_pct": -0.05,
+            "max_observed_gain_pct": 4.58,
+            "max_observed_loss_pct": -9.55,
+            "forward_volatility": 2.03
+          },
+          "5d": {
+            "observations": 154,
+            "positive_probability": 46.1,
+            "negative_probability": 53.9,
+            "average_return_pct": -0.23,
+            "median_return_pct": -0.27,
+            "max_observed_gain_pct": 9.17,
+            "max_observed_loss_pct": -10.45,
+            "forward_volatility": 2.81
+          },
+          "10d": {
+            "observations": 154,
+            "positive_probability": 47.4,
+            "negative_probability": 52.6,
+            "average_return_pct": 0.4,
+            "median_return_pct": -0.15,
+            "max_observed_gain_pct": 11.78,
+            "max_observed_loss_pct": -9.06,
+            "forward_volatility": 3.49
+          },
+          "20d": {
+            "observations": 154,
+            "positive_probability": 51.3,
+            "negative_probability": 48.7,
+            "average_return_pct": 1.14,
+            "median_return_pct": 0.09,
+            "max_observed_gain_pct": 21.7,
+            "max_observed_loss_pct": -12.76,
+            "forward_volatility": 6.0
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Neutral",
+        "confidence": 7.38,
+        "probability_up": 46.31,
+        "metrics": {
+          "accuracy": 0.5,
+          "precision": 0.4643,
+          "recall": 0.2203,
+          "f1_score": 0.2989,
+          "roc_auc": 0.5091
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "technical_score": 75.03,
+      "composite_label": "Strong",
+      "component_scores": {
+        "technical_trend_score": 100.0,
+        "momentum_score": 89.34,
+        "volume_score": 80.0,
+        "relative_strength_score": 71.09,
+        "volatility_score": 50.0,
+        "market_regime_score": 10.0,
+        "sector_score": 55.6,
+        "fundamental_score": 70.0
+      },
+      "fundamental_score": 70.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 1799.4000244140625,
+        "return_1d": 0.008349691462069098,
+        "rsi_14": 66.22914474068561,
+        "macd": 22.5318022765573,
+        "macd_signal": 15.59301007212425,
+        "macd_hist": 6.938792204433051,
+        "atr_14": 32.606951078190214,
+        "volatility_20d": 0.16314088608875588,
+        "volatility_regime": "Normal",
+        "relative_volume": 1.742100986261624,
+        "dist_sma_20": 0.038653698759491095,
+        "dist_sma_50": 0.05415477046192204,
+        "dist_sma_200": 0.06540923823891577,
+        "dist_52w_high": -0.027981810784416517,
+        "dist_52w_low": 0.162403116546552,
+        "events": [
+          "20-Day High Breakout"
+        ]
+      },
+      "historical_analogues": {
+        "matches_count": 262,
+        "forward_statistics": {
+          "1d": {
+            "observations": 262,
+            "positive_probability": 48.85,
+            "negative_probability": 51.15,
+            "average_return_pct": 0.09,
+            "median_return_pct": -0.04,
+            "max_observed_gain_pct": 5.4,
+            "max_observed_loss_pct": -4.25,
+            "forward_volatility": 1.21
+          },
+          "3d": {
+            "observations": 262,
+            "positive_probability": 56.11,
+            "negative_probability": 43.89,
+            "average_return_pct": 0.37,
+            "median_return_pct": 0.27,
+            "max_observed_gain_pct": 7.03,
+            "max_observed_loss_pct": -5.64,
+            "forward_volatility": 2.0
+          },
+          "5d": {
+            "observations": 262,
+            "positive_probability": 57.25,
+            "negative_probability": 42.75,
+            "average_return_pct": 0.41,
+            "median_return_pct": 0.56,
+            "max_observed_gain_pct": 10.18,
+            "max_observed_loss_pct": -8.19,
+            "forward_volatility": 2.57
+          },
+          "10d": {
+            "observations": 262,
+            "positive_probability": 57.25,
+            "negative_probability": 42.75,
+            "average_return_pct": 0.79,
+            "median_return_pct": 1.02,
+            "max_observed_gain_pct": 12.43,
+            "max_observed_loss_pct": -8.5,
+            "forward_volatility": 4.06
+          },
+          "20d": {
+            "observations": 262,
+            "positive_probability": 59.16,
+            "negative_probability": 40.84,
+            "average_return_pct": 1.81,
+            "median_return_pct": 2.55,
+            "max_observed_gain_pct": 15.38,
+            "max_observed_loss_pct": -9.59,
+            "forward_volatility": 5.82
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Slightly Bullish",
+        "confidence": 27.55,
+        "probability_up": 63.77,
+        "metrics": {
+          "accuracy": 0.5,
+          "precision": 0.5549,
+          "recall": 0.65,
+          "f1_score": 0.5987,
+          "roc_auc": 0.4938
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "technical_score": 44.48,
+      "composite_label": "Weak",
+      "component_scores": {
+        "technical_trend_score": 70.0,
+        "momentum_score": 29.47,
+        "volume_score": 40.0,
+        "relative_strength_score": 52.22,
+        "volatility_score": 30.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 65.0
+      },
+      "fundamental_score": 65.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 198.4600067138672,
+        "return_1d": -0.010520020607771019,
+        "rsi_14": 46.31180356243765,
+        "macd": 2.7861360444716468,
+        "macd_signal": 4.812903107106581,
+        "macd_hist": -2.026767062634934,
+        "atr_14": 6.351833273023471,
+        "volatility_20d": 0.3665385188947556,
+        "volatility_regime": "High",
+        "relative_volume": 0.7943310653552531,
+        "dist_sma_20": -0.037576012618394806,
+        "dist_sma_50": 0.02381299473530217,
+        "dist_sma_200": 0.1497143213245958,
+        "dist_52w_high": -0.08311383916848375,
+        "dist_52w_low": 0.5838787061472703,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 182,
+        "forward_statistics": {
+          "1d": {
+            "observations": 182,
+            "positive_probability": 54.95,
+            "negative_probability": 44.51,
+            "average_return_pct": 0.04,
+            "median_return_pct": 0.21,
+            "max_observed_gain_pct": 6.58,
+            "max_observed_loss_pct": -12.61,
+            "forward_volatility": 2.33
+          },
+          "3d": {
+            "observations": 182,
+            "positive_probability": 56.04,
+            "negative_probability": 43.96,
+            "average_return_pct": 0.07,
+            "median_return_pct": 0.28,
+            "max_observed_gain_pct": 13.79,
+            "max_observed_loss_pct": -14.65,
+            "forward_volatility": 3.7
+          },
+          "5d": {
+            "observations": 182,
+            "positive_probability": 59.34,
+            "negative_probability": 40.11,
+            "average_return_pct": 0.24,
+            "median_return_pct": 0.83,
+            "max_observed_gain_pct": 14.42,
+            "max_observed_loss_pct": -15.35,
+            "forward_volatility": 5.24
+          },
+          "10d": {
+            "observations": 182,
+            "positive_probability": 53.85,
+            "negative_probability": 46.15,
+            "average_return_pct": 0.65,
+            "median_return_pct": 0.73,
+            "max_observed_gain_pct": 16.2,
+            "max_observed_loss_pct": -20.1,
+            "forward_volatility": 6.82
+          },
+          "20d": {
+            "observations": 182,
+            "positive_probability": 50.55,
+            "negative_probability": 48.9,
+            "average_return_pct": 0.43,
+            "median_return_pct": 0.2,
+            "max_observed_gain_pct": 18.6,
+            "max_observed_loss_pct": -22.54,
+            "forward_volatility": 9.64
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Bullish",
+        "confidence": 34.87,
+        "probability_up": 67.43,
+        "metrics": {
+          "accuracy": 0.5369,
+          "precision": 0.5775,
+          "recall": 0.6074,
+          "f1_score": 0.5921,
+          "roc_auc": 0.5176
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    },
+    {
+      "symbol": "DLF",
+      "technical_score": 21.13,
+      "composite_label": "Very Weak",
+      "component_scores": {
+        "technical_trend_score": 0.0,
+        "momentum_score": 9.61,
+        "volume_score": 20.0,
+        "relative_strength_score": 49.75,
+        "volatility_score": 50.0,
+        "market_regime_score": 10.0,
+        "sector_score": 50.0,
+        "fundamental_score": 55.0
+      },
+      "fundamental_score": 55.0,
+      "signals": {
+        "date": "2026-03-06",
+        "close": 577.5499877929688,
+        "return_1d": -0.012988184745790665,
+        "rsi_14": 33.071370048391174,
+        "macd": -18.88906143712677,
+        "macd_signal": -13.960993197252446,
+        "macd_hist": -4.9280682398743245,
+        "atr_14": 18.010782194403053,
+        "volatility_20d": 0.31531461749612655,
+        "volatility_regime": "Normal",
+        "relative_volume": 1.4558533786567676,
+        "dist_sma_20": -0.07723403736090943,
+        "dist_sma_50": -0.10550837344746995,
+        "dist_sma_200": -0.22166824514798703,
+        "dist_52w_high": -0.3487257603257851,
+        "dist_52w_low": 0.026299400787150155,
+        "events": []
+      },
+      "historical_analogues": {
+        "matches_count": 94,
+        "forward_statistics": {
+          "1d": {
+            "observations": 94,
+            "positive_probability": 53.19,
+            "negative_probability": 45.74,
+            "average_return_pct": 0.27,
+            "median_return_pct": 0.15,
+            "max_observed_gain_pct": 5.91,
+            "max_observed_loss_pct": -6.39,
+            "forward_volatility": 2.31
+          },
+          "3d": {
+            "observations": 94,
+            "positive_probability": 63.83,
+            "negative_probability": 36.17,
+            "average_return_pct": 0.92,
+            "median_return_pct": 1.14,
+            "max_observed_gain_pct": 11.17,
+            "max_observed_loss_pct": -7.5,
+            "forward_volatility": 3.62
+          },
+          "5d": {
+            "observations": 94,
+            "positive_probability": 63.83,
+            "negative_probability": 36.17,
+            "average_return_pct": 1.22,
+            "median_return_pct": 1.46,
+            "max_observed_gain_pct": 12.19,
+            "max_observed_loss_pct": -10.89,
+            "forward_volatility": 4.53
+          },
+          "10d": {
+            "observations": 94,
+            "positive_probability": 64.89,
+            "negative_probability": 35.11,
+            "average_return_pct": 2.05,
+            "median_return_pct": 1.47,
+            "max_observed_gain_pct": 12.69,
+            "max_observed_loss_pct": -15.3,
+            "forward_volatility": 5.56
+          },
+          "20d": {
+            "observations": 94,
+            "positive_probability": 59.57,
+            "negative_probability": 40.43,
+            "average_return_pct": 2.46,
+            "median_return_pct": 1.6,
+            "max_observed_gain_pct": 18.32,
+            "max_observed_loss_pct": -12.81,
+            "forward_volatility": 6.89
+          }
+        }
+      },
+      "forward_probabilities": {
+        "status": "success",
+        "horizon_days": 5,
+        "directional_bias": "Bullish",
+        "confidence": 42.95,
+        "probability_up": 71.48,
+        "metrics": {
+          "accuracy": 0.4754,
+          "precision": 0.4523,
+          "recall": 0.8257,
+          "f1_score": 0.5844,
+          "roc_auc": 0.4876
+        },
+        "disclaimer": "Probabilistic research estimate based on historical patterns. Not a guaranteed forecast."
+      }
+    }
+  ]
+}

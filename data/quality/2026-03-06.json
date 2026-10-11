@@ -1,0 +1,130 @@
+{
+  "date": "2026-03-06",
+  "records_processed": 14832,
+  "records_valid": 14832,
+  "warnings": [
+    "[RELIANCE] Detected 7 volume anomaly dates exceeding 5.0 std dev.",
+    "[TCS] Detected 6 volume anomaly dates exceeding 5.0 std dev.",
+    "[INFY] Detected 7 volume anomaly dates exceeding 5.0 std dev.",
+    "[HDFCBANK] Detected 5 volume anomaly dates exceeding 5.0 std dev.",
+    "[ICICIBANK] Detected 7 volume anomaly dates exceeding 5.0 std dev.",
+    "[SBIN] Detected 5 volume anomaly dates exceeding 5.0 std dev.",
+    "[BHARTIARTL] Detected 9 volume anomaly dates exceeding 5.0 std dev.",
+    "[ITC] Detected 5 volume anomaly dates exceeding 5.0 std dev.",
+    "[HINDUNILVR] Detected 6 volume anomaly dates exceeding 5.0 std dev.",
+    "[SUNPHARMA] Detected 8 volume anomaly dates exceeding 5.0 std dev.",
+    "[TATASTEEL] Detected 10 volume anomaly dates exceeding 5.0 std dev.",
+    "[DLF] Detected 6 volume anomaly dates exceeding 5.0 std dev."
+  ],
+  "errors": [],
+  "stock_details": {
+    "RELIANCE": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 7 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "TCS": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 6 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "INFY": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 7 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "HDFCBANK": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 5 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "ICICIBANK": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 7 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "SBIN": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 5 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "BHARTIARTL": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 9 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "ITC": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 5 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "HINDUNILVR": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 6 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "SUNPHARMA": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 8 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "TATASTEEL": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 10 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    },
+    "DLF": {
+      "records_processed": 1236,
+      "records_valid": 1236,
+      "warnings": [
+        "Detected 6 volume anomaly dates exceeding 5.0 std dev."
+      ],
+      "errors": [],
+      "invalid_dates": []
+    }
+  }
+}
