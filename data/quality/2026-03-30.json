@@ -1,0 +1,11 @@
+{
+  "date": "2026-03-30",
+  "records_processed": 11878,
+  "records_valid": 11878,
+  "warnings": [],
+  "errors": [
+    "Empty or None DataFrame provided for ticker LTIM",
+    "Empty or None DataFrame provided for ticker TATAMOTORS",
+    "Empty or None DataFrame provided for ticker BSE_SENSEX_STOCK"
+  ]
+}
