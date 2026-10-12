@@ -1,0 +1,2004 @@
+{
+  "date": "2026-03-30",
+  "market": {
+    "nifty_trend": "Strong Downtrend",
+    "nifty_return_1d": -0.006975864817305832,
+    "nifty_volatility_20d": 0.13770744356131853,
+    "pct_above_20dma": 20.0,
+    "pct_above_50dma": 10.0,
+    "pct_above_200dma": 10.0,
+    "advance_decline_ratio": 0.12,
+    "new_highs_20d": 0,
+    "new_lows_20d": 4,
+    "regime": "Strong Bearish",
+    "regime_rules_description": "Rule-based classification: Strong Bullish: NIFTY > 20&50 DMA and >70% stocks > 50 DMA. Bullish: NIFTY > 50 DMA and >50% stocks > 50 DMA. Neutral: Mixed trend and breadth indicators. Bearish: NIFTY < 50 DMA and <50% stocks > 50 DMA. Strong Bearish: NIFTY < 20&50 DMA and <30% stocks > 50 DMA."
+  },
+  "sectors": [
+    {
+      "sector": "Pharmaceuticals",
+      "daily_return": 0.45,
+      "weekly_return": -0.15,
+      "monthly_return": -1.8,
+      "relative_strength_1d": 1.15,
+      "momentum_score": -0.4,
+      "volatility_20d": 16.84,
+      "relative_volume": 0.0,
+      "rank": 1
+    },
+    {
+      "sector": "Information Technology",
+      "daily_return": -0.79,
+      "weekly_return": 0.17,
+      "monthly_return": -1.87,
+      "relative_strength_1d": -0.09,
+      "momentum_score": -0.83,
+      "volatility_20d": 19.45,
+      "relative_volume": 0.0,
+      "rank": 2
+    },
+    {
+      "sector": "Banking",
+      "daily_return": -0.61,
+      "weekly_return": 0.37,
+      "monthly_return": -2.75,
+      "relative_strength_1d": 0.08,
+      "momentum_score": -0.96,
+      "volatility_20d": 14.74,
+      "relative_volume": 0.0,
+      "rank": 3
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "close": 1158.9000244140625,
+      "daily_return_pct": -0.9741112482630321,
+      "composite_score": 38.52,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 48.62,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 72.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.8578829625315342,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.11,
+          "median_forward_return_pct": -0.08,
+          "positive_return_prob": 44.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 3.31,
+          "max_observed_loss_pct": -3.04,
+          "forward_volatility_pct": 1.41
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.06,
+          "median_forward_return_pct": -0.44,
+          "positive_return_prob": 42.0,
+          "negative_return_prob": 58.0,
+          "max_observed_gain_pct": 5.34,
+          "max_observed_loss_pct": -4.44,
+          "forward_volatility_pct": 2.37
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.03,
+          "median_forward_return_pct": 0.02,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 6.93,
+          "max_observed_loss_pct": -4.92,
+          "forward_volatility_pct": 3.0
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.33,
+          "median_forward_return_pct": 1.25,
+          "positive_return_prob": 62.0,
+          "negative_return_prob": 38.0,
+          "max_observed_gain_pct": 11.66,
+          "max_observed_loss_pct": -7.19,
+          "forward_volatility_pct": 3.98
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.52,
+          "median_forward_return_pct": -0.04,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 18.14,
+          "max_observed_loss_pct": -7.44,
+          "forward_volatility_pct": 4.34
+        }
+      },
+      "directional_bias": {
+        "1d": "Neutral",
+        "3d": "Slightly Bearish",
+        "5d": "Neutral",
+        "10d": "Slightly Bullish",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 72.5,
+        "valuation_score": 70.0,
+        "profitability_score": 50.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 20.986961,
+        "pb_ratio": 1.7347635,
+        "roe": null,
+        "debt_to_equity": 46.278,
+        "revenue_growth": 0.297,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "TCS",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "close": 2125.0,
+      "daily_return_pct": -1.437847866419295,
+      "composite_score": 54.61,
+      "label": "Neutral",
+      "sub_scores": {
+        "technical_score": 30.0,
+        "momentum_score": 66.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 46.3,
+        "volatility_score": 70.0,
+        "sector_score": 84.0,
+        "fundamental_score": 81.25
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Neutral",
+      "relative_volume": 0.9216089181220858,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.15,
+          "median_forward_return_pct": -0.13,
+          "positive_return_prob": 44.0,
+          "negative_return_prob": 56.0,
+          "max_observed_gain_pct": 5.44,
+          "max_observed_loss_pct": -7.01,
+          "forward_volatility_pct": 1.73
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.49,
+          "median_forward_return_pct": -0.54,
+          "positive_return_prob": 44.0,
+          "negative_return_prob": 56.0,
+          "max_observed_gain_pct": 5.81,
+          "max_observed_loss_pct": -8.8,
+          "forward_volatility_pct": 2.9
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.82,
+          "median_forward_return_pct": -0.72,
+          "positive_return_prob": 44.0,
+          "negative_return_prob": 56.0,
+          "max_observed_gain_pct": 9.67,
+          "max_observed_loss_pct": -7.46,
+          "forward_volatility_pct": 3.32
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -2.15,
+          "median_forward_return_pct": -1.15,
+          "positive_return_prob": 32.0,
+          "negative_return_prob": 68.0,
+          "max_observed_gain_pct": 8.96,
+          "max_observed_loss_pct": -15.75,
+          "forward_volatility_pct": 4.63
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -3.99,
+          "median_forward_return_pct": -2.97,
+          "positive_return_prob": 24.0,
+          "negative_return_prob": 76.0,
+          "max_observed_gain_pct": 18.55,
+          "max_observed_loss_pct": -19.77,
+          "forward_volatility_pct": 6.82
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bearish",
+        "3d": "Slightly Bearish",
+        "5d": "Slightly Bearish",
+        "10d": "Bearish",
+        "20d": "Bearish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 81.25,
+        "valuation_score": 85.0,
+        "profitability_score": 90.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 14.8955555,
+        "pb_ratio": 7.012877,
+        "roe": 0.45573002,
+        "debt_to_equity": 9.83,
+        "revenue_growth": 0.112,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "INFY",
+      "exchange": "NSE",
+      "sector": "Information Technology",
+      "close": 1020.0,
+      "daily_return_pct": -0.33222829127926845,
+      "composite_score": 50.25,
+      "label": "Neutral",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 66.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 51.83,
+        "volatility_score": 70.0,
+        "sector_score": 84.0,
+        "fundamental_score": 77.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.810688058238414,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.03,
+          "median_forward_return_pct": -0.08,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 4.98,
+          "max_observed_loss_pct": -3.76,
+          "forward_volatility_pct": 1.87
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.46,
+          "median_forward_return_pct": -0.19,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 52.0,
+          "max_observed_gain_pct": 11.02,
+          "max_observed_loss_pct": -8.41,
+          "forward_volatility_pct": 3.98
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.49,
+          "median_forward_return_pct": 1.07,
+          "positive_return_prob": 56.0,
+          "negative_return_prob": 44.0,
+          "max_observed_gain_pct": 10.28,
+          "max_observed_loss_pct": -9.99,
+          "forward_volatility_pct": 4.73
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.05,
+          "median_forward_return_pct": 1.09,
+          "positive_return_prob": 64.0,
+          "negative_return_prob": 36.0,
+          "max_observed_gain_pct": 12.89,
+          "max_observed_loss_pct": -13.84,
+          "forward_volatility_pct": 5.94
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -2.61,
+          "median_forward_return_pct": -2.12,
+          "positive_return_prob": 42.0,
+          "negative_return_prob": 58.0,
+          "max_observed_gain_pct": 8.92,
+          "max_observed_loss_pct": -14.01,
+          "forward_volatility_pct": 6.54
+        }
+      },
+      "directional_bias": {
+        "1d": "Neutral",
+        "3d": "Neutral",
+        "5d": "Slightly Bullish",
+        "10d": "Slightly Bullish",
+        "20d": "Slightly Bearish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 77.5,
+        "valuation_score": 85.0,
+        "profitability_score": 90.0,
+        "growth_score": 50.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 13.896458,
+        "pb_ratio": 4.4583664,
+        "roe": 0.32,
+        "debt_to_equity": 9.541,
+        "revenue_growth": 0.029,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "HDFCBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "close": 704.9000244140625,
+      "daily_return_pct": -0.3322694359756073,
+      "composite_score": 39.91,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 51.83,
+        "volatility_score": 70.0,
+        "sector_score": 76.0,
+        "fundamental_score": 68.75
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.5673905934424803,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.13,
+          "median_forward_return_pct": -0.03,
+          "positive_return_prob": 44.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 3.14,
+          "max_observed_loss_pct": -2.36,
+          "forward_volatility_pct": 1.12
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.04,
+          "median_forward_return_pct": 0.07,
+          "positive_return_prob": 52.0,
+          "negative_return_prob": 46.0,
+          "max_observed_gain_pct": 4.62,
+          "max_observed_loss_pct": -3.51,
+          "forward_volatility_pct": 1.82
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.09,
+          "median_forward_return_pct": 0.14,
+          "positive_return_prob": 54.0,
+          "negative_return_prob": 46.0,
+          "max_observed_gain_pct": 6.3,
+          "max_observed_loss_pct": -5.13,
+          "forward_volatility_pct": 2.53
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.11,
+          "median_forward_return_pct": 0.08,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 6.46,
+          "max_observed_loss_pct": -9.06,
+          "forward_volatility_pct": 3.45
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.27,
+          "median_forward_return_pct": -0.13,
+          "positive_return_prob": 48.0,
+          "negative_return_prob": 52.0,
+          "max_observed_gain_pct": 12.27,
+          "max_observed_loss_pct": -17.18,
+          "forward_volatility_pct": 5.19
+        }
+      },
+      "directional_bias": {
+        "1d": "Neutral",
+        "3d": "Neutral",
+        "5d": "Neutral",
+        "10d": "Neutral",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 68.75,
+        "valuation_score": 70.0,
+        "profitability_score": 70.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 50.0,
+        "available": true,
+        "pe_ratio": 15.407651,
+        "pb_ratio": 1.789936,
+        "roe": 0.13838,
+        "debt_to_equity": null,
+        "revenue_growth": 0.166,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "ICICIBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "close": 1340.0,
+      "daily_return_pct": -1.1070110701106972,
+      "composite_score": 53.18,
+      "label": "Neutral",
+      "sub_scores": {
+        "technical_score": 30.0,
+        "momentum_score": 66.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 47.95,
+        "volatility_score": 70.0,
+        "sector_score": 76.0,
+        "fundamental_score": 63.75
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Neutral",
+      "relative_volume": 0.8934445917460258,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.17,
+          "median_forward_return_pct": -0.16,
+          "positive_return_prob": 44.0,
+          "negative_return_prob": 56.0,
+          "max_observed_gain_pct": 5.11,
+          "max_observed_loss_pct": -1.85,
+          "forward_volatility_pct": 1.32
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.11,
+          "median_forward_return_pct": -0.26,
+          "positive_return_prob": 40.0,
+          "negative_return_prob": 58.0,
+          "max_observed_gain_pct": 6.13,
+          "max_observed_loss_pct": -3.62,
+          "forward_volatility_pct": 2.28
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.21,
+          "median_forward_return_pct": -0.27,
+          "positive_return_prob": 34.0,
+          "negative_return_prob": 66.0,
+          "max_observed_gain_pct": 8.24,
+          "max_observed_loss_pct": -7.29,
+          "forward_volatility_pct": 3.01
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.06,
+          "median_forward_return_pct": -0.4,
+          "positive_return_prob": 42.0,
+          "negative_return_prob": 58.0,
+          "max_observed_gain_pct": 9.8,
+          "max_observed_loss_pct": -10.68,
+          "forward_volatility_pct": 4.4
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.0,
+          "median_forward_return_pct": -0.45,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 13.16,
+          "max_observed_loss_pct": -14.16,
+          "forward_volatility_pct": 6.41
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bearish",
+        "3d": "Slightly Bearish",
+        "5d": "Bearish",
+        "10d": "Slightly Bearish",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 63.75,
+        "valuation_score": 70.0,
+        "profitability_score": 70.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 50.0,
+        "available": true,
+        "pe_ratio": 17.321613,
+        "pb_ratio": 2.5265048,
+        "roe": 0.16073999,
+        "debt_to_equity": null,
+        "revenue_growth": 0.114,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "exchange": "NSE",
+      "sector": "Telecommunication",
+      "close": 1778.699951171875,
+      "daily_return_pct": -1.4625242242049752,
+      "composite_score": 43.88,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 66.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 46.18,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 65.0
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.7645480642773439,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.16,
+          "median_forward_return_pct": 0.31,
+          "positive_return_prob": 60.0,
+          "negative_return_prob": 40.0,
+          "max_observed_gain_pct": 5.27,
+          "max_observed_loss_pct": -3.75,
+          "forward_volatility_pct": 1.42
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.78,
+          "median_forward_return_pct": 0.63,
+          "positive_return_prob": 60.0,
+          "negative_return_prob": 40.0,
+          "max_observed_gain_pct": 8.46,
+          "max_observed_loss_pct": -4.74,
+          "forward_volatility_pct": 2.62
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.69,
+          "median_forward_return_pct": 0.15,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 10.13,
+          "max_observed_loss_pct": -6.36,
+          "forward_volatility_pct": 3.28
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.66,
+          "median_forward_return_pct": 0.79,
+          "positive_return_prob": 62.0,
+          "negative_return_prob": 38.0,
+          "max_observed_gain_pct": 7.23,
+          "max_observed_loss_pct": -5.29,
+          "forward_volatility_pct": 3.09
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.15,
+          "median_forward_return_pct": 0.74,
+          "positive_return_prob": 54.0,
+          "negative_return_prob": 46.0,
+          "max_observed_gain_pct": 10.01,
+          "max_observed_loss_pct": -6.53,
+          "forward_volatility_pct": 3.84
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bullish",
+        "3d": "Slightly Bullish",
+        "5d": "Neutral",
+        "10d": "Slightly Bullish",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 65.0,
+        "valuation_score": 50.0,
+        "profitability_score": 90.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 35.0,
+        "available": true,
+        "pe_ratio": 37.180183,
+        "pb_ratio": 6.85489,
+        "roe": 0.20151,
+        "debt_to_equity": 100.415,
+        "revenue_growth": 0.184,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "SBIN",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "close": 941.0,
+      "daily_return_pct": -1.887183405971815,
+      "composite_score": 40.18,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 44.05,
+        "volatility_score": 70.0,
+        "sector_score": 76.0,
+        "fundamental_score": 67.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 1.0554799598332956,
+      "num_analogues": 28,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 28,
+          "avg_forward_return_pct": -0.28,
+          "median_forward_return_pct": 0.03,
+          "positive_return_prob": 53.6,
+          "negative_return_prob": 42.9,
+          "max_observed_gain_pct": 1.67,
+          "max_observed_loss_pct": -3.89,
+          "forward_volatility_pct": 1.3
+        },
+        "3d": {
+          "sample_count": 28,
+          "avg_forward_return_pct": -0.7,
+          "median_forward_return_pct": -1.01,
+          "positive_return_prob": 39.3,
+          "negative_return_prob": 60.7,
+          "max_observed_gain_pct": 3.39,
+          "max_observed_loss_pct": -4.54,
+          "forward_volatility_pct": 2.03
+        },
+        "5d": {
+          "sample_count": 28,
+          "avg_forward_return_pct": -1.28,
+          "median_forward_return_pct": -1.52,
+          "positive_return_prob": 32.1,
+          "negative_return_prob": 67.9,
+          "max_observed_gain_pct": 2.81,
+          "max_observed_loss_pct": -8.4,
+          "forward_volatility_pct": 2.66
+        },
+        "10d": {
+          "sample_count": 28,
+          "avg_forward_return_pct": 0.06,
+          "median_forward_return_pct": 0.49,
+          "positive_return_prob": 57.1,
+          "negative_return_prob": 42.9,
+          "max_observed_gain_pct": 7.63,
+          "max_observed_loss_pct": -7.44,
+          "forward_volatility_pct": 3.88
+        },
+        "20d": {
+          "sample_count": 28,
+          "avg_forward_return_pct": -0.21,
+          "median_forward_return_pct": -0.67,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 8.53,
+          "max_observed_loss_pct": -8.19,
+          "forward_volatility_pct": 5.89
+        }
+      },
+      "directional_bias": {
+        "1d": "Neutral",
+        "3d": "Slightly Bearish",
+        "5d": "Bearish",
+        "10d": "Slightly Bullish",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 93.3,
+      "fundamental_summary": {
+        "fundamental_score": 67.5,
+        "valuation_score": 85.0,
+        "profitability_score": 70.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 50.0,
+        "available": true,
+        "pe_ratio": 10.085745,
+        "pb_ratio": 1.3966004,
+        "roe": 0.15177,
+        "debt_to_equity": null,
+        "revenue_growth": 0.103,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "LT",
+      "exchange": "NSE",
+      "sector": "Infrastructure",
+      "close": 3627.5,
+      "daily_return_pct": -2.0468243952339593,
+      "composite_score": 31.46,
+      "label": "Very Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 43.25,
+        "volatility_score": 30.0,
+        "sector_score": 50.0,
+        "fundamental_score": 57.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.7184468552126879,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.01,
+          "median_forward_return_pct": -0.09,
+          "positive_return_prob": 38.0,
+          "negative_return_prob": 58.0,
+          "max_observed_gain_pct": 4.6,
+          "max_observed_loss_pct": -2.33,
+          "forward_volatility_pct": 1.28
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.07,
+          "median_forward_return_pct": -0.34,
+          "positive_return_prob": 42.0,
+          "negative_return_prob": 58.0,
+          "max_observed_gain_pct": 7.64,
+          "max_observed_loss_pct": -11.27,
+          "forward_volatility_pct": 2.94
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.61,
+          "median_forward_return_pct": 0.31,
+          "positive_return_prob": 52.0,
+          "negative_return_prob": 48.0,
+          "max_observed_gain_pct": 9.72,
+          "max_observed_loss_pct": -8.6,
+          "forward_volatility_pct": 3.42
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 1.21,
+          "median_forward_return_pct": -0.07,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 14.37,
+          "max_observed_loss_pct": -9.27,
+          "forward_volatility_pct": 4.14
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 2.48,
+          "median_forward_return_pct": 4.01,
+          "positive_return_prob": 66.0,
+          "negative_return_prob": 34.0,
+          "max_observed_gain_pct": 14.93,
+          "max_observed_loss_pct": -9.72,
+          "forward_volatility_pct": 6.15
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bearish",
+        "3d": "Slightly Bearish",
+        "5d": "Neutral",
+        "10d": "Neutral",
+        "20d": "Bullish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 57.5,
+        "valuation_score": 50.0,
+        "profitability_score": 50.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 65.0,
+        "available": true,
+        "pe_ratio": 30.091248,
+        "pb_ratio": 4.565937,
+        "roe": null,
+        "debt_to_equity": 97.64,
+        "revenue_growth": 0.081,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "ITC",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "close": 257.8999938964844,
+      "daily_return_pct": -3.04511507650963,
+      "composite_score": 34.38,
+      "label": "Very Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 46.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 38.26,
+        "volatility_score": 30.0,
+        "sector_score": 50.0,
+        "fundamental_score": 58.75
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.7781556676438213,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.19,
+          "median_forward_return_pct": -0.19,
+          "positive_return_prob": 36.0,
+          "negative_return_prob": 60.0,
+          "max_observed_gain_pct": 1.34,
+          "max_observed_loss_pct": -2.81,
+          "forward_volatility_pct": 0.81
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.17,
+          "median_forward_return_pct": -0.29,
+          "positive_return_prob": 38.0,
+          "negative_return_prob": 62.0,
+          "max_observed_gain_pct": 5.96,
+          "max_observed_loss_pct": -5.61,
+          "forward_volatility_pct": 1.84
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.35,
+          "median_forward_return_pct": -0.35,
+          "positive_return_prob": 42.0,
+          "negative_return_prob": 56.0,
+          "max_observed_gain_pct": 4.46,
+          "max_observed_loss_pct": -6.81,
+          "forward_volatility_pct": 2.24
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.97,
+          "median_forward_return_pct": -0.32,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 6.25,
+          "max_observed_loss_pct": -12.8,
+          "forward_volatility_pct": 3.66
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -5.15,
+          "median_forward_return_pct": -4.35,
+          "positive_return_prob": 22.0,
+          "negative_return_prob": 78.0,
+          "max_observed_gain_pct": 5.38,
+          "max_observed_loss_pct": -17.78,
+          "forward_volatility_pct": 6.07
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bearish",
+        "3d": "Slightly Bearish",
+        "5d": "Slightly Bearish",
+        "10d": "Neutral",
+        "20d": "Bearish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 58.75,
+        "valuation_score": 70.0,
+        "profitability_score": 50.0,
+        "growth_score": 30.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 16.281565,
+        "pb_ratio": 4.4566174,
+        "roe": null,
+        "debt_to_equity": 3.293,
+        "revenue_growth": -0.111,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "close": 443.3999938964844,
+      "daily_return_pct": 0.5442163030576763,
+      "composite_score": 68.52,
+      "label": "Strong",
+      "sub_scores": {
+        "technical_score": 90.0,
+        "momentum_score": 69.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 56.21,
+        "volatility_score": 70.0,
+        "sector_score": 76.0,
+        "fundamental_score": 63.75
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bullish Alignment",
+      "relative_volume": 0.7969347795667113,
+      "num_analogues": 34,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 34,
+          "avg_forward_return_pct": -0.12,
+          "median_forward_return_pct": -0.02,
+          "positive_return_prob": 44.1,
+          "negative_return_prob": 55.9,
+          "max_observed_gain_pct": 2.6,
+          "max_observed_loss_pct": -4.41,
+          "forward_volatility_pct": 1.41
+        },
+        "3d": {
+          "sample_count": 34,
+          "avg_forward_return_pct": -0.3,
+          "median_forward_return_pct": -0.39,
+          "positive_return_prob": 41.2,
+          "negative_return_prob": 58.8,
+          "max_observed_gain_pct": 6.6,
+          "max_observed_loss_pct": -3.72,
+          "forward_volatility_pct": 2.2
+        },
+        "5d": {
+          "sample_count": 34,
+          "avg_forward_return_pct": 0.08,
+          "median_forward_return_pct": 0.08,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 4.57,
+          "max_observed_loss_pct": -3.54,
+          "forward_volatility_pct": 2.14
+        },
+        "10d": {
+          "sample_count": 34,
+          "avg_forward_return_pct": 0.18,
+          "median_forward_return_pct": -0.32,
+          "positive_return_prob": 41.2,
+          "negative_return_prob": 58.8,
+          "max_observed_gain_pct": 6.89,
+          "max_observed_loss_pct": -7.66,
+          "forward_volatility_pct": 3.44
+        },
+        "20d": {
+          "sample_count": 34,
+          "avg_forward_return_pct": -0.42,
+          "median_forward_return_pct": -1.56,
+          "positive_return_prob": 41.2,
+          "negative_return_prob": 58.8,
+          "max_observed_gain_pct": 9.4,
+          "max_observed_loss_pct": -8.71,
+          "forward_volatility_pct": 4.23
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bearish",
+        "3d": "Slightly Bearish",
+        "5d": "Neutral",
+        "10d": "Slightly Bearish",
+        "20d": "Slightly Bearish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 63.75,
+        "valuation_score": 70.0,
+        "profitability_score": 50.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 50.0,
+        "available": true,
+        "pe_ratio": 21.735294,
+        "pb_ratio": 2.433576,
+        "roe": null,
+        "debt_to_equity": null,
+        "revenue_growth": 0.21,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "close": 1820.699951171875,
+      "daily_return_pct": -1.9389239482275111,
+      "composite_score": 36.86,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 43.79,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 53.75
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 1.1205460248534296,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.38,
+          "median_forward_return_pct": -0.41,
+          "positive_return_prob": 32.0,
+          "negative_return_prob": 68.0,
+          "max_observed_gain_pct": 4.7,
+          "max_observed_loss_pct": -3.21,
+          "forward_volatility_pct": 1.25
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.72,
+          "median_forward_return_pct": -0.7,
+          "positive_return_prob": 26.0,
+          "negative_return_prob": 74.0,
+          "max_observed_gain_pct": 3.89,
+          "max_observed_loss_pct": -5.66,
+          "forward_volatility_pct": 1.84
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -1.06,
+          "median_forward_return_pct": -1.11,
+          "positive_return_prob": 28.0,
+          "negative_return_prob": 72.0,
+          "max_observed_gain_pct": 4.4,
+          "max_observed_loss_pct": -5.62,
+          "forward_volatility_pct": 2.51
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -1.26,
+          "median_forward_return_pct": -1.28,
+          "positive_return_prob": 28.0,
+          "negative_return_prob": 72.0,
+          "max_observed_gain_pct": 8.53,
+          "max_observed_loss_pct": -7.88,
+          "forward_volatility_pct": 3.18
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.7,
+          "median_forward_return_pct": -1.34,
+          "positive_return_prob": 38.0,
+          "negative_return_prob": 62.0,
+          "max_observed_gain_pct": 11.85,
+          "max_observed_loss_pct": -11.0,
+          "forward_volatility_pct": 4.73
+        }
+      },
+      "directional_bias": {
+        "1d": "Bearish",
+        "3d": "Bearish",
+        "5d": "Bearish",
+        "10d": "Bearish",
+        "20d": "Slightly Bearish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 53.75,
+        "valuation_score": 30.0,
+        "profitability_score": 50.0,
+        "growth_score": 50.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 40.822872,
+        "pb_ratio": 8.777164,
+        "roe": null,
+        "debt_to_equity": 3.016,
+        "revenue_growth": 0.05,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "AXISBANK",
+      "exchange": "NSE",
+      "sector": "Banking",
+      "close": 1253.0,
+      "daily_return_pct": -0.48447110668069504,
+      "composite_score": 64.33,
+      "label": "Neutral",
+      "sub_scores": {
+        "technical_score": 60.0,
+        "momentum_score": 81.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 51.07,
+        "volatility_score": 70.0,
+        "sector_score": 76.0,
+        "fundamental_score": 67.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Neutral",
+      "relative_volume": 0.9414330789412361,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.17,
+          "median_forward_return_pct": 0.19,
+          "positive_return_prob": 56.0,
+          "negative_return_prob": 42.0,
+          "max_observed_gain_pct": 3.33,
+          "max_observed_loss_pct": -2.47,
+          "forward_volatility_pct": 1.21
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.31,
+          "median_forward_return_pct": 0.36,
+          "positive_return_prob": 60.0,
+          "negative_return_prob": 40.0,
+          "max_observed_gain_pct": 5.88,
+          "max_observed_loss_pct": -4.66,
+          "forward_volatility_pct": 2.42
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.45,
+          "median_forward_return_pct": 0.79,
+          "positive_return_prob": 58.0,
+          "negative_return_prob": 42.0,
+          "max_observed_gain_pct": 8.7,
+          "max_observed_loss_pct": -8.49,
+          "forward_volatility_pct": 3.39
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.81,
+          "median_forward_return_pct": 1.57,
+          "positive_return_prob": 58.0,
+          "negative_return_prob": 42.0,
+          "max_observed_gain_pct": 10.63,
+          "max_observed_loss_pct": -10.53,
+          "forward_volatility_pct": 4.55
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 1.63,
+          "median_forward_return_pct": 2.63,
+          "positive_return_prob": 70.0,
+          "negative_return_prob": 30.0,
+          "max_observed_gain_pct": 9.42,
+          "max_observed_loss_pct": -12.71,
+          "forward_volatility_pct": 5.69
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bullish",
+        "3d": "Slightly Bullish",
+        "5d": "Slightly Bullish",
+        "10d": "Slightly Bullish",
+        "20d": "Bullish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 67.5,
+        "valuation_score": 85.0,
+        "profitability_score": 70.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 50.0,
+        "available": true,
+        "pe_ratio": 14.089733,
+        "pb_ratio": 1.746227,
+        "roe": 0.13352999,
+        "debt_to_equity": null,
+        "revenue_growth": 0.14,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "NTPC",
+      "exchange": "NSE",
+      "sector": "Energy",
+      "close": 310.0,
+      "daily_return_pct": -0.6410256410256387,
+      "composite_score": 33.58,
+      "label": "Very Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 20.0,
+        "relative_strength_score": 50.28,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 58.75
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 1.5903367692812467,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.22,
+          "median_forward_return_pct": 0.25,
+          "positive_return_prob": 58.0,
+          "negative_return_prob": 40.0,
+          "max_observed_gain_pct": 2.38,
+          "max_observed_loss_pct": -1.86,
+          "forward_volatility_pct": 0.88
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.58,
+          "median_forward_return_pct": 0.45,
+          "positive_return_prob": 62.0,
+          "negative_return_prob": 36.0,
+          "max_observed_gain_pct": 6.37,
+          "max_observed_loss_pct": -2.91,
+          "forward_volatility_pct": 1.72
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.61,
+          "median_forward_return_pct": 0.64,
+          "positive_return_prob": 66.0,
+          "negative_return_prob": 32.0,
+          "max_observed_gain_pct": 5.7,
+          "max_observed_loss_pct": -4.13,
+          "forward_volatility_pct": 1.99
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 1.07,
+          "median_forward_return_pct": 0.65,
+          "positive_return_prob": 62.0,
+          "negative_return_prob": 38.0,
+          "max_observed_gain_pct": 10.66,
+          "max_observed_loss_pct": -5.8,
+          "forward_volatility_pct": 3.38
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.14,
+          "median_forward_return_pct": -1.1,
+          "positive_return_prob": 34.0,
+          "negative_return_prob": 66.0,
+          "max_observed_gain_pct": 11.51,
+          "max_observed_loss_pct": -9.89,
+          "forward_volatility_pct": 4.7
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bullish",
+        "3d": "Slightly Bullish",
+        "5d": "Bullish",
+        "10d": "Slightly Bullish",
+        "20d": "Bearish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 58.75,
+        "valuation_score": 85.0,
+        "profitability_score": 50.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 35.0,
+        "available": true,
+        "pe_ratio": 10.827804,
+        "pb_ratio": 1.4801092,
+        "roe": null,
+        "debt_to_equity": 128.345,
+        "revenue_growth": 0.078,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "exchange": "NSE",
+      "sector": "Pharmaceuticals",
+      "close": 1760.0,
+      "daily_return_pct": 0.0,
+      "composite_score": 46.45,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 30.0,
+        "momentum_score": 28.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 53.49,
+        "volatility_score": 70.0,
+        "sector_score": 92.0,
+        "fundamental_score": 62.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.7088238634095302,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.15,
+          "median_forward_return_pct": 0.07,
+          "positive_return_prob": 54.0,
+          "negative_return_prob": 46.0,
+          "max_observed_gain_pct": 4.56,
+          "max_observed_loss_pct": -2.49,
+          "forward_volatility_pct": 1.26
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.44,
+          "median_forward_return_pct": 0.55,
+          "positive_return_prob": 62.0,
+          "negative_return_prob": 38.0,
+          "max_observed_gain_pct": 4.59,
+          "max_observed_loss_pct": -3.22,
+          "forward_volatility_pct": 2.03
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.67,
+          "median_forward_return_pct": 0.49,
+          "positive_return_prob": 56.0,
+          "negative_return_prob": 44.0,
+          "max_observed_gain_pct": 6.52,
+          "max_observed_loss_pct": -4.45,
+          "forward_volatility_pct": 2.55
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 1.94,
+          "median_forward_return_pct": 1.09,
+          "positive_return_prob": 62.0,
+          "negative_return_prob": 38.0,
+          "max_observed_gain_pct": 11.11,
+          "max_observed_loss_pct": -3.86,
+          "forward_volatility_pct": 3.88
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 1.68,
+          "median_forward_return_pct": 0.25,
+          "positive_return_prob": 52.0,
+          "negative_return_prob": 48.0,
+          "max_observed_gain_pct": 13.27,
+          "max_observed_loss_pct": -7.58,
+          "forward_volatility_pct": 5.82
+        }
+      },
+      "directional_bias": {
+        "1d": "Neutral",
+        "3d": "Slightly Bullish",
+        "5d": "Slightly Bullish",
+        "10d": "Slightly Bullish",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 62.5,
+        "valuation_score": 50.0,
+        "profitability_score": 50.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 34.920635,
+        "pb_ratio": 5.053043,
+        "roe": null,
+        "debt_to_equity": 5.517,
+        "revenue_growth": 0.105,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "MARUTI",
+      "exchange": "NSE",
+      "sector": "Automobile",
+      "close": 11315.0,
+      "daily_return_pct": -0.9194395796847665,
+      "composite_score": 37.06,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 48.89,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 72.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.7707127718524528,
+      "num_analogues": 38,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": -0.43,
+          "median_forward_return_pct": -0.39,
+          "positive_return_prob": 42.1,
+          "negative_return_prob": 57.9,
+          "max_observed_gain_pct": 2.14,
+          "max_observed_loss_pct": -4.6,
+          "forward_volatility_pct": 1.6
+        },
+        "3d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": -0.36,
+          "median_forward_return_pct": 0.08,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 9.65,
+          "max_observed_loss_pct": -9.2,
+          "forward_volatility_pct": 3.29
+        },
+        "5d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": -0.33,
+          "median_forward_return_pct": 0.04,
+          "positive_return_prob": 50.0,
+          "negative_return_prob": 50.0,
+          "max_observed_gain_pct": 10.53,
+          "max_observed_loss_pct": -11.07,
+          "forward_volatility_pct": 4.95
+        },
+        "10d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": -0.01,
+          "median_forward_return_pct": 1.0,
+          "positive_return_prob": 57.9,
+          "negative_return_prob": 42.1,
+          "max_observed_gain_pct": 10.11,
+          "max_observed_loss_pct": -12.6,
+          "forward_volatility_pct": 6.21
+        },
+        "20d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": 0.27,
+          "median_forward_return_pct": 1.25,
+          "positive_return_prob": 60.5,
+          "negative_return_prob": 39.5,
+          "max_observed_gain_pct": 11.96,
+          "max_observed_loss_pct": -12.33,
+          "forward_volatility_pct": 6.76
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bearish",
+        "3d": "Neutral",
+        "5d": "Neutral",
+        "10d": "Slightly Bullish",
+        "20d": "Slightly Bullish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 72.5,
+        "valuation_score": 70.0,
+        "profitability_score": 50.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 24.818495,
+        "pb_ratio": 3.319869,
+        "roe": null,
+        "debt_to_equity": 0.096,
+        "revenue_growth": 0.359,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "TITAN",
+      "exchange": "NSE",
+      "sector": "Consumer Durables",
+      "close": 4400.0,
+      "daily_return_pct": -0.22675736961451642,
+      "composite_score": 38.95,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 30.0,
+        "momentum_score": 28.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 52.35,
+        "volatility_score": 30.0,
+        "sector_score": 50.0,
+        "fundamental_score": 50.0
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.8462608384151586,
+      "num_analogues": 18,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 18,
+          "avg_forward_return_pct": 0.64,
+          "median_forward_return_pct": 0.56,
+          "positive_return_prob": 72.2,
+          "negative_return_prob": 27.8,
+          "max_observed_gain_pct": 4.15,
+          "max_observed_loss_pct": -1.01,
+          "forward_volatility_pct": 1.12
+        },
+        "3d": {
+          "sample_count": 18,
+          "avg_forward_return_pct": 1.11,
+          "median_forward_return_pct": 1.18,
+          "positive_return_prob": 61.1,
+          "negative_return_prob": 38.9,
+          "max_observed_gain_pct": 6.66,
+          "max_observed_loss_pct": -3.43,
+          "forward_volatility_pct": 2.71
+        },
+        "5d": {
+          "sample_count": 18,
+          "avg_forward_return_pct": 1.84,
+          "median_forward_return_pct": 1.37,
+          "positive_return_prob": 66.7,
+          "negative_return_prob": 33.3,
+          "max_observed_gain_pct": 7.74,
+          "max_observed_loss_pct": -4.03,
+          "forward_volatility_pct": 3.34
+        },
+        "10d": {
+          "sample_count": 18,
+          "avg_forward_return_pct": 2.29,
+          "median_forward_return_pct": 1.69,
+          "positive_return_prob": 66.7,
+          "negative_return_prob": 33.3,
+          "max_observed_gain_pct": 15.23,
+          "max_observed_loss_pct": -2.78,
+          "forward_volatility_pct": 4.18
+        },
+        "20d": {
+          "sample_count": 18,
+          "avg_forward_return_pct": 4.52,
+          "median_forward_return_pct": 3.09,
+          "positive_return_prob": 77.8,
+          "negative_return_prob": 22.2,
+          "max_observed_gain_pct": 14.45,
+          "max_observed_loss_pct": -1.76,
+          "forward_volatility_pct": 4.64
+        }
+      },
+      "directional_bias": {
+        "1d": "Bullish",
+        "3d": "Slightly Bullish",
+        "5d": "Bullish",
+        "10d": "Bullish",
+        "20d": "Bullish"
+      },
+      "analogue_confidence": 60.0,
+      "fundamental_summary": {
+        "fundamental_score": 50.0,
+        "valuation_score": 30.0,
+        "profitability_score": 50.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 35.0,
+        "available": true,
+        "pe_ratio": 67.81751,
+        "pb_ratio": 24.875902,
+        "roe": null,
+        "debt_to_equity": 195.001,
+        "revenue_growth": 0.293,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "exchange": "NSE",
+      "sector": "Financial Services",
+      "close": 957.25,
+      "daily_return_pct": -0.28645833333332815,
+      "composite_score": 41.66,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 30.0,
+        "momentum_score": 28.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 52.06,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 55.0
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.7013112290285792,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.07,
+          "median_forward_return_pct": -0.22,
+          "positive_return_prob": 40.0,
+          "negative_return_prob": 58.0,
+          "max_observed_gain_pct": 6.72,
+          "max_observed_loss_pct": -4.41,
+          "forward_volatility_pct": 1.86
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.22,
+          "median_forward_return_pct": -0.63,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 10.67,
+          "max_observed_loss_pct": -7.41,
+          "forward_volatility_pct": 3.28
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.05,
+          "median_forward_return_pct": -1.4,
+          "positive_return_prob": 36.0,
+          "negative_return_prob": 64.0,
+          "max_observed_gain_pct": 11.82,
+          "max_observed_loss_pct": -10.32,
+          "forward_volatility_pct": 4.23
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.91,
+          "median_forward_return_pct": -0.4,
+          "positive_return_prob": 48.0,
+          "negative_return_prob": 52.0,
+          "max_observed_gain_pct": 12.62,
+          "max_observed_loss_pct": -13.53,
+          "forward_volatility_pct": 5.63
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 1.14,
+          "median_forward_return_pct": -0.51,
+          "positive_return_prob": 44.0,
+          "negative_return_prob": 56.0,
+          "max_observed_gain_pct": 19.68,
+          "max_observed_loss_pct": -11.15,
+          "forward_volatility_pct": 8.58
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bearish",
+        "3d": "Neutral",
+        "5d": "Slightly Bearish",
+        "10d": "Neutral",
+        "20d": "Slightly Bearish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 55.0,
+        "valuation_score": 50.0,
+        "profitability_score": 50.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 35.0,
+        "available": true,
+        "pe_ratio": 29.390543,
+        "pb_ratio": 5.221145,
+        "roe": null,
+        "debt_to_equity": 314.833,
+        "revenue_growth": 0.261,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "exchange": "NSE",
+      "sector": "Construction Materials",
+      "close": 10520.0,
+      "daily_return_pct": -1.4519906323185006,
+      "composite_score": 36.41,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 46.23,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 67.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.7632353300275135,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.37,
+          "median_forward_return_pct": -0.46,
+          "positive_return_prob": 32.0,
+          "negative_return_prob": 66.0,
+          "max_observed_gain_pct": 3.15,
+          "max_observed_loss_pct": -3.31,
+          "forward_volatility_pct": 1.3
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.66,
+          "median_forward_return_pct": -0.64,
+          "positive_return_prob": 32.0,
+          "negative_return_prob": 68.0,
+          "max_observed_gain_pct": 9.26,
+          "max_observed_loss_pct": -5.16,
+          "forward_volatility_pct": 2.57
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.85,
+          "median_forward_return_pct": -1.1,
+          "positive_return_prob": 40.0,
+          "negative_return_prob": 60.0,
+          "max_observed_gain_pct": 9.12,
+          "max_observed_loss_pct": -10.25,
+          "forward_volatility_pct": 3.5
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.97,
+          "median_forward_return_pct": -1.22,
+          "positive_return_prob": 34.0,
+          "negative_return_prob": 66.0,
+          "max_observed_gain_pct": 12.21,
+          "max_observed_loss_pct": -12.45,
+          "forward_volatility_pct": 4.73
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -1.03,
+          "median_forward_return_pct": -0.86,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 12.65,
+          "max_observed_loss_pct": -15.48,
+          "forward_volatility_pct": 5.95
+        }
+      },
+      "directional_bias": {
+        "1d": "Bearish",
+        "3d": "Bearish",
+        "5d": "Slightly Bearish",
+        "10d": "Bearish",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 67.5,
+        "valuation_score": 50.0,
+        "profitability_score": 50.0,
+        "growth_score": 85.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 36.259605,
+        "pb_ratio": 4.0382295,
+        "roe": null,
+        "debt_to_equity": 29.432,
+        "revenue_growth": 0.159,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "TATASTEEL",
+      "exchange": "NSE",
+      "sector": "Metals",
+      "close": 172.24000549316406,
+      "daily_return_pct": -0.8975820087466779,
+      "composite_score": 34.08,
+      "label": "Very Weak",
+      "sub_scores": {
+        "technical_score": 10.0,
+        "momentum_score": 28.0,
+        "volume_score": 50.0,
+        "relative_strength_score": 49.0,
+        "volatility_score": 30.0,
+        "sector_score": 50.0,
+        "fundamental_score": 62.5
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 1.0844682673083303,
+      "num_analogues": 38,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": 0.27,
+          "median_forward_return_pct": 0.33,
+          "positive_return_prob": 55.3,
+          "negative_return_prob": 44.7,
+          "max_observed_gain_pct": 4.54,
+          "max_observed_loss_pct": -7.77,
+          "forward_volatility_pct": 2.22
+        },
+        "3d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": -0.19,
+          "median_forward_return_pct": 0.18,
+          "positive_return_prob": 52.6,
+          "negative_return_prob": 47.4,
+          "max_observed_gain_pct": 3.76,
+          "max_observed_loss_pct": -9.41,
+          "forward_volatility_pct": 2.59
+        },
+        "5d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": 0.53,
+          "median_forward_return_pct": 0.6,
+          "positive_return_prob": 60.5,
+          "negative_return_prob": 39.5,
+          "max_observed_gain_pct": 5.22,
+          "max_observed_loss_pct": -3.55,
+          "forward_volatility_pct": 2.27
+        },
+        "10d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": 0.73,
+          "median_forward_return_pct": 0.68,
+          "positive_return_prob": 55.3,
+          "negative_return_prob": 44.7,
+          "max_observed_gain_pct": 9.63,
+          "max_observed_loss_pct": -7.43,
+          "forward_volatility_pct": 4.5
+        },
+        "20d": {
+          "sample_count": 38,
+          "avg_forward_return_pct": 3.27,
+          "median_forward_return_pct": 3.33,
+          "positive_return_prob": 68.4,
+          "negative_return_prob": 31.6,
+          "max_observed_gain_pct": 17.04,
+          "max_observed_loss_pct": -8.48,
+          "forward_volatility_pct": 7.0
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bullish",
+        "3d": "Neutral",
+        "5d": "Slightly Bullish",
+        "10d": "Slightly Bullish",
+        "20d": "Bullish"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 62.5,
+        "valuation_score": 70.0,
+        "profitability_score": 50.0,
+        "growth_score": 65.0,
+        "balance_sheet_score": 65.0,
+        "available": true,
+        "pe_ratio": 19.462147,
+        "pb_ratio": 2.104543,
+        "roe": null,
+        "debt_to_equity": 89.017,
+        "revenue_growth": 0.143,
+        "provider": "yfinance"
+      }
+    },
+    {
+      "symbol": "DLF",
+      "exchange": "NSE",
+      "sector": "Realty",
+      "close": 650.0,
+      "daily_return_pct": 0.21585329428939204,
+      "composite_score": 45.57,
+      "label": "Weak",
+      "sub_scores": {
+        "technical_score": 30.0,
+        "momentum_score": 46.0,
+        "volume_score": 40.0,
+        "relative_strength_score": 54.57,
+        "volatility_score": 70.0,
+        "sector_score": 50.0,
+        "fundamental_score": 53.75
+      },
+      "signals": [],
+      "events": [],
+      "trend_alignment": "Bearish Alignment",
+      "relative_volume": 0.6155633917332921,
+      "num_analogues": 50,
+      "forward_probabilities": {
+        "1d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.22,
+          "median_forward_return_pct": 0.37,
+          "positive_return_prob": 64.0,
+          "negative_return_prob": 36.0,
+          "max_observed_gain_pct": 7.26,
+          "max_observed_loss_pct": -3.76,
+          "forward_volatility_pct": 1.95
+        },
+        "3d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.56,
+          "median_forward_return_pct": 0.35,
+          "positive_return_prob": 58.0,
+          "negative_return_prob": 42.0,
+          "max_observed_gain_pct": 6.65,
+          "max_observed_loss_pct": -5.71,
+          "forward_volatility_pct": 2.46
+        },
+        "5d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": 0.81,
+          "median_forward_return_pct": 0.83,
+          "positive_return_prob": 60.0,
+          "negative_return_prob": 40.0,
+          "max_observed_gain_pct": 9.99,
+          "max_observed_loss_pct": -6.61,
+          "forward_volatility_pct": 3.71
+        },
+        "10d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.18,
+          "median_forward_return_pct": -0.43,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 14.81,
+          "max_observed_loss_pct": -8.92,
+          "forward_volatility_pct": 5.59
+        },
+        "20d": {
+          "sample_count": 50,
+          "avg_forward_return_pct": -0.97,
+          "median_forward_return_pct": -2.62,
+          "positive_return_prob": 46.0,
+          "negative_return_prob": 54.0,
+          "max_observed_gain_pct": 16.98,
+          "max_observed_loss_pct": -18.2,
+          "forward_volatility_pct": 9.16
+        }
+      },
+      "directional_bias": {
+        "1d": "Slightly Bullish",
+        "3d": "Slightly Bullish",
+        "5d": "Slightly Bullish",
+        "10d": "Neutral",
+        "20d": "Neutral"
+      },
+      "analogue_confidence": 100.0,
+      "fundamental_summary": {
+        "fundamental_score": 53.75,
+        "valuation_score": 50.0,
+        "profitability_score": 50.0,
+        "growth_score": 30.0,
+        "balance_sheet_score": 85.0,
+        "available": true,
+        "pe_ratio": 36.19154,
+        "pb_ratio": 3.5382237,
+        "roe": 0.10102,
+        "debt_to_equity": 0.673,
+        "revenue_growth": -0.529,
+        "provider": "yfinance"
+      }
+    }
+  ],
+  "quality": {
+    "date": "2026-03-30",
+    "records_processed": 11878,
+    "records_valid": 11878,
+    "warnings": [],
+    "errors": [
+      "Empty or None DataFrame provided for ticker LTIM",
+      "Empty or None DataFrame provided for ticker TATAMOTORS",
+      "Empty or None DataFrame provided for ticker BSE_SENSEX_STOCK"
+    ]
+  }
+}
