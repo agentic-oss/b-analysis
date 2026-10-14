@@ -1,0 +1,31 @@
+{
+  "indices": [
+    { "symbol": "^NSEI", "name": "NIFTY 50", "exchange": "NSE", "enabled": true },
+    { "symbol": "^NSEBANK", "name": "NIFTY BANK", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXIT", "name": "NIFTY IT", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXAUTO", "name": "NIFTY AUTO", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXPHARMA", "name": "NIFTY PHARMA", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXFMCG", "name": "NIFTY FMCG", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXMETAL", "name": "NIFTY METAL", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXREALTY", "name": "NIFTY REALTY", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXENERGY", "name": "NIFTY ENERGY", "exchange": "NSE", "enabled": true },
+    { "symbol": "^CNXFIN", "name": "NIFTY FINANCIAL SERVICES", "exchange": "NSE", "enabled": true }
+  ],
+  "stocks": [
+    { "symbol": "RELIANCE.NS", "ticker": "RELIANCE", "exchange": "NSE", "sector": "Energy", "enabled": true },
+    { "symbol": "TCS.NS", "ticker": "TCS", "exchange": "NSE", "sector": "IT", "enabled": true },
+    { "symbol": "HDFCBANK.NS", "ticker": "HDFCBANK", "exchange": "NSE", "sector": "Financial Services", "enabled": true },
+    { "symbol": "ICICIBANK.NS", "ticker": "ICICIBANK", "exchange": "NSE", "sector": "Financial Services", "enabled": true },
+    { "symbol": "INFY.NS", "ticker": "INFY", "exchange": "NSE", "sector": "IT", "enabled": true },
+    { "symbol": "BHARTIARTL.NS", "ticker": "BHARTIARTL", "exchange": "NSE", "sector": "Telecom", "enabled": true },
+    { "symbol": "ITC.NS", "ticker": "ITC", "exchange": "NSE", "sector": "FMCG", "enabled": true },
+    { "symbol": "SBIN.NS", "ticker": "SBIN", "exchange": "NSE", "sector": "Financial Services", "enabled": true },
+    { "symbol": "LTIM.NS", "ticker": "LTIM", "exchange": "NSE", "sector": "IT", "enabled": true },
+    { "symbol": "HINDUNILVR.NS", "ticker": "HINDUNILVR", "exchange": "NSE", "sector": "FMCG", "enabled": true },
+    { "symbol": "TATAMOTORS.NS", "ticker": "TATAMOTORS", "exchange": "NSE", "sector": "Auto", "enabled": true },
+    { "symbol": "SUNPHARMA.NS", "ticker": "SUNPHARMA", "exchange": "NSE", "sector": "Pharma", "enabled": true },
+    { "symbol": "TATASTEEL.NS", "ticker": "TATASTEEL", "exchange": "NSE", "sector": "Metal", "enabled": true },
+    { "symbol": "DLF.NS", "ticker": "DLF", "exchange": "NSE", "sector": "Realty", "enabled": true },
+    { "symbol": "NTPC.NS", "ticker": "NTPC", "exchange": "NSE", "sector": "Energy", "enabled": true }
+  ]
+}

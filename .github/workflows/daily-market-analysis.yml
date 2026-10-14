@@ -1,0 +1,62 @@
+name: Daily Indian Market Analysis Pipeline
+
+on:
+  schedule:
+    # Run at 12:00 UTC (17:30 IST) every Monday through Friday
+    - cron: '0 12 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target Date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy scikit-learn pyarrow pytest requests
+
+      - name: Check Indian Market Trading Day
+        id: check-holiday
+        run: |
+          python3 -c "
+          import sys, json, datetime
+          date_str = '${{ github.event.inputs.target_date }}' or datetime.datetime.now().strftime('%Y-%m-%d')
+          with open('config/holidays.json') as f:
+              holidays = json.load(f).get('holidays', [])
+          if date_str in holidays:
+              print(f'Date {date_str} is an Indian market holiday. Skipping pipeline execution.')
+              sys.exit(0)
+          print(f'::set-output name=run_pipeline::true')
+          "
+
+      - name: Execute Daily Market Analysis Pipeline
+        run: |
+          TARGET_DATE="${{ github.event.inputs.target_date }}"
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date +'%Y-%m-%d')
+          fi
+          PYTHONPATH=. python3 src/pipeline/daily_pipeline.py --date "$TARGET_DATE"
+
+      - name: Execute Unit and Integration Tests
+        run: |
+          PYTHONPATH=. pytest tests/
+
+      - name: Auto-commit and Push Market Data & Analysis
+        run: |
+          python3 scripts/git_auto_commit.py
