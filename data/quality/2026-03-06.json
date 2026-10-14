@@ -1,0 +1,81 @@
+{
+  "date": "2026-03-06",
+  "records_processed": 7007,
+  "records_valid": 7007,
+  "warnings_count": 6,
+  "errors_count": 8,
+  "warnings": [
+    {
+      "symbol": "^NSEBANK",
+      "type": "VOLUME_SPIKE",
+      "message": "Volume spike detected on dates: ['2024-04-01']"
+    },
+    {
+      "symbol": "^CNXIT",
+      "type": "VOLUME_SPIKE",
+      "message": "Volume spike detected on dates: ['2024-04-01']"
+    },
+    {
+      "symbol": "^CNXPHARMA",
+      "type": "VOLUME_SPIKE",
+      "message": "Volume spike detected on dates: ['2025-09-29', '2025-09-30', '2025-10-01', '2025-10-03', '2025-10-06', '2025-10-07', '2025-10-08', '2025-10-09', '2025-10-10']"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "type": "VOLUME_SPIKE",
+      "message": "Volume spike detected on dates: ['2024-08-30', '2024-11-25']"
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "type": "VOLUME_SPIKE",
+      "message": "Volume spike detected on dates: ['2025-05-16', '2025-08-08', '2025-11-07']"
+    },
+    {
+      "symbol": "ITC.NS",
+      "type": "VOLUME_SPIKE",
+      "message": "Volume spike detected on dates: ['2025-05-28', '2026-01-01', '2026-01-02']"
+    }
+  ],
+  "errors": [
+    {
+      "symbol": "^CNXAUTO",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    },
+    {
+      "symbol": "^CNXFIN",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    },
+    {
+      "symbol": "LTIM.NS",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    },
+    {
+      "symbol": "TATAMOTORS.NS",
+      "type": "NO_DATA",
+      "message": "DataFrame is empty."
+    }
+  ]
+}
